@@ -9,49 +9,34 @@ namespace RecordHLS
     {
         static void Main(string[] args)
         {
+            // Record in a file "record.ts" located in the bin folder next to the app
             var currentDirectory = Path.GetDirectoryName(Assembly.GetEntryAssembly().Location);
             var destination = Path.Combine(currentDirectory, "record.ts");
 
+            // Load native libvlc library
             Core.Initialize();
 
             using (var libvlc = new LibVLC())
             using (var mediaPlayer = new MediaPlayer(libvlc))
             {
+                // Redirect log output to the console
+                libvlc.Log += (sender, e) => Console.WriteLine($"[{e.Level}] {e.Module}:{e.Message}");
+
+                // Create new media with HLS link
                 var media = new Media(libvlc, "http://hls1.addictradio.net/addictrock_aac_hls/playlist.m3u8", Media.FromType.FromLocation);
+
+                // Define stream output options. 
+                // In this case stream to a file with given path and play locally the stream while streaming it.
                 media.AddOption(":sout=#file{dst=" + destination + "}");
                 media.AddOption(":sout-keep");
 
-                mediaPlayer.TimeChanged += MediaPlayer_TimeChanged;
-                mediaPlayer.Opening += MediaPlayer_Opening;
-                mediaPlayer.PositionChanged += MediaPlayer_PositionChanged;
-                mediaPlayer.EndReached += MediaPlayer_EndReached;
-
+                // Start recording
                 mediaPlayer.Play(media);
 
                 Console.WriteLine($"Recording in {destination}");
                 Console.WriteLine("Press any key to exit");
                 Console.ReadKey();
             }
-        }
-
-        private static void MediaPlayer_EndReached(object sender, EventArgs e)
-        {
-            Console.WriteLine("End reached");
-        }
-
-        private static void MediaPlayer_PositionChanged(object sender, MediaPlayerPositionChangedEventArgs e)
-        {
-            Console.WriteLine($"position: {e.Position}");
-        }
-
-        private static void MediaPlayer_Opening(object sender, EventArgs e)
-        {
-            Console.WriteLine("Opening... ");
-        }
-
-        private static void MediaPlayer_TimeChanged(object sender, MediaPlayerTimeChangedEventArgs e)
-        {
-            Console.WriteLine($"time: {e.Time}");
         }
     }
 }
