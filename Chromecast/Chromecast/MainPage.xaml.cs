@@ -12,7 +12,7 @@ namespace Chromecast
 {
     public partial class MainPage : ContentPage
 	{
-        HashSet<RendererItem> _rendererItems = new HashSet<RendererItem>();
+        readonly HashSet<RendererItem> _rendererItems = new HashSet<RendererItem>();
         LibVLC _libVLC;
         MediaPlayer _mediaPlayer;
         RendererDiscoverer _rendererDiscoverer;
@@ -22,21 +22,18 @@ namespace Chromecast
 			InitializeComponent();
 		}
 
-        protected override void OnAppearing()
+        protected override async void OnAppearing()
         {
             base.OnAppearing();
 
-            Task.Run(async () =>
-            {
-                // start chromecast discovery
-                DiscoverChromecasts();
+            // start chromecast discovery
+            DiscoverChromecasts();
 
-                // hold on a bit at first to give libvlc time to find the chromecast
-                await Task.Delay(5000);
+            // hold on a bit at first to give libvlc time to find the chromecast
+            await Task.Delay(2000);
 
-                // start casting if any renderer found
-                StartCasting();
-            });
+            // start casting if any renderer found
+            StartCasting();
         }
 
         /// <summary>
