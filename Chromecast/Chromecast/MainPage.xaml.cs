@@ -64,7 +64,7 @@ namespace Chromecast
             _mediaPlayer.Play(media);
         }
 
-        void DiscoverChromecasts()
+        bool DiscoverChromecasts()
         {
             // load native libvlc libraries
             Core.Initialize();
@@ -72,24 +72,14 @@ namespace Chromecast
             // create core libvlc object
             _libVLC = new LibVLC();
 
-            string rendererName;
-
-            // choose the correct service discovery protocol depending on the host platform
-            // Apple platforms use the Bonjour protocol
-            if (Device.RuntimePlatform == Device.iOS)
-                rendererName = _libVLC.RendererList.Select(renderer => renderer.Name).FirstOrDefault(name => name.Equals("Bonjour_renderer"));
-            else if (Device.RuntimePlatform == Device.Android)
-                rendererName = _libVLC.RendererList.Select(renderer => renderer.Name).FirstOrDefault(name => name.Equals("microdns_renderer"));
-            else throw new PlatformNotSupportedException("Only Android and iOS are currently supported in this sample");
-
             // create a renderer discoverer
-            _rendererDiscoverer = new RendererDiscoverer(_libVLC, rendererName);
+            _rendererDiscoverer = new RendererDiscoverer(_libVLC);
 
             // register callback when a new renderer is found
             _rendererDiscoverer.ItemAdded += RendererDiscoverer_ItemAdded;
 
             // start discovery on the local network
-            var r = _rendererDiscoverer.Start();
+            return _rendererDiscoverer.Start();
         }
 
         /// <summary>
