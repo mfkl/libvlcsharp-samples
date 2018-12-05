@@ -12,15 +12,21 @@ namespace VideoMosaic
         {
             InitializeComponent();
 
+            // this will load the native libvlc library (if needed, depending on the platform). 
             Core.Initialize();
 
+            // instanciate the main libvlc object
             _libvlc = new LibVLC();
         }
 
         protected override void OnAppearing()
         {
             base.OnAppearing();
-      
+
+            // create mediaplayer objects,
+            // attach them to their respective VideoViews
+            // create media objects and start playback
+
             VideoView0.MediaPlayer = new MediaPlayer(_libvlc);
             VideoView0.MediaPlayer.Play(new Media(_libvlc, VIDEO_URL, Media.FromType.FromLocation));
 
