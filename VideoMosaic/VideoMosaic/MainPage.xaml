@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:local="clr-namespace:VideoMosaic"
+             xmlns:shared="clr-namespace:LibVLCSharp.Forms.Shared;assembly=LibVLCSharp.Forms"
+             x:Class="VideoMosaic.MainPage">
+    <Grid x:Name="MainGrid">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition  Width="*"/>
+            <ColumnDefinition  Width="*"/>
+        </Grid.ColumnDefinitions>
+        <shared:VideoView x:Name="VideoView0" Grid.Row="0" Grid.Column="0"/>
+        <shared:VideoView x:Name="VideoView1" Grid.Row="0" Grid.Column="1"/>
+        <shared:VideoView x:Name="VideoView2" Grid.Row="1" Grid.Column="0"/>
+        <shared:VideoView x:Name="VideoView3" Grid.Row="1" Grid.Column="1"/>
+    </Grid>
+</ContentPage>
