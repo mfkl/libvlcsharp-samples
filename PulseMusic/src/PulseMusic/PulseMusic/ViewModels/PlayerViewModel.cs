@@ -80,59 +80,50 @@ namespace PulseMusic.ViewModels
         public override Task LoadAsync()
         {
             _playbackService.Init();
+
+            MessagingCenter.Subscribe<string, float>(MessengerKeys.App, MessengerKeys.Progress, (app, progress) =>
+            {
+                Progress = progress;
+            });
+
+            MessagingCenter.Subscribe<string, long>(MessengerKeys.App, MessengerKeys.Length, (app, length) =>
+            {
+                _countdown.EndTime = TimeSpan.FromTicks(length);
+            });
+
+            MessagingCenter.Subscribe<string>(MessengerKeys.App, MessengerKeys.EndReached, app => EndReached());
             
             LoadSong();
 
             _countdown.StartTime = TimeSpan.Zero;
-            _countdown.EndTime = Song.Duration;
+            
             _countdown.IsRunning = true;
 
             _countdown.Start();
 
-            _countdown.Ticked += OnCountdownTicked;
-            _countdown.Completed += OnCountdownCompleted;
-
-            MessagingCenter.Send(this, MessengerKeys.Play, IsPlaying);
+            MessagingCenter.Send(MessengerKeys.App, MessengerKeys.Play, IsPlaying);
             return base.LoadAsync();
-        }
-
-        public override Task UnloadAsync()
-        {
-            _countdown.Ticked -= OnCountdownTicked;
-            _countdown.Completed -= OnCountdownCompleted;
-
-            return base.UnloadAsync();
         }
 
         void LoadSong()
         {
+           
             Song = new Song
             {
                 Title = "Imagine Dragons",
                 Artist = "Radioactive",
                 Cover = "imagine_dragons",
-                Duration = new TimeSpan(0, 3, 5)
             };
 
             Title = string.Format("{0} - {1}", Song.Artist, Song.Title);
         }
-
-        void OnCountdownTicked()
-        {
-            StartTime = _countdown.StartTime;
-            RemainTime = _countdown.RemainTime;
-
-            var totalSeconds = Song.Duration.TotalSeconds;
-            var remainSeconds = _countdown.RemainTime.TotalSeconds;
-            Progress = remainSeconds / totalSeconds;
-        }
-
-        void OnCountdownCompleted()
+        
+        void EndReached()
         {
             Progress = 0;
             IsPlaying = false;
 
-            MessagingCenter.Send(this, MessengerKeys.Play, IsPlaying);
+            MessagingCenter.Send(MessengerKeys.App, MessengerKeys.Play, IsPlaying);
         }
 
         void Play()
@@ -149,7 +140,7 @@ namespace PulseMusic.ViewModels
                 Icon = "play";
             }
 
-            MessagingCenter.Send(this, MessengerKeys.Play, IsPlaying);
+            MessagingCenter.Send(MessengerKeys.App, MessengerKeys.Play, IsPlaying);
         }
 
         void Rewind()

@@ -135,10 +135,5 @@
   <ItemGroup>
     <AndroidResource Include="Resources\drawable\shuffle.png" />
   </ItemGroup>
-  <ItemGroup>
-    <AndroidAsset Include="Assets\Imagine Dragons - Radioactive.mp3">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </AndroidAsset>
-  </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\Android\Xamarin.Android.CSharp.targets" />
 </Project>

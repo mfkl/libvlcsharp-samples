@@ -1,10 +1,4 @@
 ﻿using LibVLCSharp.Shared;
-using PulseMusic.ViewModels;
-using System;
-using System.Diagnostics;
-using System.IO;
-using System.Threading.Tasks;
-using Xamarin.Essentials;
 using Xamarin.Forms;
 
 namespace PulseMusic
@@ -13,7 +7,6 @@ namespace PulseMusic
     {
         LibVLC _libVLC;
         MediaPlayer _mp;
-        const string SONG_NAME = "Imagine Dragons - Radioactive.mp3";
 
         public PlaybackService()
         {
@@ -23,19 +16,32 @@ namespace PulseMusic
 
             _mp = new MediaPlayer(_libVLC);        
         }
-
-        async Task<Stream> SongStream() => await FileSystem.OpenAppPackageFileAsync(SONG_NAME);
-
-        public async void Init()
+        
+        public void Init()
         {
-            _mp.Media = new Media(_libVLC, await SongStream(), ":no-video");
+            _mp.Media = new Media(_libVLC, "https://archive.org/download/ImagineDragons_201410/imagine%20dragons.mp4", Media.FromType.FromLocation);
 
-            MessagingCenter.Subscribe<PlayerViewModel, bool>(this, MessengerKeys.Play, (vm, play) =>
+            _mp.Media.AddOption(":no-video");
+
+            _mp.PositionChanged += PositionChanged;
+            _mp.LengthChanged += LengthChanged;
+            _mp.EndReached += EndReached;
+
+            MessagingCenter.Subscribe<string, bool>(MessengerKeys.App, MessengerKeys.Play, (vm, play) =>
             {
                 if (play)
                     _mp.Play();
                 else _mp.Pause();
             });
         }
+
+        private void EndReached(object sender, System.EventArgs e) =>
+            MessagingCenter.Send(MessengerKeys.App, MessengerKeys.EndReached);
+
+        private void LengthChanged(object sender, MediaPlayerLengthChangedEventArgs e) =>
+            MessagingCenter.Send(MessengerKeys.App, MessengerKeys.Length, e.Length);
+
+        private void PositionChanged(object sender, MediaPlayerPositionChangedEventArgs e) =>
+            MessagingCenter.Send(MessengerKeys.App, MessengerKeys.Progress, e.Position);
     }
 }
