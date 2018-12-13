@@ -23,6 +23,13 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ForegroundBackground.iOS", 
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ForegroundBackground", "ForegroundBackground\ForegroundBackground\ForegroundBackground.csproj", "{9A168B62-AE4F-42A5-9960-44DE18D04C31}"
 EndProject
+
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PulseMusic", "PulseMusic\src\PulseMusic\PulseMusic\PulseMusic.csproj", "{E9276DC7-9BD1-4B28-BE5D-ECF1093FB4B1}"Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PulseMusic", "PulseMusic\src\PulseMusic\PulseMusic\PulseMusic.csproj", "{E9276DC7-9BD1-4B28-BE5D-ECF1093FB4B1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PulseMusic.Android", "PulseMusic\src\PulseMusic\PulseMusic.Android\PulseMusic.Android.csproj", "{5C5B9DB8-91CE-4B22-9559-205413D2729A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PulseMusic.iOS", "PulseMusic\src\PulseMusic\PulseMusic.iOS\PulseMusic.iOS.csproj", "{C9F0F801-61E0-4297-B3AB-32FCA8998395}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Ad-Hoc|Any CPU = Ad-Hoc|Any CPU
