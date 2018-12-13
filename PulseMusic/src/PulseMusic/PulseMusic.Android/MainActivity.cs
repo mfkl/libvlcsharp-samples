@@ -1,7 +1,9 @@
 ﻿using Android.App;
 using Android.Content.PM;
+using Android.Content.Res;
 using Android.OS;
 using ButtonCircle.FormsPlugin.Droid;
+using LibVLCSharp.Forms.Shared;
 
 namespace PulseMusic.Droid
 {
@@ -14,7 +16,7 @@ namespace PulseMusic.Droid
             ToolbarResource = Resource.Layout.Toolbar;
 
             base.OnCreate(bundle);
-
+            LibVLCSharpFormsRenderer.Init();
             global::Xamarin.Forms.Forms.Init(this, bundle);
             FFImageLoading.Forms.Platform.CachedImageRenderer.Init(false);
             ButtonCircleRenderer.Init();

@@ -18,10 +18,12 @@ namespace PulseMusic.ViewModels
         private bool _isPlaying;
         private double _progress;
         private string _icon;
+        private PlaybackService _playbackService;
 
         public PlayerViewModel()
         {
             _countdown = new Countdown();
+            _playbackService = DependencyService.Get<PlaybackService>();
 
             IsPlaying = true;
             Icon = "pause";
@@ -77,6 +79,8 @@ namespace PulseMusic.ViewModels
 
         public override Task LoadAsync()
         {
+            _playbackService.Init();
+            
             LoadSong();
 
             _countdown.StartTime = TimeSpan.Zero;
@@ -88,8 +92,7 @@ namespace PulseMusic.ViewModels
             _countdown.Ticked += OnCountdownTicked;
             _countdown.Completed += OnCountdownCompleted;
 
-            MessagingCenter.Send(MessengerKeys.App, MessengerKeys.Play, IsPlaying);
-
+            MessagingCenter.Send(this, MessengerKeys.Play, IsPlaying);
             return base.LoadAsync();
         }
 
@@ -129,7 +132,7 @@ namespace PulseMusic.ViewModels
             Progress = 0;
             IsPlaying = false;
 
-            MessagingCenter.Send(MessengerKeys.App, MessengerKeys.Play, IsPlaying);
+            MessagingCenter.Send(this, MessengerKeys.Play, IsPlaying);
         }
 
         void Play()
@@ -146,7 +149,7 @@ namespace PulseMusic.ViewModels
                 Icon = "play";
             }
 
-            MessagingCenter.Send(MessengerKeys.App, MessengerKeys.Play, IsPlaying);
+            MessagingCenter.Send(this, MessengerKeys.Play, IsPlaying);
         }
 
         void Rewind()

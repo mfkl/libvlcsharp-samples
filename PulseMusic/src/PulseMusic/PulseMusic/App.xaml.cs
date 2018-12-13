@@ -11,7 +11,9 @@ namespace PulseMusic
 		{
 			InitializeComponent();
 
-			MainPage = new PlayerView();
+            DependencyService.Register<PlaybackService>();
+
+            MainPage = new PlayerView();
 		}
 
 		protected override void OnStart ()
