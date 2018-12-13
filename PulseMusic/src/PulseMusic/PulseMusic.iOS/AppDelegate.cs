@@ -1,5 +1,6 @@
 ﻿using ButtonCircle.FormsPlugin.iOS;
 using Foundation;
+using LibVLCSharp.Forms.Shared;
 using UIKit;
 
 namespace PulseMusic.iOS
@@ -19,9 +20,11 @@ namespace PulseMusic.iOS
         //
         public override bool FinishedLaunching(UIApplication app, NSDictionary options)
         {
+            LibVLCSharpFormsRenderer.Init();
             global::Xamarin.Forms.Forms.Init();
             FFImageLoading.Forms.Platform.CachedImageRenderer.Init();
             ButtonCircleRenderer.Init();
+
             LoadApplication(new App());
 
             return base.FinishedLaunching(app, options);
