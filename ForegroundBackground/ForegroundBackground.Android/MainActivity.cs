@@ -21,11 +21,12 @@ namespace ForegroundBackground.Droid
             LoadApplication(new App());
         }
 
-        protected override void OnStop()
+        protected override void OnPause()
         {
-            base.OnStop();
+            base.OnPause();
 
-            MessagingCenter.Send("app", "OnStop");
+            MessagingCenter.Send("app", "OnPause");
+
         }
 
         protected override void OnRestart()

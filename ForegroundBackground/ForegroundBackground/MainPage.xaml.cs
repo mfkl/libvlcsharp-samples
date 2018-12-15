@@ -16,9 +16,10 @@ namespace ForegroundBackground
         {
             InitializeComponent();
 
-            MessagingCenter.Subscribe<string>(this, "OnStop", app =>
+            MessagingCenter.Subscribe<string>(this, "OnPause", app =>
             {
                 VideoView.Loaded -= VideoView_Loaded;
+                _mediaPlayer.Pause();
                 _position = _mediaPlayer.Position;
                 _mediaPlayer.Stop();
                 MainGrid.Children.Clear();
@@ -34,6 +35,7 @@ namespace ForegroundBackground
 
                 _videoView.MediaPlayer = _mediaPlayer;
                 _videoView.MediaPlayer.Position = _position;
+                _position = 0;
             });
         }
 
