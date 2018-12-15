@@ -12,3 +12,7 @@ A sample demonstrating how to record an HLS stream using LibVLCSharp in a .NET C
 
 Short Xamarin.Forms sample demonstrating how to build a mosaic-style RTSP player (iOS/Android). [Blog post](https://mfkl.github.io/libvlc/rtsp/xamarin/forms/2018/12/05/crossplatform-RTSP-mosaic-views-with-libvlcsharp.html)
 
+## [ForegroundBackground](https://code.videolan.org/mfkl/libvlcsharp-samples/tree/master/ForegroundBackground)
+
+This sample demonstrates how to deal with video playback when the app goes in the background/foreground.
+It shows one way to deal with this on Android with LibVLCSharp.Forms on Xamarin.Forms specifically, which is a bit trickier than other platforms.
