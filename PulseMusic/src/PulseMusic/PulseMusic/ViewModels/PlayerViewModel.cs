@@ -12,7 +12,7 @@ namespace PulseMusic.ViewModels
     {    
         private Song _song;
         private string _title;
-        private Countdown _countdown;
+        //private Countdown _countdown;
         private TimeSpan _startTime;
         private TimeSpan _remainTime;
         private bool _isPlaying;
@@ -22,7 +22,7 @@ namespace PulseMusic.ViewModels
 
         public PlayerViewModel()
         {
-            _countdown = new Countdown();
+            //_countdown = new Countdown();
             _playbackService = DependencyService.Get<PlaybackService>();
 
             IsPlaying = true;
@@ -77,31 +77,28 @@ namespace PulseMusic.ViewModels
             set => SetProperty(ref _icon, value);
         }
 
+        private long _length;
+
         public override Task LoadAsync()
         {
             _playbackService.Init();
 
-            MessagingCenter.Subscribe<string, float>(MessengerKeys.App, MessengerKeys.Progress, (app, progress) =>
+            MessagingCenter.Subscribe<string, float>(MessengerKeys.App, MessengerKeys.Position, (app, position) => Progress = position);
+       
+            MessagingCenter.Subscribe<string, long>(MessengerKeys.App, MessengerKeys.Time, (app, time) =>
             {
-                Progress = progress;
+                RemainTime = TimeSpan.FromMilliseconds((double)new decimal(_length - time));
+                StartTime = TimeSpan.FromMilliseconds((double)new decimal(time));
             });
 
-            MessagingCenter.Subscribe<string, long>(MessengerKeys.App, MessengerKeys.Length, (app, length) =>
-            {
-                _countdown.EndTime = TimeSpan.FromTicks(length);
-            });
-
+            MessagingCenter.Subscribe<string, long>(MessengerKeys.App, MessengerKeys.Length, (app, length) => _length = length);
+            
             MessagingCenter.Subscribe<string>(MessengerKeys.App, MessengerKeys.EndReached, app => EndReached());
             
             LoadSong();
-
-            _countdown.StartTime = TimeSpan.Zero;
             
-            _countdown.IsRunning = true;
+            _playbackService.Play(true);
 
-            _countdown.Start();
-
-            MessagingCenter.Send(MessengerKeys.App, MessengerKeys.Play, IsPlaying);
             return base.LoadAsync();
         }
 
@@ -128,10 +125,9 @@ namespace PulseMusic.ViewModels
 
         void Play()
         {
-            _countdown.IsRunning = !_countdown.IsRunning;
-            IsPlaying = _countdown.IsRunning;
+            IsPlaying = !IsPlaying;
 
-            if (_countdown.IsRunning)
+            if (IsPlaying)
             {
                 Icon = "pause";
             }
@@ -140,12 +136,12 @@ namespace PulseMusic.ViewModels
                 Icon = "play";
             }
 
-            MessagingCenter.Send(MessengerKeys.App, MessengerKeys.Play, IsPlaying);
+            _playbackService.Play(IsPlaying);
         }
 
         void Rewind()
         {
-            Debug.WriteLine("Rewind");
+            MessagingCenter.Send(MessengerKeys.App, MessengerKeys.Rewind);
         }
 
         void Previous()
@@ -160,7 +156,7 @@ namespace PulseMusic.ViewModels
 
         void Forward()
         {
-            Debug.WriteLine("Rewind");
+            MessagingCenter.Send(MessengerKeys.App, MessengerKeys.Forward);
         }
     }
 }
