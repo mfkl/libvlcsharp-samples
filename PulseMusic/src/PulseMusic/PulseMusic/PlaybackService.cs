@@ -6,12 +6,14 @@ namespace PulseMusic
 {
     public class PlaybackService
     {
-        LibVLC _libVLC;
-        MediaPlayer _mp;
+        readonly LibVLC _libVLC;
+        readonly MediaPlayer _mp;
         const long OFFSET = 5000;
 
         public PlaybackService()
         {
+            if (DesignMode.IsDesignModeEnabled) return;
+
             Core.Initialize();
 
             _libVLC = new LibVLC();
@@ -24,10 +26,6 @@ namespace PulseMusic
             _mp.Media = new Media(_libVLC, "https://streams.videolan.org/streams/mp3/05-Mr.%20Zebra.mp3", Media.FromType.FromLocation);
 
             _mp.Media.AddOption(":no-video");
-
-            _mp.Media.Parse();
-
-            var artist = _mp.Media.Meta(Media.MetadataType.Artist);
 
             _mp.TimeChanged += TimeChanged;
             _mp.PositionChanged += PositionChanged;
