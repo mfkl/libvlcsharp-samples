@@ -1,3 +1,5 @@
+/// Fork from https://github.com/jsuarezruiz/PulseMusic
+
 using PulseMusic.Views;
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;

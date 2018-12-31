@@ -1,4 +1,6 @@
-﻿using PulseMusic.Models;
+﻿/// Fork from https://github.com/jsuarezruiz/PulseMusic
+
+using PulseMusic.Models;
 using PulseMusic.ViewModels.Base;
 using System;
 using System.Diagnostics;

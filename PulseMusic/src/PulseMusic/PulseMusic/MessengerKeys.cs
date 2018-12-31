@@ -1,4 +1,6 @@
-﻿namespace PulseMusic
+﻿/// Fork from https://github.com/jsuarezruiz/PulseMusic
+
+namespace PulseMusic
 {
     public class MessengerKeys
     {

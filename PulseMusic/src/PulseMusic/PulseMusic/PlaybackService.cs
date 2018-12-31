@@ -1,4 +1,6 @@
-﻿using LibVLCSharp.Shared;
+﻿/// Fork from https://github.com/jsuarezruiz/PulseMusic
+
+using LibVLCSharp.Shared;
 using System.Diagnostics;
 using Xamarin.Forms;
 
