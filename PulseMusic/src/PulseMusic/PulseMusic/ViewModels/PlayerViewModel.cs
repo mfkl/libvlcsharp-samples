@@ -12,7 +12,6 @@ namespace PulseMusic.ViewModels
     {    
         private Song _song;
         private string _title;
-        //private Countdown _countdown;
         private TimeSpan _startTime;
         private TimeSpan _remainTime;
         private bool _isPlaying;
@@ -22,7 +21,6 @@ namespace PulseMusic.ViewModels
 
         public PlayerViewModel()
         {
-            //_countdown = new Countdown();
             _playbackService = DependencyService.Get<PlaybackService>();
 
             IsPlaying = true;
