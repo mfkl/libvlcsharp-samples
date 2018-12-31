@@ -23,8 +23,9 @@ namespace PulseMusic
 
         public void Init()
         {
-            _mp.Media = new Media(_libVLC, "https://streams.videolan.org/streams/mp3/05-Mr.%20Zebra.mp3", Media.FromType.FromLocation);
+            _mp.Media = new Media(_libVLC, "https://archive.org/download/ImagineDragons_201410/imagine%20dragons.mp4", Media.FromType.FromLocation);
 
+            // disable video output
             _mp.Media.AddOption(":no-video");
 
             _mp.TimeChanged += TimeChanged;
