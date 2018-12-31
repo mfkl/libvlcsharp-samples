@@ -16,3 +16,7 @@ Short Xamarin.Forms sample demonstrating how to build a mosaic-style RTSP player
 
 This sample demonstrates how to deal with video playback when the app goes in the background/foreground.
 It shows one way to deal with this on Android with LibVLCSharp.Forms on Xamarin.Forms specifically, which is a bit trickier than other platforms.
+
+## [PulseMusic](https://code.videolan.org/mfkl/libvlcsharp-samples/tree/master/PulseMusic)
+
+PulseMusic is an audio player sample showcasing use of Skia and LibVLCSharp to implement great UX player view. [Blog post]()
