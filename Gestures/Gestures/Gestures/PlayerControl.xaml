@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:vlc="clr-namespace:LibVLCSharp.Forms.Shared;assembly=LibVLCSharp.Forms"
+             xmlns:local="clr-namespace:Gestures"
+             x:Class="Gestures.PlayerControl">
+    <ContentPage.BindingContext>
+        <local:MainViewModel />
+    </ContentPage.BindingContext>
+    <ContentPage.Content>
+      <Grid>
+        <Grid.GestureRecognizers>
+          <PanGestureRecognizer PanUpdated="PanUpdated"/>
+        </Grid.GestureRecognizers>
+        <AbsoluteLayout HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand">
+          <vlc:VideoView x:Name="videoView" MediaPlayer="{Binding MediaPlayer}" AbsoluteLayout.LayoutBounds="0,0,1,1" AbsoluteLayout.LayoutFlags="All" InputTransparent="True"/>
+          <Label Text="{Binding Message}" AbsoluteLayout.LayoutBounds=".5,1,1,.1" AbsoluteLayout.LayoutFlags="All" FontSize="20" LineBreakMode="WordWrap" TextColor="White" />
+        </AbsoluteLayout>
+      </Grid>
+    </ContentPage.Content>
+</ContentPage>

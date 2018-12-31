@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" x:Class="Gestures.MenuPage">
+    <StackLayout Orientation="Vertical" Spacing="10">
+        <Button x:Name="PlayerControl" Text="Player interaction gestures" VerticalOptions="FillAndExpand" HorizontalOptions="FillAndExpand"/>
+        <Button x:Name="ThreeSixty" Text="360 video gestures" VerticalOptions="FillAndExpand" HorizontalOptions="FillAndExpand"/>
+    </StackLayout>
+</ContentPage>
