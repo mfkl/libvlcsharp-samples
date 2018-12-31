@@ -22,18 +22,22 @@ namespace PulseMusic
         }
 
         public void Init()
-        {
+        {   
+            // create a libvlc media
             _mp.Media = new Media(_libVLC, "https://archive.org/download/ImagineDragons_201410/imagine%20dragons.mp4", Media.FromType.FromLocation);
 
-            // disable video output
+            // disable video output, we only need audio
             _mp.Media.AddOption(":no-video");
 
+            // subscribe to libvlc playback events
             _mp.TimeChanged += TimeChanged;
             _mp.PositionChanged += PositionChanged;
             _mp.LengthChanged += LengthChanged;
             _mp.EndReached += EndReached;
             _mp.Playing += Playing;
             _mp.Paused += Paused;
+
+            // subscribe to UI app events for seeking.
 
             MessagingCenter.Subscribe<string>(MessengerKeys.App, MessengerKeys.Rewind, vm =>
             {
@@ -55,6 +59,8 @@ namespace PulseMusic
                 _mp.Play();
             else _mp.Pause();
         }
+
+        // when the libvlc mediaplayer events fire, publish an event with the MessagingCenter
 
         private void PositionChanged(object sender, MediaPlayerPositionChangedEventArgs e) =>
             MessagingCenter.Send(MessengerKeys.App, MessengerKeys.Position, e.Position);
