@@ -1,0 +1,14 @@
+<Project Sdk="Peachpie.NET.Sdk/0.9.26">
+  <PropertyGroup>
+    <OutputType>exe</OutputType>
+    <TargetFramework>netcoreapp2.0</TargetFramework>
+    <StartupObject>program.php</StartupObject>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Include="**/*.php" />
+  </ItemGroup>
+  <ItemGroup>
+    <PackageReference Include="LibVLCSharp" Version="0.1.6" />
+    <PackageReference Include="VideoLAN.LibVLC.Windows" Version="3.0.5" />
+  </ItemGroup>
+</Project>
