@@ -10,7 +10,7 @@ list($scriptPath) = get_included_files();
 $p = str_replace("program.php", "", $scriptPath);
 $libvlcPath = $p . "bin\\Debug\\netcoreapp2.0";
 
-var_dump(Core::Initialize($libvlcPath));
+Core::Initialize($libvlcPath);
 
 $libVLC = new LibVLC();
 $mediaPlayer = new MediaPlayer($libVLC);
