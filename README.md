@@ -19,4 +19,4 @@ It shows one way to deal with this on Android with LibVLCSharp.Forms on Xamarin.
 
 ## [PulseMusic](https://code.videolan.org/mfkl/libvlcsharp-samples/tree/master/PulseMusic)
 
-PulseMusic is an audio player sample showcasing use of Skia and LibVLCSharp to implement great UX player view. [Blog post]()
+PulseMusic is an audio player sample showcasing use of Skia and LibVLCSharp to implement great UX player view. [Blog post](https://mfkl.github.io/libvlc/skia/xamarin/forms/ux/2018/12/31/PulseMusic-music-player-design.html)
