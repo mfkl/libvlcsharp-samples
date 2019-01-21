@@ -1,0 +1,12 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <RootNamespace>LibVLCSharp.VB</RootNamespace>
+    <TargetFramework>netcoreapp2.1</TargetFramework>
+    <Platforms>AnyCPU</Platforms>
+  </PropertyGroup>
+  <ItemGroup>
+    <PackageReference Include="VideoLAN.LibVLC.Windows" Version="3.0.4" />
+    <PackageReference Include="LibVLCSharp" Version="0.3.0" />
+  </ItemGroup>
+</Project>
