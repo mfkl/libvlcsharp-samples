@@ -1,4 +1,6 @@
-# Samples for LibVLCSharp
+# Samples for [LibVLCSharp](https://code.videolan.org/videolan/LibVLCSharp)
+
+Various samples on different platforms showcasing [LibVLCSharp](https://code.videolan.org/videolan/LibVLCSharp) features
 
 ## [Chromecast sample](https://code.videolan.org/mfkl/libvlcsharp-samples/tree/master/Chromecast)
 
@@ -24,3 +26,7 @@ PulseMusic is an audio player sample showcasing use of Skia and LibVLCSharp to i
 ## [LibVLCSharp.PHP](https://code.videolan.org/mfkl/libvlcsharp-samples/tree/master/LibVLCSharp.PHP)
 
 A small experiment that shows how to use LibVLCSharp from PHP using the [PeachPie](https://www.peachpie.io/) compiler.
+
+## [LibVLCSharp.VB](https://code.videolan.org/mfkl/libvlcsharp-samples/tree/master/LibVLCSharp.VB)
+
+A VB.NET (Visual Basic) sample that uses LibVLCSharp.
