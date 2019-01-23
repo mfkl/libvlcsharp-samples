@@ -6,8 +6,6 @@ Pulse Music is a Xamarin.Forms sample to show how to create **goodlooking UI** w
 
 ***NOTES**:The icons of the App are not exactly the same. Used similar icons taken from [Metro Studio](https://www.syncfusion.com/downloads/metrostudio).* 
 
-*The main objective of the sample is to show the creation of the Player's UI (circular progress, rotating cover, etc.). This App is NOT a real player.*
-
 ## Xamarin.Forms App (Pulse Music)
 
 **Xamarin.Forms** allows you to build native UIs for iOS, Android, Windows, Linux, macOS and Tizen from a single, shared codebase. This project exercises the following patterns and features:
