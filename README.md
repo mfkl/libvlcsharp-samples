@@ -30,3 +30,7 @@ A small experiment that shows how to use LibVLCSharp from PHP using the [PeachPi
 ## [LibVLCSharp.VB](https://code.videolan.org/mfkl/libvlcsharp-samples/tree/master/LibVLCSharp.VB)
 
 A VB.NET (Visual Basic) sample that uses LibVLCSharp.
+
+## [Gestures](https://code.videolan.org/mfkl/libvlcsharp-samples/tree/master/Gestures/Gestures)
+
+2 crossplatform gestures samples showcasing how to use the Xamarin.Forms crossplatform gestures to control the video position, volume level and 360 viewpoint.
