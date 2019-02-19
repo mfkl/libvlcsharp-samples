@@ -1,6 +1,7 @@
 ﻿using LibVLCSharp.Shared;
 using System;
-
+using System.Linq;
+using System.Threading.Tasks;
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
 
@@ -10,7 +11,9 @@ namespace Gestures
     public partial class ThreeSixty : ContentPage
 	{
         LibVLC _libVLC;
-        
+        Media _media;
+        MediaPlayer _mediaPlayer;
+
 		public ThreeSixty ()
 		{
 			InitializeComponent();
@@ -21,15 +24,17 @@ namespace Gestures
             base.OnAppearing();
 
             _libVLC = new LibVLC();
-            var media = new Media(_libVLC, "https://streams.videolan.org/streams/360/eagle_360.mp4", Media.FromType.FromLocation);
+            _media = new Media(_libVLC, "https://streams.videolan.org/streams/360/eagle_360.mp4", Media.FromType.FromLocation);
             if (Device.RuntimePlatform == Device.Android)
             {
                 var mc = new MediaConfiguration();
                 mc.EnableHardwareDecoding();
-                media.AddOption(mc);
+                _media.AddOption(mc);
             }
-            videoView.MediaPlayer = new MediaPlayer(media);
-            videoView.MediaPlayer.Play();
+
+            _mediaPlayer = new MediaPlayer(_media);
+            videoView.MediaPlayer = _mediaPlayer;
+            videoView.MediaPlayer.Play();            
         }
 
         protected override void OnDisappearing()
@@ -49,6 +54,8 @@ namespace Gestures
 
         MediaPlayer MediaPlayer => videoView.MediaPlayer;
         
+        bool Is360Video => _media.Tracks[_mediaPlayer.VideoTrack].Data.Video.Projection == VideoProjection.Equirectangular;
+
         void PanUpdated(object sender, PanUpdatedEventArgs e)
         {
             switch (e.StatusType)
@@ -56,9 +63,9 @@ namespace Gestures
                 case GestureStatus.Running:
                     if (ScreenWidth > 0 && ScreenHeight > 0)
                     {
-                        double xRange = Math.Max(ScreenWidth, ScreenHeight);
-                        float yaw = (float)(Fov * -e.TotalX / xRange);//up/down
-                        float pitch = (float)(Fov * -e.TotalY / xRange);//left/right
+                        double range = Math.Max(ScreenWidth, ScreenHeight);
+                        float yaw = (float)(Fov * -e.TotalX / range);// up/down
+                        float pitch = (float)(Fov * -e.TotalY / range);// left/right
                         MediaPlayer.UpdateViewpoint(Yaw + yaw, Pitch + pitch, Roll, Fov);
                     }
                     break;
