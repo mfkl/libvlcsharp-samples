@@ -23,7 +23,7 @@ namespace RecordHLS
                 libvlc.Log += (sender, e) => Console.WriteLine($"[{e.Level}] {e.Module}:{e.Message}");
 
                 // Create new media with HLS link
-                var media = new Media(libvlc, "http://hls1.addictradio.net/addictrock_aac_hls/playlist.m3u8", Media.FromType.FromLocation);
+                var media = new Media(libvlc, "http://hls1.addictradio.net/addictrock_aac_hls/playlist.m3u8", FromType.FromLocation);
 
                 // Define stream output options. 
                 // In this case stream to a file with the given path and play locally the stream while streaming it.

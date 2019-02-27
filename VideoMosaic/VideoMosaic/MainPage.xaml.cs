@@ -28,16 +28,16 @@ namespace VideoMosaic
             // create media objects and start playback
 
             VideoView0.MediaPlayer = new MediaPlayer(_libvlc);
-            VideoView0.MediaPlayer.Play(new Media(_libvlc, VIDEO_URL, Media.FromType.FromLocation));
+            VideoView0.MediaPlayer.Play(new Media(_libvlc, VIDEO_URL, FromType.FromLocation));
 
             VideoView1.MediaPlayer = new MediaPlayer(_libvlc);
-            VideoView1.MediaPlayer.Play(new Media(_libvlc, VIDEO_URL, Media.FromType.FromLocation));
+            VideoView1.MediaPlayer.Play(new Media(_libvlc, VIDEO_URL, FromType.FromLocation));
 
             VideoView2.MediaPlayer = new MediaPlayer(_libvlc);
-            VideoView2.MediaPlayer.Play(new Media(_libvlc, VIDEO_URL, Media.FromType.FromLocation));
+            VideoView2.MediaPlayer.Play(new Media(_libvlc, VIDEO_URL, FromType.FromLocation));
 
             VideoView3.MediaPlayer = new MediaPlayer(_libvlc);
-            VideoView3.MediaPlayer.Play(new Media(_libvlc, VIDEO_URL, Media.FromType.FromLocation));
+            VideoView3.MediaPlayer.Play(new Media(_libvlc, VIDEO_URL, FromType.FromLocation));
         }
     }
 }

@@ -6,7 +6,7 @@ Module Program
         Core.Initialize(Directory.GetCurrentDirectory())
         Using libVLC = New LibVLC()
             Dim video = New Media(libVLC, "http://www.quirksmode.org/html5/videos/big_buck_bunny.mp4",
-                                  Media.FromType.FromLocation)
+                                  FromType.FromLocation)
 
             Using mp = New MediaPlayer(video)
                 video.Dispose()

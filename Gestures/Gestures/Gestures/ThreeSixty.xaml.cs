@@ -24,7 +24,7 @@ namespace Gestures
             base.OnAppearing();
 
             _libVLC = new LibVLC();
-            _media = new Media(_libVLC, "https://streams.videolan.org/streams/360/eagle_360.mp4", Media.FromType.FromLocation);
+            _media = new Media(_libVLC, "https://streams.videolan.org/streams/360/eagle_360.mp4", FromType.FromLocation);
             if (Device.RuntimePlatform == Device.Android)
             {
                 var mc = new MediaConfiguration();
