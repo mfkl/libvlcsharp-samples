@@ -1,10 +1,10 @@
-﻿using System;
-using Android.App;
+﻿using Android.App;
 using Android.OS;
 using Android.Views;
 using Android.Widget;
 using VideoView = LibVLCSharp.Platforms.Android.VideoView;
 using LibVLCSharp.Shared;
+using LibVLCSharp.Android.Sample;
 
 namespace LibVLCSharp.Android
 {

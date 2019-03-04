@@ -41,7 +41,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Gestures.iOS", "Gestures\Ge
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "MinimalPlayback", "MinimalPlayback", "{C6916887-253A-4D85-A8EF-424A5FF827F3}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LibVLCSharp.Android", "MinimalPlayback\LibVLCSharp.Android\LibVLCSharp.Android.csproj", "{3BC0AC7E-3B3B-4D3F-9CC0-B2BDECC460A6}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LibVLCSharp.Android.Sample", "MinimalPlayback\LibVLCSharp.Android\LibVLCSharp.Android.Sample.csproj", "{3BC0AC7E-3B3B-4D3F-9CC0-B2BDECC460A6}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LibVLCSharp.WPF.Sample", "MinimalPlayback\LibVLCSharp.WPF.Sample\LibVLCSharp.WPF.Sample.csproj", "{7D7F9419-5F05-41E2-95D4-559C5533C25A}"
 EndProject

@@ -9,9 +9,9 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-[assembly: global::Android.Runtime.ResourceDesignerAttribute("LibVLCSharp.Android.Resource", IsApplication=true)]
+[assembly: global::Android.Runtime.ResourceDesignerAttribute("LibVLCSharp.Android.Sample.Resource", IsApplication=true)]
 
-namespace LibVLCSharp.Android
+namespace LibVLCSharp.Android.Sample
 {
 	
 	
