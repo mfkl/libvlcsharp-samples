@@ -5,7 +5,7 @@ use LibVLCSharp\Shared\LibVLC;
 use LibVLCSharp\Shared\MediaPlayer;
 use LibVLCSharp\Shared\Media;
 
-Core::Initialize(__DIR__);
+Core::Initialize();
 
 $libVLC = new LibVLC();
 $mediaPlayer = new MediaPlayer($libVLC);
