@@ -15,7 +15,7 @@ namespace Gestures
         {
             base.OnAppearing();
 
-            videoView.Loaded += VideoView_Loaded;
+            videoView.MediaPlayerChanged += MediaPlayerChanged;
 
             _vm = BindingContext as MainViewModel;
             _vm.Initialize();
@@ -25,13 +25,13 @@ namespace Gestures
         {
             base.OnDisappearing();
 
-            videoView.Loaded -= VideoView_Loaded;
+            videoView.MediaPlayerChanged -= MediaPlayerChanged;
 
             _vm = BindingContext as MainViewModel;
             _vm.Stop();
         }
 
-        private void VideoView_Loaded(object sender, System.EventArgs e)
+        private void MediaPlayerChanged(object sender, System.EventArgs e)
         {
             _vm.MediaPlayer.Play();
         }

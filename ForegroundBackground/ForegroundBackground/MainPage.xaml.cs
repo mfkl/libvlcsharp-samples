@@ -18,7 +18,7 @@ namespace ForegroundBackground
 
             MessagingCenter.Subscribe<string>(this, "OnPause", app =>
             {
-                VideoView.Loaded -= VideoView_Loaded;
+                VideoView.MediaPlayerChanged -= MediaPlayerChanged;
                 _mediaPlayer.Pause();
                 _position = _mediaPlayer.Position;
                 _mediaPlayer.Stop();
@@ -31,7 +31,7 @@ namespace ForegroundBackground
                 _videoView = new VideoView { HorizontalOptions = LayoutOptions.FillAndExpand, VerticalOptions = LayoutOptions.FillAndExpand };
                 MainGrid.Children.Add(_videoView);
 
-                _videoView.Loaded += VideoView_Loaded;
+                _videoView.MediaPlayerChanged += MediaPlayerChanged;
 
                 _videoView.MediaPlayer = _mediaPlayer;
                 _videoView.MediaPlayer.Position = _position;
@@ -43,7 +43,7 @@ namespace ForegroundBackground
         {
             base.OnAppearing();
 
-            VideoView.Loaded += VideoView_Loaded;
+            VideoView.MediaPlayerChanged += MediaPlayerChanged;
 
             Core.Initialize();
 
@@ -58,7 +58,7 @@ namespace ForegroundBackground
             VideoView.MediaPlayer = _mediaPlayer;
         }
 
-        private void VideoView_Loaded(object sender, System.EventArgs e)
+        private void MediaPlayerChanged(object sender, System.EventArgs e)
         {
             _mediaPlayer.Play();
         }

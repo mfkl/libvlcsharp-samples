@@ -7,6 +7,6 @@
   </PropertyGroup>
   <ItemGroup>
     <PackageReference Include="VideoLAN.LibVLC.Windows" Version="3.0.6" />
-    <PackageReference Include="LibVLCSharp" Version="0.6.0" />
+    <PackageReference Include="LibVLCSharp" Version="0.7.0" />
   </ItemGroup>
 </Project>
