@@ -6,7 +6,8 @@ using System.Threading.Tasks;
 using Xamarin.Forms;
 
 using LocalNetwork.Models;
-using LocalNetwork.Views;
+using LibVLCSharp.Shared;
+using System.Collections.Generic;
 
 namespace LocalNetwork.ViewModels
 {
@@ -14,19 +15,33 @@ namespace LocalNetwork.ViewModels
     {
         public ObservableCollection<Item> Items { get; set; }
         public Command LoadItemsCommand { get; set; }
+        LibVLC _libVLC;
+        List<MediaDiscoverer> _mediaDiscoverers = new List<MediaDiscoverer>();
+        Item _directory;
 
         public ItemsViewModel()
         {
-            Title = "Browse";
+            Title = "Browse Local Network";
             Items = new ObservableCollection<Item>();
             LoadItemsCommand = new Command(async () => await ExecuteLoadItemsCommand());
 
-            MessagingCenter.Subscribe<NewItemPage, Item>(this, "AddItem", async (obj, item) =>
-            {
-                var newItem = item as Item;
-                Items.Add(newItem);
-                await DataStore.AddItemAsync(newItem);
-            });
+            InitializeLibVLC();
+
+            InitializeMediaDiscoverers();
+        }
+
+        public ItemsViewModel(Item item)
+        {
+            _directory = item;
+            Title = item.Name;
+            Items = new ObservableCollection<Item>();
+            LoadItemsCommand = new Command(async () => await ExecuteParseItemsCommand());
+        }
+
+        async Task<MediaParsedStatus> ExecuteParseItemsCommand()
+        {
+            _directory.Media.SubItems.ItemAdded += MediaList_ItemAdded;
+            return await _directory.Media.Parse(MediaParseOptions.ParseNetwork);
         }
 
         async Task ExecuteLoadItemsCommand()
@@ -39,11 +54,10 @@ namespace LocalNetwork.ViewModels
             try
             {
                 Items.Clear();
-                var items = await DataStore.GetItemsAsync(true);
-                foreach (var item in items)
-                {
-                    Items.Add(item);
-                }
+                
+                DiscoverNetworkShares();
+
+                await Task.Delay(1000);
             }
             catch (Exception ex)
             {
@@ -54,5 +68,29 @@ namespace LocalNetwork.ViewModels
                 IsBusy = false;
             }
         }
+
+        private void InitializeMediaDiscoverers()
+        {
+            foreach (var md in _libVLC.MediaDiscoverers(MediaDiscovererCategory.Lan))
+            {
+                var discoverer = new MediaDiscoverer(_libVLC, md.Name);
+                discoverer.MediaList.ItemAdded += MediaList_ItemAdded;
+                _mediaDiscoverers.Add(discoverer);
+            }
+        }
+
+        void MediaList_ItemAdded(object sender, MediaListItemAddedEventArgs e) => Items.Add(new Item(e.Media));
+        
+        void InitializeLibVLC()
+        {
+            if (_libVLC != null)
+                throw new Exception();
+
+            Core.Initialize();
+
+            _libVLC = new LibVLC();
+        }
+
+        private void DiscoverNetworkShares() => _mediaDiscoverers.ForEach(md => md.Start());
     }
 }

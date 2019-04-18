@@ -4052,6 +4052,9 @@ namespace LocalNetwork.Droid
 			// aapt resource value: 0x7f0a0025
 			public const int abc_toolbar_collapse_description = 2131361829;
 			
+			// aapt resource value: 0x7f0a003c
+			public const int app_name = 2131361852;
+			
 			// aapt resource value: 0x7f0a0033
 			public const int appbar_scrolling_view_behavior = 2131361843;
 			

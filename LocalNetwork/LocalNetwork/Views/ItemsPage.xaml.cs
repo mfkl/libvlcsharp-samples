@@ -10,6 +10,7 @@ using Xamarin.Forms.Xaml;
 using LocalNetwork.Models;
 using LocalNetwork.Views;
 using LocalNetwork.ViewModels;
+using LibVLCSharp.Forms.Shared;
 
 namespace LocalNetwork.Views
 {
@@ -25,23 +26,27 @@ namespace LocalNetwork.Views
             BindingContext = viewModel = new ItemsViewModel();
         }
 
+        public ItemsPage(Item item)
+        {
+            InitializeComponent();
+
+            BindingContext = viewModel = new ItemsViewModel(item);
+        }
+
         async void OnItemSelected(object sender, SelectedItemChangedEventArgs args)
         {
             var item = args.SelectedItem as Item;
             if (item == null)
                 return;
 
-            await Navigation.PushAsync(new ItemDetailPage(new ItemDetailViewModel(item)));
+            if(item.IsDirectory)
+                await Navigation.PushAsync(new ItemsPage(item));
+            else await Navigation.PushAsync(new ItemDetailPage(new ItemDetailViewModel(item)));
 
             // Manually deselect item.
             ItemsListView.SelectedItem = null;
         }
-
-        async void AddItem_Clicked(object sender, EventArgs e)
-        {
-            await Navigation.PushModalAsync(new NavigationPage(new NewItemPage()));
-        }
-
+        
         protected override void OnAppearing()
         {
             base.OnAppearing();

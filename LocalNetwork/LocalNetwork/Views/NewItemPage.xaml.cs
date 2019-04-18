@@ -17,11 +17,11 @@ namespace LocalNetwork.Views
         {
             InitializeComponent();
 
-            Item = new Item
-            {
-                Text = "Item name",
-                Description = "This is an item description."
-            };
+            //Item = new Item
+            //{
+            //    //Text = "Item name",
+            //    //Description = "This is an item description."
+            //};
 
             BindingContext = this;
         }

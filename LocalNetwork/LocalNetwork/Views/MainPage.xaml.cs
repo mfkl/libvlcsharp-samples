@@ -1,5 +1,5 @@
-﻿using LocalNetwork.Models;
-using System;
+﻿using LibVLCSharp.Shared;
+using LocalNetwork.Models;
 using System.Collections.Generic;
 using System.Threading.Tasks;
 using Xamarin.Forms;
@@ -18,6 +18,11 @@ namespace LocalNetwork.Views
             MasterBehavior = MasterBehavior.Popover;
 
             MenuPages.Add((int)MenuItemType.Browse, (NavigationPage)Detail);
+        }
+
+        protected override void OnAppearing()
+        {
+            base.OnAppearing();
         }
 
         public async Task NavigateFromMenu(int id)
@@ -47,5 +52,10 @@ namespace LocalNetwork.Views
                 IsPresented = false;
             }
         }
+    }
+
+    public static class MediaExtension
+    {
+        public static string NetworkName(this Media media) => media.Meta(MetadataType.Title);
     }
 }
