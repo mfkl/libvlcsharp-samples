@@ -1,16 +1,10 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
+﻿
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
 
 using LocalNetwork.Models;
-using LocalNetwork.Views;
 using LocalNetwork.ViewModels;
-using LibVLCSharp.Forms.Shared;
+using LibVLCSharp.Shared;
 
 namespace LocalNetwork.Views
 {

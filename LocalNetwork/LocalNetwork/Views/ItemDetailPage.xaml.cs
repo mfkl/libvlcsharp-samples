@@ -16,5 +16,17 @@ namespace LocalNetwork.Views
 
             BindingContext = this.viewModel = viewModel;
         }
+
+        protected override void OnDisappearing()
+        {
+            base.OnDisappearing();
+
+            viewModel.Stop();
+        }
+
+        private void VideoView_MediaPlayerChanged(object sender, LibVLCSharp.Shared.MediaPlayerChangedEventArgs e)
+        {
+            viewModel.Play();
+        }
     }
 }

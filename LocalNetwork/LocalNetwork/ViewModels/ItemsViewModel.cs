@@ -21,7 +21,7 @@ namespace LocalNetwork.ViewModels
 
         public ItemsViewModel()
         {
-            Title = "Browse Local Network";
+            Title = "Local Network";
             Items = new ObservableCollection<Item>();
             LoadItemsCommand = new Command(async () => await ExecuteLoadItemsCommand());
 
@@ -88,7 +88,7 @@ namespace LocalNetwork.ViewModels
 
             Core.Initialize();
 
-            _libVLC = new LibVLC();
+            _libVLC = new LibVLC("--verbose=2");
         }
 
         private void DiscoverNetworkShares() => _mediaDiscoverers.ForEach(md => md.Start());

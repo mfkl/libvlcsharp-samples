@@ -3,5 +3,5 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="LocalNetwork.Views.ItemDetailPage"
              xmlns:vlc="clr-namespace:LibVLCSharp.Forms.Shared;assembly=LibVLCSharp.Forms">
-    <vlc:VideoView MediaPlayer="{Binding MediaPlayer}" HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand"/>
+    <vlc:VideoView MediaPlayer="{Binding MediaPlayer}" MediaPlayerChanged="VideoView_MediaPlayerChanged" HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand"/>
 </ContentPage>
