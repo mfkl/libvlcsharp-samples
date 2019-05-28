@@ -50,8 +50,8 @@ namespace Chromecast
             }
 
             // create new media
-            var media = new Media(_libVLC, 
-                "http://www.quirksmode.org/html5/videos/big_buck_bunny.mp4", 
+            var media = new Media(_libVLC,
+                "https://download.blender.org/peach/bigbuckbunny_movies/BigBuckBunny_320x180.mp4", 
                 FromType.FromLocation);
 
             // create the mediaplayer

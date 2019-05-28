@@ -5,7 +5,7 @@ Module Program
     Sub Main(args As String())
         Core.Initialize()
         Using libVLC = New LibVLC()
-            Dim video = New Media(libVLC, "http://www.quirksmode.org/html5/videos/big_buck_bunny.mp4",
+            Dim video = New Media(libVLC, "https://download.blender.org/peach/bigbuckbunny_movies/BigBuckBunny_320x180.mp4",
                                   FromType.FromLocation)
 
             Using mp = New MediaPlayer(video)
