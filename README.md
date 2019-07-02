@@ -34,3 +34,7 @@ A VB.NET (Visual Basic) sample that uses LibVLCSharp.
 ## [Gestures](https://code.videolan.org/mfkl/libvlcsharp-samples/tree/master/Gestures/Gestures)
 
 2 cross-platform gestures samples showcasing how to use the Xamarin.Forms crossplatform gestures to control the video position, volume level and 360 viewpoint. [Blog post](https://mfkl.github.io/libvlc/360/xamarin/forms/ux/2019/02/12/Fun-with-crossplatform-gestures-and-360-videos.html)
+
+## [LocalNetwork](https://code.videolan.org/mfkl/libvlcsharp-samples/tree/master/LocalNetwork)
+
+Xamarin.Forms sample showcasing local network browsing and playback of network shares (SMB, UPnP) on Android, iOS and WPF from 100% shared code. [Blog post](https://mfkl.github.io/libvlc/crossplatform/xamarin/forms/2019/07/02/Crossplatform-local-network-browsing-and-media-playback.html)
