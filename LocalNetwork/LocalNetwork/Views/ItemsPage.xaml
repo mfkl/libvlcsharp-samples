@@ -2,18 +2,18 @@
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="LocalNetwork.Views.ItemsPage"
-              Title="{Binding Title}"
+             Title="{Binding Title}"
              x:Name="BrowseItemsPage">
     <StackLayout>
         <ListView x:Name="ItemsListView"
-                ItemsSource="{Binding Items}"
-                VerticalOptions="FillAndExpand"
-                HasUnevenRows="true"
-                RefreshCommand="{Binding LoadItemsCommand}"
-                IsPullToRefreshEnabled="true"
-                IsRefreshing="{Binding IsBusy, Mode=OneWay}"
-                CachingStrategy="RecycleElement"
-                ItemSelected="OnItemSelected">
+                  ItemsSource="{Binding Items}"
+                  VerticalOptions="FillAndExpand"
+                  HasUnevenRows="true"
+                  RefreshCommand="{Binding LoadItemsCommand}"
+                  IsPullToRefreshEnabled="true"
+                  IsRefreshing="{Binding IsBusy, Mode=OneWay}"
+                  CachingStrategy="RecycleElement"
+                  ItemSelected="OnItemSelected">
             <ListView.ItemTemplate>
                 <DataTemplate>
                     <ViewCell>

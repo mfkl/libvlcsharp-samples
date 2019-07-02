@@ -8,6 +8,7 @@ using Xamarin.Forms;
 using LocalNetwork.Models;
 using LibVLCSharp.Shared;
 using System.Collections.Generic;
+using System.Linq;
 
 namespace LocalNetwork.ViewModels
 {
@@ -19,6 +20,9 @@ namespace LocalNetwork.ViewModels
         List<MediaDiscoverer> _mediaDiscoverers = new List<MediaDiscoverer>();
         Item _directory;
 
+        /// <summary>
+        /// Constructor for initial root screen
+        /// </summary>
         public ItemsViewModel()
         {
             Title = "Local Network";
@@ -30,6 +34,10 @@ namespace LocalNetwork.ViewModels
             InitializeMediaDiscoverers();
         }
 
+        /// <summary>
+        /// Directory constructor
+        /// </summary>
+        /// <param name="item">The current directory</param>
         public ItemsViewModel(Item item)
         {
             _directory = item;
@@ -40,7 +48,15 @@ namespace LocalNetwork.ViewModels
 
         async Task<MediaParsedStatus> ExecuteParseItemsCommand()
         {
+            // adding previously parsed medias if directory parsed
+            foreach (var media in _directory.Media.SubItems)
+            {
+                Items.Add(new Item(media));
+            }
+
             _directory.Media.SubItems.ItemAdded += MediaList_ItemAdded;
+            _directory.Media.SubItems.ItemDeleted += MediaList_ItemDeleted;
+
             return await _directory.Media.Parse(MediaParseOptions.ParseNetwork);
         }
 
@@ -52,9 +68,7 @@ namespace LocalNetwork.ViewModels
             IsBusy = true;
 
             try
-            {
-                Items.Clear();
-                
+            {                
                 DiscoverNetworkShares();
 
                 await Task.Delay(1000);
@@ -75,17 +89,22 @@ namespace LocalNetwork.ViewModels
             {
                 var discoverer = new MediaDiscoverer(_libVLC, md.Name);
                 discoverer.MediaList.ItemAdded += MediaList_ItemAdded;
+                discoverer.MediaList.ItemDeleted += MediaList_ItemDeleted;
                 _mediaDiscoverers.Add(discoverer);
             }
+        }
+
+        void MediaList_ItemDeleted(object sender, MediaListItemDeletedEventArgs e)
+        {
+            var itemToDelete = Items.FirstOrDefault(i => i.Media == e.Media);
+            if (itemToDelete != null)
+                Items.Remove(itemToDelete);
         }
 
         void MediaList_ItemAdded(object sender, MediaListItemAddedEventArgs e) => Items.Add(new Item(e.Media));
         
         void InitializeLibVLC()
         {
-            if (_libVLC != null)
-                throw new Exception();
-
             Core.Initialize();
 
             _libVLC = new LibVLC("--verbose=2");
