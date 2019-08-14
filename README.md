@@ -38,3 +38,7 @@ A VB.NET (Visual Basic) sample that uses LibVLCSharp.
 ## [LocalNetwork](https://code.videolan.org/mfkl/libvlcsharp-samples/tree/master/LocalNetwork)
 
 Xamarin.Forms sample showcasing local network browsing and playback of network shares (SMB, UPnP) on Android, iOS and WPF from 100% shared code. [Blog post](https://mfkl.github.io/libvlc/crossplatform/xamarin/forms/2019/07/02/Crossplatform-local-network-browsing-and-media-playback.html)
+
+## [MediaPlayerElement](https://code.videolan.org/mfkl/libvlcsharp-samples/tree/master/MediaElement)
+
+Minimal Xamarin.Forms sample to get up and running quickly with the MediaPlayerElement from LibVLCSharp.Forms. [Blog post](https://mfkl.github.io/libvlc/crossplatform/xamarin/forms/2019/08/13/MediaPlayerElement-Plug-and-play-LibVLCSharp-UI-video-control.html)
