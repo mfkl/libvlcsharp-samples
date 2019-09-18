@@ -9,7 +9,7 @@ Core::Initialize();
 
 $libVLC = new LibVLC();
 $mediaPlayer = new MediaPlayer($libVLC);
-$media = new Media($libVLC, "https://download.blender.org/peach/bigbuckbunny_movies/BigBuckBunny_320x180.mp4", 1);
+$media = new Media($libVLC, "http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ElephantsDream.mp4", 1);
 
 $mediaPlayer->Play($media);
 
