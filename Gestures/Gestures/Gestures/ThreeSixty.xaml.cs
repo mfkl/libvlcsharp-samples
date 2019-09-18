@@ -25,14 +25,8 @@ namespace Gestures
 
             _libVLC = new LibVLC();
             _media = new Media(_libVLC, "https://streams.videolan.org/streams/360/eagle_360.mp4", FromType.FromLocation);
-            if (Device.RuntimePlatform == Device.Android)
-            {
-                var mc = new MediaConfiguration();
-                mc.EnableHardwareDecoding();
-                _media.AddOption(mc);
-            }
+            _mediaPlayer = new MediaPlayer(_media) { EnableHardwareDecoding = true };
 
-            _mediaPlayer = new MediaPlayer(_media);
             videoView.MediaPlayer = _mediaPlayer;
             videoView.MediaPlayer.Play();            
         }
