@@ -1,4 +1,4 @@
-# LibVLCSharp Preview thumbnail extractor sample
+# LibVLCSharp Preview thumbnail extractor sample with SkiaSharp
 
 ## Purpose
 
@@ -15,4 +15,4 @@ This sample is made with the current features of libvlc 3.
 The feature we are using here is likely to change in libvlc 4, and this sample will need to be updated or rewritten.
 
 ## See also
-This is in fact the same project as [the project using SkiaSharp](https://code.videolan.org/mfkl/libvlcsharp-samples/tree/master/PreviewThumbnailExtractor.Skia)
+This is in fact the same project as [the project using ImageSharp](https://code.videolan.org/mfkl/libvlcsharp-samples/tree/master/PreviewThumbnailExtractor)
