@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 15
-VisualStudioVersion = 15.0.28010.2041
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29424.173
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RecordHLS", "RecordHLS\RecordHLS.csproj", "{FDE3B398-7CC4-4DE0-87D4-109A3AC77B65}"
 EndProject
@@ -59,7 +59,9 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MediaElement.Android", "Med
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MediaElement.iOS", "MediaElement\MediaElement.iOS\MediaElement.iOS.csproj", "{8591459C-4666-4301-93B2-8ED3B7030C9E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MediaElement", "MediaElement\MediaElement\MediaElement.csproj", "{345C2F11-83D1-40F6-B700-34E382DF324A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MediaElement", "MediaElement\MediaElement\MediaElement.csproj", "{345C2F11-83D1-40F6-B700-34E382DF324A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LibVLCSharp.GrabFrames", "LibVLCSharp.GrabFrames\LibVLCSharp.GrabFrames.csproj", "{2F30E4AD-2D1B-47DE-9227-69EAA900C015}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -1021,6 +1023,38 @@ Global
 		{345C2F11-83D1-40F6-B700-34E382DF324A}.Release|iPhoneSimulator.Build.0 = Release|Any CPU
 		{345C2F11-83D1-40F6-B700-34E382DF324A}.Release|x64.ActiveCfg = Release|Any CPU
 		{345C2F11-83D1-40F6-B700-34E382DF324A}.Release|x64.Build.0 = Release|Any CPU
+		{2F30E4AD-2D1B-47DE-9227-69EAA900C015}.Ad-Hoc|Any CPU.ActiveCfg = Debug|Any CPU
+		{2F30E4AD-2D1B-47DE-9227-69EAA900C015}.Ad-Hoc|Any CPU.Build.0 = Debug|Any CPU
+		{2F30E4AD-2D1B-47DE-9227-69EAA900C015}.Ad-Hoc|iPhone.ActiveCfg = Debug|Any CPU
+		{2F30E4AD-2D1B-47DE-9227-69EAA900C015}.Ad-Hoc|iPhone.Build.0 = Debug|Any CPU
+		{2F30E4AD-2D1B-47DE-9227-69EAA900C015}.Ad-Hoc|iPhoneSimulator.ActiveCfg = Debug|Any CPU
+		{2F30E4AD-2D1B-47DE-9227-69EAA900C015}.Ad-Hoc|iPhoneSimulator.Build.0 = Debug|Any CPU
+		{2F30E4AD-2D1B-47DE-9227-69EAA900C015}.Ad-Hoc|x64.ActiveCfg = Debug|Any CPU
+		{2F30E4AD-2D1B-47DE-9227-69EAA900C015}.Ad-Hoc|x64.Build.0 = Debug|Any CPU
+		{2F30E4AD-2D1B-47DE-9227-69EAA900C015}.AppStore|Any CPU.ActiveCfg = Debug|Any CPU
+		{2F30E4AD-2D1B-47DE-9227-69EAA900C015}.AppStore|Any CPU.Build.0 = Debug|Any CPU
+		{2F30E4AD-2D1B-47DE-9227-69EAA900C015}.AppStore|iPhone.ActiveCfg = Debug|Any CPU
+		{2F30E4AD-2D1B-47DE-9227-69EAA900C015}.AppStore|iPhone.Build.0 = Debug|Any CPU
+		{2F30E4AD-2D1B-47DE-9227-69EAA900C015}.AppStore|iPhoneSimulator.ActiveCfg = Debug|Any CPU
+		{2F30E4AD-2D1B-47DE-9227-69EAA900C015}.AppStore|iPhoneSimulator.Build.0 = Debug|Any CPU
+		{2F30E4AD-2D1B-47DE-9227-69EAA900C015}.AppStore|x64.ActiveCfg = Debug|Any CPU
+		{2F30E4AD-2D1B-47DE-9227-69EAA900C015}.AppStore|x64.Build.0 = Debug|Any CPU
+		{2F30E4AD-2D1B-47DE-9227-69EAA900C015}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2F30E4AD-2D1B-47DE-9227-69EAA900C015}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2F30E4AD-2D1B-47DE-9227-69EAA900C015}.Debug|iPhone.ActiveCfg = Debug|Any CPU
+		{2F30E4AD-2D1B-47DE-9227-69EAA900C015}.Debug|iPhone.Build.0 = Debug|Any CPU
+		{2F30E4AD-2D1B-47DE-9227-69EAA900C015}.Debug|iPhoneSimulator.ActiveCfg = Debug|Any CPU
+		{2F30E4AD-2D1B-47DE-9227-69EAA900C015}.Debug|iPhoneSimulator.Build.0 = Debug|Any CPU
+		{2F30E4AD-2D1B-47DE-9227-69EAA900C015}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{2F30E4AD-2D1B-47DE-9227-69EAA900C015}.Debug|x64.Build.0 = Debug|Any CPU
+		{2F30E4AD-2D1B-47DE-9227-69EAA900C015}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2F30E4AD-2D1B-47DE-9227-69EAA900C015}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2F30E4AD-2D1B-47DE-9227-69EAA900C015}.Release|iPhone.ActiveCfg = Release|Any CPU
+		{2F30E4AD-2D1B-47DE-9227-69EAA900C015}.Release|iPhone.Build.0 = Release|Any CPU
+		{2F30E4AD-2D1B-47DE-9227-69EAA900C015}.Release|iPhoneSimulator.ActiveCfg = Release|Any CPU
+		{2F30E4AD-2D1B-47DE-9227-69EAA900C015}.Release|iPhoneSimulator.Build.0 = Release|Any CPU
+		{2F30E4AD-2D1B-47DE-9227-69EAA900C015}.Release|x64.ActiveCfg = Release|Any CPU
+		{2F30E4AD-2D1B-47DE-9227-69EAA900C015}.Release|x64.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
