@@ -42,3 +42,7 @@ Xamarin.Forms sample showcasing local network browsing and playback of network s
 ## [MediaPlayerElement](https://code.videolan.org/mfkl/libvlcsharp-samples/tree/master/MediaElement)
 
 Minimal Xamarin.Forms sample to get up and running quickly with the MediaPlayerElement from LibVLCSharp.Forms. [Blog post](https://mfkl.github.io/libvlc/crossplatform/xamarin/forms/2019/08/13/MediaPlayerElement-Plug-and-play-LibVLCSharp-UI-video-control.html)
+
+## [Preview Thumbnailer](https://code.videolan.org/mfkl/libvlcsharp-samples/tree/master/PreviewThumbnailExtractor)
+
+.NET Core crossplatform sample showing how to use the LibVLC 3 video callbacks API to extract frames and save them to disk with ImageSharp.
