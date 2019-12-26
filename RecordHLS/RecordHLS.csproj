@@ -6,7 +6,7 @@
     <CopyLocalLockFileAssemblies>true</CopyLocalLockFileAssemblies>
   </PropertyGroup>  
   <ItemGroup>
-    <PackageReference Include="LibVLCSharp" Version="3.2.1" />
+    <PackageReference Include="LibVLCSharp" Version="3.4.1" />
     <PackageReference Include="VideoLAN.LibVLC.Windows" Version="3.0.8" />
    </ItemGroup>
 </Project>
