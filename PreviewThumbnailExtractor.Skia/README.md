@@ -12,7 +12,7 @@ Attempting to do long operations there or setting the FPS to a high value would 
 If you really need each frame, this is probably not the right way to do so.
 
 This sample is made with the current features of libvlc 3.
-The feature we are using here is likely to change in libvlc 4, and this sample will need to be updated or rewritten.
+In libvlc 4, an additional APIs will be available to achieve this goal, with much better performance.
 
 ## See also
 This is in fact the same project as [the project using ImageSharp](https://code.videolan.org/mfkl/libvlcsharp-samples/tree/master/PreviewThumbnailExtractor)
