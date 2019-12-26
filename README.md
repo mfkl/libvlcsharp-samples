@@ -45,4 +45,4 @@ Minimal Xamarin.Forms sample to get up and running quickly with the MediaPlayerE
 
 ## [Preview Thumbnailer](https://code.videolan.org/mfkl/libvlcsharp-samples/tree/master/PreviewThumbnailExtractor)
 
-.NET Core crossplatform sample showing how to use the LibVLC 3 video callbacks API to extract frames and save them to disk with ImageSharp.
+.NET Core crossplatform sample showing how to use the LibVLC 3 video callbacks API to extract frames and save them to disk with ImageSharp or Skia.
