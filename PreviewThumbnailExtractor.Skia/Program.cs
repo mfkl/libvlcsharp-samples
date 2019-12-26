@@ -1,17 +1,14 @@
 ﻿using LibVLCSharp.Shared;
-using SixLabors.ImageSharp;
-using SixLabors.ImageSharp.Advanced;
-using SixLabors.ImageSharp.Processing;
+using SkiaSharp;
 using System;
 using System.Collections.Concurrent;
 using System.IO;
-using System.IO.MemoryMappedFiles;
 using System.Reflection;
 using System.Runtime.InteropServices;
 using System.Threading;
 using System.Threading.Tasks;
 
-namespace PreviewThumbnailExtractor
+namespace PreviewThumbnailExtractor.Skia
 {
     class Program
     {
@@ -51,9 +48,8 @@ namespace PreviewThumbnailExtractor
             }
         }
 
-        private static MemoryMappedFile CurrentMappedFile;
-        private static MemoryMappedViewAccessor CurrentMappedViewAccessor;
-        private static readonly ConcurrentQueue<(MemoryMappedFile file, MemoryMappedViewAccessor accessor)> FilesToProcess = new ConcurrentQueue<(MemoryMappedFile file, MemoryMappedViewAccessor accessor)>();
+        private static SKBitmap CurrentBitmap;
+        private static readonly ConcurrentQueue<SKBitmap> FilesToProcess = new ConcurrentQueue<SKBitmap>();
         private static long FrameCounter = 0;
         static async Task Main(string[] args)
         {
@@ -99,25 +95,24 @@ namespace PreviewThumbnailExtractor
         private static async Task ProcessThumbnailsAsync(string destination, CancellationToken token)
         {
             var frameNumber = 0;
+            var surface = SKSurface.Create(new SKImageInfo((int) Width, (int) Height));
+            var canvas = surface.Canvas;
             while (!token.IsCancellationRequested)
             {
-                if (FilesToProcess.TryDequeue(out var file))
+                if (FilesToProcess.TryDequeue(out var bitmap))
                 {
-                    using (var image = new Image<SixLabors.ImageSharp.PixelFormats.Bgra32>((int)(Pitch / BytePerPixel), (int)Lines))
-                    using (var sourceStream = file.file.CreateViewStream())
-                    {
-                        sourceStream.Read(MemoryMarshal.AsBytes(image.GetPixelSpan()));
+                    canvas.DrawBitmap(bitmap, 0, 0); // Effectively crops the original bitmap to get only the visible area
 
-                        Console.WriteLine($"Writing {frameNumber:0000}.jpg");
-                        var fileName = Path.Combine(destination, $"{frameNumber:0000}.jpg");
-                        using (var outputFile = File.Open(fileName, FileMode.Create))
-                        {
-                            image.Mutate(ctx => ctx.Crop((int)Width, (int)Height));
-                            image.SaveAsJpeg(outputFile);
-                        }
+                    Console.WriteLine($"Writing {frameNumber:0000}.jpg");
+                    var fileName = Path.Combine(destination, $"{frameNumber:0000}.jpg");
+                    using (var outputImage = surface.Snapshot())
+                    using (var data = outputImage.Encode(SKEncodedImageFormat.Jpeg, 50))
+                    using (var outputFile = File.Open(fileName, FileMode.Create))
+                    {
+                        data.SaveTo(outputFile);
+                        bitmap.Dispose();
                     }
-                    file.accessor.Dispose();
-                    file.file.Dispose();
+
                     frameNumber++;
                 }
                 else
@@ -129,26 +124,22 @@ namespace PreviewThumbnailExtractor
 
         private static IntPtr Lock(IntPtr opaque, IntPtr planes)
         {
-            CurrentMappedFile = MemoryMappedFile.CreateNew(null, Pitch * Lines);
-            CurrentMappedViewAccessor = CurrentMappedFile.CreateViewAccessor();
-            Marshal.WriteIntPtr(planes, CurrentMappedViewAccessor.SafeMemoryMappedViewHandle.DangerousGetHandle());
+            CurrentBitmap = new SKBitmap(new SKImageInfo((int)(Pitch / BytePerPixel), (int)Lines, SKColorType.Bgra8888));
+            Marshal.WriteIntPtr(planes, CurrentBitmap.GetPixels());
             return IntPtr.Zero;
         }
 
         private static void Display(IntPtr opaque, IntPtr picture)
         {
-            if(FrameCounter % 100 == 0)
+            if (FrameCounter % 100 == 0)
             {
-                FilesToProcess.Enqueue((CurrentMappedFile, CurrentMappedViewAccessor));
-                CurrentMappedFile = null;
-                CurrentMappedViewAccessor = null;
+                FilesToProcess.Enqueue(CurrentBitmap);
+                CurrentBitmap = null;
             }
             else
             {
-                CurrentMappedViewAccessor.Dispose();
-                CurrentMappedFile.Dispose();
-                CurrentMappedFile = null;
-                CurrentMappedViewAccessor = null;
+                CurrentBitmap.Dispose();
+                CurrentBitmap = null;
             }
             FrameCounter++;
         }
