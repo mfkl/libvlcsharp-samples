@@ -11,6 +11,6 @@
 
   <ItemGroup>
     <PackageReference Include="LibVLCSharp.Forms" Version="3.4.1" />
-    <PackageReference Include="Xamarin.Forms" Version="4.2.0.778463" />  
+    <PackageReference Include="Xamarin.Forms" Version="4.3.0.991211" />  
   </ItemGroup>
 </Project>
