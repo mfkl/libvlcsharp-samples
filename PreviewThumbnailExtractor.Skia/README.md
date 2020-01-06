@@ -16,3 +16,8 @@ In libvlc 4, an additional APIs will be available to achieve this goal, with muc
 
 ## See also
 This is in fact the same project as [the project using ImageSharp](https://code.videolan.org/mfkl/libvlcsharp-samples/tree/master/PreviewThumbnailExtractor)
+
+<h3 align="center">
+    <img src="/PreviewThumbnailExtractor.Skia/skia-thumbnailer.PNG"/>
+    <img src="/PreviewThumbnailExtractor.Skia/skia-thumbnailer2.PNG"/>
+</h3>
