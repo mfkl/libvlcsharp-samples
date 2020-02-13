@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
-  <Import Project="..\..\packages\Xamarin.Forms.4.2.0.778463\build\Xamarin.Forms.props" Condition="Exists('..\..\packages\Xamarin.Forms.4.2.0.778463\build\Xamarin.Forms.props')" />
+  <Import Project="..\..\packages\Xamarin.Forms.4.4.0.991640\build\Xamarin.Forms.props" Condition="Exists('..\..\packages\Xamarin.Forms.4.4.0.991640\build\Xamarin.Forms.props')" />
   <Import Project="..\packages\Xamarin.Forms.3.4.0.1008975\build\Xamarin.Forms.props" Condition="Exists('..\packages\Xamarin.Forms.3.4.0.1008975\build\Xamarin.Forms.props')" />
   <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
   <PropertyGroup>
@@ -39,17 +39,17 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
-    <Reference Include="LibVLCSharp, Version=3.2.1.0, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>..\..\packages\LibVLCSharp.3.2.1\lib\net40\LibVLCSharp.dll</HintPath>
+    <Reference Include="LibVLCSharp, Version=3.4.2.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\..\packages\LibVLCSharp.3.4.2\lib\net40\LibVLCSharp.dll</HintPath>
     </Reference>
-    <Reference Include="LibVLCSharp.Forms, Version=3.2.1.0, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>..\..\packages\LibVLCSharp.Forms.3.2.1\lib\netstandard2.0\LibVLCSharp.Forms.dll</HintPath>
+    <Reference Include="LibVLCSharp.Forms, Version=3.4.2.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\..\packages\LibVLCSharp.Forms.3.4.2\lib\netstandard2.0\LibVLCSharp.Forms.dll</HintPath>
     </Reference>
-    <Reference Include="LibVLCSharp.Forms.Platforms.WPF, Version=3.2.1.0, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>..\..\packages\LibVLCSharp.Forms.WPF.3.2.1\lib\net47\LibVLCSharp.Forms.Platforms.WPF.dll</HintPath>
+    <Reference Include="LibVLCSharp.Forms.Platforms.WPF, Version=3.4.2.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\..\packages\LibVLCSharp.Forms.WPF.3.4.2\lib\net47\LibVLCSharp.Forms.Platforms.WPF.dll</HintPath>
     </Reference>
-    <Reference Include="LibVLCSharp.WPF, Version=3.2.1.0, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>..\..\packages\LibVLCSharp.WPF.3.2.1\lib\net461\LibVLCSharp.WPF.dll</HintPath>
+    <Reference Include="LibVLCSharp.WPF, Version=3.4.2.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\..\packages\LibVLCSharp.WPF.3.4.2\lib\net461\LibVLCSharp.WPF.dll</HintPath>
     </Reference>
     <Reference Include="Microsoft.Threading.Tasks, Version=1.0.12.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
       <HintPath>..\..\packages\Microsoft.Bcl.Async.1.0.168\lib\net40\Microsoft.Threading.Tasks.dll</HintPath>
@@ -90,16 +90,16 @@
       <HintPath>..\..\packages\WpfLightToolkit.1.0.3\lib\net45\WpfLightToolkit.dll</HintPath>
     </Reference>
     <Reference Include="Xamarin.Forms.Core, Version=2.0.0.0, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>..\..\packages\Xamarin.Forms.4.2.0.778463\lib\netstandard2.0\Xamarin.Forms.Core.dll</HintPath>
+      <HintPath>..\..\packages\Xamarin.Forms.4.4.0.991640\lib\netstandard2.0\Xamarin.Forms.Core.dll</HintPath>
     </Reference>
     <Reference Include="Xamarin.Forms.Platform, Version=2.0.0.0, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>..\..\packages\Xamarin.Forms.4.2.0.778463\lib\netstandard2.0\Xamarin.Forms.Platform.dll</HintPath>
+      <HintPath>..\..\packages\Xamarin.Forms.4.4.0.991640\lib\netstandard2.0\Xamarin.Forms.Platform.dll</HintPath>
     </Reference>
     <Reference Include="Xamarin.Forms.Platform.WPF, Version=2.0.0.0, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>..\..\packages\Xamarin.Forms.Platform.WPF.4.2.0.778463\lib\net45\Xamarin.Forms.Platform.WPF.dll</HintPath>
+      <HintPath>..\..\packages\Xamarin.Forms.Platform.WPF.4.4.0.991640\lib\net45\Xamarin.Forms.Platform.WPF.dll</HintPath>
     </Reference>
     <Reference Include="Xamarin.Forms.Xaml, Version=2.0.0.0, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>..\..\packages\Xamarin.Forms.4.2.0.778463\lib\netstandard2.0\Xamarin.Forms.Xaml.dll</HintPath>
+      <HintPath>..\..\packages\Xamarin.Forms.4.4.0.991640\lib\netstandard2.0\Xamarin.Forms.Xaml.dll</HintPath>
     </Reference>
   </ItemGroup>
   <ItemGroup>
@@ -160,11 +160,11 @@
       <ErrorText>This project references NuGet package(s) that are missing on this computer. Use NuGet Package Restore to download them.  For more information, see http://go.microsoft.com/fwlink/?LinkID=322105. The missing file is {0}.</ErrorText>
     </PropertyGroup>
     <Error Condition="!Exists('..\..\packages\Microsoft.Bcl.Build.1.0.21\build\Microsoft.Bcl.Build.targets')" Text="$([System.String]::Format('$(ErrorText)', '..\..\packages\Microsoft.Bcl.Build.1.0.21\build\Microsoft.Bcl.Build.targets'))" />
-    <Error Condition="!Exists('..\..\packages\VideoLAN.LibVLC.Windows.3.0.8\build\VideoLAN.LibVLC.Windows.targets')" Text="$([System.String]::Format('$(ErrorText)', '..\..\packages\VideoLAN.LibVLC.Windows.3.0.8\build\VideoLAN.LibVLC.Windows.targets'))" />
-    <Error Condition="!Exists('..\..\packages\Xamarin.Forms.4.2.0.778463\build\Xamarin.Forms.props')" Text="$([System.String]::Format('$(ErrorText)', '..\..\packages\Xamarin.Forms.4.2.0.778463\build\Xamarin.Forms.props'))" />
-    <Error Condition="!Exists('..\..\packages\Xamarin.Forms.4.2.0.778463\build\Xamarin.Forms.targets')" Text="$([System.String]::Format('$(ErrorText)', '..\..\packages\Xamarin.Forms.4.2.0.778463\build\Xamarin.Forms.targets'))" />
+    <Error Condition="!Exists('..\..\packages\VideoLAN.LibVLC.Windows.3.0.8.1\build\VideoLAN.LibVLC.Windows.targets')" Text="$([System.String]::Format('$(ErrorText)', '..\..\packages\VideoLAN.LibVLC.Windows.3.0.8.1\build\VideoLAN.LibVLC.Windows.targets'))" />
+    <Error Condition="!Exists('..\..\packages\Xamarin.Forms.4.4.0.991640\build\Xamarin.Forms.props')" Text="$([System.String]::Format('$(ErrorText)', '..\..\packages\Xamarin.Forms.4.4.0.991640\build\Xamarin.Forms.props'))" />
+    <Error Condition="!Exists('..\..\packages\Xamarin.Forms.4.4.0.991640\build\Xamarin.Forms.targets')" Text="$([System.String]::Format('$(ErrorText)', '..\..\packages\Xamarin.Forms.4.4.0.991640\build\Xamarin.Forms.targets'))" />
   </Target>
   <Import Project="..\..\packages\Microsoft.Bcl.Build.1.0.21\build\Microsoft.Bcl.Build.targets" Condition="Exists('..\..\packages\Microsoft.Bcl.Build.1.0.21\build\Microsoft.Bcl.Build.targets')" />
-  <Import Project="..\..\packages\VideoLAN.LibVLC.Windows.3.0.8\build\VideoLAN.LibVLC.Windows.targets" Condition="Exists('..\..\packages\VideoLAN.LibVLC.Windows.3.0.8\build\VideoLAN.LibVLC.Windows.targets')" />
-  <Import Project="..\..\packages\Xamarin.Forms.4.2.0.778463\build\Xamarin.Forms.targets" Condition="Exists('..\..\packages\Xamarin.Forms.4.2.0.778463\build\Xamarin.Forms.targets')" />
+  <Import Project="..\..\packages\VideoLAN.LibVLC.Windows.3.0.8.1\build\VideoLAN.LibVLC.Windows.targets" Condition="Exists('..\..\packages\VideoLAN.LibVLC.Windows.3.0.8.1\build\VideoLAN.LibVLC.Windows.targets')" />
+  <Import Project="..\..\packages\Xamarin.Forms.4.4.0.991640\build\Xamarin.Forms.targets" Condition="Exists('..\..\packages\Xamarin.Forms.4.4.0.991640\build\Xamarin.Forms.targets')" />
 </Project>

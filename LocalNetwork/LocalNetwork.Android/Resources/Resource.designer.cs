@@ -26,6 +26,2266 @@ namespace LocalNetwork.Droid
 		
 		public static void UpdateIdValues()
 		{
+			global::LibVLCSharp.Resource.String.app_name = global::LocalNetwork.Droid.Resource.String.app_name;
+			global::LibVLCSharp.Forms.Resource.Animation.abc_fade_in = global::LocalNetwork.Droid.Resource.Animation.abc_fade_in;
+			global::LibVLCSharp.Forms.Resource.Animation.abc_fade_out = global::LocalNetwork.Droid.Resource.Animation.abc_fade_out;
+			global::LibVLCSharp.Forms.Resource.Animation.abc_grow_fade_in_from_bottom = global::LocalNetwork.Droid.Resource.Animation.abc_grow_fade_in_from_bottom;
+			global::LibVLCSharp.Forms.Resource.Animation.abc_popup_enter = global::LocalNetwork.Droid.Resource.Animation.abc_popup_enter;
+			global::LibVLCSharp.Forms.Resource.Animation.abc_popup_exit = global::LocalNetwork.Droid.Resource.Animation.abc_popup_exit;
+			global::LibVLCSharp.Forms.Resource.Animation.abc_shrink_fade_out_from_bottom = global::LocalNetwork.Droid.Resource.Animation.abc_shrink_fade_out_from_bottom;
+			global::LibVLCSharp.Forms.Resource.Animation.abc_slide_in_bottom = global::LocalNetwork.Droid.Resource.Animation.abc_slide_in_bottom;
+			global::LibVLCSharp.Forms.Resource.Animation.abc_slide_in_top = global::LocalNetwork.Droid.Resource.Animation.abc_slide_in_top;
+			global::LibVLCSharp.Forms.Resource.Animation.abc_slide_out_bottom = global::LocalNetwork.Droid.Resource.Animation.abc_slide_out_bottom;
+			global::LibVLCSharp.Forms.Resource.Animation.abc_slide_out_top = global::LocalNetwork.Droid.Resource.Animation.abc_slide_out_top;
+			global::LibVLCSharp.Forms.Resource.Animation.design_bottom_sheet_slide_in = global::LocalNetwork.Droid.Resource.Animation.design_bottom_sheet_slide_in;
+			global::LibVLCSharp.Forms.Resource.Animation.design_bottom_sheet_slide_out = global::LocalNetwork.Droid.Resource.Animation.design_bottom_sheet_slide_out;
+			global::LibVLCSharp.Forms.Resource.Animation.design_snackbar_in = global::LocalNetwork.Droid.Resource.Animation.design_snackbar_in;
+			global::LibVLCSharp.Forms.Resource.Animation.design_snackbar_out = global::LocalNetwork.Droid.Resource.Animation.design_snackbar_out;
+			global::LibVLCSharp.Forms.Resource.Animation.tooltip_enter = global::LocalNetwork.Droid.Resource.Animation.tooltip_enter;
+			global::LibVLCSharp.Forms.Resource.Animation.tooltip_exit = global::LocalNetwork.Droid.Resource.Animation.tooltip_exit;
+			global::LibVLCSharp.Forms.Resource.Animator.design_appbar_state_list_animator = global::LocalNetwork.Droid.Resource.Animator.design_appbar_state_list_animator;
+			global::LibVLCSharp.Forms.Resource.Attribute.actionBarDivider = global::LocalNetwork.Droid.Resource.Attribute.actionBarDivider;
+			global::LibVLCSharp.Forms.Resource.Attribute.actionBarItemBackground = global::LocalNetwork.Droid.Resource.Attribute.actionBarItemBackground;
+			global::LibVLCSharp.Forms.Resource.Attribute.actionBarPopupTheme = global::LocalNetwork.Droid.Resource.Attribute.actionBarPopupTheme;
+			global::LibVLCSharp.Forms.Resource.Attribute.actionBarSize = global::LocalNetwork.Droid.Resource.Attribute.actionBarSize;
+			global::LibVLCSharp.Forms.Resource.Attribute.actionBarSplitStyle = global::LocalNetwork.Droid.Resource.Attribute.actionBarSplitStyle;
+			global::LibVLCSharp.Forms.Resource.Attribute.actionBarStyle = global::LocalNetwork.Droid.Resource.Attribute.actionBarStyle;
+			global::LibVLCSharp.Forms.Resource.Attribute.actionBarTabBarStyle = global::LocalNetwork.Droid.Resource.Attribute.actionBarTabBarStyle;
+			global::LibVLCSharp.Forms.Resource.Attribute.actionBarTabStyle = global::LocalNetwork.Droid.Resource.Attribute.actionBarTabStyle;
+			global::LibVLCSharp.Forms.Resource.Attribute.actionBarTabTextStyle = global::LocalNetwork.Droid.Resource.Attribute.actionBarTabTextStyle;
+			global::LibVLCSharp.Forms.Resource.Attribute.actionBarTheme = global::LocalNetwork.Droid.Resource.Attribute.actionBarTheme;
+			global::LibVLCSharp.Forms.Resource.Attribute.actionBarWidgetTheme = global::LocalNetwork.Droid.Resource.Attribute.actionBarWidgetTheme;
+			global::LibVLCSharp.Forms.Resource.Attribute.actionButtonStyle = global::LocalNetwork.Droid.Resource.Attribute.actionButtonStyle;
+			global::LibVLCSharp.Forms.Resource.Attribute.actionDropDownStyle = global::LocalNetwork.Droid.Resource.Attribute.actionDropDownStyle;
+			global::LibVLCSharp.Forms.Resource.Attribute.actionLayout = global::LocalNetwork.Droid.Resource.Attribute.actionLayout;
+			global::LibVLCSharp.Forms.Resource.Attribute.actionMenuTextAppearance = global::LocalNetwork.Droid.Resource.Attribute.actionMenuTextAppearance;
+			global::LibVLCSharp.Forms.Resource.Attribute.actionMenuTextColor = global::LocalNetwork.Droid.Resource.Attribute.actionMenuTextColor;
+			global::LibVLCSharp.Forms.Resource.Attribute.actionModeBackground = global::LocalNetwork.Droid.Resource.Attribute.actionModeBackground;
+			global::LibVLCSharp.Forms.Resource.Attribute.actionModeCloseButtonStyle = global::LocalNetwork.Droid.Resource.Attribute.actionModeCloseButtonStyle;
+			global::LibVLCSharp.Forms.Resource.Attribute.actionModeCloseDrawable = global::LocalNetwork.Droid.Resource.Attribute.actionModeCloseDrawable;
+			global::LibVLCSharp.Forms.Resource.Attribute.actionModeCopyDrawable = global::LocalNetwork.Droid.Resource.Attribute.actionModeCopyDrawable;
+			global::LibVLCSharp.Forms.Resource.Attribute.actionModeCutDrawable = global::LocalNetwork.Droid.Resource.Attribute.actionModeCutDrawable;
+			global::LibVLCSharp.Forms.Resource.Attribute.actionModeFindDrawable = global::LocalNetwork.Droid.Resource.Attribute.actionModeFindDrawable;
+			global::LibVLCSharp.Forms.Resource.Attribute.actionModePasteDrawable = global::LocalNetwork.Droid.Resource.Attribute.actionModePasteDrawable;
+			global::LibVLCSharp.Forms.Resource.Attribute.actionModePopupWindowStyle = global::LocalNetwork.Droid.Resource.Attribute.actionModePopupWindowStyle;
+			global::LibVLCSharp.Forms.Resource.Attribute.actionModeSelectAllDrawable = global::LocalNetwork.Droid.Resource.Attribute.actionModeSelectAllDrawable;
+			global::LibVLCSharp.Forms.Resource.Attribute.actionModeShareDrawable = global::LocalNetwork.Droid.Resource.Attribute.actionModeShareDrawable;
+			global::LibVLCSharp.Forms.Resource.Attribute.actionModeSplitBackground = global::LocalNetwork.Droid.Resource.Attribute.actionModeSplitBackground;
+			global::LibVLCSharp.Forms.Resource.Attribute.actionModeStyle = global::LocalNetwork.Droid.Resource.Attribute.actionModeStyle;
+			global::LibVLCSharp.Forms.Resource.Attribute.actionModeWebSearchDrawable = global::LocalNetwork.Droid.Resource.Attribute.actionModeWebSearchDrawable;
+			global::LibVLCSharp.Forms.Resource.Attribute.actionOverflowButtonStyle = global::LocalNetwork.Droid.Resource.Attribute.actionOverflowButtonStyle;
+			global::LibVLCSharp.Forms.Resource.Attribute.actionOverflowMenuStyle = global::LocalNetwork.Droid.Resource.Attribute.actionOverflowMenuStyle;
+			global::LibVLCSharp.Forms.Resource.Attribute.actionProviderClass = global::LocalNetwork.Droid.Resource.Attribute.actionProviderClass;
+			global::LibVLCSharp.Forms.Resource.Attribute.actionViewClass = global::LocalNetwork.Droid.Resource.Attribute.actionViewClass;
+			global::LibVLCSharp.Forms.Resource.Attribute.activityChooserViewStyle = global::LocalNetwork.Droid.Resource.Attribute.activityChooserViewStyle;
+			global::LibVLCSharp.Forms.Resource.Attribute.alertDialogButtonGroupStyle = global::LocalNetwork.Droid.Resource.Attribute.alertDialogButtonGroupStyle;
+			global::LibVLCSharp.Forms.Resource.Attribute.alertDialogCenterButtons = global::LocalNetwork.Droid.Resource.Attribute.alertDialogCenterButtons;
+			global::LibVLCSharp.Forms.Resource.Attribute.alertDialogStyle = global::LocalNetwork.Droid.Resource.Attribute.alertDialogStyle;
+			global::LibVLCSharp.Forms.Resource.Attribute.alertDialogTheme = global::LocalNetwork.Droid.Resource.Attribute.alertDialogTheme;
+			global::LibVLCSharp.Forms.Resource.Attribute.allowStacking = global::LocalNetwork.Droid.Resource.Attribute.allowStacking;
+			global::LibVLCSharp.Forms.Resource.Attribute.alpha = global::LocalNetwork.Droid.Resource.Attribute.alpha;
+			global::LibVLCSharp.Forms.Resource.Attribute.alphabeticModifiers = global::LocalNetwork.Droid.Resource.Attribute.alphabeticModifiers;
+			global::LibVLCSharp.Forms.Resource.Attribute.arrowHeadLength = global::LocalNetwork.Droid.Resource.Attribute.arrowHeadLength;
+			global::LibVLCSharp.Forms.Resource.Attribute.arrowShaftLength = global::LocalNetwork.Droid.Resource.Attribute.arrowShaftLength;
+			global::LibVLCSharp.Forms.Resource.Attribute.autoCompleteTextViewStyle = global::LocalNetwork.Droid.Resource.Attribute.autoCompleteTextViewStyle;
+			global::LibVLCSharp.Forms.Resource.Attribute.autoSizeMaxTextSize = global::LocalNetwork.Droid.Resource.Attribute.autoSizeMaxTextSize;
+			global::LibVLCSharp.Forms.Resource.Attribute.autoSizeMinTextSize = global::LocalNetwork.Droid.Resource.Attribute.autoSizeMinTextSize;
+			global::LibVLCSharp.Forms.Resource.Attribute.autoSizePresetSizes = global::LocalNetwork.Droid.Resource.Attribute.autoSizePresetSizes;
+			global::LibVLCSharp.Forms.Resource.Attribute.autoSizeStepGranularity = global::LocalNetwork.Droid.Resource.Attribute.autoSizeStepGranularity;
+			global::LibVLCSharp.Forms.Resource.Attribute.autoSizeTextType = global::LocalNetwork.Droid.Resource.Attribute.autoSizeTextType;
+			global::LibVLCSharp.Forms.Resource.Attribute.background = global::LocalNetwork.Droid.Resource.Attribute.background;
+			global::LibVLCSharp.Forms.Resource.Attribute.backgroundSplit = global::LocalNetwork.Droid.Resource.Attribute.backgroundSplit;
+			global::LibVLCSharp.Forms.Resource.Attribute.backgroundStacked = global::LocalNetwork.Droid.Resource.Attribute.backgroundStacked;
+			global::LibVLCSharp.Forms.Resource.Attribute.backgroundTint = global::LocalNetwork.Droid.Resource.Attribute.backgroundTint;
+			global::LibVLCSharp.Forms.Resource.Attribute.backgroundTintMode = global::LocalNetwork.Droid.Resource.Attribute.backgroundTintMode;
+			global::LibVLCSharp.Forms.Resource.Attribute.barLength = global::LocalNetwork.Droid.Resource.Attribute.barLength;
+			global::LibVLCSharp.Forms.Resource.Attribute.behavior_autoHide = global::LocalNetwork.Droid.Resource.Attribute.behavior_autoHide;
+			global::LibVLCSharp.Forms.Resource.Attribute.behavior_hideable = global::LocalNetwork.Droid.Resource.Attribute.behavior_hideable;
+			global::LibVLCSharp.Forms.Resource.Attribute.behavior_overlapTop = global::LocalNetwork.Droid.Resource.Attribute.behavior_overlapTop;
+			global::LibVLCSharp.Forms.Resource.Attribute.behavior_peekHeight = global::LocalNetwork.Droid.Resource.Attribute.behavior_peekHeight;
+			global::LibVLCSharp.Forms.Resource.Attribute.behavior_skipCollapsed = global::LocalNetwork.Droid.Resource.Attribute.behavior_skipCollapsed;
+			global::LibVLCSharp.Forms.Resource.Attribute.borderlessButtonStyle = global::LocalNetwork.Droid.Resource.Attribute.borderlessButtonStyle;
+			global::LibVLCSharp.Forms.Resource.Attribute.borderWidth = global::LocalNetwork.Droid.Resource.Attribute.borderWidth;
+			global::LibVLCSharp.Forms.Resource.Attribute.bottomSheetDialogTheme = global::LocalNetwork.Droid.Resource.Attribute.bottomSheetDialogTheme;
+			global::LibVLCSharp.Forms.Resource.Attribute.bottomSheetStyle = global::LocalNetwork.Droid.Resource.Attribute.bottomSheetStyle;
+			global::LibVLCSharp.Forms.Resource.Attribute.buttonBarButtonStyle = global::LocalNetwork.Droid.Resource.Attribute.buttonBarButtonStyle;
+			global::LibVLCSharp.Forms.Resource.Attribute.buttonBarNegativeButtonStyle = global::LocalNetwork.Droid.Resource.Attribute.buttonBarNegativeButtonStyle;
+			global::LibVLCSharp.Forms.Resource.Attribute.buttonBarNeutralButtonStyle = global::LocalNetwork.Droid.Resource.Attribute.buttonBarNeutralButtonStyle;
+			global::LibVLCSharp.Forms.Resource.Attribute.buttonBarPositiveButtonStyle = global::LocalNetwork.Droid.Resource.Attribute.buttonBarPositiveButtonStyle;
+			global::LibVLCSharp.Forms.Resource.Attribute.buttonBarStyle = global::LocalNetwork.Droid.Resource.Attribute.buttonBarStyle;
+			global::LibVLCSharp.Forms.Resource.Attribute.buttonGravity = global::LocalNetwork.Droid.Resource.Attribute.buttonGravity;
+			global::LibVLCSharp.Forms.Resource.Attribute.buttonPanelSideLayout = global::LocalNetwork.Droid.Resource.Attribute.buttonPanelSideLayout;
+			global::LibVLCSharp.Forms.Resource.Attribute.buttonStyle = global::LocalNetwork.Droid.Resource.Attribute.buttonStyle;
+			global::LibVLCSharp.Forms.Resource.Attribute.buttonStyleSmall = global::LocalNetwork.Droid.Resource.Attribute.buttonStyleSmall;
+			global::LibVLCSharp.Forms.Resource.Attribute.buttonTint = global::LocalNetwork.Droid.Resource.Attribute.buttonTint;
+			global::LibVLCSharp.Forms.Resource.Attribute.buttonTintMode = global::LocalNetwork.Droid.Resource.Attribute.buttonTintMode;
+			global::LibVLCSharp.Forms.Resource.Attribute.cardBackgroundColor = global::LocalNetwork.Droid.Resource.Attribute.cardBackgroundColor;
+			global::LibVLCSharp.Forms.Resource.Attribute.cardCornerRadius = global::LocalNetwork.Droid.Resource.Attribute.cardCornerRadius;
+			global::LibVLCSharp.Forms.Resource.Attribute.cardElevation = global::LocalNetwork.Droid.Resource.Attribute.cardElevation;
+			global::LibVLCSharp.Forms.Resource.Attribute.cardMaxElevation = global::LocalNetwork.Droid.Resource.Attribute.cardMaxElevation;
+			global::LibVLCSharp.Forms.Resource.Attribute.cardPreventCornerOverlap = global::LocalNetwork.Droid.Resource.Attribute.cardPreventCornerOverlap;
+			global::LibVLCSharp.Forms.Resource.Attribute.cardUseCompatPadding = global::LocalNetwork.Droid.Resource.Attribute.cardUseCompatPadding;
+			global::LibVLCSharp.Forms.Resource.Attribute.checkboxStyle = global::LocalNetwork.Droid.Resource.Attribute.checkboxStyle;
+			global::LibVLCSharp.Forms.Resource.Attribute.checkedTextViewStyle = global::LocalNetwork.Droid.Resource.Attribute.checkedTextViewStyle;
+			global::LibVLCSharp.Forms.Resource.Attribute.closeIcon = global::LocalNetwork.Droid.Resource.Attribute.closeIcon;
+			global::LibVLCSharp.Forms.Resource.Attribute.closeItemLayout = global::LocalNetwork.Droid.Resource.Attribute.closeItemLayout;
+			global::LibVLCSharp.Forms.Resource.Attribute.collapseContentDescription = global::LocalNetwork.Droid.Resource.Attribute.collapseContentDescription;
+			global::LibVLCSharp.Forms.Resource.Attribute.collapsedTitleGravity = global::LocalNetwork.Droid.Resource.Attribute.collapsedTitleGravity;
+			global::LibVLCSharp.Forms.Resource.Attribute.collapsedTitleTextAppearance = global::LocalNetwork.Droid.Resource.Attribute.collapsedTitleTextAppearance;
+			global::LibVLCSharp.Forms.Resource.Attribute.collapseIcon = global::LocalNetwork.Droid.Resource.Attribute.collapseIcon;
+			global::LibVLCSharp.Forms.Resource.Attribute.color = global::LocalNetwork.Droid.Resource.Attribute.color;
+			global::LibVLCSharp.Forms.Resource.Attribute.colorAccent = global::LocalNetwork.Droid.Resource.Attribute.colorAccent;
+			global::LibVLCSharp.Forms.Resource.Attribute.colorBackgroundFloating = global::LocalNetwork.Droid.Resource.Attribute.colorBackgroundFloating;
+			global::LibVLCSharp.Forms.Resource.Attribute.colorButtonNormal = global::LocalNetwork.Droid.Resource.Attribute.colorButtonNormal;
+			global::LibVLCSharp.Forms.Resource.Attribute.colorControlActivated = global::LocalNetwork.Droid.Resource.Attribute.colorControlActivated;
+			global::LibVLCSharp.Forms.Resource.Attribute.colorControlHighlight = global::LocalNetwork.Droid.Resource.Attribute.colorControlHighlight;
+			global::LibVLCSharp.Forms.Resource.Attribute.colorControlNormal = global::LocalNetwork.Droid.Resource.Attribute.colorControlNormal;
+			global::LibVLCSharp.Forms.Resource.Attribute.colorError = global::LocalNetwork.Droid.Resource.Attribute.colorError;
+			global::LibVLCSharp.Forms.Resource.Attribute.colorPrimary = global::LocalNetwork.Droid.Resource.Attribute.colorPrimary;
+			global::LibVLCSharp.Forms.Resource.Attribute.colorPrimaryDark = global::LocalNetwork.Droid.Resource.Attribute.colorPrimaryDark;
+			global::LibVLCSharp.Forms.Resource.Attribute.colorSwitchThumbNormal = global::LocalNetwork.Droid.Resource.Attribute.colorSwitchThumbNormal;
+			global::LibVLCSharp.Forms.Resource.Attribute.commitIcon = global::LocalNetwork.Droid.Resource.Attribute.commitIcon;
+			global::LibVLCSharp.Forms.Resource.Attribute.contentDescription = global::LocalNetwork.Droid.Resource.Attribute.contentDescription;
+			global::LibVLCSharp.Forms.Resource.Attribute.contentInsetEnd = global::LocalNetwork.Droid.Resource.Attribute.contentInsetEnd;
+			global::LibVLCSharp.Forms.Resource.Attribute.contentInsetEndWithActions = global::LocalNetwork.Droid.Resource.Attribute.contentInsetEndWithActions;
+			global::LibVLCSharp.Forms.Resource.Attribute.contentInsetLeft = global::LocalNetwork.Droid.Resource.Attribute.contentInsetLeft;
+			global::LibVLCSharp.Forms.Resource.Attribute.contentInsetRight = global::LocalNetwork.Droid.Resource.Attribute.contentInsetRight;
+			global::LibVLCSharp.Forms.Resource.Attribute.contentInsetStart = global::LocalNetwork.Droid.Resource.Attribute.contentInsetStart;
+			global::LibVLCSharp.Forms.Resource.Attribute.contentInsetStartWithNavigation = global::LocalNetwork.Droid.Resource.Attribute.contentInsetStartWithNavigation;
+			global::LibVLCSharp.Forms.Resource.Attribute.contentPadding = global::LocalNetwork.Droid.Resource.Attribute.contentPadding;
+			global::LibVLCSharp.Forms.Resource.Attribute.contentPaddingBottom = global::LocalNetwork.Droid.Resource.Attribute.contentPaddingBottom;
+			global::LibVLCSharp.Forms.Resource.Attribute.contentPaddingLeft = global::LocalNetwork.Droid.Resource.Attribute.contentPaddingLeft;
+			global::LibVLCSharp.Forms.Resource.Attribute.contentPaddingRight = global::LocalNetwork.Droid.Resource.Attribute.contentPaddingRight;
+			global::LibVLCSharp.Forms.Resource.Attribute.contentPaddingTop = global::LocalNetwork.Droid.Resource.Attribute.contentPaddingTop;
+			global::LibVLCSharp.Forms.Resource.Attribute.contentScrim = global::LocalNetwork.Droid.Resource.Attribute.contentScrim;
+			global::LibVLCSharp.Forms.Resource.Attribute.controlBackground = global::LocalNetwork.Droid.Resource.Attribute.controlBackground;
+			global::LibVLCSharp.Forms.Resource.Attribute.counterEnabled = global::LocalNetwork.Droid.Resource.Attribute.counterEnabled;
+			global::LibVLCSharp.Forms.Resource.Attribute.counterMaxLength = global::LocalNetwork.Droid.Resource.Attribute.counterMaxLength;
+			global::LibVLCSharp.Forms.Resource.Attribute.counterOverflowTextAppearance = global::LocalNetwork.Droid.Resource.Attribute.counterOverflowTextAppearance;
+			global::LibVLCSharp.Forms.Resource.Attribute.counterTextAppearance = global::LocalNetwork.Droid.Resource.Attribute.counterTextAppearance;
+			global::LibVLCSharp.Forms.Resource.Attribute.customNavigationLayout = global::LocalNetwork.Droid.Resource.Attribute.customNavigationLayout;
+			global::LibVLCSharp.Forms.Resource.Attribute.defaultQueryHint = global::LocalNetwork.Droid.Resource.Attribute.defaultQueryHint;
+			global::LibVLCSharp.Forms.Resource.Attribute.dialogPreferredPadding = global::LocalNetwork.Droid.Resource.Attribute.dialogPreferredPadding;
+			global::LibVLCSharp.Forms.Resource.Attribute.dialogTheme = global::LocalNetwork.Droid.Resource.Attribute.dialogTheme;
+			global::LibVLCSharp.Forms.Resource.Attribute.displayOptions = global::LocalNetwork.Droid.Resource.Attribute.displayOptions;
+			global::LibVLCSharp.Forms.Resource.Attribute.divider = global::LocalNetwork.Droid.Resource.Attribute.divider;
+			global::LibVLCSharp.Forms.Resource.Attribute.dividerHorizontal = global::LocalNetwork.Droid.Resource.Attribute.dividerHorizontal;
+			global::LibVLCSharp.Forms.Resource.Attribute.dividerPadding = global::LocalNetwork.Droid.Resource.Attribute.dividerPadding;
+			global::LibVLCSharp.Forms.Resource.Attribute.dividerVertical = global::LocalNetwork.Droid.Resource.Attribute.dividerVertical;
+			global::LibVLCSharp.Forms.Resource.Attribute.drawableSize = global::LocalNetwork.Droid.Resource.Attribute.drawableSize;
+			global::LibVLCSharp.Forms.Resource.Attribute.drawerArrowStyle = global::LocalNetwork.Droid.Resource.Attribute.drawerArrowStyle;
+			global::LibVLCSharp.Forms.Resource.Attribute.dropdownListPreferredItemHeight = global::LocalNetwork.Droid.Resource.Attribute.dropdownListPreferredItemHeight;
+			global::LibVLCSharp.Forms.Resource.Attribute.dropDownListViewStyle = global::LocalNetwork.Droid.Resource.Attribute.dropDownListViewStyle;
+			global::LibVLCSharp.Forms.Resource.Attribute.editTextBackground = global::LocalNetwork.Droid.Resource.Attribute.editTextBackground;
+			global::LibVLCSharp.Forms.Resource.Attribute.editTextColor = global::LocalNetwork.Droid.Resource.Attribute.editTextColor;
+			global::LibVLCSharp.Forms.Resource.Attribute.editTextStyle = global::LocalNetwork.Droid.Resource.Attribute.editTextStyle;
+			global::LibVLCSharp.Forms.Resource.Attribute.elevation = global::LocalNetwork.Droid.Resource.Attribute.elevation;
+			global::LibVLCSharp.Forms.Resource.Attribute.errorEnabled = global::LocalNetwork.Droid.Resource.Attribute.errorEnabled;
+			global::LibVLCSharp.Forms.Resource.Attribute.errorTextAppearance = global::LocalNetwork.Droid.Resource.Attribute.errorTextAppearance;
+			global::LibVLCSharp.Forms.Resource.Attribute.expandActivityOverflowButtonDrawable = global::LocalNetwork.Droid.Resource.Attribute.expandActivityOverflowButtonDrawable;
+			global::LibVLCSharp.Forms.Resource.Attribute.expanded = global::LocalNetwork.Droid.Resource.Attribute.expanded;
+			global::LibVLCSharp.Forms.Resource.Attribute.expandedTitleGravity = global::LocalNetwork.Droid.Resource.Attribute.expandedTitleGravity;
+			global::LibVLCSharp.Forms.Resource.Attribute.expandedTitleMargin = global::LocalNetwork.Droid.Resource.Attribute.expandedTitleMargin;
+			global::LibVLCSharp.Forms.Resource.Attribute.expandedTitleMarginBottom = global::LocalNetwork.Droid.Resource.Attribute.expandedTitleMarginBottom;
+			global::LibVLCSharp.Forms.Resource.Attribute.expandedTitleMarginEnd = global::LocalNetwork.Droid.Resource.Attribute.expandedTitleMarginEnd;
+			global::LibVLCSharp.Forms.Resource.Attribute.expandedTitleMarginStart = global::LocalNetwork.Droid.Resource.Attribute.expandedTitleMarginStart;
+			global::LibVLCSharp.Forms.Resource.Attribute.expandedTitleMarginTop = global::LocalNetwork.Droid.Resource.Attribute.expandedTitleMarginTop;
+			global::LibVLCSharp.Forms.Resource.Attribute.expandedTitleTextAppearance = global::LocalNetwork.Droid.Resource.Attribute.expandedTitleTextAppearance;
+			global::LibVLCSharp.Forms.Resource.Attribute.externalRouteEnabledDrawable = global::LocalNetwork.Droid.Resource.Attribute.externalRouteEnabledDrawable;
+			global::LibVLCSharp.Forms.Resource.Attribute.fabSize = global::LocalNetwork.Droid.Resource.Attribute.fabSize;
+			global::LibVLCSharp.Forms.Resource.Attribute.fastScrollEnabled = global::LocalNetwork.Droid.Resource.Attribute.fastScrollEnabled;
+			global::LibVLCSharp.Forms.Resource.Attribute.fastScrollHorizontalThumbDrawable = global::LocalNetwork.Droid.Resource.Attribute.fastScrollHorizontalThumbDrawable;
+			global::LibVLCSharp.Forms.Resource.Attribute.fastScrollHorizontalTrackDrawable = global::LocalNetwork.Droid.Resource.Attribute.fastScrollHorizontalTrackDrawable;
+			global::LibVLCSharp.Forms.Resource.Attribute.fastScrollVerticalThumbDrawable = global::LocalNetwork.Droid.Resource.Attribute.fastScrollVerticalThumbDrawable;
+			global::LibVLCSharp.Forms.Resource.Attribute.fastScrollVerticalTrackDrawable = global::LocalNetwork.Droid.Resource.Attribute.fastScrollVerticalTrackDrawable;
+			global::LibVLCSharp.Forms.Resource.Attribute.font = global::LocalNetwork.Droid.Resource.Attribute.font;
+			global::LibVLCSharp.Forms.Resource.Attribute.fontFamily = global::LocalNetwork.Droid.Resource.Attribute.fontFamily;
+			global::LibVLCSharp.Forms.Resource.Attribute.fontProviderAuthority = global::LocalNetwork.Droid.Resource.Attribute.fontProviderAuthority;
+			global::LibVLCSharp.Forms.Resource.Attribute.fontProviderCerts = global::LocalNetwork.Droid.Resource.Attribute.fontProviderCerts;
+			global::LibVLCSharp.Forms.Resource.Attribute.fontProviderFetchStrategy = global::LocalNetwork.Droid.Resource.Attribute.fontProviderFetchStrategy;
+			global::LibVLCSharp.Forms.Resource.Attribute.fontProviderFetchTimeout = global::LocalNetwork.Droid.Resource.Attribute.fontProviderFetchTimeout;
+			global::LibVLCSharp.Forms.Resource.Attribute.fontProviderPackage = global::LocalNetwork.Droid.Resource.Attribute.fontProviderPackage;
+			global::LibVLCSharp.Forms.Resource.Attribute.fontProviderQuery = global::LocalNetwork.Droid.Resource.Attribute.fontProviderQuery;
+			global::LibVLCSharp.Forms.Resource.Attribute.fontStyle = global::LocalNetwork.Droid.Resource.Attribute.fontStyle;
+			global::LibVLCSharp.Forms.Resource.Attribute.fontWeight = global::LocalNetwork.Droid.Resource.Attribute.fontWeight;
+			global::LibVLCSharp.Forms.Resource.Attribute.foregroundInsidePadding = global::LocalNetwork.Droid.Resource.Attribute.foregroundInsidePadding;
+			global::LibVLCSharp.Forms.Resource.Attribute.gapBetweenBars = global::LocalNetwork.Droid.Resource.Attribute.gapBetweenBars;
+			global::LibVLCSharp.Forms.Resource.Attribute.goIcon = global::LocalNetwork.Droid.Resource.Attribute.goIcon;
+			global::LibVLCSharp.Forms.Resource.Attribute.headerLayout = global::LocalNetwork.Droid.Resource.Attribute.headerLayout;
+			global::LibVLCSharp.Forms.Resource.Attribute.height = global::LocalNetwork.Droid.Resource.Attribute.height;
+			global::LibVLCSharp.Forms.Resource.Attribute.hideOnContentScroll = global::LocalNetwork.Droid.Resource.Attribute.hideOnContentScroll;
+			global::LibVLCSharp.Forms.Resource.Attribute.hintAnimationEnabled = global::LocalNetwork.Droid.Resource.Attribute.hintAnimationEnabled;
+			global::LibVLCSharp.Forms.Resource.Attribute.hintEnabled = global::LocalNetwork.Droid.Resource.Attribute.hintEnabled;
+			global::LibVLCSharp.Forms.Resource.Attribute.hintTextAppearance = global::LocalNetwork.Droid.Resource.Attribute.hintTextAppearance;
+			global::LibVLCSharp.Forms.Resource.Attribute.homeAsUpIndicator = global::LocalNetwork.Droid.Resource.Attribute.homeAsUpIndicator;
+			global::LibVLCSharp.Forms.Resource.Attribute.homeLayout = global::LocalNetwork.Droid.Resource.Attribute.homeLayout;
+			global::LibVLCSharp.Forms.Resource.Attribute.icon = global::LocalNetwork.Droid.Resource.Attribute.icon;
+			global::LibVLCSharp.Forms.Resource.Attribute.iconifiedByDefault = global::LocalNetwork.Droid.Resource.Attribute.iconifiedByDefault;
+			global::LibVLCSharp.Forms.Resource.Attribute.iconTint = global::LocalNetwork.Droid.Resource.Attribute.iconTint;
+			global::LibVLCSharp.Forms.Resource.Attribute.iconTintMode = global::LocalNetwork.Droid.Resource.Attribute.iconTintMode;
+			global::LibVLCSharp.Forms.Resource.Attribute.imageButtonStyle = global::LocalNetwork.Droid.Resource.Attribute.imageButtonStyle;
+			global::LibVLCSharp.Forms.Resource.Attribute.indeterminateProgressStyle = global::LocalNetwork.Droid.Resource.Attribute.indeterminateProgressStyle;
+			global::LibVLCSharp.Forms.Resource.Attribute.initialActivityCount = global::LocalNetwork.Droid.Resource.Attribute.initialActivityCount;
+			global::LibVLCSharp.Forms.Resource.Attribute.insetForeground = global::LocalNetwork.Droid.Resource.Attribute.insetForeground;
+			global::LibVLCSharp.Forms.Resource.Attribute.isLightTheme = global::LocalNetwork.Droid.Resource.Attribute.isLightTheme;
+			global::LibVLCSharp.Forms.Resource.Attribute.itemBackground = global::LocalNetwork.Droid.Resource.Attribute.itemBackground;
+			global::LibVLCSharp.Forms.Resource.Attribute.itemIconTint = global::LocalNetwork.Droid.Resource.Attribute.itemIconTint;
+			global::LibVLCSharp.Forms.Resource.Attribute.itemPadding = global::LocalNetwork.Droid.Resource.Attribute.itemPadding;
+			global::LibVLCSharp.Forms.Resource.Attribute.itemTextAppearance = global::LocalNetwork.Droid.Resource.Attribute.itemTextAppearance;
+			global::LibVLCSharp.Forms.Resource.Attribute.itemTextColor = global::LocalNetwork.Droid.Resource.Attribute.itemTextColor;
+			global::LibVLCSharp.Forms.Resource.Attribute.keylines = global::LocalNetwork.Droid.Resource.Attribute.keylines;
+			global::LibVLCSharp.Forms.Resource.Attribute.layout = global::LocalNetwork.Droid.Resource.Attribute.layout;
+			global::LibVLCSharp.Forms.Resource.Attribute.layoutManager = global::LocalNetwork.Droid.Resource.Attribute.layoutManager;
+			global::LibVLCSharp.Forms.Resource.Attribute.layout_anchor = global::LocalNetwork.Droid.Resource.Attribute.layout_anchor;
+			global::LibVLCSharp.Forms.Resource.Attribute.layout_anchorGravity = global::LocalNetwork.Droid.Resource.Attribute.layout_anchorGravity;
+			global::LibVLCSharp.Forms.Resource.Attribute.layout_behavior = global::LocalNetwork.Droid.Resource.Attribute.layout_behavior;
+			global::LibVLCSharp.Forms.Resource.Attribute.layout_collapseMode = global::LocalNetwork.Droid.Resource.Attribute.layout_collapseMode;
+			global::LibVLCSharp.Forms.Resource.Attribute.layout_collapseParallaxMultiplier = global::LocalNetwork.Droid.Resource.Attribute.layout_collapseParallaxMultiplier;
+			global::LibVLCSharp.Forms.Resource.Attribute.layout_dodgeInsetEdges = global::LocalNetwork.Droid.Resource.Attribute.layout_dodgeInsetEdges;
+			global::LibVLCSharp.Forms.Resource.Attribute.layout_insetEdge = global::LocalNetwork.Droid.Resource.Attribute.layout_insetEdge;
+			global::LibVLCSharp.Forms.Resource.Attribute.layout_keyline = global::LocalNetwork.Droid.Resource.Attribute.layout_keyline;
+			global::LibVLCSharp.Forms.Resource.Attribute.layout_scrollFlags = global::LocalNetwork.Droid.Resource.Attribute.layout_scrollFlags;
+			global::LibVLCSharp.Forms.Resource.Attribute.layout_scrollInterpolator = global::LocalNetwork.Droid.Resource.Attribute.layout_scrollInterpolator;
+			global::LibVLCSharp.Forms.Resource.Attribute.listChoiceBackgroundIndicator = global::LocalNetwork.Droid.Resource.Attribute.listChoiceBackgroundIndicator;
+			global::LibVLCSharp.Forms.Resource.Attribute.listDividerAlertDialog = global::LocalNetwork.Droid.Resource.Attribute.listDividerAlertDialog;
+			global::LibVLCSharp.Forms.Resource.Attribute.listItemLayout = global::LocalNetwork.Droid.Resource.Attribute.listItemLayout;
+			global::LibVLCSharp.Forms.Resource.Attribute.listLayout = global::LocalNetwork.Droid.Resource.Attribute.listLayout;
+			global::LibVLCSharp.Forms.Resource.Attribute.listMenuViewStyle = global::LocalNetwork.Droid.Resource.Attribute.listMenuViewStyle;
+			global::LibVLCSharp.Forms.Resource.Attribute.listPopupWindowStyle = global::LocalNetwork.Droid.Resource.Attribute.listPopupWindowStyle;
+			global::LibVLCSharp.Forms.Resource.Attribute.listPreferredItemHeight = global::LocalNetwork.Droid.Resource.Attribute.listPreferredItemHeight;
+			global::LibVLCSharp.Forms.Resource.Attribute.listPreferredItemHeightLarge = global::LocalNetwork.Droid.Resource.Attribute.listPreferredItemHeightLarge;
+			global::LibVLCSharp.Forms.Resource.Attribute.listPreferredItemHeightSmall = global::LocalNetwork.Droid.Resource.Attribute.listPreferredItemHeightSmall;
+			global::LibVLCSharp.Forms.Resource.Attribute.listPreferredItemPaddingLeft = global::LocalNetwork.Droid.Resource.Attribute.listPreferredItemPaddingLeft;
+			global::LibVLCSharp.Forms.Resource.Attribute.listPreferredItemPaddingRight = global::LocalNetwork.Droid.Resource.Attribute.listPreferredItemPaddingRight;
+			global::LibVLCSharp.Forms.Resource.Attribute.logo = global::LocalNetwork.Droid.Resource.Attribute.logo;
+			global::LibVLCSharp.Forms.Resource.Attribute.logoDescription = global::LocalNetwork.Droid.Resource.Attribute.logoDescription;
+			global::LibVLCSharp.Forms.Resource.Attribute.maxActionInlineWidth = global::LocalNetwork.Droid.Resource.Attribute.maxActionInlineWidth;
+			global::LibVLCSharp.Forms.Resource.Attribute.maxButtonHeight = global::LocalNetwork.Droid.Resource.Attribute.maxButtonHeight;
+			global::LibVLCSharp.Forms.Resource.Attribute.measureWithLargestChild = global::LocalNetwork.Droid.Resource.Attribute.measureWithLargestChild;
+			global::LibVLCSharp.Forms.Resource.Attribute.mediaRouteAudioTrackDrawable = global::LocalNetwork.Droid.Resource.Attribute.mediaRouteAudioTrackDrawable;
+			global::LibVLCSharp.Forms.Resource.Attribute.mediaRouteButtonStyle = global::LocalNetwork.Droid.Resource.Attribute.mediaRouteButtonStyle;
+			global::LibVLCSharp.Forms.Resource.Attribute.mediaRouteButtonTint = global::LocalNetwork.Droid.Resource.Attribute.mediaRouteButtonTint;
+			global::LibVLCSharp.Forms.Resource.Attribute.mediaRouteCloseDrawable = global::LocalNetwork.Droid.Resource.Attribute.mediaRouteCloseDrawable;
+			global::LibVLCSharp.Forms.Resource.Attribute.mediaRouteControlPanelThemeOverlay = global::LocalNetwork.Droid.Resource.Attribute.mediaRouteControlPanelThemeOverlay;
+			global::LibVLCSharp.Forms.Resource.Attribute.mediaRouteDefaultIconDrawable = global::LocalNetwork.Droid.Resource.Attribute.mediaRouteDefaultIconDrawable;
+			global::LibVLCSharp.Forms.Resource.Attribute.mediaRoutePauseDrawable = global::LocalNetwork.Droid.Resource.Attribute.mediaRoutePauseDrawable;
+			global::LibVLCSharp.Forms.Resource.Attribute.mediaRoutePlayDrawable = global::LocalNetwork.Droid.Resource.Attribute.mediaRoutePlayDrawable;
+			global::LibVLCSharp.Forms.Resource.Attribute.mediaRouteSpeakerGroupIconDrawable = global::LocalNetwork.Droid.Resource.Attribute.mediaRouteSpeakerGroupIconDrawable;
+			global::LibVLCSharp.Forms.Resource.Attribute.mediaRouteSpeakerIconDrawable = global::LocalNetwork.Droid.Resource.Attribute.mediaRouteSpeakerIconDrawable;
+			global::LibVLCSharp.Forms.Resource.Attribute.mediaRouteStopDrawable = global::LocalNetwork.Droid.Resource.Attribute.mediaRouteStopDrawable;
+			global::LibVLCSharp.Forms.Resource.Attribute.mediaRouteTheme = global::LocalNetwork.Droid.Resource.Attribute.mediaRouteTheme;
+			global::LibVLCSharp.Forms.Resource.Attribute.mediaRouteTvIconDrawable = global::LocalNetwork.Droid.Resource.Attribute.mediaRouteTvIconDrawable;
+			global::LibVLCSharp.Forms.Resource.Attribute.menu = global::LocalNetwork.Droid.Resource.Attribute.menu;
+			global::LibVLCSharp.Forms.Resource.Attribute.multiChoiceItemLayout = global::LocalNetwork.Droid.Resource.Attribute.multiChoiceItemLayout;
+			global::LibVLCSharp.Forms.Resource.Attribute.navigationContentDescription = global::LocalNetwork.Droid.Resource.Attribute.navigationContentDescription;
+			global::LibVLCSharp.Forms.Resource.Attribute.navigationIcon = global::LocalNetwork.Droid.Resource.Attribute.navigationIcon;
+			global::LibVLCSharp.Forms.Resource.Attribute.navigationMode = global::LocalNetwork.Droid.Resource.Attribute.navigationMode;
+			global::LibVLCSharp.Forms.Resource.Attribute.numericModifiers = global::LocalNetwork.Droid.Resource.Attribute.numericModifiers;
+			global::LibVLCSharp.Forms.Resource.Attribute.overlapAnchor = global::LocalNetwork.Droid.Resource.Attribute.overlapAnchor;
+			global::LibVLCSharp.Forms.Resource.Attribute.paddingBottomNoButtons = global::LocalNetwork.Droid.Resource.Attribute.paddingBottomNoButtons;
+			global::LibVLCSharp.Forms.Resource.Attribute.paddingEnd = global::LocalNetwork.Droid.Resource.Attribute.paddingEnd;
+			global::LibVLCSharp.Forms.Resource.Attribute.paddingStart = global::LocalNetwork.Droid.Resource.Attribute.paddingStart;
+			global::LibVLCSharp.Forms.Resource.Attribute.paddingTopNoTitle = global::LocalNetwork.Droid.Resource.Attribute.paddingTopNoTitle;
+			global::LibVLCSharp.Forms.Resource.Attribute.panelBackground = global::LocalNetwork.Droid.Resource.Attribute.panelBackground;
+			global::LibVLCSharp.Forms.Resource.Attribute.panelMenuListTheme = global::LocalNetwork.Droid.Resource.Attribute.panelMenuListTheme;
+			global::LibVLCSharp.Forms.Resource.Attribute.panelMenuListWidth = global::LocalNetwork.Droid.Resource.Attribute.panelMenuListWidth;
+			global::LibVLCSharp.Forms.Resource.Attribute.passwordToggleContentDescription = global::LocalNetwork.Droid.Resource.Attribute.passwordToggleContentDescription;
+			global::LibVLCSharp.Forms.Resource.Attribute.passwordToggleDrawable = global::LocalNetwork.Droid.Resource.Attribute.passwordToggleDrawable;
+			global::LibVLCSharp.Forms.Resource.Attribute.passwordToggleEnabled = global::LocalNetwork.Droid.Resource.Attribute.passwordToggleEnabled;
+			global::LibVLCSharp.Forms.Resource.Attribute.passwordToggleTint = global::LocalNetwork.Droid.Resource.Attribute.passwordToggleTint;
+			global::LibVLCSharp.Forms.Resource.Attribute.passwordToggleTintMode = global::LocalNetwork.Droid.Resource.Attribute.passwordToggleTintMode;
+			global::LibVLCSharp.Forms.Resource.Attribute.popupMenuStyle = global::LocalNetwork.Droid.Resource.Attribute.popupMenuStyle;
+			global::LibVLCSharp.Forms.Resource.Attribute.popupTheme = global::LocalNetwork.Droid.Resource.Attribute.popupTheme;
+			global::LibVLCSharp.Forms.Resource.Attribute.popupWindowStyle = global::LocalNetwork.Droid.Resource.Attribute.popupWindowStyle;
+			global::LibVLCSharp.Forms.Resource.Attribute.preserveIconSpacing = global::LocalNetwork.Droid.Resource.Attribute.preserveIconSpacing;
+			global::LibVLCSharp.Forms.Resource.Attribute.pressedTranslationZ = global::LocalNetwork.Droid.Resource.Attribute.pressedTranslationZ;
+			global::LibVLCSharp.Forms.Resource.Attribute.progressBarPadding = global::LocalNetwork.Droid.Resource.Attribute.progressBarPadding;
+			global::LibVLCSharp.Forms.Resource.Attribute.progressBarStyle = global::LocalNetwork.Droid.Resource.Attribute.progressBarStyle;
+			global::LibVLCSharp.Forms.Resource.Attribute.queryBackground = global::LocalNetwork.Droid.Resource.Attribute.queryBackground;
+			global::LibVLCSharp.Forms.Resource.Attribute.queryHint = global::LocalNetwork.Droid.Resource.Attribute.queryHint;
+			global::LibVLCSharp.Forms.Resource.Attribute.radioButtonStyle = global::LocalNetwork.Droid.Resource.Attribute.radioButtonStyle;
+			global::LibVLCSharp.Forms.Resource.Attribute.ratingBarStyle = global::LocalNetwork.Droid.Resource.Attribute.ratingBarStyle;
+			global::LibVLCSharp.Forms.Resource.Attribute.ratingBarStyleIndicator = global::LocalNetwork.Droid.Resource.Attribute.ratingBarStyleIndicator;
+			global::LibVLCSharp.Forms.Resource.Attribute.ratingBarStyleSmall = global::LocalNetwork.Droid.Resource.Attribute.ratingBarStyleSmall;
+			global::LibVLCSharp.Forms.Resource.Attribute.reverseLayout = global::LocalNetwork.Droid.Resource.Attribute.reverseLayout;
+			global::LibVLCSharp.Forms.Resource.Attribute.rippleColor = global::LocalNetwork.Droid.Resource.Attribute.rippleColor;
+			global::LibVLCSharp.Forms.Resource.Attribute.scrimAnimationDuration = global::LocalNetwork.Droid.Resource.Attribute.scrimAnimationDuration;
+			global::LibVLCSharp.Forms.Resource.Attribute.scrimVisibleHeightTrigger = global::LocalNetwork.Droid.Resource.Attribute.scrimVisibleHeightTrigger;
+			global::LibVLCSharp.Forms.Resource.Attribute.searchHintIcon = global::LocalNetwork.Droid.Resource.Attribute.searchHintIcon;
+			global::LibVLCSharp.Forms.Resource.Attribute.searchIcon = global::LocalNetwork.Droid.Resource.Attribute.searchIcon;
+			global::LibVLCSharp.Forms.Resource.Attribute.searchViewStyle = global::LocalNetwork.Droid.Resource.Attribute.searchViewStyle;
+			global::LibVLCSharp.Forms.Resource.Attribute.seekBarStyle = global::LocalNetwork.Droid.Resource.Attribute.seekBarStyle;
+			global::LibVLCSharp.Forms.Resource.Attribute.selectableItemBackground = global::LocalNetwork.Droid.Resource.Attribute.selectableItemBackground;
+			global::LibVLCSharp.Forms.Resource.Attribute.selectableItemBackgroundBorderless = global::LocalNetwork.Droid.Resource.Attribute.selectableItemBackgroundBorderless;
+			global::LibVLCSharp.Forms.Resource.Attribute.showAsAction = global::LocalNetwork.Droid.Resource.Attribute.showAsAction;
+			global::LibVLCSharp.Forms.Resource.Attribute.showDividers = global::LocalNetwork.Droid.Resource.Attribute.showDividers;
+			global::LibVLCSharp.Forms.Resource.Attribute.showText = global::LocalNetwork.Droid.Resource.Attribute.showText;
+			global::LibVLCSharp.Forms.Resource.Attribute.showTitle = global::LocalNetwork.Droid.Resource.Attribute.showTitle;
+			global::LibVLCSharp.Forms.Resource.Attribute.singleChoiceItemLayout = global::LocalNetwork.Droid.Resource.Attribute.singleChoiceItemLayout;
+			global::LibVLCSharp.Forms.Resource.Attribute.spanCount = global::LocalNetwork.Droid.Resource.Attribute.spanCount;
+			global::LibVLCSharp.Forms.Resource.Attribute.spinBars = global::LocalNetwork.Droid.Resource.Attribute.spinBars;
+			global::LibVLCSharp.Forms.Resource.Attribute.spinnerDropDownItemStyle = global::LocalNetwork.Droid.Resource.Attribute.spinnerDropDownItemStyle;
+			global::LibVLCSharp.Forms.Resource.Attribute.spinnerStyle = global::LocalNetwork.Droid.Resource.Attribute.spinnerStyle;
+			global::LibVLCSharp.Forms.Resource.Attribute.splitTrack = global::LocalNetwork.Droid.Resource.Attribute.splitTrack;
+			global::LibVLCSharp.Forms.Resource.Attribute.srcCompat = global::LocalNetwork.Droid.Resource.Attribute.srcCompat;
+			global::LibVLCSharp.Forms.Resource.Attribute.stackFromEnd = global::LocalNetwork.Droid.Resource.Attribute.stackFromEnd;
+			global::LibVLCSharp.Forms.Resource.Attribute.state_above_anchor = global::LocalNetwork.Droid.Resource.Attribute.state_above_anchor;
+			global::LibVLCSharp.Forms.Resource.Attribute.state_collapsed = global::LocalNetwork.Droid.Resource.Attribute.state_collapsed;
+			global::LibVLCSharp.Forms.Resource.Attribute.state_collapsible = global::LocalNetwork.Droid.Resource.Attribute.state_collapsible;
+			global::LibVLCSharp.Forms.Resource.Attribute.statusBarBackground = global::LocalNetwork.Droid.Resource.Attribute.statusBarBackground;
+			global::LibVLCSharp.Forms.Resource.Attribute.statusBarScrim = global::LocalNetwork.Droid.Resource.Attribute.statusBarScrim;
+			global::LibVLCSharp.Forms.Resource.Attribute.subMenuArrow = global::LocalNetwork.Droid.Resource.Attribute.subMenuArrow;
+			global::LibVLCSharp.Forms.Resource.Attribute.submitBackground = global::LocalNetwork.Droid.Resource.Attribute.submitBackground;
+			global::LibVLCSharp.Forms.Resource.Attribute.subtitle = global::LocalNetwork.Droid.Resource.Attribute.subtitle;
+			global::LibVLCSharp.Forms.Resource.Attribute.subtitleTextAppearance = global::LocalNetwork.Droid.Resource.Attribute.subtitleTextAppearance;
+			global::LibVLCSharp.Forms.Resource.Attribute.subtitleTextColor = global::LocalNetwork.Droid.Resource.Attribute.subtitleTextColor;
+			global::LibVLCSharp.Forms.Resource.Attribute.subtitleTextStyle = global::LocalNetwork.Droid.Resource.Attribute.subtitleTextStyle;
+			global::LibVLCSharp.Forms.Resource.Attribute.suggestionRowLayout = global::LocalNetwork.Droid.Resource.Attribute.suggestionRowLayout;
+			global::LibVLCSharp.Forms.Resource.Attribute.switchMinWidth = global::LocalNetwork.Droid.Resource.Attribute.switchMinWidth;
+			global::LibVLCSharp.Forms.Resource.Attribute.switchPadding = global::LocalNetwork.Droid.Resource.Attribute.switchPadding;
+			global::LibVLCSharp.Forms.Resource.Attribute.switchStyle = global::LocalNetwork.Droid.Resource.Attribute.switchStyle;
+			global::LibVLCSharp.Forms.Resource.Attribute.switchTextAppearance = global::LocalNetwork.Droid.Resource.Attribute.switchTextAppearance;
+			global::LibVLCSharp.Forms.Resource.Attribute.tabBackground = global::LocalNetwork.Droid.Resource.Attribute.tabBackground;
+			global::LibVLCSharp.Forms.Resource.Attribute.tabContentStart = global::LocalNetwork.Droid.Resource.Attribute.tabContentStart;
+			global::LibVLCSharp.Forms.Resource.Attribute.tabGravity = global::LocalNetwork.Droid.Resource.Attribute.tabGravity;
+			global::LibVLCSharp.Forms.Resource.Attribute.tabIndicatorColor = global::LocalNetwork.Droid.Resource.Attribute.tabIndicatorColor;
+			global::LibVLCSharp.Forms.Resource.Attribute.tabIndicatorHeight = global::LocalNetwork.Droid.Resource.Attribute.tabIndicatorHeight;
+			global::LibVLCSharp.Forms.Resource.Attribute.tabMaxWidth = global::LocalNetwork.Droid.Resource.Attribute.tabMaxWidth;
+			global::LibVLCSharp.Forms.Resource.Attribute.tabMinWidth = global::LocalNetwork.Droid.Resource.Attribute.tabMinWidth;
+			global::LibVLCSharp.Forms.Resource.Attribute.tabMode = global::LocalNetwork.Droid.Resource.Attribute.tabMode;
+			global::LibVLCSharp.Forms.Resource.Attribute.tabPadding = global::LocalNetwork.Droid.Resource.Attribute.tabPadding;
+			global::LibVLCSharp.Forms.Resource.Attribute.tabPaddingBottom = global::LocalNetwork.Droid.Resource.Attribute.tabPaddingBottom;
+			global::LibVLCSharp.Forms.Resource.Attribute.tabPaddingEnd = global::LocalNetwork.Droid.Resource.Attribute.tabPaddingEnd;
+			global::LibVLCSharp.Forms.Resource.Attribute.tabPaddingStart = global::LocalNetwork.Droid.Resource.Attribute.tabPaddingStart;
+			global::LibVLCSharp.Forms.Resource.Attribute.tabPaddingTop = global::LocalNetwork.Droid.Resource.Attribute.tabPaddingTop;
+			global::LibVLCSharp.Forms.Resource.Attribute.tabSelectedTextColor = global::LocalNetwork.Droid.Resource.Attribute.tabSelectedTextColor;
+			global::LibVLCSharp.Forms.Resource.Attribute.tabTextAppearance = global::LocalNetwork.Droid.Resource.Attribute.tabTextAppearance;
+			global::LibVLCSharp.Forms.Resource.Attribute.tabTextColor = global::LocalNetwork.Droid.Resource.Attribute.tabTextColor;
+			global::LibVLCSharp.Forms.Resource.Attribute.textAllCaps = global::LocalNetwork.Droid.Resource.Attribute.textAllCaps;
+			global::LibVLCSharp.Forms.Resource.Attribute.textAppearanceLargePopupMenu = global::LocalNetwork.Droid.Resource.Attribute.textAppearanceLargePopupMenu;
+			global::LibVLCSharp.Forms.Resource.Attribute.textAppearanceListItem = global::LocalNetwork.Droid.Resource.Attribute.textAppearanceListItem;
+			global::LibVLCSharp.Forms.Resource.Attribute.textAppearanceListItemSecondary = global::LocalNetwork.Droid.Resource.Attribute.textAppearanceListItemSecondary;
+			global::LibVLCSharp.Forms.Resource.Attribute.textAppearanceListItemSmall = global::LocalNetwork.Droid.Resource.Attribute.textAppearanceListItemSmall;
+			global::LibVLCSharp.Forms.Resource.Attribute.textAppearancePopupMenuHeader = global::LocalNetwork.Droid.Resource.Attribute.textAppearancePopupMenuHeader;
+			global::LibVLCSharp.Forms.Resource.Attribute.textAppearanceSearchResultSubtitle = global::LocalNetwork.Droid.Resource.Attribute.textAppearanceSearchResultSubtitle;
+			global::LibVLCSharp.Forms.Resource.Attribute.textAppearanceSearchResultTitle = global::LocalNetwork.Droid.Resource.Attribute.textAppearanceSearchResultTitle;
+			global::LibVLCSharp.Forms.Resource.Attribute.textAppearanceSmallPopupMenu = global::LocalNetwork.Droid.Resource.Attribute.textAppearanceSmallPopupMenu;
+			global::LibVLCSharp.Forms.Resource.Attribute.textColorAlertDialogListItem = global::LocalNetwork.Droid.Resource.Attribute.textColorAlertDialogListItem;
+			global::LibVLCSharp.Forms.Resource.Attribute.textColorError = global::LocalNetwork.Droid.Resource.Attribute.textColorError;
+			global::LibVLCSharp.Forms.Resource.Attribute.textColorSearchUrl = global::LocalNetwork.Droid.Resource.Attribute.textColorSearchUrl;
+			global::LibVLCSharp.Forms.Resource.Attribute.theme = global::LocalNetwork.Droid.Resource.Attribute.theme;
+			global::LibVLCSharp.Forms.Resource.Attribute.thickness = global::LocalNetwork.Droid.Resource.Attribute.thickness;
+			global::LibVLCSharp.Forms.Resource.Attribute.thumbTextPadding = global::LocalNetwork.Droid.Resource.Attribute.thumbTextPadding;
+			global::LibVLCSharp.Forms.Resource.Attribute.thumbTint = global::LocalNetwork.Droid.Resource.Attribute.thumbTint;
+			global::LibVLCSharp.Forms.Resource.Attribute.thumbTintMode = global::LocalNetwork.Droid.Resource.Attribute.thumbTintMode;
+			global::LibVLCSharp.Forms.Resource.Attribute.tickMark = global::LocalNetwork.Droid.Resource.Attribute.tickMark;
+			global::LibVLCSharp.Forms.Resource.Attribute.tickMarkTint = global::LocalNetwork.Droid.Resource.Attribute.tickMarkTint;
+			global::LibVLCSharp.Forms.Resource.Attribute.tickMarkTintMode = global::LocalNetwork.Droid.Resource.Attribute.tickMarkTintMode;
+			global::LibVLCSharp.Forms.Resource.Attribute.tint = global::LocalNetwork.Droid.Resource.Attribute.tint;
+			global::LibVLCSharp.Forms.Resource.Attribute.tintMode = global::LocalNetwork.Droid.Resource.Attribute.tintMode;
+			global::LibVLCSharp.Forms.Resource.Attribute.title = global::LocalNetwork.Droid.Resource.Attribute.title;
+			global::LibVLCSharp.Forms.Resource.Attribute.titleEnabled = global::LocalNetwork.Droid.Resource.Attribute.titleEnabled;
+			global::LibVLCSharp.Forms.Resource.Attribute.titleMargin = global::LocalNetwork.Droid.Resource.Attribute.titleMargin;
+			global::LibVLCSharp.Forms.Resource.Attribute.titleMarginBottom = global::LocalNetwork.Droid.Resource.Attribute.titleMarginBottom;
+			global::LibVLCSharp.Forms.Resource.Attribute.titleMarginEnd = global::LocalNetwork.Droid.Resource.Attribute.titleMarginEnd;
+			global::LibVLCSharp.Forms.Resource.Attribute.titleMargins = global::LocalNetwork.Droid.Resource.Attribute.titleMargins;
+			global::LibVLCSharp.Forms.Resource.Attribute.titleMarginStart = global::LocalNetwork.Droid.Resource.Attribute.titleMarginStart;
+			global::LibVLCSharp.Forms.Resource.Attribute.titleMarginTop = global::LocalNetwork.Droid.Resource.Attribute.titleMarginTop;
+			global::LibVLCSharp.Forms.Resource.Attribute.titleTextAppearance = global::LocalNetwork.Droid.Resource.Attribute.titleTextAppearance;
+			global::LibVLCSharp.Forms.Resource.Attribute.titleTextColor = global::LocalNetwork.Droid.Resource.Attribute.titleTextColor;
+			global::LibVLCSharp.Forms.Resource.Attribute.titleTextStyle = global::LocalNetwork.Droid.Resource.Attribute.titleTextStyle;
+			global::LibVLCSharp.Forms.Resource.Attribute.toolbarId = global::LocalNetwork.Droid.Resource.Attribute.toolbarId;
+			global::LibVLCSharp.Forms.Resource.Attribute.toolbarNavigationButtonStyle = global::LocalNetwork.Droid.Resource.Attribute.toolbarNavigationButtonStyle;
+			global::LibVLCSharp.Forms.Resource.Attribute.toolbarStyle = global::LocalNetwork.Droid.Resource.Attribute.toolbarStyle;
+			global::LibVLCSharp.Forms.Resource.Attribute.tooltipForegroundColor = global::LocalNetwork.Droid.Resource.Attribute.tooltipForegroundColor;
+			global::LibVLCSharp.Forms.Resource.Attribute.tooltipFrameBackground = global::LocalNetwork.Droid.Resource.Attribute.tooltipFrameBackground;
+			global::LibVLCSharp.Forms.Resource.Attribute.tooltipText = global::LocalNetwork.Droid.Resource.Attribute.tooltipText;
+			global::LibVLCSharp.Forms.Resource.Attribute.track = global::LocalNetwork.Droid.Resource.Attribute.track;
+			global::LibVLCSharp.Forms.Resource.Attribute.trackTint = global::LocalNetwork.Droid.Resource.Attribute.trackTint;
+			global::LibVLCSharp.Forms.Resource.Attribute.trackTintMode = global::LocalNetwork.Droid.Resource.Attribute.trackTintMode;
+			global::LibVLCSharp.Forms.Resource.Attribute.useCompatPadding = global::LocalNetwork.Droid.Resource.Attribute.useCompatPadding;
+			global::LibVLCSharp.Forms.Resource.Attribute.voiceIcon = global::LocalNetwork.Droid.Resource.Attribute.voiceIcon;
+			global::LibVLCSharp.Forms.Resource.Attribute.windowActionBar = global::LocalNetwork.Droid.Resource.Attribute.windowActionBar;
+			global::LibVLCSharp.Forms.Resource.Attribute.windowActionBarOverlay = global::LocalNetwork.Droid.Resource.Attribute.windowActionBarOverlay;
+			global::LibVLCSharp.Forms.Resource.Attribute.windowActionModeOverlay = global::LocalNetwork.Droid.Resource.Attribute.windowActionModeOverlay;
+			global::LibVLCSharp.Forms.Resource.Attribute.windowFixedHeightMajor = global::LocalNetwork.Droid.Resource.Attribute.windowFixedHeightMajor;
+			global::LibVLCSharp.Forms.Resource.Attribute.windowFixedHeightMinor = global::LocalNetwork.Droid.Resource.Attribute.windowFixedHeightMinor;
+			global::LibVLCSharp.Forms.Resource.Attribute.windowFixedWidthMajor = global::LocalNetwork.Droid.Resource.Attribute.windowFixedWidthMajor;
+			global::LibVLCSharp.Forms.Resource.Attribute.windowFixedWidthMinor = global::LocalNetwork.Droid.Resource.Attribute.windowFixedWidthMinor;
+			global::LibVLCSharp.Forms.Resource.Attribute.windowMinWidthMajor = global::LocalNetwork.Droid.Resource.Attribute.windowMinWidthMajor;
+			global::LibVLCSharp.Forms.Resource.Attribute.windowMinWidthMinor = global::LocalNetwork.Droid.Resource.Attribute.windowMinWidthMinor;
+			global::LibVLCSharp.Forms.Resource.Attribute.windowNoTitle = global::LocalNetwork.Droid.Resource.Attribute.windowNoTitle;
+			global::LibVLCSharp.Forms.Resource.Boolean.abc_action_bar_embed_tabs = global::LocalNetwork.Droid.Resource.Boolean.abc_action_bar_embed_tabs;
+			global::LibVLCSharp.Forms.Resource.Boolean.abc_allow_stacked_button_bar = global::LocalNetwork.Droid.Resource.Boolean.abc_allow_stacked_button_bar;
+			global::LibVLCSharp.Forms.Resource.Boolean.abc_config_actionMenuItemAllCaps = global::LocalNetwork.Droid.Resource.Boolean.abc_config_actionMenuItemAllCaps;
+			global::LibVLCSharp.Forms.Resource.Boolean.abc_config_closeDialogWhenTouchOutside = global::LocalNetwork.Droid.Resource.Boolean.abc_config_closeDialogWhenTouchOutside;
+			global::LibVLCSharp.Forms.Resource.Boolean.abc_config_showMenuShortcutsWhenKeyboardPresent = global::LocalNetwork.Droid.Resource.Boolean.abc_config_showMenuShortcutsWhenKeyboardPresent;
+			global::LibVLCSharp.Forms.Resource.Color.abc_background_cache_hint_selector_material_dark = global::LocalNetwork.Droid.Resource.Color.abc_background_cache_hint_selector_material_dark;
+			global::LibVLCSharp.Forms.Resource.Color.abc_background_cache_hint_selector_material_light = global::LocalNetwork.Droid.Resource.Color.abc_background_cache_hint_selector_material_light;
+			global::LibVLCSharp.Forms.Resource.Color.abc_btn_colored_borderless_text_material = global::LocalNetwork.Droid.Resource.Color.abc_btn_colored_borderless_text_material;
+			global::LibVLCSharp.Forms.Resource.Color.abc_btn_colored_text_material = global::LocalNetwork.Droid.Resource.Color.abc_btn_colored_text_material;
+			global::LibVLCSharp.Forms.Resource.Color.abc_color_highlight_material = global::LocalNetwork.Droid.Resource.Color.abc_color_highlight_material;
+			global::LibVLCSharp.Forms.Resource.Color.abc_hint_foreground_material_dark = global::LocalNetwork.Droid.Resource.Color.abc_hint_foreground_material_dark;
+			global::LibVLCSharp.Forms.Resource.Color.abc_hint_foreground_material_light = global::LocalNetwork.Droid.Resource.Color.abc_hint_foreground_material_light;
+			global::LibVLCSharp.Forms.Resource.Color.abc_input_method_navigation_guard = global::LocalNetwork.Droid.Resource.Color.abc_input_method_navigation_guard;
+			global::LibVLCSharp.Forms.Resource.Color.abc_primary_text_disable_only_material_dark = global::LocalNetwork.Droid.Resource.Color.abc_primary_text_disable_only_material_dark;
+			global::LibVLCSharp.Forms.Resource.Color.abc_primary_text_disable_only_material_light = global::LocalNetwork.Droid.Resource.Color.abc_primary_text_disable_only_material_light;
+			global::LibVLCSharp.Forms.Resource.Color.abc_primary_text_material_dark = global::LocalNetwork.Droid.Resource.Color.abc_primary_text_material_dark;
+			global::LibVLCSharp.Forms.Resource.Color.abc_primary_text_material_light = global::LocalNetwork.Droid.Resource.Color.abc_primary_text_material_light;
+			global::LibVLCSharp.Forms.Resource.Color.abc_search_url_text = global::LocalNetwork.Droid.Resource.Color.abc_search_url_text;
+			global::LibVLCSharp.Forms.Resource.Color.abc_search_url_text_normal = global::LocalNetwork.Droid.Resource.Color.abc_search_url_text_normal;
+			global::LibVLCSharp.Forms.Resource.Color.abc_search_url_text_pressed = global::LocalNetwork.Droid.Resource.Color.abc_search_url_text_pressed;
+			global::LibVLCSharp.Forms.Resource.Color.abc_search_url_text_selected = global::LocalNetwork.Droid.Resource.Color.abc_search_url_text_selected;
+			global::LibVLCSharp.Forms.Resource.Color.abc_secondary_text_material_dark = global::LocalNetwork.Droid.Resource.Color.abc_secondary_text_material_dark;
+			global::LibVLCSharp.Forms.Resource.Color.abc_secondary_text_material_light = global::LocalNetwork.Droid.Resource.Color.abc_secondary_text_material_light;
+			global::LibVLCSharp.Forms.Resource.Color.abc_tint_btn_checkable = global::LocalNetwork.Droid.Resource.Color.abc_tint_btn_checkable;
+			global::LibVLCSharp.Forms.Resource.Color.abc_tint_default = global::LocalNetwork.Droid.Resource.Color.abc_tint_default;
+			global::LibVLCSharp.Forms.Resource.Color.abc_tint_edittext = global::LocalNetwork.Droid.Resource.Color.abc_tint_edittext;
+			global::LibVLCSharp.Forms.Resource.Color.abc_tint_seek_thumb = global::LocalNetwork.Droid.Resource.Color.abc_tint_seek_thumb;
+			global::LibVLCSharp.Forms.Resource.Color.abc_tint_spinner = global::LocalNetwork.Droid.Resource.Color.abc_tint_spinner;
+			global::LibVLCSharp.Forms.Resource.Color.abc_tint_switch_track = global::LocalNetwork.Droid.Resource.Color.abc_tint_switch_track;
+			global::LibVLCSharp.Forms.Resource.Color.accent_material_dark = global::LocalNetwork.Droid.Resource.Color.accent_material_dark;
+			global::LibVLCSharp.Forms.Resource.Color.accent_material_light = global::LocalNetwork.Droid.Resource.Color.accent_material_light;
+			global::LibVLCSharp.Forms.Resource.Color.background_floating_material_dark = global::LocalNetwork.Droid.Resource.Color.background_floating_material_dark;
+			global::LibVLCSharp.Forms.Resource.Color.background_floating_material_light = global::LocalNetwork.Droid.Resource.Color.background_floating_material_light;
+			global::LibVLCSharp.Forms.Resource.Color.background_material_dark = global::LocalNetwork.Droid.Resource.Color.background_material_dark;
+			global::LibVLCSharp.Forms.Resource.Color.background_material_light = global::LocalNetwork.Droid.Resource.Color.background_material_light;
+			global::LibVLCSharp.Forms.Resource.Color.bright_foreground_disabled_material_dark = global::LocalNetwork.Droid.Resource.Color.bright_foreground_disabled_material_dark;
+			global::LibVLCSharp.Forms.Resource.Color.bright_foreground_disabled_material_light = global::LocalNetwork.Droid.Resource.Color.bright_foreground_disabled_material_light;
+			global::LibVLCSharp.Forms.Resource.Color.bright_foreground_inverse_material_dark = global::LocalNetwork.Droid.Resource.Color.bright_foreground_inverse_material_dark;
+			global::LibVLCSharp.Forms.Resource.Color.bright_foreground_inverse_material_light = global::LocalNetwork.Droid.Resource.Color.bright_foreground_inverse_material_light;
+			global::LibVLCSharp.Forms.Resource.Color.bright_foreground_material_dark = global::LocalNetwork.Droid.Resource.Color.bright_foreground_material_dark;
+			global::LibVLCSharp.Forms.Resource.Color.bright_foreground_material_light = global::LocalNetwork.Droid.Resource.Color.bright_foreground_material_light;
+			global::LibVLCSharp.Forms.Resource.Color.button_material_dark = global::LocalNetwork.Droid.Resource.Color.button_material_dark;
+			global::LibVLCSharp.Forms.Resource.Color.button_material_light = global::LocalNetwork.Droid.Resource.Color.button_material_light;
+			global::LibVLCSharp.Forms.Resource.Color.cardview_dark_background = global::LocalNetwork.Droid.Resource.Color.cardview_dark_background;
+			global::LibVLCSharp.Forms.Resource.Color.cardview_light_background = global::LocalNetwork.Droid.Resource.Color.cardview_light_background;
+			global::LibVLCSharp.Forms.Resource.Color.cardview_shadow_end_color = global::LocalNetwork.Droid.Resource.Color.cardview_shadow_end_color;
+			global::LibVLCSharp.Forms.Resource.Color.cardview_shadow_start_color = global::LocalNetwork.Droid.Resource.Color.cardview_shadow_start_color;
+			global::LibVLCSharp.Forms.Resource.Color.design_bottom_navigation_shadow_color = global::LocalNetwork.Droid.Resource.Color.design_bottom_navigation_shadow_color;
+			global::LibVLCSharp.Forms.Resource.Color.design_error = global::LocalNetwork.Droid.Resource.Color.design_error;
+			global::LibVLCSharp.Forms.Resource.Color.design_fab_shadow_end_color = global::LocalNetwork.Droid.Resource.Color.design_fab_shadow_end_color;
+			global::LibVLCSharp.Forms.Resource.Color.design_fab_shadow_mid_color = global::LocalNetwork.Droid.Resource.Color.design_fab_shadow_mid_color;
+			global::LibVLCSharp.Forms.Resource.Color.design_fab_shadow_start_color = global::LocalNetwork.Droid.Resource.Color.design_fab_shadow_start_color;
+			global::LibVLCSharp.Forms.Resource.Color.design_fab_stroke_end_inner_color = global::LocalNetwork.Droid.Resource.Color.design_fab_stroke_end_inner_color;
+			global::LibVLCSharp.Forms.Resource.Color.design_fab_stroke_end_outer_color = global::LocalNetwork.Droid.Resource.Color.design_fab_stroke_end_outer_color;
+			global::LibVLCSharp.Forms.Resource.Color.design_fab_stroke_top_inner_color = global::LocalNetwork.Droid.Resource.Color.design_fab_stroke_top_inner_color;
+			global::LibVLCSharp.Forms.Resource.Color.design_fab_stroke_top_outer_color = global::LocalNetwork.Droid.Resource.Color.design_fab_stroke_top_outer_color;
+			global::LibVLCSharp.Forms.Resource.Color.design_snackbar_background_color = global::LocalNetwork.Droid.Resource.Color.design_snackbar_background_color;
+			global::LibVLCSharp.Forms.Resource.Color.design_tint_password_toggle = global::LocalNetwork.Droid.Resource.Color.design_tint_password_toggle;
+			global::LibVLCSharp.Forms.Resource.Color.dim_foreground_disabled_material_dark = global::LocalNetwork.Droid.Resource.Color.dim_foreground_disabled_material_dark;
+			global::LibVLCSharp.Forms.Resource.Color.dim_foreground_disabled_material_light = global::LocalNetwork.Droid.Resource.Color.dim_foreground_disabled_material_light;
+			global::LibVLCSharp.Forms.Resource.Color.dim_foreground_material_dark = global::LocalNetwork.Droid.Resource.Color.dim_foreground_material_dark;
+			global::LibVLCSharp.Forms.Resource.Color.dim_foreground_material_light = global::LocalNetwork.Droid.Resource.Color.dim_foreground_material_light;
+			global::LibVLCSharp.Forms.Resource.Color.error_color_material = global::LocalNetwork.Droid.Resource.Color.error_color_material;
+			global::LibVLCSharp.Forms.Resource.Color.foreground_material_dark = global::LocalNetwork.Droid.Resource.Color.foreground_material_dark;
+			global::LibVLCSharp.Forms.Resource.Color.foreground_material_light = global::LocalNetwork.Droid.Resource.Color.foreground_material_light;
+			global::LibVLCSharp.Forms.Resource.Color.highlighted_text_material_dark = global::LocalNetwork.Droid.Resource.Color.highlighted_text_material_dark;
+			global::LibVLCSharp.Forms.Resource.Color.highlighted_text_material_light = global::LocalNetwork.Droid.Resource.Color.highlighted_text_material_light;
+			global::LibVLCSharp.Forms.Resource.Color.material_blue_grey_800 = global::LocalNetwork.Droid.Resource.Color.material_blue_grey_800;
+			global::LibVLCSharp.Forms.Resource.Color.material_blue_grey_900 = global::LocalNetwork.Droid.Resource.Color.material_blue_grey_900;
+			global::LibVLCSharp.Forms.Resource.Color.material_blue_grey_950 = global::LocalNetwork.Droid.Resource.Color.material_blue_grey_950;
+			global::LibVLCSharp.Forms.Resource.Color.material_deep_teal_200 = global::LocalNetwork.Droid.Resource.Color.material_deep_teal_200;
+			global::LibVLCSharp.Forms.Resource.Color.material_deep_teal_500 = global::LocalNetwork.Droid.Resource.Color.material_deep_teal_500;
+			global::LibVLCSharp.Forms.Resource.Color.material_grey_100 = global::LocalNetwork.Droid.Resource.Color.material_grey_100;
+			global::LibVLCSharp.Forms.Resource.Color.material_grey_300 = global::LocalNetwork.Droid.Resource.Color.material_grey_300;
+			global::LibVLCSharp.Forms.Resource.Color.material_grey_50 = global::LocalNetwork.Droid.Resource.Color.material_grey_50;
+			global::LibVLCSharp.Forms.Resource.Color.material_grey_600 = global::LocalNetwork.Droid.Resource.Color.material_grey_600;
+			global::LibVLCSharp.Forms.Resource.Color.material_grey_800 = global::LocalNetwork.Droid.Resource.Color.material_grey_800;
+			global::LibVLCSharp.Forms.Resource.Color.material_grey_850 = global::LocalNetwork.Droid.Resource.Color.material_grey_850;
+			global::LibVLCSharp.Forms.Resource.Color.material_grey_900 = global::LocalNetwork.Droid.Resource.Color.material_grey_900;
+			global::LibVLCSharp.Forms.Resource.Color.notification_action_color_filter = global::LocalNetwork.Droid.Resource.Color.notification_action_color_filter;
+			global::LibVLCSharp.Forms.Resource.Color.notification_icon_bg_color = global::LocalNetwork.Droid.Resource.Color.notification_icon_bg_color;
+			global::LibVLCSharp.Forms.Resource.Color.notification_material_background_media_default_color = global::LocalNetwork.Droid.Resource.Color.notification_material_background_media_default_color;
+			global::LibVLCSharp.Forms.Resource.Color.primary_dark_material_dark = global::LocalNetwork.Droid.Resource.Color.primary_dark_material_dark;
+			global::LibVLCSharp.Forms.Resource.Color.primary_dark_material_light = global::LocalNetwork.Droid.Resource.Color.primary_dark_material_light;
+			global::LibVLCSharp.Forms.Resource.Color.primary_material_dark = global::LocalNetwork.Droid.Resource.Color.primary_material_dark;
+			global::LibVLCSharp.Forms.Resource.Color.primary_material_light = global::LocalNetwork.Droid.Resource.Color.primary_material_light;
+			global::LibVLCSharp.Forms.Resource.Color.primary_text_default_material_dark = global::LocalNetwork.Droid.Resource.Color.primary_text_default_material_dark;
+			global::LibVLCSharp.Forms.Resource.Color.primary_text_default_material_light = global::LocalNetwork.Droid.Resource.Color.primary_text_default_material_light;
+			global::LibVLCSharp.Forms.Resource.Color.primary_text_disabled_material_dark = global::LocalNetwork.Droid.Resource.Color.primary_text_disabled_material_dark;
+			global::LibVLCSharp.Forms.Resource.Color.primary_text_disabled_material_light = global::LocalNetwork.Droid.Resource.Color.primary_text_disabled_material_light;
+			global::LibVLCSharp.Forms.Resource.Color.ripple_material_dark = global::LocalNetwork.Droid.Resource.Color.ripple_material_dark;
+			global::LibVLCSharp.Forms.Resource.Color.ripple_material_light = global::LocalNetwork.Droid.Resource.Color.ripple_material_light;
+			global::LibVLCSharp.Forms.Resource.Color.secondary_text_default_material_dark = global::LocalNetwork.Droid.Resource.Color.secondary_text_default_material_dark;
+			global::LibVLCSharp.Forms.Resource.Color.secondary_text_default_material_light = global::LocalNetwork.Droid.Resource.Color.secondary_text_default_material_light;
+			global::LibVLCSharp.Forms.Resource.Color.secondary_text_disabled_material_dark = global::LocalNetwork.Droid.Resource.Color.secondary_text_disabled_material_dark;
+			global::LibVLCSharp.Forms.Resource.Color.secondary_text_disabled_material_light = global::LocalNetwork.Droid.Resource.Color.secondary_text_disabled_material_light;
+			global::LibVLCSharp.Forms.Resource.Color.switch_thumb_disabled_material_dark = global::LocalNetwork.Droid.Resource.Color.switch_thumb_disabled_material_dark;
+			global::LibVLCSharp.Forms.Resource.Color.switch_thumb_disabled_material_light = global::LocalNetwork.Droid.Resource.Color.switch_thumb_disabled_material_light;
+			global::LibVLCSharp.Forms.Resource.Color.switch_thumb_material_dark = global::LocalNetwork.Droid.Resource.Color.switch_thumb_material_dark;
+			global::LibVLCSharp.Forms.Resource.Color.switch_thumb_material_light = global::LocalNetwork.Droid.Resource.Color.switch_thumb_material_light;
+			global::LibVLCSharp.Forms.Resource.Color.switch_thumb_normal_material_dark = global::LocalNetwork.Droid.Resource.Color.switch_thumb_normal_material_dark;
+			global::LibVLCSharp.Forms.Resource.Color.switch_thumb_normal_material_light = global::LocalNetwork.Droid.Resource.Color.switch_thumb_normal_material_light;
+			global::LibVLCSharp.Forms.Resource.Color.tooltip_background_dark = global::LocalNetwork.Droid.Resource.Color.tooltip_background_dark;
+			global::LibVLCSharp.Forms.Resource.Color.tooltip_background_light = global::LocalNetwork.Droid.Resource.Color.tooltip_background_light;
+			global::LibVLCSharp.Forms.Resource.Dimension.abc_action_bar_content_inset_material = global::LocalNetwork.Droid.Resource.Dimension.abc_action_bar_content_inset_material;
+			global::LibVLCSharp.Forms.Resource.Dimension.abc_action_bar_content_inset_with_nav = global::LocalNetwork.Droid.Resource.Dimension.abc_action_bar_content_inset_with_nav;
+			global::LibVLCSharp.Forms.Resource.Dimension.abc_action_bar_default_height_material = global::LocalNetwork.Droid.Resource.Dimension.abc_action_bar_default_height_material;
+			global::LibVLCSharp.Forms.Resource.Dimension.abc_action_bar_default_padding_end_material = global::LocalNetwork.Droid.Resource.Dimension.abc_action_bar_default_padding_end_material;
+			global::LibVLCSharp.Forms.Resource.Dimension.abc_action_bar_default_padding_start_material = global::LocalNetwork.Droid.Resource.Dimension.abc_action_bar_default_padding_start_material;
+			global::LibVLCSharp.Forms.Resource.Dimension.abc_action_bar_elevation_material = global::LocalNetwork.Droid.Resource.Dimension.abc_action_bar_elevation_material;
+			global::LibVLCSharp.Forms.Resource.Dimension.abc_action_bar_icon_vertical_padding_material = global::LocalNetwork.Droid.Resource.Dimension.abc_action_bar_icon_vertical_padding_material;
+			global::LibVLCSharp.Forms.Resource.Dimension.abc_action_bar_overflow_padding_end_material = global::LocalNetwork.Droid.Resource.Dimension.abc_action_bar_overflow_padding_end_material;
+			global::LibVLCSharp.Forms.Resource.Dimension.abc_action_bar_overflow_padding_start_material = global::LocalNetwork.Droid.Resource.Dimension.abc_action_bar_overflow_padding_start_material;
+			global::LibVLCSharp.Forms.Resource.Dimension.abc_action_bar_progress_bar_size = global::LocalNetwork.Droid.Resource.Dimension.abc_action_bar_progress_bar_size;
+			global::LibVLCSharp.Forms.Resource.Dimension.abc_action_bar_stacked_max_height = global::LocalNetwork.Droid.Resource.Dimension.abc_action_bar_stacked_max_height;
+			global::LibVLCSharp.Forms.Resource.Dimension.abc_action_bar_stacked_tab_max_width = global::LocalNetwork.Droid.Resource.Dimension.abc_action_bar_stacked_tab_max_width;
+			global::LibVLCSharp.Forms.Resource.Dimension.abc_action_bar_subtitle_bottom_margin_material = global::LocalNetwork.Droid.Resource.Dimension.abc_action_bar_subtitle_bottom_margin_material;
+			global::LibVLCSharp.Forms.Resource.Dimension.abc_action_bar_subtitle_top_margin_material = global::LocalNetwork.Droid.Resource.Dimension.abc_action_bar_subtitle_top_margin_material;
+			global::LibVLCSharp.Forms.Resource.Dimension.abc_action_button_min_height_material = global::LocalNetwork.Droid.Resource.Dimension.abc_action_button_min_height_material;
+			global::LibVLCSharp.Forms.Resource.Dimension.abc_action_button_min_width_material = global::LocalNetwork.Droid.Resource.Dimension.abc_action_button_min_width_material;
+			global::LibVLCSharp.Forms.Resource.Dimension.abc_action_button_min_width_overflow_material = global::LocalNetwork.Droid.Resource.Dimension.abc_action_button_min_width_overflow_material;
+			global::LibVLCSharp.Forms.Resource.Dimension.abc_alert_dialog_button_bar_height = global::LocalNetwork.Droid.Resource.Dimension.abc_alert_dialog_button_bar_height;
+			global::LibVLCSharp.Forms.Resource.Dimension.abc_button_inset_horizontal_material = global::LocalNetwork.Droid.Resource.Dimension.abc_button_inset_horizontal_material;
+			global::LibVLCSharp.Forms.Resource.Dimension.abc_button_inset_vertical_material = global::LocalNetwork.Droid.Resource.Dimension.abc_button_inset_vertical_material;
+			global::LibVLCSharp.Forms.Resource.Dimension.abc_button_padding_horizontal_material = global::LocalNetwork.Droid.Resource.Dimension.abc_button_padding_horizontal_material;
+			global::LibVLCSharp.Forms.Resource.Dimension.abc_button_padding_vertical_material = global::LocalNetwork.Droid.Resource.Dimension.abc_button_padding_vertical_material;
+			global::LibVLCSharp.Forms.Resource.Dimension.abc_cascading_menus_min_smallest_width = global::LocalNetwork.Droid.Resource.Dimension.abc_cascading_menus_min_smallest_width;
+			global::LibVLCSharp.Forms.Resource.Dimension.abc_config_prefDialogWidth = global::LocalNetwork.Droid.Resource.Dimension.abc_config_prefDialogWidth;
+			global::LibVLCSharp.Forms.Resource.Dimension.abc_control_corner_material = global::LocalNetwork.Droid.Resource.Dimension.abc_control_corner_material;
+			global::LibVLCSharp.Forms.Resource.Dimension.abc_control_inset_material = global::LocalNetwork.Droid.Resource.Dimension.abc_control_inset_material;
+			global::LibVLCSharp.Forms.Resource.Dimension.abc_control_padding_material = global::LocalNetwork.Droid.Resource.Dimension.abc_control_padding_material;
+			global::LibVLCSharp.Forms.Resource.Dimension.abc_dialog_fixed_height_major = global::LocalNetwork.Droid.Resource.Dimension.abc_dialog_fixed_height_major;
+			global::LibVLCSharp.Forms.Resource.Dimension.abc_dialog_fixed_height_minor = global::LocalNetwork.Droid.Resource.Dimension.abc_dialog_fixed_height_minor;
+			global::LibVLCSharp.Forms.Resource.Dimension.abc_dialog_fixed_width_major = global::LocalNetwork.Droid.Resource.Dimension.abc_dialog_fixed_width_major;
+			global::LibVLCSharp.Forms.Resource.Dimension.abc_dialog_fixed_width_minor = global::LocalNetwork.Droid.Resource.Dimension.abc_dialog_fixed_width_minor;
+			global::LibVLCSharp.Forms.Resource.Dimension.abc_dialog_list_padding_bottom_no_buttons = global::LocalNetwork.Droid.Resource.Dimension.abc_dialog_list_padding_bottom_no_buttons;
+			global::LibVLCSharp.Forms.Resource.Dimension.abc_dialog_list_padding_top_no_title = global::LocalNetwork.Droid.Resource.Dimension.abc_dialog_list_padding_top_no_title;
+			global::LibVLCSharp.Forms.Resource.Dimension.abc_dialog_min_width_major = global::LocalNetwork.Droid.Resource.Dimension.abc_dialog_min_width_major;
+			global::LibVLCSharp.Forms.Resource.Dimension.abc_dialog_min_width_minor = global::LocalNetwork.Droid.Resource.Dimension.abc_dialog_min_width_minor;
+			global::LibVLCSharp.Forms.Resource.Dimension.abc_dialog_padding_material = global::LocalNetwork.Droid.Resource.Dimension.abc_dialog_padding_material;
+			global::LibVLCSharp.Forms.Resource.Dimension.abc_dialog_padding_top_material = global::LocalNetwork.Droid.Resource.Dimension.abc_dialog_padding_top_material;
+			global::LibVLCSharp.Forms.Resource.Dimension.abc_dialog_title_divider_material = global::LocalNetwork.Droid.Resource.Dimension.abc_dialog_title_divider_material;
+			global::LibVLCSharp.Forms.Resource.Dimension.abc_disabled_alpha_material_dark = global::LocalNetwork.Droid.Resource.Dimension.abc_disabled_alpha_material_dark;
+			global::LibVLCSharp.Forms.Resource.Dimension.abc_disabled_alpha_material_light = global::LocalNetwork.Droid.Resource.Dimension.abc_disabled_alpha_material_light;
+			global::LibVLCSharp.Forms.Resource.Dimension.abc_dropdownitem_icon_width = global::LocalNetwork.Droid.Resource.Dimension.abc_dropdownitem_icon_width;
+			global::LibVLCSharp.Forms.Resource.Dimension.abc_dropdownitem_text_padding_left = global::LocalNetwork.Droid.Resource.Dimension.abc_dropdownitem_text_padding_left;
+			global::LibVLCSharp.Forms.Resource.Dimension.abc_dropdownitem_text_padding_right = global::LocalNetwork.Droid.Resource.Dimension.abc_dropdownitem_text_padding_right;
+			global::LibVLCSharp.Forms.Resource.Dimension.abc_edit_text_inset_bottom_material = global::LocalNetwork.Droid.Resource.Dimension.abc_edit_text_inset_bottom_material;
+			global::LibVLCSharp.Forms.Resource.Dimension.abc_edit_text_inset_horizontal_material = global::LocalNetwork.Droid.Resource.Dimension.abc_edit_text_inset_horizontal_material;
+			global::LibVLCSharp.Forms.Resource.Dimension.abc_edit_text_inset_top_material = global::LocalNetwork.Droid.Resource.Dimension.abc_edit_text_inset_top_material;
+			global::LibVLCSharp.Forms.Resource.Dimension.abc_floating_window_z = global::LocalNetwork.Droid.Resource.Dimension.abc_floating_window_z;
+			global::LibVLCSharp.Forms.Resource.Dimension.abc_list_item_padding_horizontal_material = global::LocalNetwork.Droid.Resource.Dimension.abc_list_item_padding_horizontal_material;
+			global::LibVLCSharp.Forms.Resource.Dimension.abc_panel_menu_list_width = global::LocalNetwork.Droid.Resource.Dimension.abc_panel_menu_list_width;
+			global::LibVLCSharp.Forms.Resource.Dimension.abc_progress_bar_height_material = global::LocalNetwork.Droid.Resource.Dimension.abc_progress_bar_height_material;
+			global::LibVLCSharp.Forms.Resource.Dimension.abc_search_view_preferred_height = global::LocalNetwork.Droid.Resource.Dimension.abc_search_view_preferred_height;
+			global::LibVLCSharp.Forms.Resource.Dimension.abc_search_view_preferred_width = global::LocalNetwork.Droid.Resource.Dimension.abc_search_view_preferred_width;
+			global::LibVLCSharp.Forms.Resource.Dimension.abc_seekbar_track_background_height_material = global::LocalNetwork.Droid.Resource.Dimension.abc_seekbar_track_background_height_material;
+			global::LibVLCSharp.Forms.Resource.Dimension.abc_seekbar_track_progress_height_material = global::LocalNetwork.Droid.Resource.Dimension.abc_seekbar_track_progress_height_material;
+			global::LibVLCSharp.Forms.Resource.Dimension.abc_select_dialog_padding_start_material = global::LocalNetwork.Droid.Resource.Dimension.abc_select_dialog_padding_start_material;
+			global::LibVLCSharp.Forms.Resource.Dimension.abc_switch_padding = global::LocalNetwork.Droid.Resource.Dimension.abc_switch_padding;
+			global::LibVLCSharp.Forms.Resource.Dimension.abc_text_size_body_1_material = global::LocalNetwork.Droid.Resource.Dimension.abc_text_size_body_1_material;
+			global::LibVLCSharp.Forms.Resource.Dimension.abc_text_size_body_2_material = global::LocalNetwork.Droid.Resource.Dimension.abc_text_size_body_2_material;
+			global::LibVLCSharp.Forms.Resource.Dimension.abc_text_size_button_material = global::LocalNetwork.Droid.Resource.Dimension.abc_text_size_button_material;
+			global::LibVLCSharp.Forms.Resource.Dimension.abc_text_size_caption_material = global::LocalNetwork.Droid.Resource.Dimension.abc_text_size_caption_material;
+			global::LibVLCSharp.Forms.Resource.Dimension.abc_text_size_display_1_material = global::LocalNetwork.Droid.Resource.Dimension.abc_text_size_display_1_material;
+			global::LibVLCSharp.Forms.Resource.Dimension.abc_text_size_display_2_material = global::LocalNetwork.Droid.Resource.Dimension.abc_text_size_display_2_material;
+			global::LibVLCSharp.Forms.Resource.Dimension.abc_text_size_display_3_material = global::LocalNetwork.Droid.Resource.Dimension.abc_text_size_display_3_material;
+			global::LibVLCSharp.Forms.Resource.Dimension.abc_text_size_display_4_material = global::LocalNetwork.Droid.Resource.Dimension.abc_text_size_display_4_material;
+			global::LibVLCSharp.Forms.Resource.Dimension.abc_text_size_headline_material = global::LocalNetwork.Droid.Resource.Dimension.abc_text_size_headline_material;
+			global::LibVLCSharp.Forms.Resource.Dimension.abc_text_size_large_material = global::LocalNetwork.Droid.Resource.Dimension.abc_text_size_large_material;
+			global::LibVLCSharp.Forms.Resource.Dimension.abc_text_size_medium_material = global::LocalNetwork.Droid.Resource.Dimension.abc_text_size_medium_material;
+			global::LibVLCSharp.Forms.Resource.Dimension.abc_text_size_menu_header_material = global::LocalNetwork.Droid.Resource.Dimension.abc_text_size_menu_header_material;
+			global::LibVLCSharp.Forms.Resource.Dimension.abc_text_size_menu_material = global::LocalNetwork.Droid.Resource.Dimension.abc_text_size_menu_material;
+			global::LibVLCSharp.Forms.Resource.Dimension.abc_text_size_small_material = global::LocalNetwork.Droid.Resource.Dimension.abc_text_size_small_material;
+			global::LibVLCSharp.Forms.Resource.Dimension.abc_text_size_subhead_material = global::LocalNetwork.Droid.Resource.Dimension.abc_text_size_subhead_material;
+			global::LibVLCSharp.Forms.Resource.Dimension.abc_text_size_subtitle_material_toolbar = global::LocalNetwork.Droid.Resource.Dimension.abc_text_size_subtitle_material_toolbar;
+			global::LibVLCSharp.Forms.Resource.Dimension.abc_text_size_title_material = global::LocalNetwork.Droid.Resource.Dimension.abc_text_size_title_material;
+			global::LibVLCSharp.Forms.Resource.Dimension.abc_text_size_title_material_toolbar = global::LocalNetwork.Droid.Resource.Dimension.abc_text_size_title_material_toolbar;
+			global::LibVLCSharp.Forms.Resource.Dimension.cardview_compat_inset_shadow = global::LocalNetwork.Droid.Resource.Dimension.cardview_compat_inset_shadow;
+			global::LibVLCSharp.Forms.Resource.Dimension.cardview_default_elevation = global::LocalNetwork.Droid.Resource.Dimension.cardview_default_elevation;
+			global::LibVLCSharp.Forms.Resource.Dimension.cardview_default_radius = global::LocalNetwork.Droid.Resource.Dimension.cardview_default_radius;
+			global::LibVLCSharp.Forms.Resource.Dimension.compat_button_inset_horizontal_material = global::LocalNetwork.Droid.Resource.Dimension.compat_button_inset_horizontal_material;
+			global::LibVLCSharp.Forms.Resource.Dimension.compat_button_inset_vertical_material = global::LocalNetwork.Droid.Resource.Dimension.compat_button_inset_vertical_material;
+			global::LibVLCSharp.Forms.Resource.Dimension.compat_button_padding_horizontal_material = global::LocalNetwork.Droid.Resource.Dimension.compat_button_padding_horizontal_material;
+			global::LibVLCSharp.Forms.Resource.Dimension.compat_button_padding_vertical_material = global::LocalNetwork.Droid.Resource.Dimension.compat_button_padding_vertical_material;
+			global::LibVLCSharp.Forms.Resource.Dimension.compat_control_corner_material = global::LocalNetwork.Droid.Resource.Dimension.compat_control_corner_material;
+			global::LibVLCSharp.Forms.Resource.Dimension.design_appbar_elevation = global::LocalNetwork.Droid.Resource.Dimension.design_appbar_elevation;
+			global::LibVLCSharp.Forms.Resource.Dimension.design_bottom_navigation_active_item_max_width = global::LocalNetwork.Droid.Resource.Dimension.design_bottom_navigation_active_item_max_width;
+			global::LibVLCSharp.Forms.Resource.Dimension.design_bottom_navigation_active_text_size = global::LocalNetwork.Droid.Resource.Dimension.design_bottom_navigation_active_text_size;
+			global::LibVLCSharp.Forms.Resource.Dimension.design_bottom_navigation_elevation = global::LocalNetwork.Droid.Resource.Dimension.design_bottom_navigation_elevation;
+			global::LibVLCSharp.Forms.Resource.Dimension.design_bottom_navigation_height = global::LocalNetwork.Droid.Resource.Dimension.design_bottom_navigation_height;
+			global::LibVLCSharp.Forms.Resource.Dimension.design_bottom_navigation_item_max_width = global::LocalNetwork.Droid.Resource.Dimension.design_bottom_navigation_item_max_width;
+			global::LibVLCSharp.Forms.Resource.Dimension.design_bottom_navigation_item_min_width = global::LocalNetwork.Droid.Resource.Dimension.design_bottom_navigation_item_min_width;
+			global::LibVLCSharp.Forms.Resource.Dimension.design_bottom_navigation_margin = global::LocalNetwork.Droid.Resource.Dimension.design_bottom_navigation_margin;
+			global::LibVLCSharp.Forms.Resource.Dimension.design_bottom_navigation_shadow_height = global::LocalNetwork.Droid.Resource.Dimension.design_bottom_navigation_shadow_height;
+			global::LibVLCSharp.Forms.Resource.Dimension.design_bottom_navigation_text_size = global::LocalNetwork.Droid.Resource.Dimension.design_bottom_navigation_text_size;
+			global::LibVLCSharp.Forms.Resource.Dimension.design_bottom_sheet_modal_elevation = global::LocalNetwork.Droid.Resource.Dimension.design_bottom_sheet_modal_elevation;
+			global::LibVLCSharp.Forms.Resource.Dimension.design_bottom_sheet_peek_height_min = global::LocalNetwork.Droid.Resource.Dimension.design_bottom_sheet_peek_height_min;
+			global::LibVLCSharp.Forms.Resource.Dimension.design_fab_border_width = global::LocalNetwork.Droid.Resource.Dimension.design_fab_border_width;
+			global::LibVLCSharp.Forms.Resource.Dimension.design_fab_elevation = global::LocalNetwork.Droid.Resource.Dimension.design_fab_elevation;
+			global::LibVLCSharp.Forms.Resource.Dimension.design_fab_image_size = global::LocalNetwork.Droid.Resource.Dimension.design_fab_image_size;
+			global::LibVLCSharp.Forms.Resource.Dimension.design_fab_size_mini = global::LocalNetwork.Droid.Resource.Dimension.design_fab_size_mini;
+			global::LibVLCSharp.Forms.Resource.Dimension.design_fab_size_normal = global::LocalNetwork.Droid.Resource.Dimension.design_fab_size_normal;
+			global::LibVLCSharp.Forms.Resource.Dimension.design_fab_translation_z_pressed = global::LocalNetwork.Droid.Resource.Dimension.design_fab_translation_z_pressed;
+			global::LibVLCSharp.Forms.Resource.Dimension.design_navigation_elevation = global::LocalNetwork.Droid.Resource.Dimension.design_navigation_elevation;
+			global::LibVLCSharp.Forms.Resource.Dimension.design_navigation_icon_padding = global::LocalNetwork.Droid.Resource.Dimension.design_navigation_icon_padding;
+			global::LibVLCSharp.Forms.Resource.Dimension.design_navigation_icon_size = global::LocalNetwork.Droid.Resource.Dimension.design_navigation_icon_size;
+			global::LibVLCSharp.Forms.Resource.Dimension.design_navigation_max_width = global::LocalNetwork.Droid.Resource.Dimension.design_navigation_max_width;
+			global::LibVLCSharp.Forms.Resource.Dimension.design_navigation_padding_bottom = global::LocalNetwork.Droid.Resource.Dimension.design_navigation_padding_bottom;
+			global::LibVLCSharp.Forms.Resource.Dimension.design_navigation_separator_vertical_padding = global::LocalNetwork.Droid.Resource.Dimension.design_navigation_separator_vertical_padding;
+			global::LibVLCSharp.Forms.Resource.Dimension.design_snackbar_action_inline_max_width = global::LocalNetwork.Droid.Resource.Dimension.design_snackbar_action_inline_max_width;
+			global::LibVLCSharp.Forms.Resource.Dimension.design_snackbar_background_corner_radius = global::LocalNetwork.Droid.Resource.Dimension.design_snackbar_background_corner_radius;
+			global::LibVLCSharp.Forms.Resource.Dimension.design_snackbar_elevation = global::LocalNetwork.Droid.Resource.Dimension.design_snackbar_elevation;
+			global::LibVLCSharp.Forms.Resource.Dimension.design_snackbar_extra_spacing_horizontal = global::LocalNetwork.Droid.Resource.Dimension.design_snackbar_extra_spacing_horizontal;
+			global::LibVLCSharp.Forms.Resource.Dimension.design_snackbar_max_width = global::LocalNetwork.Droid.Resource.Dimension.design_snackbar_max_width;
+			global::LibVLCSharp.Forms.Resource.Dimension.design_snackbar_min_width = global::LocalNetwork.Droid.Resource.Dimension.design_snackbar_min_width;
+			global::LibVLCSharp.Forms.Resource.Dimension.design_snackbar_padding_horizontal = global::LocalNetwork.Droid.Resource.Dimension.design_snackbar_padding_horizontal;
+			global::LibVLCSharp.Forms.Resource.Dimension.design_snackbar_padding_vertical = global::LocalNetwork.Droid.Resource.Dimension.design_snackbar_padding_vertical;
+			global::LibVLCSharp.Forms.Resource.Dimension.design_snackbar_padding_vertical_2lines = global::LocalNetwork.Droid.Resource.Dimension.design_snackbar_padding_vertical_2lines;
+			global::LibVLCSharp.Forms.Resource.Dimension.design_snackbar_text_size = global::LocalNetwork.Droid.Resource.Dimension.design_snackbar_text_size;
+			global::LibVLCSharp.Forms.Resource.Dimension.design_tab_max_width = global::LocalNetwork.Droid.Resource.Dimension.design_tab_max_width;
+			global::LibVLCSharp.Forms.Resource.Dimension.design_tab_scrollable_min_width = global::LocalNetwork.Droid.Resource.Dimension.design_tab_scrollable_min_width;
+			global::LibVLCSharp.Forms.Resource.Dimension.design_tab_text_size = global::LocalNetwork.Droid.Resource.Dimension.design_tab_text_size;
+			global::LibVLCSharp.Forms.Resource.Dimension.design_tab_text_size_2line = global::LocalNetwork.Droid.Resource.Dimension.design_tab_text_size_2line;
+			global::LibVLCSharp.Forms.Resource.Dimension.disabled_alpha_material_dark = global::LocalNetwork.Droid.Resource.Dimension.disabled_alpha_material_dark;
+			global::LibVLCSharp.Forms.Resource.Dimension.disabled_alpha_material_light = global::LocalNetwork.Droid.Resource.Dimension.disabled_alpha_material_light;
+			global::LibVLCSharp.Forms.Resource.Dimension.fastscroll_default_thickness = global::LocalNetwork.Droid.Resource.Dimension.fastscroll_default_thickness;
+			global::LibVLCSharp.Forms.Resource.Dimension.fastscroll_margin = global::LocalNetwork.Droid.Resource.Dimension.fastscroll_margin;
+			global::LibVLCSharp.Forms.Resource.Dimension.fastscroll_minimum_range = global::LocalNetwork.Droid.Resource.Dimension.fastscroll_minimum_range;
+			global::LibVLCSharp.Forms.Resource.Dimension.highlight_alpha_material_colored = global::LocalNetwork.Droid.Resource.Dimension.highlight_alpha_material_colored;
+			global::LibVLCSharp.Forms.Resource.Dimension.highlight_alpha_material_dark = global::LocalNetwork.Droid.Resource.Dimension.highlight_alpha_material_dark;
+			global::LibVLCSharp.Forms.Resource.Dimension.highlight_alpha_material_light = global::LocalNetwork.Droid.Resource.Dimension.highlight_alpha_material_light;
+			global::LibVLCSharp.Forms.Resource.Dimension.hint_alpha_material_dark = global::LocalNetwork.Droid.Resource.Dimension.hint_alpha_material_dark;
+			global::LibVLCSharp.Forms.Resource.Dimension.hint_alpha_material_light = global::LocalNetwork.Droid.Resource.Dimension.hint_alpha_material_light;
+			global::LibVLCSharp.Forms.Resource.Dimension.hint_pressed_alpha_material_dark = global::LocalNetwork.Droid.Resource.Dimension.hint_pressed_alpha_material_dark;
+			global::LibVLCSharp.Forms.Resource.Dimension.hint_pressed_alpha_material_light = global::LocalNetwork.Droid.Resource.Dimension.hint_pressed_alpha_material_light;
+			global::LibVLCSharp.Forms.Resource.Dimension.item_touch_helper_max_drag_scroll_per_frame = global::LocalNetwork.Droid.Resource.Dimension.item_touch_helper_max_drag_scroll_per_frame;
+			global::LibVLCSharp.Forms.Resource.Dimension.item_touch_helper_swipe_escape_max_velocity = global::LocalNetwork.Droid.Resource.Dimension.item_touch_helper_swipe_escape_max_velocity;
+			global::LibVLCSharp.Forms.Resource.Dimension.item_touch_helper_swipe_escape_velocity = global::LocalNetwork.Droid.Resource.Dimension.item_touch_helper_swipe_escape_velocity;
+			global::LibVLCSharp.Forms.Resource.Dimension.mr_controller_volume_group_list_item_height = global::LocalNetwork.Droid.Resource.Dimension.mr_controller_volume_group_list_item_height;
+			global::LibVLCSharp.Forms.Resource.Dimension.mr_controller_volume_group_list_item_icon_size = global::LocalNetwork.Droid.Resource.Dimension.mr_controller_volume_group_list_item_icon_size;
+			global::LibVLCSharp.Forms.Resource.Dimension.mr_controller_volume_group_list_max_height = global::LocalNetwork.Droid.Resource.Dimension.mr_controller_volume_group_list_max_height;
+			global::LibVLCSharp.Forms.Resource.Dimension.mr_controller_volume_group_list_padding_top = global::LocalNetwork.Droid.Resource.Dimension.mr_controller_volume_group_list_padding_top;
+			global::LibVLCSharp.Forms.Resource.Dimension.mr_dialog_fixed_width_major = global::LocalNetwork.Droid.Resource.Dimension.mr_dialog_fixed_width_major;
+			global::LibVLCSharp.Forms.Resource.Dimension.mr_dialog_fixed_width_minor = global::LocalNetwork.Droid.Resource.Dimension.mr_dialog_fixed_width_minor;
+			global::LibVLCSharp.Forms.Resource.Dimension.notification_action_icon_size = global::LocalNetwork.Droid.Resource.Dimension.notification_action_icon_size;
+			global::LibVLCSharp.Forms.Resource.Dimension.notification_action_text_size = global::LocalNetwork.Droid.Resource.Dimension.notification_action_text_size;
+			global::LibVLCSharp.Forms.Resource.Dimension.notification_big_circle_margin = global::LocalNetwork.Droid.Resource.Dimension.notification_big_circle_margin;
+			global::LibVLCSharp.Forms.Resource.Dimension.notification_content_margin_start = global::LocalNetwork.Droid.Resource.Dimension.notification_content_margin_start;
+			global::LibVLCSharp.Forms.Resource.Dimension.notification_large_icon_height = global::LocalNetwork.Droid.Resource.Dimension.notification_large_icon_height;
+			global::LibVLCSharp.Forms.Resource.Dimension.notification_large_icon_width = global::LocalNetwork.Droid.Resource.Dimension.notification_large_icon_width;
+			global::LibVLCSharp.Forms.Resource.Dimension.notification_main_column_padding_top = global::LocalNetwork.Droid.Resource.Dimension.notification_main_column_padding_top;
+			global::LibVLCSharp.Forms.Resource.Dimension.notification_media_narrow_margin = global::LocalNetwork.Droid.Resource.Dimension.notification_media_narrow_margin;
+			global::LibVLCSharp.Forms.Resource.Dimension.notification_right_icon_size = global::LocalNetwork.Droid.Resource.Dimension.notification_right_icon_size;
+			global::LibVLCSharp.Forms.Resource.Dimension.notification_right_side_padding_top = global::LocalNetwork.Droid.Resource.Dimension.notification_right_side_padding_top;
+			global::LibVLCSharp.Forms.Resource.Dimension.notification_small_icon_background_padding = global::LocalNetwork.Droid.Resource.Dimension.notification_small_icon_background_padding;
+			global::LibVLCSharp.Forms.Resource.Dimension.notification_small_icon_size_as_large = global::LocalNetwork.Droid.Resource.Dimension.notification_small_icon_size_as_large;
+			global::LibVLCSharp.Forms.Resource.Dimension.notification_subtext_size = global::LocalNetwork.Droid.Resource.Dimension.notification_subtext_size;
+			global::LibVLCSharp.Forms.Resource.Dimension.notification_top_pad = global::LocalNetwork.Droid.Resource.Dimension.notification_top_pad;
+			global::LibVLCSharp.Forms.Resource.Dimension.notification_top_pad_large_text = global::LocalNetwork.Droid.Resource.Dimension.notification_top_pad_large_text;
+			global::LibVLCSharp.Forms.Resource.Dimension.tooltip_corner_radius = global::LocalNetwork.Droid.Resource.Dimension.tooltip_corner_radius;
+			global::LibVLCSharp.Forms.Resource.Dimension.tooltip_horizontal_padding = global::LocalNetwork.Droid.Resource.Dimension.tooltip_horizontal_padding;
+			global::LibVLCSharp.Forms.Resource.Dimension.tooltip_margin = global::LocalNetwork.Droid.Resource.Dimension.tooltip_margin;
+			global::LibVLCSharp.Forms.Resource.Dimension.tooltip_precise_anchor_extra_offset = global::LocalNetwork.Droid.Resource.Dimension.tooltip_precise_anchor_extra_offset;
+			global::LibVLCSharp.Forms.Resource.Dimension.tooltip_precise_anchor_threshold = global::LocalNetwork.Droid.Resource.Dimension.tooltip_precise_anchor_threshold;
+			global::LibVLCSharp.Forms.Resource.Dimension.tooltip_vertical_padding = global::LocalNetwork.Droid.Resource.Dimension.tooltip_vertical_padding;
+			global::LibVLCSharp.Forms.Resource.Dimension.tooltip_y_offset_non_touch = global::LocalNetwork.Droid.Resource.Dimension.tooltip_y_offset_non_touch;
+			global::LibVLCSharp.Forms.Resource.Dimension.tooltip_y_offset_touch = global::LocalNetwork.Droid.Resource.Dimension.tooltip_y_offset_touch;
+			global::LibVLCSharp.Forms.Resource.Drawable.abc_ab_share_pack_mtrl_alpha = global::LocalNetwork.Droid.Resource.Drawable.abc_ab_share_pack_mtrl_alpha;
+			global::LibVLCSharp.Forms.Resource.Drawable.abc_action_bar_item_background_material = global::LocalNetwork.Droid.Resource.Drawable.abc_action_bar_item_background_material;
+			global::LibVLCSharp.Forms.Resource.Drawable.abc_btn_borderless_material = global::LocalNetwork.Droid.Resource.Drawable.abc_btn_borderless_material;
+			global::LibVLCSharp.Forms.Resource.Drawable.abc_btn_check_material = global::LocalNetwork.Droid.Resource.Drawable.abc_btn_check_material;
+			global::LibVLCSharp.Forms.Resource.Drawable.abc_btn_check_to_on_mtrl_000 = global::LocalNetwork.Droid.Resource.Drawable.abc_btn_check_to_on_mtrl_000;
+			global::LibVLCSharp.Forms.Resource.Drawable.abc_btn_check_to_on_mtrl_015 = global::LocalNetwork.Droid.Resource.Drawable.abc_btn_check_to_on_mtrl_015;
+			global::LibVLCSharp.Forms.Resource.Drawable.abc_btn_colored_material = global::LocalNetwork.Droid.Resource.Drawable.abc_btn_colored_material;
+			global::LibVLCSharp.Forms.Resource.Drawable.abc_btn_default_mtrl_shape = global::LocalNetwork.Droid.Resource.Drawable.abc_btn_default_mtrl_shape;
+			global::LibVLCSharp.Forms.Resource.Drawable.abc_btn_radio_material = global::LocalNetwork.Droid.Resource.Drawable.abc_btn_radio_material;
+			global::LibVLCSharp.Forms.Resource.Drawable.abc_btn_radio_to_on_mtrl_000 = global::LocalNetwork.Droid.Resource.Drawable.abc_btn_radio_to_on_mtrl_000;
+			global::LibVLCSharp.Forms.Resource.Drawable.abc_btn_radio_to_on_mtrl_015 = global::LocalNetwork.Droid.Resource.Drawable.abc_btn_radio_to_on_mtrl_015;
+			global::LibVLCSharp.Forms.Resource.Drawable.abc_btn_switch_to_on_mtrl_00001 = global::LocalNetwork.Droid.Resource.Drawable.abc_btn_switch_to_on_mtrl_00001;
+			global::LibVLCSharp.Forms.Resource.Drawable.abc_btn_switch_to_on_mtrl_00012 = global::LocalNetwork.Droid.Resource.Drawable.abc_btn_switch_to_on_mtrl_00012;
+			global::LibVLCSharp.Forms.Resource.Drawable.abc_cab_background_internal_bg = global::LocalNetwork.Droid.Resource.Drawable.abc_cab_background_internal_bg;
+			global::LibVLCSharp.Forms.Resource.Drawable.abc_cab_background_top_material = global::LocalNetwork.Droid.Resource.Drawable.abc_cab_background_top_material;
+			global::LibVLCSharp.Forms.Resource.Drawable.abc_cab_background_top_mtrl_alpha = global::LocalNetwork.Droid.Resource.Drawable.abc_cab_background_top_mtrl_alpha;
+			global::LibVLCSharp.Forms.Resource.Drawable.abc_control_background_material = global::LocalNetwork.Droid.Resource.Drawable.abc_control_background_material;
+			global::LibVLCSharp.Forms.Resource.Drawable.abc_dialog_material_background = global::LocalNetwork.Droid.Resource.Drawable.abc_dialog_material_background;
+			global::LibVLCSharp.Forms.Resource.Drawable.abc_edit_text_material = global::LocalNetwork.Droid.Resource.Drawable.abc_edit_text_material;
+			global::LibVLCSharp.Forms.Resource.Drawable.abc_ic_ab_back_material = global::LocalNetwork.Droid.Resource.Drawable.abc_ic_ab_back_material;
+			global::LibVLCSharp.Forms.Resource.Drawable.abc_ic_arrow_drop_right_black_24dp = global::LocalNetwork.Droid.Resource.Drawable.abc_ic_arrow_drop_right_black_24dp;
+			global::LibVLCSharp.Forms.Resource.Drawable.abc_ic_clear_material = global::LocalNetwork.Droid.Resource.Drawable.abc_ic_clear_material;
+			global::LibVLCSharp.Forms.Resource.Drawable.abc_ic_commit_search_api_mtrl_alpha = global::LocalNetwork.Droid.Resource.Drawable.abc_ic_commit_search_api_mtrl_alpha;
+			global::LibVLCSharp.Forms.Resource.Drawable.abc_ic_go_search_api_material = global::LocalNetwork.Droid.Resource.Drawable.abc_ic_go_search_api_material;
+			global::LibVLCSharp.Forms.Resource.Drawable.abc_ic_menu_copy_mtrl_am_alpha = global::LocalNetwork.Droid.Resource.Drawable.abc_ic_menu_copy_mtrl_am_alpha;
+			global::LibVLCSharp.Forms.Resource.Drawable.abc_ic_menu_cut_mtrl_alpha = global::LocalNetwork.Droid.Resource.Drawable.abc_ic_menu_cut_mtrl_alpha;
+			global::LibVLCSharp.Forms.Resource.Drawable.abc_ic_menu_overflow_material = global::LocalNetwork.Droid.Resource.Drawable.abc_ic_menu_overflow_material;
+			global::LibVLCSharp.Forms.Resource.Drawable.abc_ic_menu_paste_mtrl_am_alpha = global::LocalNetwork.Droid.Resource.Drawable.abc_ic_menu_paste_mtrl_am_alpha;
+			global::LibVLCSharp.Forms.Resource.Drawable.abc_ic_menu_selectall_mtrl_alpha = global::LocalNetwork.Droid.Resource.Drawable.abc_ic_menu_selectall_mtrl_alpha;
+			global::LibVLCSharp.Forms.Resource.Drawable.abc_ic_menu_share_mtrl_alpha = global::LocalNetwork.Droid.Resource.Drawable.abc_ic_menu_share_mtrl_alpha;
+			global::LibVLCSharp.Forms.Resource.Drawable.abc_ic_search_api_material = global::LocalNetwork.Droid.Resource.Drawable.abc_ic_search_api_material;
+			global::LibVLCSharp.Forms.Resource.Drawable.abc_ic_star_black_16dp = global::LocalNetwork.Droid.Resource.Drawable.abc_ic_star_black_16dp;
+			global::LibVLCSharp.Forms.Resource.Drawable.abc_ic_star_black_36dp = global::LocalNetwork.Droid.Resource.Drawable.abc_ic_star_black_36dp;
+			global::LibVLCSharp.Forms.Resource.Drawable.abc_ic_star_black_48dp = global::LocalNetwork.Droid.Resource.Drawable.abc_ic_star_black_48dp;
+			global::LibVLCSharp.Forms.Resource.Drawable.abc_ic_star_half_black_16dp = global::LocalNetwork.Droid.Resource.Drawable.abc_ic_star_half_black_16dp;
+			global::LibVLCSharp.Forms.Resource.Drawable.abc_ic_star_half_black_36dp = global::LocalNetwork.Droid.Resource.Drawable.abc_ic_star_half_black_36dp;
+			global::LibVLCSharp.Forms.Resource.Drawable.abc_ic_star_half_black_48dp = global::LocalNetwork.Droid.Resource.Drawable.abc_ic_star_half_black_48dp;
+			global::LibVLCSharp.Forms.Resource.Drawable.abc_ic_voice_search_api_material = global::LocalNetwork.Droid.Resource.Drawable.abc_ic_voice_search_api_material;
+			global::LibVLCSharp.Forms.Resource.Drawable.abc_item_background_holo_dark = global::LocalNetwork.Droid.Resource.Drawable.abc_item_background_holo_dark;
+			global::LibVLCSharp.Forms.Resource.Drawable.abc_item_background_holo_light = global::LocalNetwork.Droid.Resource.Drawable.abc_item_background_holo_light;
+			global::LibVLCSharp.Forms.Resource.Drawable.abc_list_divider_mtrl_alpha = global::LocalNetwork.Droid.Resource.Drawable.abc_list_divider_mtrl_alpha;
+			global::LibVLCSharp.Forms.Resource.Drawable.abc_list_focused_holo = global::LocalNetwork.Droid.Resource.Drawable.abc_list_focused_holo;
+			global::LibVLCSharp.Forms.Resource.Drawable.abc_list_longpressed_holo = global::LocalNetwork.Droid.Resource.Drawable.abc_list_longpressed_holo;
+			global::LibVLCSharp.Forms.Resource.Drawable.abc_list_pressed_holo_dark = global::LocalNetwork.Droid.Resource.Drawable.abc_list_pressed_holo_dark;
+			global::LibVLCSharp.Forms.Resource.Drawable.abc_list_pressed_holo_light = global::LocalNetwork.Droid.Resource.Drawable.abc_list_pressed_holo_light;
+			global::LibVLCSharp.Forms.Resource.Drawable.abc_list_selector_background_transition_holo_dark = global::LocalNetwork.Droid.Resource.Drawable.abc_list_selector_background_transition_holo_dark;
+			global::LibVLCSharp.Forms.Resource.Drawable.abc_list_selector_background_transition_holo_light = global::LocalNetwork.Droid.Resource.Drawable.abc_list_selector_background_transition_holo_light;
+			global::LibVLCSharp.Forms.Resource.Drawable.abc_list_selector_disabled_holo_dark = global::LocalNetwork.Droid.Resource.Drawable.abc_list_selector_disabled_holo_dark;
+			global::LibVLCSharp.Forms.Resource.Drawable.abc_list_selector_disabled_holo_light = global::LocalNetwork.Droid.Resource.Drawable.abc_list_selector_disabled_holo_light;
+			global::LibVLCSharp.Forms.Resource.Drawable.abc_list_selector_holo_dark = global::LocalNetwork.Droid.Resource.Drawable.abc_list_selector_holo_dark;
+			global::LibVLCSharp.Forms.Resource.Drawable.abc_list_selector_holo_light = global::LocalNetwork.Droid.Resource.Drawable.abc_list_selector_holo_light;
+			global::LibVLCSharp.Forms.Resource.Drawable.abc_menu_hardkey_panel_mtrl_mult = global::LocalNetwork.Droid.Resource.Drawable.abc_menu_hardkey_panel_mtrl_mult;
+			global::LibVLCSharp.Forms.Resource.Drawable.abc_popup_background_mtrl_mult = global::LocalNetwork.Droid.Resource.Drawable.abc_popup_background_mtrl_mult;
+			global::LibVLCSharp.Forms.Resource.Drawable.abc_ratingbar_indicator_material = global::LocalNetwork.Droid.Resource.Drawable.abc_ratingbar_indicator_material;
+			global::LibVLCSharp.Forms.Resource.Drawable.abc_ratingbar_material = global::LocalNetwork.Droid.Resource.Drawable.abc_ratingbar_material;
+			global::LibVLCSharp.Forms.Resource.Drawable.abc_ratingbar_small_material = global::LocalNetwork.Droid.Resource.Drawable.abc_ratingbar_small_material;
+			global::LibVLCSharp.Forms.Resource.Drawable.abc_scrubber_control_off_mtrl_alpha = global::LocalNetwork.Droid.Resource.Drawable.abc_scrubber_control_off_mtrl_alpha;
+			global::LibVLCSharp.Forms.Resource.Drawable.abc_scrubber_control_to_pressed_mtrl_000 = global::LocalNetwork.Droid.Resource.Drawable.abc_scrubber_control_to_pressed_mtrl_000;
+			global::LibVLCSharp.Forms.Resource.Drawable.abc_scrubber_control_to_pressed_mtrl_005 = global::LocalNetwork.Droid.Resource.Drawable.abc_scrubber_control_to_pressed_mtrl_005;
+			global::LibVLCSharp.Forms.Resource.Drawable.abc_scrubber_primary_mtrl_alpha = global::LocalNetwork.Droid.Resource.Drawable.abc_scrubber_primary_mtrl_alpha;
+			global::LibVLCSharp.Forms.Resource.Drawable.abc_scrubber_track_mtrl_alpha = global::LocalNetwork.Droid.Resource.Drawable.abc_scrubber_track_mtrl_alpha;
+			global::LibVLCSharp.Forms.Resource.Drawable.abc_seekbar_thumb_material = global::LocalNetwork.Droid.Resource.Drawable.abc_seekbar_thumb_material;
+			global::LibVLCSharp.Forms.Resource.Drawable.abc_seekbar_tick_mark_material = global::LocalNetwork.Droid.Resource.Drawable.abc_seekbar_tick_mark_material;
+			global::LibVLCSharp.Forms.Resource.Drawable.abc_seekbar_track_material = global::LocalNetwork.Droid.Resource.Drawable.abc_seekbar_track_material;
+			global::LibVLCSharp.Forms.Resource.Drawable.abc_spinner_mtrl_am_alpha = global::LocalNetwork.Droid.Resource.Drawable.abc_spinner_mtrl_am_alpha;
+			global::LibVLCSharp.Forms.Resource.Drawable.abc_spinner_textfield_background_material = global::LocalNetwork.Droid.Resource.Drawable.abc_spinner_textfield_background_material;
+			global::LibVLCSharp.Forms.Resource.Drawable.abc_switch_thumb_material = global::LocalNetwork.Droid.Resource.Drawable.abc_switch_thumb_material;
+			global::LibVLCSharp.Forms.Resource.Drawable.abc_switch_track_mtrl_alpha = global::LocalNetwork.Droid.Resource.Drawable.abc_switch_track_mtrl_alpha;
+			global::LibVLCSharp.Forms.Resource.Drawable.abc_tab_indicator_material = global::LocalNetwork.Droid.Resource.Drawable.abc_tab_indicator_material;
+			global::LibVLCSharp.Forms.Resource.Drawable.abc_tab_indicator_mtrl_alpha = global::LocalNetwork.Droid.Resource.Drawable.abc_tab_indicator_mtrl_alpha;
+			global::LibVLCSharp.Forms.Resource.Drawable.abc_textfield_activated_mtrl_alpha = global::LocalNetwork.Droid.Resource.Drawable.abc_textfield_activated_mtrl_alpha;
+			global::LibVLCSharp.Forms.Resource.Drawable.abc_textfield_default_mtrl_alpha = global::LocalNetwork.Droid.Resource.Drawable.abc_textfield_default_mtrl_alpha;
+			global::LibVLCSharp.Forms.Resource.Drawable.abc_textfield_search_activated_mtrl_alpha = global::LocalNetwork.Droid.Resource.Drawable.abc_textfield_search_activated_mtrl_alpha;
+			global::LibVLCSharp.Forms.Resource.Drawable.abc_textfield_search_default_mtrl_alpha = global::LocalNetwork.Droid.Resource.Drawable.abc_textfield_search_default_mtrl_alpha;
+			global::LibVLCSharp.Forms.Resource.Drawable.abc_textfield_search_material = global::LocalNetwork.Droid.Resource.Drawable.abc_textfield_search_material;
+			global::LibVLCSharp.Forms.Resource.Drawable.abc_text_cursor_material = global::LocalNetwork.Droid.Resource.Drawable.abc_text_cursor_material;
+			global::LibVLCSharp.Forms.Resource.Drawable.abc_text_select_handle_left_mtrl_dark = global::LocalNetwork.Droid.Resource.Drawable.abc_text_select_handle_left_mtrl_dark;
+			global::LibVLCSharp.Forms.Resource.Drawable.abc_text_select_handle_left_mtrl_light = global::LocalNetwork.Droid.Resource.Drawable.abc_text_select_handle_left_mtrl_light;
+			global::LibVLCSharp.Forms.Resource.Drawable.abc_text_select_handle_middle_mtrl_dark = global::LocalNetwork.Droid.Resource.Drawable.abc_text_select_handle_middle_mtrl_dark;
+			global::LibVLCSharp.Forms.Resource.Drawable.abc_text_select_handle_middle_mtrl_light = global::LocalNetwork.Droid.Resource.Drawable.abc_text_select_handle_middle_mtrl_light;
+			global::LibVLCSharp.Forms.Resource.Drawable.abc_text_select_handle_right_mtrl_dark = global::LocalNetwork.Droid.Resource.Drawable.abc_text_select_handle_right_mtrl_dark;
+			global::LibVLCSharp.Forms.Resource.Drawable.abc_text_select_handle_right_mtrl_light = global::LocalNetwork.Droid.Resource.Drawable.abc_text_select_handle_right_mtrl_light;
+			global::LibVLCSharp.Forms.Resource.Drawable.abc_vector_test = global::LocalNetwork.Droid.Resource.Drawable.abc_vector_test;
+			global::LibVLCSharp.Forms.Resource.Drawable.avd_hide_password = global::LocalNetwork.Droid.Resource.Drawable.avd_hide_password;
+			global::LibVLCSharp.Forms.Resource.Drawable.avd_show_password = global::LocalNetwork.Droid.Resource.Drawable.avd_show_password;
+			global::LibVLCSharp.Forms.Resource.Drawable.design_bottom_navigation_item_background = global::LocalNetwork.Droid.Resource.Drawable.design_bottom_navigation_item_background;
+			global::LibVLCSharp.Forms.Resource.Drawable.design_fab_background = global::LocalNetwork.Droid.Resource.Drawable.design_fab_background;
+			global::LibVLCSharp.Forms.Resource.Drawable.design_ic_visibility = global::LocalNetwork.Droid.Resource.Drawable.design_ic_visibility;
+			global::LibVLCSharp.Forms.Resource.Drawable.design_ic_visibility_off = global::LocalNetwork.Droid.Resource.Drawable.design_ic_visibility_off;
+			global::LibVLCSharp.Forms.Resource.Drawable.design_password_eye = global::LocalNetwork.Droid.Resource.Drawable.design_password_eye;
+			global::LibVLCSharp.Forms.Resource.Drawable.design_snackbar_background = global::LocalNetwork.Droid.Resource.Drawable.design_snackbar_background;
+			global::LibVLCSharp.Forms.Resource.Drawable.ic_audiotrack_dark = global::LocalNetwork.Droid.Resource.Drawable.ic_audiotrack_dark;
+			global::LibVLCSharp.Forms.Resource.Drawable.ic_audiotrack_light = global::LocalNetwork.Droid.Resource.Drawable.ic_audiotrack_light;
+			global::LibVLCSharp.Forms.Resource.Drawable.ic_dialog_close_dark = global::LocalNetwork.Droid.Resource.Drawable.ic_dialog_close_dark;
+			global::LibVLCSharp.Forms.Resource.Drawable.ic_dialog_close_light = global::LocalNetwork.Droid.Resource.Drawable.ic_dialog_close_light;
+			global::LibVLCSharp.Forms.Resource.Drawable.ic_group_collapse_00 = global::LocalNetwork.Droid.Resource.Drawable.ic_group_collapse_00;
+			global::LibVLCSharp.Forms.Resource.Drawable.ic_group_collapse_01 = global::LocalNetwork.Droid.Resource.Drawable.ic_group_collapse_01;
+			global::LibVLCSharp.Forms.Resource.Drawable.ic_group_collapse_02 = global::LocalNetwork.Droid.Resource.Drawable.ic_group_collapse_02;
+			global::LibVLCSharp.Forms.Resource.Drawable.ic_group_collapse_03 = global::LocalNetwork.Droid.Resource.Drawable.ic_group_collapse_03;
+			global::LibVLCSharp.Forms.Resource.Drawable.ic_group_collapse_04 = global::LocalNetwork.Droid.Resource.Drawable.ic_group_collapse_04;
+			global::LibVLCSharp.Forms.Resource.Drawable.ic_group_collapse_05 = global::LocalNetwork.Droid.Resource.Drawable.ic_group_collapse_05;
+			global::LibVLCSharp.Forms.Resource.Drawable.ic_group_collapse_06 = global::LocalNetwork.Droid.Resource.Drawable.ic_group_collapse_06;
+			global::LibVLCSharp.Forms.Resource.Drawable.ic_group_collapse_07 = global::LocalNetwork.Droid.Resource.Drawable.ic_group_collapse_07;
+			global::LibVLCSharp.Forms.Resource.Drawable.ic_group_collapse_08 = global::LocalNetwork.Droid.Resource.Drawable.ic_group_collapse_08;
+			global::LibVLCSharp.Forms.Resource.Drawable.ic_group_collapse_09 = global::LocalNetwork.Droid.Resource.Drawable.ic_group_collapse_09;
+			global::LibVLCSharp.Forms.Resource.Drawable.ic_group_collapse_10 = global::LocalNetwork.Droid.Resource.Drawable.ic_group_collapse_10;
+			global::LibVLCSharp.Forms.Resource.Drawable.ic_group_collapse_11 = global::LocalNetwork.Droid.Resource.Drawable.ic_group_collapse_11;
+			global::LibVLCSharp.Forms.Resource.Drawable.ic_group_collapse_12 = global::LocalNetwork.Droid.Resource.Drawable.ic_group_collapse_12;
+			global::LibVLCSharp.Forms.Resource.Drawable.ic_group_collapse_13 = global::LocalNetwork.Droid.Resource.Drawable.ic_group_collapse_13;
+			global::LibVLCSharp.Forms.Resource.Drawable.ic_group_collapse_14 = global::LocalNetwork.Droid.Resource.Drawable.ic_group_collapse_14;
+			global::LibVLCSharp.Forms.Resource.Drawable.ic_group_collapse_15 = global::LocalNetwork.Droid.Resource.Drawable.ic_group_collapse_15;
+			global::LibVLCSharp.Forms.Resource.Drawable.ic_group_expand_00 = global::LocalNetwork.Droid.Resource.Drawable.ic_group_expand_00;
+			global::LibVLCSharp.Forms.Resource.Drawable.ic_group_expand_01 = global::LocalNetwork.Droid.Resource.Drawable.ic_group_expand_01;
+			global::LibVLCSharp.Forms.Resource.Drawable.ic_group_expand_02 = global::LocalNetwork.Droid.Resource.Drawable.ic_group_expand_02;
+			global::LibVLCSharp.Forms.Resource.Drawable.ic_group_expand_03 = global::LocalNetwork.Droid.Resource.Drawable.ic_group_expand_03;
+			global::LibVLCSharp.Forms.Resource.Drawable.ic_group_expand_04 = global::LocalNetwork.Droid.Resource.Drawable.ic_group_expand_04;
+			global::LibVLCSharp.Forms.Resource.Drawable.ic_group_expand_05 = global::LocalNetwork.Droid.Resource.Drawable.ic_group_expand_05;
+			global::LibVLCSharp.Forms.Resource.Drawable.ic_group_expand_06 = global::LocalNetwork.Droid.Resource.Drawable.ic_group_expand_06;
+			global::LibVLCSharp.Forms.Resource.Drawable.ic_group_expand_07 = global::LocalNetwork.Droid.Resource.Drawable.ic_group_expand_07;
+			global::LibVLCSharp.Forms.Resource.Drawable.ic_group_expand_08 = global::LocalNetwork.Droid.Resource.Drawable.ic_group_expand_08;
+			global::LibVLCSharp.Forms.Resource.Drawable.ic_group_expand_09 = global::LocalNetwork.Droid.Resource.Drawable.ic_group_expand_09;
+			global::LibVLCSharp.Forms.Resource.Drawable.ic_group_expand_10 = global::LocalNetwork.Droid.Resource.Drawable.ic_group_expand_10;
+			global::LibVLCSharp.Forms.Resource.Drawable.ic_group_expand_11 = global::LocalNetwork.Droid.Resource.Drawable.ic_group_expand_11;
+			global::LibVLCSharp.Forms.Resource.Drawable.ic_group_expand_12 = global::LocalNetwork.Droid.Resource.Drawable.ic_group_expand_12;
+			global::LibVLCSharp.Forms.Resource.Drawable.ic_group_expand_13 = global::LocalNetwork.Droid.Resource.Drawable.ic_group_expand_13;
+			global::LibVLCSharp.Forms.Resource.Drawable.ic_group_expand_14 = global::LocalNetwork.Droid.Resource.Drawable.ic_group_expand_14;
+			global::LibVLCSharp.Forms.Resource.Drawable.ic_group_expand_15 = global::LocalNetwork.Droid.Resource.Drawable.ic_group_expand_15;
+			global::LibVLCSharp.Forms.Resource.Drawable.ic_media_pause_dark = global::LocalNetwork.Droid.Resource.Drawable.ic_media_pause_dark;
+			global::LibVLCSharp.Forms.Resource.Drawable.ic_media_pause_light = global::LocalNetwork.Droid.Resource.Drawable.ic_media_pause_light;
+			global::LibVLCSharp.Forms.Resource.Drawable.ic_media_play_dark = global::LocalNetwork.Droid.Resource.Drawable.ic_media_play_dark;
+			global::LibVLCSharp.Forms.Resource.Drawable.ic_media_play_light = global::LocalNetwork.Droid.Resource.Drawable.ic_media_play_light;
+			global::LibVLCSharp.Forms.Resource.Drawable.ic_media_stop_dark = global::LocalNetwork.Droid.Resource.Drawable.ic_media_stop_dark;
+			global::LibVLCSharp.Forms.Resource.Drawable.ic_media_stop_light = global::LocalNetwork.Droid.Resource.Drawable.ic_media_stop_light;
+			global::LibVLCSharp.Forms.Resource.Drawable.ic_mr_button_connected_00_dark = global::LocalNetwork.Droid.Resource.Drawable.ic_mr_button_connected_00_dark;
+			global::LibVLCSharp.Forms.Resource.Drawable.ic_mr_button_connected_00_light = global::LocalNetwork.Droid.Resource.Drawable.ic_mr_button_connected_00_light;
+			global::LibVLCSharp.Forms.Resource.Drawable.ic_mr_button_connected_01_dark = global::LocalNetwork.Droid.Resource.Drawable.ic_mr_button_connected_01_dark;
+			global::LibVLCSharp.Forms.Resource.Drawable.ic_mr_button_connected_01_light = global::LocalNetwork.Droid.Resource.Drawable.ic_mr_button_connected_01_light;
+			global::LibVLCSharp.Forms.Resource.Drawable.ic_mr_button_connected_02_dark = global::LocalNetwork.Droid.Resource.Drawable.ic_mr_button_connected_02_dark;
+			global::LibVLCSharp.Forms.Resource.Drawable.ic_mr_button_connected_02_light = global::LocalNetwork.Droid.Resource.Drawable.ic_mr_button_connected_02_light;
+			global::LibVLCSharp.Forms.Resource.Drawable.ic_mr_button_connected_03_dark = global::LocalNetwork.Droid.Resource.Drawable.ic_mr_button_connected_03_dark;
+			global::LibVLCSharp.Forms.Resource.Drawable.ic_mr_button_connected_03_light = global::LocalNetwork.Droid.Resource.Drawable.ic_mr_button_connected_03_light;
+			global::LibVLCSharp.Forms.Resource.Drawable.ic_mr_button_connected_04_dark = global::LocalNetwork.Droid.Resource.Drawable.ic_mr_button_connected_04_dark;
+			global::LibVLCSharp.Forms.Resource.Drawable.ic_mr_button_connected_04_light = global::LocalNetwork.Droid.Resource.Drawable.ic_mr_button_connected_04_light;
+			global::LibVLCSharp.Forms.Resource.Drawable.ic_mr_button_connected_05_dark = global::LocalNetwork.Droid.Resource.Drawable.ic_mr_button_connected_05_dark;
+			global::LibVLCSharp.Forms.Resource.Drawable.ic_mr_button_connected_05_light = global::LocalNetwork.Droid.Resource.Drawable.ic_mr_button_connected_05_light;
+			global::LibVLCSharp.Forms.Resource.Drawable.ic_mr_button_connected_06_dark = global::LocalNetwork.Droid.Resource.Drawable.ic_mr_button_connected_06_dark;
+			global::LibVLCSharp.Forms.Resource.Drawable.ic_mr_button_connected_06_light = global::LocalNetwork.Droid.Resource.Drawable.ic_mr_button_connected_06_light;
+			global::LibVLCSharp.Forms.Resource.Drawable.ic_mr_button_connected_07_dark = global::LocalNetwork.Droid.Resource.Drawable.ic_mr_button_connected_07_dark;
+			global::LibVLCSharp.Forms.Resource.Drawable.ic_mr_button_connected_07_light = global::LocalNetwork.Droid.Resource.Drawable.ic_mr_button_connected_07_light;
+			global::LibVLCSharp.Forms.Resource.Drawable.ic_mr_button_connected_08_dark = global::LocalNetwork.Droid.Resource.Drawable.ic_mr_button_connected_08_dark;
+			global::LibVLCSharp.Forms.Resource.Drawable.ic_mr_button_connected_08_light = global::LocalNetwork.Droid.Resource.Drawable.ic_mr_button_connected_08_light;
+			global::LibVLCSharp.Forms.Resource.Drawable.ic_mr_button_connected_09_dark = global::LocalNetwork.Droid.Resource.Drawable.ic_mr_button_connected_09_dark;
+			global::LibVLCSharp.Forms.Resource.Drawable.ic_mr_button_connected_09_light = global::LocalNetwork.Droid.Resource.Drawable.ic_mr_button_connected_09_light;
+			global::LibVLCSharp.Forms.Resource.Drawable.ic_mr_button_connected_10_dark = global::LocalNetwork.Droid.Resource.Drawable.ic_mr_button_connected_10_dark;
+			global::LibVLCSharp.Forms.Resource.Drawable.ic_mr_button_connected_10_light = global::LocalNetwork.Droid.Resource.Drawable.ic_mr_button_connected_10_light;
+			global::LibVLCSharp.Forms.Resource.Drawable.ic_mr_button_connected_11_dark = global::LocalNetwork.Droid.Resource.Drawable.ic_mr_button_connected_11_dark;
+			global::LibVLCSharp.Forms.Resource.Drawable.ic_mr_button_connected_11_light = global::LocalNetwork.Droid.Resource.Drawable.ic_mr_button_connected_11_light;
+			global::LibVLCSharp.Forms.Resource.Drawable.ic_mr_button_connected_12_dark = global::LocalNetwork.Droid.Resource.Drawable.ic_mr_button_connected_12_dark;
+			global::LibVLCSharp.Forms.Resource.Drawable.ic_mr_button_connected_12_light = global::LocalNetwork.Droid.Resource.Drawable.ic_mr_button_connected_12_light;
+			global::LibVLCSharp.Forms.Resource.Drawable.ic_mr_button_connected_13_dark = global::LocalNetwork.Droid.Resource.Drawable.ic_mr_button_connected_13_dark;
+			global::LibVLCSharp.Forms.Resource.Drawable.ic_mr_button_connected_13_light = global::LocalNetwork.Droid.Resource.Drawable.ic_mr_button_connected_13_light;
+			global::LibVLCSharp.Forms.Resource.Drawable.ic_mr_button_connected_14_dark = global::LocalNetwork.Droid.Resource.Drawable.ic_mr_button_connected_14_dark;
+			global::LibVLCSharp.Forms.Resource.Drawable.ic_mr_button_connected_14_light = global::LocalNetwork.Droid.Resource.Drawable.ic_mr_button_connected_14_light;
+			global::LibVLCSharp.Forms.Resource.Drawable.ic_mr_button_connected_15_dark = global::LocalNetwork.Droid.Resource.Drawable.ic_mr_button_connected_15_dark;
+			global::LibVLCSharp.Forms.Resource.Drawable.ic_mr_button_connected_15_light = global::LocalNetwork.Droid.Resource.Drawable.ic_mr_button_connected_15_light;
+			global::LibVLCSharp.Forms.Resource.Drawable.ic_mr_button_connected_16_dark = global::LocalNetwork.Droid.Resource.Drawable.ic_mr_button_connected_16_dark;
+			global::LibVLCSharp.Forms.Resource.Drawable.ic_mr_button_connected_16_light = global::LocalNetwork.Droid.Resource.Drawable.ic_mr_button_connected_16_light;
+			global::LibVLCSharp.Forms.Resource.Drawable.ic_mr_button_connected_17_dark = global::LocalNetwork.Droid.Resource.Drawable.ic_mr_button_connected_17_dark;
+			global::LibVLCSharp.Forms.Resource.Drawable.ic_mr_button_connected_17_light = global::LocalNetwork.Droid.Resource.Drawable.ic_mr_button_connected_17_light;
+			global::LibVLCSharp.Forms.Resource.Drawable.ic_mr_button_connected_18_dark = global::LocalNetwork.Droid.Resource.Drawable.ic_mr_button_connected_18_dark;
+			global::LibVLCSharp.Forms.Resource.Drawable.ic_mr_button_connected_18_light = global::LocalNetwork.Droid.Resource.Drawable.ic_mr_button_connected_18_light;
+			global::LibVLCSharp.Forms.Resource.Drawable.ic_mr_button_connected_19_dark = global::LocalNetwork.Droid.Resource.Drawable.ic_mr_button_connected_19_dark;
+			global::LibVLCSharp.Forms.Resource.Drawable.ic_mr_button_connected_19_light = global::LocalNetwork.Droid.Resource.Drawable.ic_mr_button_connected_19_light;
+			global::LibVLCSharp.Forms.Resource.Drawable.ic_mr_button_connected_20_dark = global::LocalNetwork.Droid.Resource.Drawable.ic_mr_button_connected_20_dark;
+			global::LibVLCSharp.Forms.Resource.Drawable.ic_mr_button_connected_20_light = global::LocalNetwork.Droid.Resource.Drawable.ic_mr_button_connected_20_light;
+			global::LibVLCSharp.Forms.Resource.Drawable.ic_mr_button_connected_21_dark = global::LocalNetwork.Droid.Resource.Drawable.ic_mr_button_connected_21_dark;
+			global::LibVLCSharp.Forms.Resource.Drawable.ic_mr_button_connected_21_light = global::LocalNetwork.Droid.Resource.Drawable.ic_mr_button_connected_21_light;
+			global::LibVLCSharp.Forms.Resource.Drawable.ic_mr_button_connected_22_dark = global::LocalNetwork.Droid.Resource.Drawable.ic_mr_button_connected_22_dark;
+			global::LibVLCSharp.Forms.Resource.Drawable.ic_mr_button_connected_22_light = global::LocalNetwork.Droid.Resource.Drawable.ic_mr_button_connected_22_light;
+			global::LibVLCSharp.Forms.Resource.Drawable.ic_mr_button_connected_23_dark = global::LocalNetwork.Droid.Resource.Drawable.ic_mr_button_connected_23_dark;
+			global::LibVLCSharp.Forms.Resource.Drawable.ic_mr_button_connected_23_light = global::LocalNetwork.Droid.Resource.Drawable.ic_mr_button_connected_23_light;
+			global::LibVLCSharp.Forms.Resource.Drawable.ic_mr_button_connected_24_dark = global::LocalNetwork.Droid.Resource.Drawable.ic_mr_button_connected_24_dark;
+			global::LibVLCSharp.Forms.Resource.Drawable.ic_mr_button_connected_24_light = global::LocalNetwork.Droid.Resource.Drawable.ic_mr_button_connected_24_light;
+			global::LibVLCSharp.Forms.Resource.Drawable.ic_mr_button_connected_25_dark = global::LocalNetwork.Droid.Resource.Drawable.ic_mr_button_connected_25_dark;
+			global::LibVLCSharp.Forms.Resource.Drawable.ic_mr_button_connected_25_light = global::LocalNetwork.Droid.Resource.Drawable.ic_mr_button_connected_25_light;
+			global::LibVLCSharp.Forms.Resource.Drawable.ic_mr_button_connected_26_dark = global::LocalNetwork.Droid.Resource.Drawable.ic_mr_button_connected_26_dark;
+			global::LibVLCSharp.Forms.Resource.Drawable.ic_mr_button_connected_26_light = global::LocalNetwork.Droid.Resource.Drawable.ic_mr_button_connected_26_light;
+			global::LibVLCSharp.Forms.Resource.Drawable.ic_mr_button_connected_27_dark = global::LocalNetwork.Droid.Resource.Drawable.ic_mr_button_connected_27_dark;
+			global::LibVLCSharp.Forms.Resource.Drawable.ic_mr_button_connected_27_light = global::LocalNetwork.Droid.Resource.Drawable.ic_mr_button_connected_27_light;
+			global::LibVLCSharp.Forms.Resource.Drawable.ic_mr_button_connected_28_dark = global::LocalNetwork.Droid.Resource.Drawable.ic_mr_button_connected_28_dark;
+			global::LibVLCSharp.Forms.Resource.Drawable.ic_mr_button_connected_28_light = global::LocalNetwork.Droid.Resource.Drawable.ic_mr_button_connected_28_light;
+			global::LibVLCSharp.Forms.Resource.Drawable.ic_mr_button_connected_29_dark = global::LocalNetwork.Droid.Resource.Drawable.ic_mr_button_connected_29_dark;
+			global::LibVLCSharp.Forms.Resource.Drawable.ic_mr_button_connected_29_light = global::LocalNetwork.Droid.Resource.Drawable.ic_mr_button_connected_29_light;
+			global::LibVLCSharp.Forms.Resource.Drawable.ic_mr_button_connected_30_dark = global::LocalNetwork.Droid.Resource.Drawable.ic_mr_button_connected_30_dark;
+			global::LibVLCSharp.Forms.Resource.Drawable.ic_mr_button_connected_30_light = global::LocalNetwork.Droid.Resource.Drawable.ic_mr_button_connected_30_light;
+			global::LibVLCSharp.Forms.Resource.Drawable.ic_mr_button_connecting_00_dark = global::LocalNetwork.Droid.Resource.Drawable.ic_mr_button_connecting_00_dark;
+			global::LibVLCSharp.Forms.Resource.Drawable.ic_mr_button_connecting_00_light = global::LocalNetwork.Droid.Resource.Drawable.ic_mr_button_connecting_00_light;
+			global::LibVLCSharp.Forms.Resource.Drawable.ic_mr_button_connecting_01_dark = global::LocalNetwork.Droid.Resource.Drawable.ic_mr_button_connecting_01_dark;
+			global::LibVLCSharp.Forms.Resource.Drawable.ic_mr_button_connecting_01_light = global::LocalNetwork.Droid.Resource.Drawable.ic_mr_button_connecting_01_light;
+			global::LibVLCSharp.Forms.Resource.Drawable.ic_mr_button_connecting_02_dark = global::LocalNetwork.Droid.Resource.Drawable.ic_mr_button_connecting_02_dark;
+			global::LibVLCSharp.Forms.Resource.Drawable.ic_mr_button_connecting_02_light = global::LocalNetwork.Droid.Resource.Drawable.ic_mr_button_connecting_02_light;
+			global::LibVLCSharp.Forms.Resource.Drawable.ic_mr_button_connecting_03_dark = global::LocalNetwork.Droid.Resource.Drawable.ic_mr_button_connecting_03_dark;
+			global::LibVLCSharp.Forms.Resource.Drawable.ic_mr_button_connecting_03_light = global::LocalNetwork.Droid.Resource.Drawable.ic_mr_button_connecting_03_light;
+			global::LibVLCSharp.Forms.Resource.Drawable.ic_mr_button_connecting_04_dark = global::LocalNetwork.Droid.Resource.Drawable.ic_mr_button_connecting_04_dark;
+			global::LibVLCSharp.Forms.Resource.Drawable.ic_mr_button_connecting_04_light = global::LocalNetwork.Droid.Resource.Drawable.ic_mr_button_connecting_04_light;
+			global::LibVLCSharp.Forms.Resource.Drawable.ic_mr_button_connecting_05_dark = global::LocalNetwork.Droid.Resource.Drawable.ic_mr_button_connecting_05_dark;
+			global::LibVLCSharp.Forms.Resource.Drawable.ic_mr_button_connecting_05_light = global::LocalNetwork.Droid.Resource.Drawable.ic_mr_button_connecting_05_light;
+			global::LibVLCSharp.Forms.Resource.Drawable.ic_mr_button_connecting_06_dark = global::LocalNetwork.Droid.Resource.Drawable.ic_mr_button_connecting_06_dark;
+			global::LibVLCSharp.Forms.Resource.Drawable.ic_mr_button_connecting_06_light = global::LocalNetwork.Droid.Resource.Drawable.ic_mr_button_connecting_06_light;
+			global::LibVLCSharp.Forms.Resource.Drawable.ic_mr_button_connecting_07_dark = global::LocalNetwork.Droid.Resource.Drawable.ic_mr_button_connecting_07_dark;
+			global::LibVLCSharp.Forms.Resource.Drawable.ic_mr_button_connecting_07_light = global::LocalNetwork.Droid.Resource.Drawable.ic_mr_button_connecting_07_light;
+			global::LibVLCSharp.Forms.Resource.Drawable.ic_mr_button_connecting_08_dark = global::LocalNetwork.Droid.Resource.Drawable.ic_mr_button_connecting_08_dark;
+			global::LibVLCSharp.Forms.Resource.Drawable.ic_mr_button_connecting_08_light = global::LocalNetwork.Droid.Resource.Drawable.ic_mr_button_connecting_08_light;
+			global::LibVLCSharp.Forms.Resource.Drawable.ic_mr_button_connecting_09_dark = global::LocalNetwork.Droid.Resource.Drawable.ic_mr_button_connecting_09_dark;
+			global::LibVLCSharp.Forms.Resource.Drawable.ic_mr_button_connecting_09_light = global::LocalNetwork.Droid.Resource.Drawable.ic_mr_button_connecting_09_light;
+			global::LibVLCSharp.Forms.Resource.Drawable.ic_mr_button_connecting_10_dark = global::LocalNetwork.Droid.Resource.Drawable.ic_mr_button_connecting_10_dark;
+			global::LibVLCSharp.Forms.Resource.Drawable.ic_mr_button_connecting_10_light = global::LocalNetwork.Droid.Resource.Drawable.ic_mr_button_connecting_10_light;
+			global::LibVLCSharp.Forms.Resource.Drawable.ic_mr_button_connecting_11_dark = global::LocalNetwork.Droid.Resource.Drawable.ic_mr_button_connecting_11_dark;
+			global::LibVLCSharp.Forms.Resource.Drawable.ic_mr_button_connecting_11_light = global::LocalNetwork.Droid.Resource.Drawable.ic_mr_button_connecting_11_light;
+			global::LibVLCSharp.Forms.Resource.Drawable.ic_mr_button_connecting_12_dark = global::LocalNetwork.Droid.Resource.Drawable.ic_mr_button_connecting_12_dark;
+			global::LibVLCSharp.Forms.Resource.Drawable.ic_mr_button_connecting_12_light = global::LocalNetwork.Droid.Resource.Drawable.ic_mr_button_connecting_12_light;
+			global::LibVLCSharp.Forms.Resource.Drawable.ic_mr_button_connecting_13_dark = global::LocalNetwork.Droid.Resource.Drawable.ic_mr_button_connecting_13_dark;
+			global::LibVLCSharp.Forms.Resource.Drawable.ic_mr_button_connecting_13_light = global::LocalNetwork.Droid.Resource.Drawable.ic_mr_button_connecting_13_light;
+			global::LibVLCSharp.Forms.Resource.Drawable.ic_mr_button_connecting_14_dark = global::LocalNetwork.Droid.Resource.Drawable.ic_mr_button_connecting_14_dark;
+			global::LibVLCSharp.Forms.Resource.Drawable.ic_mr_button_connecting_14_light = global::LocalNetwork.Droid.Resource.Drawable.ic_mr_button_connecting_14_light;
+			global::LibVLCSharp.Forms.Resource.Drawable.ic_mr_button_connecting_15_dark = global::LocalNetwork.Droid.Resource.Drawable.ic_mr_button_connecting_15_dark;
+			global::LibVLCSharp.Forms.Resource.Drawable.ic_mr_button_connecting_15_light = global::LocalNetwork.Droid.Resource.Drawable.ic_mr_button_connecting_15_light;
+			global::LibVLCSharp.Forms.Resource.Drawable.ic_mr_button_connecting_16_dark = global::LocalNetwork.Droid.Resource.Drawable.ic_mr_button_connecting_16_dark;
+			global::LibVLCSharp.Forms.Resource.Drawable.ic_mr_button_connecting_16_light = global::LocalNetwork.Droid.Resource.Drawable.ic_mr_button_connecting_16_light;
+			global::LibVLCSharp.Forms.Resource.Drawable.ic_mr_button_connecting_17_dark = global::LocalNetwork.Droid.Resource.Drawable.ic_mr_button_connecting_17_dark;
+			global::LibVLCSharp.Forms.Resource.Drawable.ic_mr_button_connecting_17_light = global::LocalNetwork.Droid.Resource.Drawable.ic_mr_button_connecting_17_light;
+			global::LibVLCSharp.Forms.Resource.Drawable.ic_mr_button_connecting_18_dark = global::LocalNetwork.Droid.Resource.Drawable.ic_mr_button_connecting_18_dark;
+			global::LibVLCSharp.Forms.Resource.Drawable.ic_mr_button_connecting_18_light = global::LocalNetwork.Droid.Resource.Drawable.ic_mr_button_connecting_18_light;
+			global::LibVLCSharp.Forms.Resource.Drawable.ic_mr_button_connecting_19_dark = global::LocalNetwork.Droid.Resource.Drawable.ic_mr_button_connecting_19_dark;
+			global::LibVLCSharp.Forms.Resource.Drawable.ic_mr_button_connecting_19_light = global::LocalNetwork.Droid.Resource.Drawable.ic_mr_button_connecting_19_light;
+			global::LibVLCSharp.Forms.Resource.Drawable.ic_mr_button_connecting_20_dark = global::LocalNetwork.Droid.Resource.Drawable.ic_mr_button_connecting_20_dark;
+			global::LibVLCSharp.Forms.Resource.Drawable.ic_mr_button_connecting_20_light = global::LocalNetwork.Droid.Resource.Drawable.ic_mr_button_connecting_20_light;
+			global::LibVLCSharp.Forms.Resource.Drawable.ic_mr_button_connecting_21_dark = global::LocalNetwork.Droid.Resource.Drawable.ic_mr_button_connecting_21_dark;
+			global::LibVLCSharp.Forms.Resource.Drawable.ic_mr_button_connecting_21_light = global::LocalNetwork.Droid.Resource.Drawable.ic_mr_button_connecting_21_light;
+			global::LibVLCSharp.Forms.Resource.Drawable.ic_mr_button_connecting_22_dark = global::LocalNetwork.Droid.Resource.Drawable.ic_mr_button_connecting_22_dark;
+			global::LibVLCSharp.Forms.Resource.Drawable.ic_mr_button_connecting_22_light = global::LocalNetwork.Droid.Resource.Drawable.ic_mr_button_connecting_22_light;
+			global::LibVLCSharp.Forms.Resource.Drawable.ic_mr_button_connecting_23_dark = global::LocalNetwork.Droid.Resource.Drawable.ic_mr_button_connecting_23_dark;
+			global::LibVLCSharp.Forms.Resource.Drawable.ic_mr_button_connecting_23_light = global::LocalNetwork.Droid.Resource.Drawable.ic_mr_button_connecting_23_light;
+			global::LibVLCSharp.Forms.Resource.Drawable.ic_mr_button_connecting_24_dark = global::LocalNetwork.Droid.Resource.Drawable.ic_mr_button_connecting_24_dark;
+			global::LibVLCSharp.Forms.Resource.Drawable.ic_mr_button_connecting_24_light = global::LocalNetwork.Droid.Resource.Drawable.ic_mr_button_connecting_24_light;
+			global::LibVLCSharp.Forms.Resource.Drawable.ic_mr_button_connecting_25_dark = global::LocalNetwork.Droid.Resource.Drawable.ic_mr_button_connecting_25_dark;
+			global::LibVLCSharp.Forms.Resource.Drawable.ic_mr_button_connecting_25_light = global::LocalNetwork.Droid.Resource.Drawable.ic_mr_button_connecting_25_light;
+			global::LibVLCSharp.Forms.Resource.Drawable.ic_mr_button_connecting_26_dark = global::LocalNetwork.Droid.Resource.Drawable.ic_mr_button_connecting_26_dark;
+			global::LibVLCSharp.Forms.Resource.Drawable.ic_mr_button_connecting_26_light = global::LocalNetwork.Droid.Resource.Drawable.ic_mr_button_connecting_26_light;
+			global::LibVLCSharp.Forms.Resource.Drawable.ic_mr_button_connecting_27_dark = global::LocalNetwork.Droid.Resource.Drawable.ic_mr_button_connecting_27_dark;
+			global::LibVLCSharp.Forms.Resource.Drawable.ic_mr_button_connecting_27_light = global::LocalNetwork.Droid.Resource.Drawable.ic_mr_button_connecting_27_light;
+			global::LibVLCSharp.Forms.Resource.Drawable.ic_mr_button_connecting_28_dark = global::LocalNetwork.Droid.Resource.Drawable.ic_mr_button_connecting_28_dark;
+			global::LibVLCSharp.Forms.Resource.Drawable.ic_mr_button_connecting_28_light = global::LocalNetwork.Droid.Resource.Drawable.ic_mr_button_connecting_28_light;
+			global::LibVLCSharp.Forms.Resource.Drawable.ic_mr_button_connecting_29_dark = global::LocalNetwork.Droid.Resource.Drawable.ic_mr_button_connecting_29_dark;
+			global::LibVLCSharp.Forms.Resource.Drawable.ic_mr_button_connecting_29_light = global::LocalNetwork.Droid.Resource.Drawable.ic_mr_button_connecting_29_light;
+			global::LibVLCSharp.Forms.Resource.Drawable.ic_mr_button_connecting_30_dark = global::LocalNetwork.Droid.Resource.Drawable.ic_mr_button_connecting_30_dark;
+			global::LibVLCSharp.Forms.Resource.Drawable.ic_mr_button_connecting_30_light = global::LocalNetwork.Droid.Resource.Drawable.ic_mr_button_connecting_30_light;
+			global::LibVLCSharp.Forms.Resource.Drawable.ic_mr_button_disabled_dark = global::LocalNetwork.Droid.Resource.Drawable.ic_mr_button_disabled_dark;
+			global::LibVLCSharp.Forms.Resource.Drawable.ic_mr_button_disabled_light = global::LocalNetwork.Droid.Resource.Drawable.ic_mr_button_disabled_light;
+			global::LibVLCSharp.Forms.Resource.Drawable.ic_mr_button_disconnected_dark = global::LocalNetwork.Droid.Resource.Drawable.ic_mr_button_disconnected_dark;
+			global::LibVLCSharp.Forms.Resource.Drawable.ic_mr_button_disconnected_light = global::LocalNetwork.Droid.Resource.Drawable.ic_mr_button_disconnected_light;
+			global::LibVLCSharp.Forms.Resource.Drawable.ic_mr_button_grey = global::LocalNetwork.Droid.Resource.Drawable.ic_mr_button_grey;
+			global::LibVLCSharp.Forms.Resource.Drawable.ic_vol_type_speaker_dark = global::LocalNetwork.Droid.Resource.Drawable.ic_vol_type_speaker_dark;
+			global::LibVLCSharp.Forms.Resource.Drawable.ic_vol_type_speaker_group_dark = global::LocalNetwork.Droid.Resource.Drawable.ic_vol_type_speaker_group_dark;
+			global::LibVLCSharp.Forms.Resource.Drawable.ic_vol_type_speaker_group_light = global::LocalNetwork.Droid.Resource.Drawable.ic_vol_type_speaker_group_light;
+			global::LibVLCSharp.Forms.Resource.Drawable.ic_vol_type_speaker_light = global::LocalNetwork.Droid.Resource.Drawable.ic_vol_type_speaker_light;
+			global::LibVLCSharp.Forms.Resource.Drawable.ic_vol_type_tv_dark = global::LocalNetwork.Droid.Resource.Drawable.ic_vol_type_tv_dark;
+			global::LibVLCSharp.Forms.Resource.Drawable.ic_vol_type_tv_light = global::LocalNetwork.Droid.Resource.Drawable.ic_vol_type_tv_light;
+			global::LibVLCSharp.Forms.Resource.Drawable.mr_button_connected_dark = global::LocalNetwork.Droid.Resource.Drawable.mr_button_connected_dark;
+			global::LibVLCSharp.Forms.Resource.Drawable.mr_button_connected_light = global::LocalNetwork.Droid.Resource.Drawable.mr_button_connected_light;
+			global::LibVLCSharp.Forms.Resource.Drawable.mr_button_connecting_dark = global::LocalNetwork.Droid.Resource.Drawable.mr_button_connecting_dark;
+			global::LibVLCSharp.Forms.Resource.Drawable.mr_button_connecting_light = global::LocalNetwork.Droid.Resource.Drawable.mr_button_connecting_light;
+			global::LibVLCSharp.Forms.Resource.Drawable.mr_button_dark = global::LocalNetwork.Droid.Resource.Drawable.mr_button_dark;
+			global::LibVLCSharp.Forms.Resource.Drawable.mr_button_light = global::LocalNetwork.Droid.Resource.Drawable.mr_button_light;
+			global::LibVLCSharp.Forms.Resource.Drawable.mr_dialog_close_dark = global::LocalNetwork.Droid.Resource.Drawable.mr_dialog_close_dark;
+			global::LibVLCSharp.Forms.Resource.Drawable.mr_dialog_close_light = global::LocalNetwork.Droid.Resource.Drawable.mr_dialog_close_light;
+			global::LibVLCSharp.Forms.Resource.Drawable.mr_dialog_material_background_dark = global::LocalNetwork.Droid.Resource.Drawable.mr_dialog_material_background_dark;
+			global::LibVLCSharp.Forms.Resource.Drawable.mr_dialog_material_background_light = global::LocalNetwork.Droid.Resource.Drawable.mr_dialog_material_background_light;
+			global::LibVLCSharp.Forms.Resource.Drawable.mr_group_collapse = global::LocalNetwork.Droid.Resource.Drawable.mr_group_collapse;
+			global::LibVLCSharp.Forms.Resource.Drawable.mr_group_expand = global::LocalNetwork.Droid.Resource.Drawable.mr_group_expand;
+			global::LibVLCSharp.Forms.Resource.Drawable.mr_media_pause_dark = global::LocalNetwork.Droid.Resource.Drawable.mr_media_pause_dark;
+			global::LibVLCSharp.Forms.Resource.Drawable.mr_media_pause_light = global::LocalNetwork.Droid.Resource.Drawable.mr_media_pause_light;
+			global::LibVLCSharp.Forms.Resource.Drawable.mr_media_play_dark = global::LocalNetwork.Droid.Resource.Drawable.mr_media_play_dark;
+			global::LibVLCSharp.Forms.Resource.Drawable.mr_media_play_light = global::LocalNetwork.Droid.Resource.Drawable.mr_media_play_light;
+			global::LibVLCSharp.Forms.Resource.Drawable.mr_media_stop_dark = global::LocalNetwork.Droid.Resource.Drawable.mr_media_stop_dark;
+			global::LibVLCSharp.Forms.Resource.Drawable.mr_media_stop_light = global::LocalNetwork.Droid.Resource.Drawable.mr_media_stop_light;
+			global::LibVLCSharp.Forms.Resource.Drawable.mr_vol_type_audiotrack_dark = global::LocalNetwork.Droid.Resource.Drawable.mr_vol_type_audiotrack_dark;
+			global::LibVLCSharp.Forms.Resource.Drawable.mr_vol_type_audiotrack_light = global::LocalNetwork.Droid.Resource.Drawable.mr_vol_type_audiotrack_light;
+			global::LibVLCSharp.Forms.Resource.Drawable.navigation_empty_icon = global::LocalNetwork.Droid.Resource.Drawable.navigation_empty_icon;
+			global::LibVLCSharp.Forms.Resource.Drawable.notification_action_background = global::LocalNetwork.Droid.Resource.Drawable.notification_action_background;
+			global::LibVLCSharp.Forms.Resource.Drawable.notification_bg = global::LocalNetwork.Droid.Resource.Drawable.notification_bg;
+			global::LibVLCSharp.Forms.Resource.Drawable.notification_bg_low = global::LocalNetwork.Droid.Resource.Drawable.notification_bg_low;
+			global::LibVLCSharp.Forms.Resource.Drawable.notification_bg_low_normal = global::LocalNetwork.Droid.Resource.Drawable.notification_bg_low_normal;
+			global::LibVLCSharp.Forms.Resource.Drawable.notification_bg_low_pressed = global::LocalNetwork.Droid.Resource.Drawable.notification_bg_low_pressed;
+			global::LibVLCSharp.Forms.Resource.Drawable.notification_bg_normal = global::LocalNetwork.Droid.Resource.Drawable.notification_bg_normal;
+			global::LibVLCSharp.Forms.Resource.Drawable.notification_bg_normal_pressed = global::LocalNetwork.Droid.Resource.Drawable.notification_bg_normal_pressed;
+			global::LibVLCSharp.Forms.Resource.Drawable.notification_icon_background = global::LocalNetwork.Droid.Resource.Drawable.notification_icon_background;
+			global::LibVLCSharp.Forms.Resource.Drawable.notification_template_icon_bg = global::LocalNetwork.Droid.Resource.Drawable.notification_template_icon_bg;
+			global::LibVLCSharp.Forms.Resource.Drawable.notification_template_icon_low_bg = global::LocalNetwork.Droid.Resource.Drawable.notification_template_icon_low_bg;
+			global::LibVLCSharp.Forms.Resource.Drawable.notification_tile_bg = global::LocalNetwork.Droid.Resource.Drawable.notification_tile_bg;
+			global::LibVLCSharp.Forms.Resource.Drawable.notify_panel_notification_icon_bg = global::LocalNetwork.Droid.Resource.Drawable.notify_panel_notification_icon_bg;
+			global::LibVLCSharp.Forms.Resource.Drawable.tooltip_frame_dark = global::LocalNetwork.Droid.Resource.Drawable.tooltip_frame_dark;
+			global::LibVLCSharp.Forms.Resource.Drawable.tooltip_frame_light = global::LocalNetwork.Droid.Resource.Drawable.tooltip_frame_light;
+			global::LibVLCSharp.Forms.Resource.Id.action0 = global::LocalNetwork.Droid.Resource.Id.action0;
+			global::LibVLCSharp.Forms.Resource.Id.actions = global::LocalNetwork.Droid.Resource.Id.actions;
+			global::LibVLCSharp.Forms.Resource.Id.action_bar = global::LocalNetwork.Droid.Resource.Id.action_bar;
+			global::LibVLCSharp.Forms.Resource.Id.action_bar_activity_content = global::LocalNetwork.Droid.Resource.Id.action_bar_activity_content;
+			global::LibVLCSharp.Forms.Resource.Id.action_bar_container = global::LocalNetwork.Droid.Resource.Id.action_bar_container;
+			global::LibVLCSharp.Forms.Resource.Id.action_bar_root = global::LocalNetwork.Droid.Resource.Id.action_bar_root;
+			global::LibVLCSharp.Forms.Resource.Id.action_bar_spinner = global::LocalNetwork.Droid.Resource.Id.action_bar_spinner;
+			global::LibVLCSharp.Forms.Resource.Id.action_bar_subtitle = global::LocalNetwork.Droid.Resource.Id.action_bar_subtitle;
+			global::LibVLCSharp.Forms.Resource.Id.action_bar_title = global::LocalNetwork.Droid.Resource.Id.action_bar_title;
+			global::LibVLCSharp.Forms.Resource.Id.action_container = global::LocalNetwork.Droid.Resource.Id.action_container;
+			global::LibVLCSharp.Forms.Resource.Id.action_context_bar = global::LocalNetwork.Droid.Resource.Id.action_context_bar;
+			global::LibVLCSharp.Forms.Resource.Id.action_divider = global::LocalNetwork.Droid.Resource.Id.action_divider;
+			global::LibVLCSharp.Forms.Resource.Id.action_image = global::LocalNetwork.Droid.Resource.Id.action_image;
+			global::LibVLCSharp.Forms.Resource.Id.action_menu_divider = global::LocalNetwork.Droid.Resource.Id.action_menu_divider;
+			global::LibVLCSharp.Forms.Resource.Id.action_menu_presenter = global::LocalNetwork.Droid.Resource.Id.action_menu_presenter;
+			global::LibVLCSharp.Forms.Resource.Id.action_mode_bar = global::LocalNetwork.Droid.Resource.Id.action_mode_bar;
+			global::LibVLCSharp.Forms.Resource.Id.action_mode_bar_stub = global::LocalNetwork.Droid.Resource.Id.action_mode_bar_stub;
+			global::LibVLCSharp.Forms.Resource.Id.action_mode_close_button = global::LocalNetwork.Droid.Resource.Id.action_mode_close_button;
+			global::LibVLCSharp.Forms.Resource.Id.action_text = global::LocalNetwork.Droid.Resource.Id.action_text;
+			global::LibVLCSharp.Forms.Resource.Id.activity_chooser_view_content = global::LocalNetwork.Droid.Resource.Id.activity_chooser_view_content;
+			global::LibVLCSharp.Forms.Resource.Id.add = global::LocalNetwork.Droid.Resource.Id.add;
+			global::LibVLCSharp.Forms.Resource.Id.alertTitle = global::LocalNetwork.Droid.Resource.Id.alertTitle;
+			global::LibVLCSharp.Forms.Resource.Id.all = global::LocalNetwork.Droid.Resource.Id.all;
+			global::LibVLCSharp.Forms.Resource.Id.ALT = global::LocalNetwork.Droid.Resource.Id.ALT;
+			global::LibVLCSharp.Forms.Resource.Id.always = global::LocalNetwork.Droid.Resource.Id.always;
+			global::LibVLCSharp.Forms.Resource.Id.async = global::LocalNetwork.Droid.Resource.Id.async;
+			global::LibVLCSharp.Forms.Resource.Id.auto = global::LocalNetwork.Droid.Resource.Id.auto;
+			global::LibVLCSharp.Forms.Resource.Id.beginning = global::LocalNetwork.Droid.Resource.Id.beginning;
+			global::LibVLCSharp.Forms.Resource.Id.blocking = global::LocalNetwork.Droid.Resource.Id.blocking;
+			global::LibVLCSharp.Forms.Resource.Id.bottom = global::LocalNetwork.Droid.Resource.Id.bottom;
+			global::LibVLCSharp.Forms.Resource.Id.buttonPanel = global::LocalNetwork.Droid.Resource.Id.buttonPanel;
+			global::LibVLCSharp.Forms.Resource.Id.cancel_action = global::LocalNetwork.Droid.Resource.Id.cancel_action;
+			global::LibVLCSharp.Forms.Resource.Id.center = global::LocalNetwork.Droid.Resource.Id.center;
+			global::LibVLCSharp.Forms.Resource.Id.center_horizontal = global::LocalNetwork.Droid.Resource.Id.center_horizontal;
+			global::LibVLCSharp.Forms.Resource.Id.center_vertical = global::LocalNetwork.Droid.Resource.Id.center_vertical;
+			global::LibVLCSharp.Forms.Resource.Id.checkbox = global::LocalNetwork.Droid.Resource.Id.checkbox;
+			global::LibVLCSharp.Forms.Resource.Id.chronometer = global::LocalNetwork.Droid.Resource.Id.chronometer;
+			global::LibVLCSharp.Forms.Resource.Id.clip_horizontal = global::LocalNetwork.Droid.Resource.Id.clip_horizontal;
+			global::LibVLCSharp.Forms.Resource.Id.clip_vertical = global::LocalNetwork.Droid.Resource.Id.clip_vertical;
+			global::LibVLCSharp.Forms.Resource.Id.collapseActionView = global::LocalNetwork.Droid.Resource.Id.collapseActionView;
+			global::LibVLCSharp.Forms.Resource.Id.container = global::LocalNetwork.Droid.Resource.Id.container;
+			global::LibVLCSharp.Forms.Resource.Id.contentPanel = global::LocalNetwork.Droid.Resource.Id.contentPanel;
+			global::LibVLCSharp.Forms.Resource.Id.coordinator = global::LocalNetwork.Droid.Resource.Id.coordinator;
+			global::LibVLCSharp.Forms.Resource.Id.CTRL = global::LocalNetwork.Droid.Resource.Id.CTRL;
+			global::LibVLCSharp.Forms.Resource.Id.custom = global::LocalNetwork.Droid.Resource.Id.custom;
+			global::LibVLCSharp.Forms.Resource.Id.customPanel = global::LocalNetwork.Droid.Resource.Id.customPanel;
+			global::LibVLCSharp.Forms.Resource.Id.decor_content_parent = global::LocalNetwork.Droid.Resource.Id.decor_content_parent;
+			global::LibVLCSharp.Forms.Resource.Id.default_activity_button = global::LocalNetwork.Droid.Resource.Id.default_activity_button;
+			global::LibVLCSharp.Forms.Resource.Id.design_bottom_sheet = global::LocalNetwork.Droid.Resource.Id.design_bottom_sheet;
+			global::LibVLCSharp.Forms.Resource.Id.design_menu_item_action_area = global::LocalNetwork.Droid.Resource.Id.design_menu_item_action_area;
+			global::LibVLCSharp.Forms.Resource.Id.design_menu_item_action_area_stub = global::LocalNetwork.Droid.Resource.Id.design_menu_item_action_area_stub;
+			global::LibVLCSharp.Forms.Resource.Id.design_menu_item_text = global::LocalNetwork.Droid.Resource.Id.design_menu_item_text;
+			global::LibVLCSharp.Forms.Resource.Id.design_navigation_view = global::LocalNetwork.Droid.Resource.Id.design_navigation_view;
+			global::LibVLCSharp.Forms.Resource.Id.disableHome = global::LocalNetwork.Droid.Resource.Id.disableHome;
+			global::LibVLCSharp.Forms.Resource.Id.edit_query = global::LocalNetwork.Droid.Resource.Id.edit_query;
+			global::LibVLCSharp.Forms.Resource.Id.end = global::LocalNetwork.Droid.Resource.Id.end;
+			global::LibVLCSharp.Forms.Resource.Id.end_padder = global::LocalNetwork.Droid.Resource.Id.end_padder;
+			global::LibVLCSharp.Forms.Resource.Id.enterAlways = global::LocalNetwork.Droid.Resource.Id.enterAlways;
+			global::LibVLCSharp.Forms.Resource.Id.enterAlwaysCollapsed = global::LocalNetwork.Droid.Resource.Id.enterAlwaysCollapsed;
+			global::LibVLCSharp.Forms.Resource.Id.exitUntilCollapsed = global::LocalNetwork.Droid.Resource.Id.exitUntilCollapsed;
+			global::LibVLCSharp.Forms.Resource.Id.expanded_menu = global::LocalNetwork.Droid.Resource.Id.expanded_menu;
+			global::LibVLCSharp.Forms.Resource.Id.expand_activities_button = global::LocalNetwork.Droid.Resource.Id.expand_activities_button;
+			global::LibVLCSharp.Forms.Resource.Id.fill = global::LocalNetwork.Droid.Resource.Id.fill;
+			global::LibVLCSharp.Forms.Resource.Id.fill_horizontal = global::LocalNetwork.Droid.Resource.Id.fill_horizontal;
+			global::LibVLCSharp.Forms.Resource.Id.fill_vertical = global::LocalNetwork.Droid.Resource.Id.fill_vertical;
+			global::LibVLCSharp.Forms.Resource.Id.@fixed = global::LocalNetwork.Droid.Resource.Id.@fixed;
+			global::LibVLCSharp.Forms.Resource.Id.forever = global::LocalNetwork.Droid.Resource.Id.forever;
+			global::LibVLCSharp.Forms.Resource.Id.FUNCTION = global::LocalNetwork.Droid.Resource.Id.FUNCTION;
+			global::LibVLCSharp.Forms.Resource.Id.ghost_view = global::LocalNetwork.Droid.Resource.Id.ghost_view;
+			global::LibVLCSharp.Forms.Resource.Id.home = global::LocalNetwork.Droid.Resource.Id.home;
+			global::LibVLCSharp.Forms.Resource.Id.homeAsUp = global::LocalNetwork.Droid.Resource.Id.homeAsUp;
+			global::LibVLCSharp.Forms.Resource.Id.icon = global::LocalNetwork.Droid.Resource.Id.icon;
+			global::LibVLCSharp.Forms.Resource.Id.icon_group = global::LocalNetwork.Droid.Resource.Id.icon_group;
+			global::LibVLCSharp.Forms.Resource.Id.ifRoom = global::LocalNetwork.Droid.Resource.Id.ifRoom;
+			global::LibVLCSharp.Forms.Resource.Id.image = global::LocalNetwork.Droid.Resource.Id.image;
+			global::LibVLCSharp.Forms.Resource.Id.info = global::LocalNetwork.Droid.Resource.Id.info;
+			global::LibVLCSharp.Forms.Resource.Id.italic = global::LocalNetwork.Droid.Resource.Id.italic;
+			global::LibVLCSharp.Forms.Resource.Id.item_touch_helper_previous_elevation = global::LocalNetwork.Droid.Resource.Id.item_touch_helper_previous_elevation;
+			global::LibVLCSharp.Forms.Resource.Id.largeLabel = global::LocalNetwork.Droid.Resource.Id.largeLabel;
+			global::LibVLCSharp.Forms.Resource.Id.left = global::LocalNetwork.Droid.Resource.Id.left;
+			global::LibVLCSharp.Forms.Resource.Id.line1 = global::LocalNetwork.Droid.Resource.Id.line1;
+			global::LibVLCSharp.Forms.Resource.Id.line3 = global::LocalNetwork.Droid.Resource.Id.line3;
+			global::LibVLCSharp.Forms.Resource.Id.listMode = global::LocalNetwork.Droid.Resource.Id.listMode;
+			global::LibVLCSharp.Forms.Resource.Id.list_item = global::LocalNetwork.Droid.Resource.Id.list_item;
+			global::LibVLCSharp.Forms.Resource.Id.masked = global::LocalNetwork.Droid.Resource.Id.masked;
+			global::LibVLCSharp.Forms.Resource.Id.media_actions = global::LocalNetwork.Droid.Resource.Id.media_actions;
+			global::LibVLCSharp.Forms.Resource.Id.message = global::LocalNetwork.Droid.Resource.Id.message;
+			global::LibVLCSharp.Forms.Resource.Id.META = global::LocalNetwork.Droid.Resource.Id.META;
+			global::LibVLCSharp.Forms.Resource.Id.middle = global::LocalNetwork.Droid.Resource.Id.middle;
+			global::LibVLCSharp.Forms.Resource.Id.mini = global::LocalNetwork.Droid.Resource.Id.mini;
+			global::LibVLCSharp.Forms.Resource.Id.mr_art = global::LocalNetwork.Droid.Resource.Id.mr_art;
+			global::LibVLCSharp.Forms.Resource.Id.mr_chooser_list = global::LocalNetwork.Droid.Resource.Id.mr_chooser_list;
+			global::LibVLCSharp.Forms.Resource.Id.mr_chooser_route_desc = global::LocalNetwork.Droid.Resource.Id.mr_chooser_route_desc;
+			global::LibVLCSharp.Forms.Resource.Id.mr_chooser_route_icon = global::LocalNetwork.Droid.Resource.Id.mr_chooser_route_icon;
+			global::LibVLCSharp.Forms.Resource.Id.mr_chooser_route_name = global::LocalNetwork.Droid.Resource.Id.mr_chooser_route_name;
+			global::LibVLCSharp.Forms.Resource.Id.mr_chooser_title = global::LocalNetwork.Droid.Resource.Id.mr_chooser_title;
+			global::LibVLCSharp.Forms.Resource.Id.mr_close = global::LocalNetwork.Droid.Resource.Id.mr_close;
+			global::LibVLCSharp.Forms.Resource.Id.mr_control_divider = global::LocalNetwork.Droid.Resource.Id.mr_control_divider;
+			global::LibVLCSharp.Forms.Resource.Id.mr_control_playback_ctrl = global::LocalNetwork.Droid.Resource.Id.mr_control_playback_ctrl;
+			global::LibVLCSharp.Forms.Resource.Id.mr_control_subtitle = global::LocalNetwork.Droid.Resource.Id.mr_control_subtitle;
+			global::LibVLCSharp.Forms.Resource.Id.mr_control_title = global::LocalNetwork.Droid.Resource.Id.mr_control_title;
+			global::LibVLCSharp.Forms.Resource.Id.mr_control_title_container = global::LocalNetwork.Droid.Resource.Id.mr_control_title_container;
+			global::LibVLCSharp.Forms.Resource.Id.mr_custom_control = global::LocalNetwork.Droid.Resource.Id.mr_custom_control;
+			global::LibVLCSharp.Forms.Resource.Id.mr_default_control = global::LocalNetwork.Droid.Resource.Id.mr_default_control;
+			global::LibVLCSharp.Forms.Resource.Id.mr_dialog_area = global::LocalNetwork.Droid.Resource.Id.mr_dialog_area;
+			global::LibVLCSharp.Forms.Resource.Id.mr_expandable_area = global::LocalNetwork.Droid.Resource.Id.mr_expandable_area;
+			global::LibVLCSharp.Forms.Resource.Id.mr_group_expand_collapse = global::LocalNetwork.Droid.Resource.Id.mr_group_expand_collapse;
+			global::LibVLCSharp.Forms.Resource.Id.mr_media_main_control = global::LocalNetwork.Droid.Resource.Id.mr_media_main_control;
+			global::LibVLCSharp.Forms.Resource.Id.mr_name = global::LocalNetwork.Droid.Resource.Id.mr_name;
+			global::LibVLCSharp.Forms.Resource.Id.mr_playback_control = global::LocalNetwork.Droid.Resource.Id.mr_playback_control;
+			global::LibVLCSharp.Forms.Resource.Id.mr_title_bar = global::LocalNetwork.Droid.Resource.Id.mr_title_bar;
+			global::LibVLCSharp.Forms.Resource.Id.mr_volume_control = global::LocalNetwork.Droid.Resource.Id.mr_volume_control;
+			global::LibVLCSharp.Forms.Resource.Id.mr_volume_group_list = global::LocalNetwork.Droid.Resource.Id.mr_volume_group_list;
+			global::LibVLCSharp.Forms.Resource.Id.mr_volume_item_icon = global::LocalNetwork.Droid.Resource.Id.mr_volume_item_icon;
+			global::LibVLCSharp.Forms.Resource.Id.mr_volume_slider = global::LocalNetwork.Droid.Resource.Id.mr_volume_slider;
+			global::LibVLCSharp.Forms.Resource.Id.multiply = global::LocalNetwork.Droid.Resource.Id.multiply;
+			global::LibVLCSharp.Forms.Resource.Id.navigation_header_container = global::LocalNetwork.Droid.Resource.Id.navigation_header_container;
+			global::LibVLCSharp.Forms.Resource.Id.never = global::LocalNetwork.Droid.Resource.Id.never;
+			global::LibVLCSharp.Forms.Resource.Id.none = global::LocalNetwork.Droid.Resource.Id.none;
+			global::LibVLCSharp.Forms.Resource.Id.normal = global::LocalNetwork.Droid.Resource.Id.normal;
+			global::LibVLCSharp.Forms.Resource.Id.notification_background = global::LocalNetwork.Droid.Resource.Id.notification_background;
+			global::LibVLCSharp.Forms.Resource.Id.notification_main_column = global::LocalNetwork.Droid.Resource.Id.notification_main_column;
+			global::LibVLCSharp.Forms.Resource.Id.notification_main_column_container = global::LocalNetwork.Droid.Resource.Id.notification_main_column_container;
+			global::LibVLCSharp.Forms.Resource.Id.parallax = global::LocalNetwork.Droid.Resource.Id.parallax;
+			global::LibVLCSharp.Forms.Resource.Id.parentPanel = global::LocalNetwork.Droid.Resource.Id.parentPanel;
+			global::LibVLCSharp.Forms.Resource.Id.parent_matrix = global::LocalNetwork.Droid.Resource.Id.parent_matrix;
+			global::LibVLCSharp.Forms.Resource.Id.pin = global::LocalNetwork.Droid.Resource.Id.pin;
+			global::LibVLCSharp.Forms.Resource.Id.progress_circular = global::LocalNetwork.Droid.Resource.Id.progress_circular;
+			global::LibVLCSharp.Forms.Resource.Id.progress_horizontal = global::LocalNetwork.Droid.Resource.Id.progress_horizontal;
+			global::LibVLCSharp.Forms.Resource.Id.radio = global::LocalNetwork.Droid.Resource.Id.radio;
+			global::LibVLCSharp.Forms.Resource.Id.right = global::LocalNetwork.Droid.Resource.Id.right;
+			global::LibVLCSharp.Forms.Resource.Id.right_icon = global::LocalNetwork.Droid.Resource.Id.right_icon;
+			global::LibVLCSharp.Forms.Resource.Id.right_side = global::LocalNetwork.Droid.Resource.Id.right_side;
+			global::LibVLCSharp.Forms.Resource.Id.save_image_matrix = global::LocalNetwork.Droid.Resource.Id.save_image_matrix;
+			global::LibVLCSharp.Forms.Resource.Id.save_non_transition_alpha = global::LocalNetwork.Droid.Resource.Id.save_non_transition_alpha;
+			global::LibVLCSharp.Forms.Resource.Id.save_scale_type = global::LocalNetwork.Droid.Resource.Id.save_scale_type;
+			global::LibVLCSharp.Forms.Resource.Id.screen = global::LocalNetwork.Droid.Resource.Id.screen;
+			global::LibVLCSharp.Forms.Resource.Id.scroll = global::LocalNetwork.Droid.Resource.Id.scroll;
+			global::LibVLCSharp.Forms.Resource.Id.scrollable = global::LocalNetwork.Droid.Resource.Id.scrollable;
+			global::LibVLCSharp.Forms.Resource.Id.scrollIndicatorDown = global::LocalNetwork.Droid.Resource.Id.scrollIndicatorDown;
+			global::LibVLCSharp.Forms.Resource.Id.scrollIndicatorUp = global::LocalNetwork.Droid.Resource.Id.scrollIndicatorUp;
+			global::LibVLCSharp.Forms.Resource.Id.scrollView = global::LocalNetwork.Droid.Resource.Id.scrollView;
+			global::LibVLCSharp.Forms.Resource.Id.search_badge = global::LocalNetwork.Droid.Resource.Id.search_badge;
+			global::LibVLCSharp.Forms.Resource.Id.search_bar = global::LocalNetwork.Droid.Resource.Id.search_bar;
+			global::LibVLCSharp.Forms.Resource.Id.search_button = global::LocalNetwork.Droid.Resource.Id.search_button;
+			global::LibVLCSharp.Forms.Resource.Id.search_close_btn = global::LocalNetwork.Droid.Resource.Id.search_close_btn;
+			global::LibVLCSharp.Forms.Resource.Id.search_edit_frame = global::LocalNetwork.Droid.Resource.Id.search_edit_frame;
+			global::LibVLCSharp.Forms.Resource.Id.search_go_btn = global::LocalNetwork.Droid.Resource.Id.search_go_btn;
+			global::LibVLCSharp.Forms.Resource.Id.search_mag_icon = global::LocalNetwork.Droid.Resource.Id.search_mag_icon;
+			global::LibVLCSharp.Forms.Resource.Id.search_plate = global::LocalNetwork.Droid.Resource.Id.search_plate;
+			global::LibVLCSharp.Forms.Resource.Id.search_src_text = global::LocalNetwork.Droid.Resource.Id.search_src_text;
+			global::LibVLCSharp.Forms.Resource.Id.search_voice_btn = global::LocalNetwork.Droid.Resource.Id.search_voice_btn;
+			global::LibVLCSharp.Forms.Resource.Id.select_dialog_listview = global::LocalNetwork.Droid.Resource.Id.select_dialog_listview;
+			global::LibVLCSharp.Forms.Resource.Id.SHIFT = global::LocalNetwork.Droid.Resource.Id.SHIFT;
+			global::LibVLCSharp.Forms.Resource.Id.shortcut = global::LocalNetwork.Droid.Resource.Id.shortcut;
+			global::LibVLCSharp.Forms.Resource.Id.showCustom = global::LocalNetwork.Droid.Resource.Id.showCustom;
+			global::LibVLCSharp.Forms.Resource.Id.showHome = global::LocalNetwork.Droid.Resource.Id.showHome;
+			global::LibVLCSharp.Forms.Resource.Id.showTitle = global::LocalNetwork.Droid.Resource.Id.showTitle;
+			global::LibVLCSharp.Forms.Resource.Id.smallLabel = global::LocalNetwork.Droid.Resource.Id.smallLabel;
+			global::LibVLCSharp.Forms.Resource.Id.snackbar_action = global::LocalNetwork.Droid.Resource.Id.snackbar_action;
+			global::LibVLCSharp.Forms.Resource.Id.snackbar_text = global::LocalNetwork.Droid.Resource.Id.snackbar_text;
+			global::LibVLCSharp.Forms.Resource.Id.snap = global::LocalNetwork.Droid.Resource.Id.snap;
+			global::LibVLCSharp.Forms.Resource.Id.spacer = global::LocalNetwork.Droid.Resource.Id.spacer;
+			global::LibVLCSharp.Forms.Resource.Id.split_action_bar = global::LocalNetwork.Droid.Resource.Id.split_action_bar;
+			global::LibVLCSharp.Forms.Resource.Id.src_atop = global::LocalNetwork.Droid.Resource.Id.src_atop;
+			global::LibVLCSharp.Forms.Resource.Id.src_in = global::LocalNetwork.Droid.Resource.Id.src_in;
+			global::LibVLCSharp.Forms.Resource.Id.src_over = global::LocalNetwork.Droid.Resource.Id.src_over;
+			global::LibVLCSharp.Forms.Resource.Id.start = global::LocalNetwork.Droid.Resource.Id.start;
+			global::LibVLCSharp.Forms.Resource.Id.status_bar_latest_event_content = global::LocalNetwork.Droid.Resource.Id.status_bar_latest_event_content;
+			global::LibVLCSharp.Forms.Resource.Id.submenuarrow = global::LocalNetwork.Droid.Resource.Id.submenuarrow;
+			global::LibVLCSharp.Forms.Resource.Id.submit_area = global::LocalNetwork.Droid.Resource.Id.submit_area;
+			global::LibVLCSharp.Forms.Resource.Id.SYM = global::LocalNetwork.Droid.Resource.Id.SYM;
+			global::LibVLCSharp.Forms.Resource.Id.tabMode = global::LocalNetwork.Droid.Resource.Id.tabMode;
+			global::LibVLCSharp.Forms.Resource.Id.tag_transition_group = global::LocalNetwork.Droid.Resource.Id.tag_transition_group;
+			global::LibVLCSharp.Forms.Resource.Id.text = global::LocalNetwork.Droid.Resource.Id.text;
+			global::LibVLCSharp.Forms.Resource.Id.text2 = global::LocalNetwork.Droid.Resource.Id.text2;
+			global::LibVLCSharp.Forms.Resource.Id.textinput_counter = global::LocalNetwork.Droid.Resource.Id.textinput_counter;
+			global::LibVLCSharp.Forms.Resource.Id.textinput_error = global::LocalNetwork.Droid.Resource.Id.textinput_error;
+			global::LibVLCSharp.Forms.Resource.Id.textSpacerNoButtons = global::LocalNetwork.Droid.Resource.Id.textSpacerNoButtons;
+			global::LibVLCSharp.Forms.Resource.Id.textSpacerNoTitle = global::LocalNetwork.Droid.Resource.Id.textSpacerNoTitle;
+			global::LibVLCSharp.Forms.Resource.Id.text_input_password_toggle = global::LocalNetwork.Droid.Resource.Id.text_input_password_toggle;
+			global::LibVLCSharp.Forms.Resource.Id.time = global::LocalNetwork.Droid.Resource.Id.time;
+			global::LibVLCSharp.Forms.Resource.Id.title = global::LocalNetwork.Droid.Resource.Id.title;
+			global::LibVLCSharp.Forms.Resource.Id.titleDividerNoCustom = global::LocalNetwork.Droid.Resource.Id.titleDividerNoCustom;
+			global::LibVLCSharp.Forms.Resource.Id.title_template = global::LocalNetwork.Droid.Resource.Id.title_template;
+			global::LibVLCSharp.Forms.Resource.Id.top = global::LocalNetwork.Droid.Resource.Id.top;
+			global::LibVLCSharp.Forms.Resource.Id.topPanel = global::LocalNetwork.Droid.Resource.Id.topPanel;
+			global::LibVLCSharp.Forms.Resource.Id.touch_outside = global::LocalNetwork.Droid.Resource.Id.touch_outside;
+			global::LibVLCSharp.Forms.Resource.Id.transition_current_scene = global::LocalNetwork.Droid.Resource.Id.transition_current_scene;
+			global::LibVLCSharp.Forms.Resource.Id.transition_layout_save = global::LocalNetwork.Droid.Resource.Id.transition_layout_save;
+			global::LibVLCSharp.Forms.Resource.Id.transition_position = global::LocalNetwork.Droid.Resource.Id.transition_position;
+			global::LibVLCSharp.Forms.Resource.Id.transition_scene_layoutid_cache = global::LocalNetwork.Droid.Resource.Id.transition_scene_layoutid_cache;
+			global::LibVLCSharp.Forms.Resource.Id.transition_transform = global::LocalNetwork.Droid.Resource.Id.transition_transform;
+			global::LibVLCSharp.Forms.Resource.Id.uniform = global::LocalNetwork.Droid.Resource.Id.uniform;
+			global::LibVLCSharp.Forms.Resource.Id.up = global::LocalNetwork.Droid.Resource.Id.up;
+			global::LibVLCSharp.Forms.Resource.Id.useLogo = global::LocalNetwork.Droid.Resource.Id.useLogo;
+			global::LibVLCSharp.Forms.Resource.Id.view_offset_helper = global::LocalNetwork.Droid.Resource.Id.view_offset_helper;
+			global::LibVLCSharp.Forms.Resource.Id.visible = global::LocalNetwork.Droid.Resource.Id.visible;
+			global::LibVLCSharp.Forms.Resource.Id.volume_item_container = global::LocalNetwork.Droid.Resource.Id.volume_item_container;
+			global::LibVLCSharp.Forms.Resource.Id.withText = global::LocalNetwork.Droid.Resource.Id.withText;
+			global::LibVLCSharp.Forms.Resource.Id.wrap_content = global::LocalNetwork.Droid.Resource.Id.wrap_content;
+			global::LibVLCSharp.Forms.Resource.Integer.abc_config_activityDefaultDur = global::LocalNetwork.Droid.Resource.Integer.abc_config_activityDefaultDur;
+			global::LibVLCSharp.Forms.Resource.Integer.abc_config_activityShortDur = global::LocalNetwork.Droid.Resource.Integer.abc_config_activityShortDur;
+			global::LibVLCSharp.Forms.Resource.Integer.app_bar_elevation_anim_duration = global::LocalNetwork.Droid.Resource.Integer.app_bar_elevation_anim_duration;
+			global::LibVLCSharp.Forms.Resource.Integer.bottom_sheet_slide_duration = global::LocalNetwork.Droid.Resource.Integer.bottom_sheet_slide_duration;
+			global::LibVLCSharp.Forms.Resource.Integer.cancel_button_image_alpha = global::LocalNetwork.Droid.Resource.Integer.cancel_button_image_alpha;
+			global::LibVLCSharp.Forms.Resource.Integer.config_tooltipAnimTime = global::LocalNetwork.Droid.Resource.Integer.config_tooltipAnimTime;
+			global::LibVLCSharp.Forms.Resource.Integer.design_snackbar_text_max_lines = global::LocalNetwork.Droid.Resource.Integer.design_snackbar_text_max_lines;
+			global::LibVLCSharp.Forms.Resource.Integer.hide_password_duration = global::LocalNetwork.Droid.Resource.Integer.hide_password_duration;
+			global::LibVLCSharp.Forms.Resource.Integer.mr_controller_volume_group_list_animation_duration_ms = global::LocalNetwork.Droid.Resource.Integer.mr_controller_volume_group_list_animation_duration_ms;
+			global::LibVLCSharp.Forms.Resource.Integer.mr_controller_volume_group_list_fade_in_duration_ms = global::LocalNetwork.Droid.Resource.Integer.mr_controller_volume_group_list_fade_in_duration_ms;
+			global::LibVLCSharp.Forms.Resource.Integer.mr_controller_volume_group_list_fade_out_duration_ms = global::LocalNetwork.Droid.Resource.Integer.mr_controller_volume_group_list_fade_out_duration_ms;
+			global::LibVLCSharp.Forms.Resource.Integer.show_password_duration = global::LocalNetwork.Droid.Resource.Integer.show_password_duration;
+			global::LibVLCSharp.Forms.Resource.Integer.status_bar_notification_info_maxnum = global::LocalNetwork.Droid.Resource.Integer.status_bar_notification_info_maxnum;
+			global::LibVLCSharp.Forms.Resource.Interpolator.mr_fast_out_slow_in = global::LocalNetwork.Droid.Resource.Interpolator.mr_fast_out_slow_in;
+			global::LibVLCSharp.Forms.Resource.Interpolator.mr_linear_out_slow_in = global::LocalNetwork.Droid.Resource.Interpolator.mr_linear_out_slow_in;
+			global::LibVLCSharp.Forms.Resource.Layout.abc_action_bar_title_item = global::LocalNetwork.Droid.Resource.Layout.abc_action_bar_title_item;
+			global::LibVLCSharp.Forms.Resource.Layout.abc_action_bar_up_container = global::LocalNetwork.Droid.Resource.Layout.abc_action_bar_up_container;
+			global::LibVLCSharp.Forms.Resource.Layout.abc_action_menu_item_layout = global::LocalNetwork.Droid.Resource.Layout.abc_action_menu_item_layout;
+			global::LibVLCSharp.Forms.Resource.Layout.abc_action_menu_layout = global::LocalNetwork.Droid.Resource.Layout.abc_action_menu_layout;
+			global::LibVLCSharp.Forms.Resource.Layout.abc_action_mode_bar = global::LocalNetwork.Droid.Resource.Layout.abc_action_mode_bar;
+			global::LibVLCSharp.Forms.Resource.Layout.abc_action_mode_close_item_material = global::LocalNetwork.Droid.Resource.Layout.abc_action_mode_close_item_material;
+			global::LibVLCSharp.Forms.Resource.Layout.abc_activity_chooser_view = global::LocalNetwork.Droid.Resource.Layout.abc_activity_chooser_view;
+			global::LibVLCSharp.Forms.Resource.Layout.abc_activity_chooser_view_list_item = global::LocalNetwork.Droid.Resource.Layout.abc_activity_chooser_view_list_item;
+			global::LibVLCSharp.Forms.Resource.Layout.abc_alert_dialog_button_bar_material = global::LocalNetwork.Droid.Resource.Layout.abc_alert_dialog_button_bar_material;
+			global::LibVLCSharp.Forms.Resource.Layout.abc_alert_dialog_material = global::LocalNetwork.Droid.Resource.Layout.abc_alert_dialog_material;
+			global::LibVLCSharp.Forms.Resource.Layout.abc_alert_dialog_title_material = global::LocalNetwork.Droid.Resource.Layout.abc_alert_dialog_title_material;
+			global::LibVLCSharp.Forms.Resource.Layout.abc_dialog_title_material = global::LocalNetwork.Droid.Resource.Layout.abc_dialog_title_material;
+			global::LibVLCSharp.Forms.Resource.Layout.abc_expanded_menu_layout = global::LocalNetwork.Droid.Resource.Layout.abc_expanded_menu_layout;
+			global::LibVLCSharp.Forms.Resource.Layout.abc_list_menu_item_checkbox = global::LocalNetwork.Droid.Resource.Layout.abc_list_menu_item_checkbox;
+			global::LibVLCSharp.Forms.Resource.Layout.abc_list_menu_item_icon = global::LocalNetwork.Droid.Resource.Layout.abc_list_menu_item_icon;
+			global::LibVLCSharp.Forms.Resource.Layout.abc_list_menu_item_layout = global::LocalNetwork.Droid.Resource.Layout.abc_list_menu_item_layout;
+			global::LibVLCSharp.Forms.Resource.Layout.abc_list_menu_item_radio = global::LocalNetwork.Droid.Resource.Layout.abc_list_menu_item_radio;
+			global::LibVLCSharp.Forms.Resource.Layout.abc_popup_menu_header_item_layout = global::LocalNetwork.Droid.Resource.Layout.abc_popup_menu_header_item_layout;
+			global::LibVLCSharp.Forms.Resource.Layout.abc_popup_menu_item_layout = global::LocalNetwork.Droid.Resource.Layout.abc_popup_menu_item_layout;
+			global::LibVLCSharp.Forms.Resource.Layout.abc_screen_content_include = global::LocalNetwork.Droid.Resource.Layout.abc_screen_content_include;
+			global::LibVLCSharp.Forms.Resource.Layout.abc_screen_simple = global::LocalNetwork.Droid.Resource.Layout.abc_screen_simple;
+			global::LibVLCSharp.Forms.Resource.Layout.abc_screen_simple_overlay_action_mode = global::LocalNetwork.Droid.Resource.Layout.abc_screen_simple_overlay_action_mode;
+			global::LibVLCSharp.Forms.Resource.Layout.abc_screen_toolbar = global::LocalNetwork.Droid.Resource.Layout.abc_screen_toolbar;
+			global::LibVLCSharp.Forms.Resource.Layout.abc_search_dropdown_item_icons_2line = global::LocalNetwork.Droid.Resource.Layout.abc_search_dropdown_item_icons_2line;
+			global::LibVLCSharp.Forms.Resource.Layout.abc_search_view = global::LocalNetwork.Droid.Resource.Layout.abc_search_view;
+			global::LibVLCSharp.Forms.Resource.Layout.abc_select_dialog_material = global::LocalNetwork.Droid.Resource.Layout.abc_select_dialog_material;
+			global::LibVLCSharp.Forms.Resource.Layout.design_bottom_navigation_item = global::LocalNetwork.Droid.Resource.Layout.design_bottom_navigation_item;
+			global::LibVLCSharp.Forms.Resource.Layout.design_bottom_sheet_dialog = global::LocalNetwork.Droid.Resource.Layout.design_bottom_sheet_dialog;
+			global::LibVLCSharp.Forms.Resource.Layout.design_layout_snackbar = global::LocalNetwork.Droid.Resource.Layout.design_layout_snackbar;
+			global::LibVLCSharp.Forms.Resource.Layout.design_layout_snackbar_include = global::LocalNetwork.Droid.Resource.Layout.design_layout_snackbar_include;
+			global::LibVLCSharp.Forms.Resource.Layout.design_layout_tab_icon = global::LocalNetwork.Droid.Resource.Layout.design_layout_tab_icon;
+			global::LibVLCSharp.Forms.Resource.Layout.design_layout_tab_text = global::LocalNetwork.Droid.Resource.Layout.design_layout_tab_text;
+			global::LibVLCSharp.Forms.Resource.Layout.design_menu_item_action_area = global::LocalNetwork.Droid.Resource.Layout.design_menu_item_action_area;
+			global::LibVLCSharp.Forms.Resource.Layout.design_navigation_item = global::LocalNetwork.Droid.Resource.Layout.design_navigation_item;
+			global::LibVLCSharp.Forms.Resource.Layout.design_navigation_item_header = global::LocalNetwork.Droid.Resource.Layout.design_navigation_item_header;
+			global::LibVLCSharp.Forms.Resource.Layout.design_navigation_item_separator = global::LocalNetwork.Droid.Resource.Layout.design_navigation_item_separator;
+			global::LibVLCSharp.Forms.Resource.Layout.design_navigation_item_subheader = global::LocalNetwork.Droid.Resource.Layout.design_navigation_item_subheader;
+			global::LibVLCSharp.Forms.Resource.Layout.design_navigation_menu = global::LocalNetwork.Droid.Resource.Layout.design_navigation_menu;
+			global::LibVLCSharp.Forms.Resource.Layout.design_navigation_menu_item = global::LocalNetwork.Droid.Resource.Layout.design_navigation_menu_item;
+			global::LibVLCSharp.Forms.Resource.Layout.design_text_input_password_icon = global::LocalNetwork.Droid.Resource.Layout.design_text_input_password_icon;
+			global::LibVLCSharp.Forms.Resource.Layout.mr_chooser_dialog = global::LocalNetwork.Droid.Resource.Layout.mr_chooser_dialog;
+			global::LibVLCSharp.Forms.Resource.Layout.mr_chooser_list_item = global::LocalNetwork.Droid.Resource.Layout.mr_chooser_list_item;
+			global::LibVLCSharp.Forms.Resource.Layout.mr_controller_material_dialog_b = global::LocalNetwork.Droid.Resource.Layout.mr_controller_material_dialog_b;
+			global::LibVLCSharp.Forms.Resource.Layout.mr_controller_volume_item = global::LocalNetwork.Droid.Resource.Layout.mr_controller_volume_item;
+			global::LibVLCSharp.Forms.Resource.Layout.mr_playback_control = global::LocalNetwork.Droid.Resource.Layout.mr_playback_control;
+			global::LibVLCSharp.Forms.Resource.Layout.mr_volume_control = global::LocalNetwork.Droid.Resource.Layout.mr_volume_control;
+			global::LibVLCSharp.Forms.Resource.Layout.notification_action = global::LocalNetwork.Droid.Resource.Layout.notification_action;
+			global::LibVLCSharp.Forms.Resource.Layout.notification_action_tombstone = global::LocalNetwork.Droid.Resource.Layout.notification_action_tombstone;
+			global::LibVLCSharp.Forms.Resource.Layout.notification_media_action = global::LocalNetwork.Droid.Resource.Layout.notification_media_action;
+			global::LibVLCSharp.Forms.Resource.Layout.notification_media_cancel_action = global::LocalNetwork.Droid.Resource.Layout.notification_media_cancel_action;
+			global::LibVLCSharp.Forms.Resource.Layout.notification_template_big_media = global::LocalNetwork.Droid.Resource.Layout.notification_template_big_media;
+			global::LibVLCSharp.Forms.Resource.Layout.notification_template_big_media_custom = global::LocalNetwork.Droid.Resource.Layout.notification_template_big_media_custom;
+			global::LibVLCSharp.Forms.Resource.Layout.notification_template_big_media_narrow = global::LocalNetwork.Droid.Resource.Layout.notification_template_big_media_narrow;
+			global::LibVLCSharp.Forms.Resource.Layout.notification_template_big_media_narrow_custom = global::LocalNetwork.Droid.Resource.Layout.notification_template_big_media_narrow_custom;
+			global::LibVLCSharp.Forms.Resource.Layout.notification_template_custom_big = global::LocalNetwork.Droid.Resource.Layout.notification_template_custom_big;
+			global::LibVLCSharp.Forms.Resource.Layout.notification_template_icon_group = global::LocalNetwork.Droid.Resource.Layout.notification_template_icon_group;
+			global::LibVLCSharp.Forms.Resource.Layout.notification_template_lines_media = global::LocalNetwork.Droid.Resource.Layout.notification_template_lines_media;
+			global::LibVLCSharp.Forms.Resource.Layout.notification_template_media = global::LocalNetwork.Droid.Resource.Layout.notification_template_media;
+			global::LibVLCSharp.Forms.Resource.Layout.notification_template_media_custom = global::LocalNetwork.Droid.Resource.Layout.notification_template_media_custom;
+			global::LibVLCSharp.Forms.Resource.Layout.notification_template_part_chronometer = global::LocalNetwork.Droid.Resource.Layout.notification_template_part_chronometer;
+			global::LibVLCSharp.Forms.Resource.Layout.notification_template_part_time = global::LocalNetwork.Droid.Resource.Layout.notification_template_part_time;
+			global::LibVLCSharp.Forms.Resource.Layout.select_dialog_item_material = global::LocalNetwork.Droid.Resource.Layout.select_dialog_item_material;
+			global::LibVLCSharp.Forms.Resource.Layout.select_dialog_multichoice_material = global::LocalNetwork.Droid.Resource.Layout.select_dialog_multichoice_material;
+			global::LibVLCSharp.Forms.Resource.Layout.select_dialog_singlechoice_material = global::LocalNetwork.Droid.Resource.Layout.select_dialog_singlechoice_material;
+			global::LibVLCSharp.Forms.Resource.Layout.support_simple_spinner_dropdown_item = global::LocalNetwork.Droid.Resource.Layout.support_simple_spinner_dropdown_item;
+			global::LibVLCSharp.Forms.Resource.Layout.tooltip = global::LocalNetwork.Droid.Resource.Layout.tooltip;
+			global::LibVLCSharp.Forms.Resource.String.abc_action_bar_home_description = global::LocalNetwork.Droid.Resource.String.abc_action_bar_home_description;
+			global::LibVLCSharp.Forms.Resource.String.abc_action_bar_up_description = global::LocalNetwork.Droid.Resource.String.abc_action_bar_up_description;
+			global::LibVLCSharp.Forms.Resource.String.abc_action_menu_overflow_description = global::LocalNetwork.Droid.Resource.String.abc_action_menu_overflow_description;
+			global::LibVLCSharp.Forms.Resource.String.abc_action_mode_done = global::LocalNetwork.Droid.Resource.String.abc_action_mode_done;
+			global::LibVLCSharp.Forms.Resource.String.abc_activitychooserview_choose_application = global::LocalNetwork.Droid.Resource.String.abc_activitychooserview_choose_application;
+			global::LibVLCSharp.Forms.Resource.String.abc_activity_chooser_view_see_all = global::LocalNetwork.Droid.Resource.String.abc_activity_chooser_view_see_all;
+			global::LibVLCSharp.Forms.Resource.String.abc_capital_off = global::LocalNetwork.Droid.Resource.String.abc_capital_off;
+			global::LibVLCSharp.Forms.Resource.String.abc_capital_on = global::LocalNetwork.Droid.Resource.String.abc_capital_on;
+			global::LibVLCSharp.Forms.Resource.String.abc_font_family_body_1_material = global::LocalNetwork.Droid.Resource.String.abc_font_family_body_1_material;
+			global::LibVLCSharp.Forms.Resource.String.abc_font_family_body_2_material = global::LocalNetwork.Droid.Resource.String.abc_font_family_body_2_material;
+			global::LibVLCSharp.Forms.Resource.String.abc_font_family_button_material = global::LocalNetwork.Droid.Resource.String.abc_font_family_button_material;
+			global::LibVLCSharp.Forms.Resource.String.abc_font_family_caption_material = global::LocalNetwork.Droid.Resource.String.abc_font_family_caption_material;
+			global::LibVLCSharp.Forms.Resource.String.abc_font_family_display_1_material = global::LocalNetwork.Droid.Resource.String.abc_font_family_display_1_material;
+			global::LibVLCSharp.Forms.Resource.String.abc_font_family_display_2_material = global::LocalNetwork.Droid.Resource.String.abc_font_family_display_2_material;
+			global::LibVLCSharp.Forms.Resource.String.abc_font_family_display_3_material = global::LocalNetwork.Droid.Resource.String.abc_font_family_display_3_material;
+			global::LibVLCSharp.Forms.Resource.String.abc_font_family_display_4_material = global::LocalNetwork.Droid.Resource.String.abc_font_family_display_4_material;
+			global::LibVLCSharp.Forms.Resource.String.abc_font_family_headline_material = global::LocalNetwork.Droid.Resource.String.abc_font_family_headline_material;
+			global::LibVLCSharp.Forms.Resource.String.abc_font_family_menu_material = global::LocalNetwork.Droid.Resource.String.abc_font_family_menu_material;
+			global::LibVLCSharp.Forms.Resource.String.abc_font_family_subhead_material = global::LocalNetwork.Droid.Resource.String.abc_font_family_subhead_material;
+			global::LibVLCSharp.Forms.Resource.String.abc_font_family_title_material = global::LocalNetwork.Droid.Resource.String.abc_font_family_title_material;
+			global::LibVLCSharp.Forms.Resource.String.abc_searchview_description_clear = global::LocalNetwork.Droid.Resource.String.abc_searchview_description_clear;
+			global::LibVLCSharp.Forms.Resource.String.abc_searchview_description_query = global::LocalNetwork.Droid.Resource.String.abc_searchview_description_query;
+			global::LibVLCSharp.Forms.Resource.String.abc_searchview_description_search = global::LocalNetwork.Droid.Resource.String.abc_searchview_description_search;
+			global::LibVLCSharp.Forms.Resource.String.abc_searchview_description_submit = global::LocalNetwork.Droid.Resource.String.abc_searchview_description_submit;
+			global::LibVLCSharp.Forms.Resource.String.abc_searchview_description_voice = global::LocalNetwork.Droid.Resource.String.abc_searchview_description_voice;
+			global::LibVLCSharp.Forms.Resource.String.abc_search_hint = global::LocalNetwork.Droid.Resource.String.abc_search_hint;
+			global::LibVLCSharp.Forms.Resource.String.abc_shareactionprovider_share_with = global::LocalNetwork.Droid.Resource.String.abc_shareactionprovider_share_with;
+			global::LibVLCSharp.Forms.Resource.String.abc_shareactionprovider_share_with_application = global::LocalNetwork.Droid.Resource.String.abc_shareactionprovider_share_with_application;
+			global::LibVLCSharp.Forms.Resource.String.abc_toolbar_collapse_description = global::LocalNetwork.Droid.Resource.String.abc_toolbar_collapse_description;
+			global::LibVLCSharp.Forms.Resource.String.appbar_scrolling_view_behavior = global::LocalNetwork.Droid.Resource.String.appbar_scrolling_view_behavior;
+			global::LibVLCSharp.Forms.Resource.String.app_name = global::LocalNetwork.Droid.Resource.String.app_name;
+			global::LibVLCSharp.Forms.Resource.String.bottom_sheet_behavior = global::LocalNetwork.Droid.Resource.String.bottom_sheet_behavior;
+			global::LibVLCSharp.Forms.Resource.String.character_counter_pattern = global::LocalNetwork.Droid.Resource.String.character_counter_pattern;
+			global::LibVLCSharp.Forms.Resource.String.mr_button_content_description = global::LocalNetwork.Droid.Resource.String.mr_button_content_description;
+			global::LibVLCSharp.Forms.Resource.String.mr_cast_button_connected = global::LocalNetwork.Droid.Resource.String.mr_cast_button_connected;
+			global::LibVLCSharp.Forms.Resource.String.mr_cast_button_connecting = global::LocalNetwork.Droid.Resource.String.mr_cast_button_connecting;
+			global::LibVLCSharp.Forms.Resource.String.mr_cast_button_disconnected = global::LocalNetwork.Droid.Resource.String.mr_cast_button_disconnected;
+			global::LibVLCSharp.Forms.Resource.String.mr_chooser_searching = global::LocalNetwork.Droid.Resource.String.mr_chooser_searching;
+			global::LibVLCSharp.Forms.Resource.String.mr_chooser_title = global::LocalNetwork.Droid.Resource.String.mr_chooser_title;
+			global::LibVLCSharp.Forms.Resource.String.mr_controller_album_art = global::LocalNetwork.Droid.Resource.String.mr_controller_album_art;
+			global::LibVLCSharp.Forms.Resource.String.mr_controller_casting_screen = global::LocalNetwork.Droid.Resource.String.mr_controller_casting_screen;
+			global::LibVLCSharp.Forms.Resource.String.mr_controller_close_description = global::LocalNetwork.Droid.Resource.String.mr_controller_close_description;
+			global::LibVLCSharp.Forms.Resource.String.mr_controller_collapse_group = global::LocalNetwork.Droid.Resource.String.mr_controller_collapse_group;
+			global::LibVLCSharp.Forms.Resource.String.mr_controller_disconnect = global::LocalNetwork.Droid.Resource.String.mr_controller_disconnect;
+			global::LibVLCSharp.Forms.Resource.String.mr_controller_expand_group = global::LocalNetwork.Droid.Resource.String.mr_controller_expand_group;
+			global::LibVLCSharp.Forms.Resource.String.mr_controller_no_info_available = global::LocalNetwork.Droid.Resource.String.mr_controller_no_info_available;
+			global::LibVLCSharp.Forms.Resource.String.mr_controller_no_media_selected = global::LocalNetwork.Droid.Resource.String.mr_controller_no_media_selected;
+			global::LibVLCSharp.Forms.Resource.String.mr_controller_pause = global::LocalNetwork.Droid.Resource.String.mr_controller_pause;
+			global::LibVLCSharp.Forms.Resource.String.mr_controller_play = global::LocalNetwork.Droid.Resource.String.mr_controller_play;
+			global::LibVLCSharp.Forms.Resource.String.mr_controller_stop = global::LocalNetwork.Droid.Resource.String.mr_controller_stop;
+			global::LibVLCSharp.Forms.Resource.String.mr_controller_stop_casting = global::LocalNetwork.Droid.Resource.String.mr_controller_stop_casting;
+			global::LibVLCSharp.Forms.Resource.String.mr_controller_volume_slider = global::LocalNetwork.Droid.Resource.String.mr_controller_volume_slider;
+			global::LibVLCSharp.Forms.Resource.String.mr_system_route_name = global::LocalNetwork.Droid.Resource.String.mr_system_route_name;
+			global::LibVLCSharp.Forms.Resource.String.mr_user_route_category_name = global::LocalNetwork.Droid.Resource.String.mr_user_route_category_name;
+			global::LibVLCSharp.Forms.Resource.String.password_toggle_content_description = global::LocalNetwork.Droid.Resource.String.password_toggle_content_description;
+			global::LibVLCSharp.Forms.Resource.String.path_password_eye = global::LocalNetwork.Droid.Resource.String.path_password_eye;
+			global::LibVLCSharp.Forms.Resource.String.path_password_eye_mask_strike_through = global::LocalNetwork.Droid.Resource.String.path_password_eye_mask_strike_through;
+			global::LibVLCSharp.Forms.Resource.String.path_password_eye_mask_visible = global::LocalNetwork.Droid.Resource.String.path_password_eye_mask_visible;
+			global::LibVLCSharp.Forms.Resource.String.path_password_strike_through = global::LocalNetwork.Droid.Resource.String.path_password_strike_through;
+			global::LibVLCSharp.Forms.Resource.String.search_menu_title = global::LocalNetwork.Droid.Resource.String.search_menu_title;
+			global::LibVLCSharp.Forms.Resource.String.status_bar_notification_info_overflow = global::LocalNetwork.Droid.Resource.String.status_bar_notification_info_overflow;
+			global::LibVLCSharp.Forms.Resource.Style.AlertDialog_AppCompat = global::LocalNetwork.Droid.Resource.Style.AlertDialog_AppCompat;
+			global::LibVLCSharp.Forms.Resource.Style.AlertDialog_AppCompat_Light = global::LocalNetwork.Droid.Resource.Style.AlertDialog_AppCompat_Light;
+			global::LibVLCSharp.Forms.Resource.Style.Animation_AppCompat_Dialog = global::LocalNetwork.Droid.Resource.Style.Animation_AppCompat_Dialog;
+			global::LibVLCSharp.Forms.Resource.Style.Animation_AppCompat_DropDownUp = global::LocalNetwork.Droid.Resource.Style.Animation_AppCompat_DropDownUp;
+			global::LibVLCSharp.Forms.Resource.Style.Animation_AppCompat_Tooltip = global::LocalNetwork.Droid.Resource.Style.Animation_AppCompat_Tooltip;
+			global::LibVLCSharp.Forms.Resource.Style.Animation_Design_BottomSheetDialog = global::LocalNetwork.Droid.Resource.Style.Animation_Design_BottomSheetDialog;
+			global::LibVLCSharp.Forms.Resource.Style.Base_AlertDialog_AppCompat = global::LocalNetwork.Droid.Resource.Style.Base_AlertDialog_AppCompat;
+			global::LibVLCSharp.Forms.Resource.Style.Base_AlertDialog_AppCompat_Light = global::LocalNetwork.Droid.Resource.Style.Base_AlertDialog_AppCompat_Light;
+			global::LibVLCSharp.Forms.Resource.Style.Base_Animation_AppCompat_Dialog = global::LocalNetwork.Droid.Resource.Style.Base_Animation_AppCompat_Dialog;
+			global::LibVLCSharp.Forms.Resource.Style.Base_Animation_AppCompat_DropDownUp = global::LocalNetwork.Droid.Resource.Style.Base_Animation_AppCompat_DropDownUp;
+			global::LibVLCSharp.Forms.Resource.Style.Base_Animation_AppCompat_Tooltip = global::LocalNetwork.Droid.Resource.Style.Base_Animation_AppCompat_Tooltip;
+			global::LibVLCSharp.Forms.Resource.Style.Base_CardView = global::LocalNetwork.Droid.Resource.Style.Base_CardView;
+			global::LibVLCSharp.Forms.Resource.Style.Base_DialogWindowTitleBackground_AppCompat = global::LocalNetwork.Droid.Resource.Style.Base_DialogWindowTitleBackground_AppCompat;
+			global::LibVLCSharp.Forms.Resource.Style.Base_DialogWindowTitle_AppCompat = global::LocalNetwork.Droid.Resource.Style.Base_DialogWindowTitle_AppCompat;
+			global::LibVLCSharp.Forms.Resource.Style.Base_TextAppearance_AppCompat = global::LocalNetwork.Droid.Resource.Style.Base_TextAppearance_AppCompat;
+			global::LibVLCSharp.Forms.Resource.Style.Base_TextAppearance_AppCompat_Body1 = global::LocalNetwork.Droid.Resource.Style.Base_TextAppearance_AppCompat_Body1;
+			global::LibVLCSharp.Forms.Resource.Style.Base_TextAppearance_AppCompat_Body2 = global::LocalNetwork.Droid.Resource.Style.Base_TextAppearance_AppCompat_Body2;
+			global::LibVLCSharp.Forms.Resource.Style.Base_TextAppearance_AppCompat_Button = global::LocalNetwork.Droid.Resource.Style.Base_TextAppearance_AppCompat_Button;
+			global::LibVLCSharp.Forms.Resource.Style.Base_TextAppearance_AppCompat_Caption = global::LocalNetwork.Droid.Resource.Style.Base_TextAppearance_AppCompat_Caption;
+			global::LibVLCSharp.Forms.Resource.Style.Base_TextAppearance_AppCompat_Display1 = global::LocalNetwork.Droid.Resource.Style.Base_TextAppearance_AppCompat_Display1;
+			global::LibVLCSharp.Forms.Resource.Style.Base_TextAppearance_AppCompat_Display2 = global::LocalNetwork.Droid.Resource.Style.Base_TextAppearance_AppCompat_Display2;
+			global::LibVLCSharp.Forms.Resource.Style.Base_TextAppearance_AppCompat_Display3 = global::LocalNetwork.Droid.Resource.Style.Base_TextAppearance_AppCompat_Display3;
+			global::LibVLCSharp.Forms.Resource.Style.Base_TextAppearance_AppCompat_Display4 = global::LocalNetwork.Droid.Resource.Style.Base_TextAppearance_AppCompat_Display4;
+			global::LibVLCSharp.Forms.Resource.Style.Base_TextAppearance_AppCompat_Headline = global::LocalNetwork.Droid.Resource.Style.Base_TextAppearance_AppCompat_Headline;
+			global::LibVLCSharp.Forms.Resource.Style.Base_TextAppearance_AppCompat_Inverse = global::LocalNetwork.Droid.Resource.Style.Base_TextAppearance_AppCompat_Inverse;
+			global::LibVLCSharp.Forms.Resource.Style.Base_TextAppearance_AppCompat_Large = global::LocalNetwork.Droid.Resource.Style.Base_TextAppearance_AppCompat_Large;
+			global::LibVLCSharp.Forms.Resource.Style.Base_TextAppearance_AppCompat_Large_Inverse = global::LocalNetwork.Droid.Resource.Style.Base_TextAppearance_AppCompat_Large_Inverse;
+			global::LibVLCSharp.Forms.Resource.Style.Base_TextAppearance_AppCompat_Light_Widget_PopupMenu_Large = global::LocalNetwork.Droid.Resource.Style.Base_TextAppearance_AppCompat_Light_Widget_PopupMenu_Large;
+			global::LibVLCSharp.Forms.Resource.Style.Base_TextAppearance_AppCompat_Light_Widget_PopupMenu_Small = global::LocalNetwork.Droid.Resource.Style.Base_TextAppearance_AppCompat_Light_Widget_PopupMenu_Small;
+			global::LibVLCSharp.Forms.Resource.Style.Base_TextAppearance_AppCompat_Medium = global::LocalNetwork.Droid.Resource.Style.Base_TextAppearance_AppCompat_Medium;
+			global::LibVLCSharp.Forms.Resource.Style.Base_TextAppearance_AppCompat_Medium_Inverse = global::LocalNetwork.Droid.Resource.Style.Base_TextAppearance_AppCompat_Medium_Inverse;
+			global::LibVLCSharp.Forms.Resource.Style.Base_TextAppearance_AppCompat_Menu = global::LocalNetwork.Droid.Resource.Style.Base_TextAppearance_AppCompat_Menu;
+			global::LibVLCSharp.Forms.Resource.Style.Base_TextAppearance_AppCompat_SearchResult = global::LocalNetwork.Droid.Resource.Style.Base_TextAppearance_AppCompat_SearchResult;
+			global::LibVLCSharp.Forms.Resource.Style.Base_TextAppearance_AppCompat_SearchResult_Subtitle = global::LocalNetwork.Droid.Resource.Style.Base_TextAppearance_AppCompat_SearchResult_Subtitle;
+			global::LibVLCSharp.Forms.Resource.Style.Base_TextAppearance_AppCompat_SearchResult_Title = global::LocalNetwork.Droid.Resource.Style.Base_TextAppearance_AppCompat_SearchResult_Title;
+			global::LibVLCSharp.Forms.Resource.Style.Base_TextAppearance_AppCompat_Small = global::LocalNetwork.Droid.Resource.Style.Base_TextAppearance_AppCompat_Small;
+			global::LibVLCSharp.Forms.Resource.Style.Base_TextAppearance_AppCompat_Small_Inverse = global::LocalNetwork.Droid.Resource.Style.Base_TextAppearance_AppCompat_Small_Inverse;
+			global::LibVLCSharp.Forms.Resource.Style.Base_TextAppearance_AppCompat_Subhead = global::LocalNetwork.Droid.Resource.Style.Base_TextAppearance_AppCompat_Subhead;
+			global::LibVLCSharp.Forms.Resource.Style.Base_TextAppearance_AppCompat_Subhead_Inverse = global::LocalNetwork.Droid.Resource.Style.Base_TextAppearance_AppCompat_Subhead_Inverse;
+			global::LibVLCSharp.Forms.Resource.Style.Base_TextAppearance_AppCompat_Title = global::LocalNetwork.Droid.Resource.Style.Base_TextAppearance_AppCompat_Title;
+			global::LibVLCSharp.Forms.Resource.Style.Base_TextAppearance_AppCompat_Title_Inverse = global::LocalNetwork.Droid.Resource.Style.Base_TextAppearance_AppCompat_Title_Inverse;
+			global::LibVLCSharp.Forms.Resource.Style.Base_TextAppearance_AppCompat_Tooltip = global::LocalNetwork.Droid.Resource.Style.Base_TextAppearance_AppCompat_Tooltip;
+			global::LibVLCSharp.Forms.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Menu = global::LocalNetwork.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Menu;
+			global::LibVLCSharp.Forms.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Subtitle = global::LocalNetwork.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Subtitle;
+			global::LibVLCSharp.Forms.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Subtitle_Inverse = global::LocalNetwork.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Subtitle_Inverse;
+			global::LibVLCSharp.Forms.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Title = global::LocalNetwork.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Title;
+			global::LibVLCSharp.Forms.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Title_Inverse = global::LocalNetwork.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Title_Inverse;
+			global::LibVLCSharp.Forms.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionMode_Subtitle = global::LocalNetwork.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionMode_Subtitle;
+			global::LibVLCSharp.Forms.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionMode_Title = global::LocalNetwork.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionMode_Title;
+			global::LibVLCSharp.Forms.Resource.Style.Base_TextAppearance_AppCompat_Widget_Button = global::LocalNetwork.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_Button;
+			global::LibVLCSharp.Forms.Resource.Style.Base_TextAppearance_AppCompat_Widget_Button_Borderless_Colored = global::LocalNetwork.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_Button_Borderless_Colored;
+			global::LibVLCSharp.Forms.Resource.Style.Base_TextAppearance_AppCompat_Widget_Button_Colored = global::LocalNetwork.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_Button_Colored;
+			global::LibVLCSharp.Forms.Resource.Style.Base_TextAppearance_AppCompat_Widget_Button_Inverse = global::LocalNetwork.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_Button_Inverse;
+			global::LibVLCSharp.Forms.Resource.Style.Base_TextAppearance_AppCompat_Widget_DropDownItem = global::LocalNetwork.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_DropDownItem;
+			global::LibVLCSharp.Forms.Resource.Style.Base_TextAppearance_AppCompat_Widget_PopupMenu_Header = global::LocalNetwork.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_PopupMenu_Header;
+			global::LibVLCSharp.Forms.Resource.Style.Base_TextAppearance_AppCompat_Widget_PopupMenu_Large = global::LocalNetwork.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_PopupMenu_Large;
+			global::LibVLCSharp.Forms.Resource.Style.Base_TextAppearance_AppCompat_Widget_PopupMenu_Small = global::LocalNetwork.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_PopupMenu_Small;
+			global::LibVLCSharp.Forms.Resource.Style.Base_TextAppearance_AppCompat_Widget_Switch = global::LocalNetwork.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_Switch;
+			global::LibVLCSharp.Forms.Resource.Style.Base_TextAppearance_AppCompat_Widget_TextView_SpinnerItem = global::LocalNetwork.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_TextView_SpinnerItem;
+			global::LibVLCSharp.Forms.Resource.Style.Base_TextAppearance_Widget_AppCompat_ExpandedMenu_Item = global::LocalNetwork.Droid.Resource.Style.Base_TextAppearance_Widget_AppCompat_ExpandedMenu_Item;
+			global::LibVLCSharp.Forms.Resource.Style.Base_TextAppearance_Widget_AppCompat_Toolbar_Subtitle = global::LocalNetwork.Droid.Resource.Style.Base_TextAppearance_Widget_AppCompat_Toolbar_Subtitle;
+			global::LibVLCSharp.Forms.Resource.Style.Base_TextAppearance_Widget_AppCompat_Toolbar_Title = global::LocalNetwork.Droid.Resource.Style.Base_TextAppearance_Widget_AppCompat_Toolbar_Title;
+			global::LibVLCSharp.Forms.Resource.Style.Base_ThemeOverlay_AppCompat = global::LocalNetwork.Droid.Resource.Style.Base_ThemeOverlay_AppCompat;
+			global::LibVLCSharp.Forms.Resource.Style.Base_ThemeOverlay_AppCompat_ActionBar = global::LocalNetwork.Droid.Resource.Style.Base_ThemeOverlay_AppCompat_ActionBar;
+			global::LibVLCSharp.Forms.Resource.Style.Base_ThemeOverlay_AppCompat_Dark = global::LocalNetwork.Droid.Resource.Style.Base_ThemeOverlay_AppCompat_Dark;
+			global::LibVLCSharp.Forms.Resource.Style.Base_ThemeOverlay_AppCompat_Dark_ActionBar = global::LocalNetwork.Droid.Resource.Style.Base_ThemeOverlay_AppCompat_Dark_ActionBar;
+			global::LibVLCSharp.Forms.Resource.Style.Base_ThemeOverlay_AppCompat_Dialog = global::LocalNetwork.Droid.Resource.Style.Base_ThemeOverlay_AppCompat_Dialog;
+			global::LibVLCSharp.Forms.Resource.Style.Base_ThemeOverlay_AppCompat_Dialog_Alert = global::LocalNetwork.Droid.Resource.Style.Base_ThemeOverlay_AppCompat_Dialog_Alert;
+			global::LibVLCSharp.Forms.Resource.Style.Base_ThemeOverlay_AppCompat_Light = global::LocalNetwork.Droid.Resource.Style.Base_ThemeOverlay_AppCompat_Light;
+			global::LibVLCSharp.Forms.Resource.Style.Base_Theme_AppCompat = global::LocalNetwork.Droid.Resource.Style.Base_Theme_AppCompat;
+			global::LibVLCSharp.Forms.Resource.Style.Base_Theme_AppCompat_CompactMenu = global::LocalNetwork.Droid.Resource.Style.Base_Theme_AppCompat_CompactMenu;
+			global::LibVLCSharp.Forms.Resource.Style.Base_Theme_AppCompat_Dialog = global::LocalNetwork.Droid.Resource.Style.Base_Theme_AppCompat_Dialog;
+			global::LibVLCSharp.Forms.Resource.Style.Base_Theme_AppCompat_DialogWhenLarge = global::LocalNetwork.Droid.Resource.Style.Base_Theme_AppCompat_DialogWhenLarge;
+			global::LibVLCSharp.Forms.Resource.Style.Base_Theme_AppCompat_Dialog_Alert = global::LocalNetwork.Droid.Resource.Style.Base_Theme_AppCompat_Dialog_Alert;
+			global::LibVLCSharp.Forms.Resource.Style.Base_Theme_AppCompat_Dialog_FixedSize = global::LocalNetwork.Droid.Resource.Style.Base_Theme_AppCompat_Dialog_FixedSize;
+			global::LibVLCSharp.Forms.Resource.Style.Base_Theme_AppCompat_Dialog_MinWidth = global::LocalNetwork.Droid.Resource.Style.Base_Theme_AppCompat_Dialog_MinWidth;
+			global::LibVLCSharp.Forms.Resource.Style.Base_Theme_AppCompat_Light = global::LocalNetwork.Droid.Resource.Style.Base_Theme_AppCompat_Light;
+			global::LibVLCSharp.Forms.Resource.Style.Base_Theme_AppCompat_Light_DarkActionBar = global::LocalNetwork.Droid.Resource.Style.Base_Theme_AppCompat_Light_DarkActionBar;
+			global::LibVLCSharp.Forms.Resource.Style.Base_Theme_AppCompat_Light_Dialog = global::LocalNetwork.Droid.Resource.Style.Base_Theme_AppCompat_Light_Dialog;
+			global::LibVLCSharp.Forms.Resource.Style.Base_Theme_AppCompat_Light_DialogWhenLarge = global::LocalNetwork.Droid.Resource.Style.Base_Theme_AppCompat_Light_DialogWhenLarge;
+			global::LibVLCSharp.Forms.Resource.Style.Base_Theme_AppCompat_Light_Dialog_Alert = global::LocalNetwork.Droid.Resource.Style.Base_Theme_AppCompat_Light_Dialog_Alert;
+			global::LibVLCSharp.Forms.Resource.Style.Base_Theme_AppCompat_Light_Dialog_FixedSize = global::LocalNetwork.Droid.Resource.Style.Base_Theme_AppCompat_Light_Dialog_FixedSize;
+			global::LibVLCSharp.Forms.Resource.Style.Base_Theme_AppCompat_Light_Dialog_MinWidth = global::LocalNetwork.Droid.Resource.Style.Base_Theme_AppCompat_Light_Dialog_MinWidth;
+			global::LibVLCSharp.Forms.Resource.Style.Base_V11_ThemeOverlay_AppCompat_Dialog = global::LocalNetwork.Droid.Resource.Style.Base_V11_ThemeOverlay_AppCompat_Dialog;
+			global::LibVLCSharp.Forms.Resource.Style.Base_V11_Theme_AppCompat_Dialog = global::LocalNetwork.Droid.Resource.Style.Base_V11_Theme_AppCompat_Dialog;
+			global::LibVLCSharp.Forms.Resource.Style.Base_V11_Theme_AppCompat_Light_Dialog = global::LocalNetwork.Droid.Resource.Style.Base_V11_Theme_AppCompat_Light_Dialog;
+			global::LibVLCSharp.Forms.Resource.Style.Base_V12_Widget_AppCompat_AutoCompleteTextView = global::LocalNetwork.Droid.Resource.Style.Base_V12_Widget_AppCompat_AutoCompleteTextView;
+			global::LibVLCSharp.Forms.Resource.Style.Base_V12_Widget_AppCompat_EditText = global::LocalNetwork.Droid.Resource.Style.Base_V12_Widget_AppCompat_EditText;
+			global::LibVLCSharp.Forms.Resource.Style.Base_V14_Widget_Design_AppBarLayout = global::LocalNetwork.Droid.Resource.Style.Base_V14_Widget_Design_AppBarLayout;
+			global::LibVLCSharp.Forms.Resource.Style.Base_V21_ThemeOverlay_AppCompat_Dialog = global::LocalNetwork.Droid.Resource.Style.Base_V21_ThemeOverlay_AppCompat_Dialog;
+			global::LibVLCSharp.Forms.Resource.Style.Base_V21_Theme_AppCompat = global::LocalNetwork.Droid.Resource.Style.Base_V21_Theme_AppCompat;
+			global::LibVLCSharp.Forms.Resource.Style.Base_V21_Theme_AppCompat_Dialog = global::LocalNetwork.Droid.Resource.Style.Base_V21_Theme_AppCompat_Dialog;
+			global::LibVLCSharp.Forms.Resource.Style.Base_V21_Theme_AppCompat_Light = global::LocalNetwork.Droid.Resource.Style.Base_V21_Theme_AppCompat_Light;
+			global::LibVLCSharp.Forms.Resource.Style.Base_V21_Theme_AppCompat_Light_Dialog = global::LocalNetwork.Droid.Resource.Style.Base_V21_Theme_AppCompat_Light_Dialog;
+			global::LibVLCSharp.Forms.Resource.Style.Base_V21_Widget_Design_AppBarLayout = global::LocalNetwork.Droid.Resource.Style.Base_V21_Widget_Design_AppBarLayout;
+			global::LibVLCSharp.Forms.Resource.Style.Base_V22_Theme_AppCompat = global::LocalNetwork.Droid.Resource.Style.Base_V22_Theme_AppCompat;
+			global::LibVLCSharp.Forms.Resource.Style.Base_V22_Theme_AppCompat_Light = global::LocalNetwork.Droid.Resource.Style.Base_V22_Theme_AppCompat_Light;
+			global::LibVLCSharp.Forms.Resource.Style.Base_V23_Theme_AppCompat = global::LocalNetwork.Droid.Resource.Style.Base_V23_Theme_AppCompat;
+			global::LibVLCSharp.Forms.Resource.Style.Base_V23_Theme_AppCompat_Light = global::LocalNetwork.Droid.Resource.Style.Base_V23_Theme_AppCompat_Light;
+			global::LibVLCSharp.Forms.Resource.Style.Base_V26_Theme_AppCompat = global::LocalNetwork.Droid.Resource.Style.Base_V26_Theme_AppCompat;
+			global::LibVLCSharp.Forms.Resource.Style.Base_V26_Theme_AppCompat_Light = global::LocalNetwork.Droid.Resource.Style.Base_V26_Theme_AppCompat_Light;
+			global::LibVLCSharp.Forms.Resource.Style.Base_V26_Widget_AppCompat_Toolbar = global::LocalNetwork.Droid.Resource.Style.Base_V26_Widget_AppCompat_Toolbar;
+			global::LibVLCSharp.Forms.Resource.Style.Base_V26_Widget_Design_AppBarLayout = global::LocalNetwork.Droid.Resource.Style.Base_V26_Widget_Design_AppBarLayout;
+			global::LibVLCSharp.Forms.Resource.Style.Base_V7_ThemeOverlay_AppCompat_Dialog = global::LocalNetwork.Droid.Resource.Style.Base_V7_ThemeOverlay_AppCompat_Dialog;
+			global::LibVLCSharp.Forms.Resource.Style.Base_V7_Theme_AppCompat = global::LocalNetwork.Droid.Resource.Style.Base_V7_Theme_AppCompat;
+			global::LibVLCSharp.Forms.Resource.Style.Base_V7_Theme_AppCompat_Dialog = global::LocalNetwork.Droid.Resource.Style.Base_V7_Theme_AppCompat_Dialog;
+			global::LibVLCSharp.Forms.Resource.Style.Base_V7_Theme_AppCompat_Light = global::LocalNetwork.Droid.Resource.Style.Base_V7_Theme_AppCompat_Light;
+			global::LibVLCSharp.Forms.Resource.Style.Base_V7_Theme_AppCompat_Light_Dialog = global::LocalNetwork.Droid.Resource.Style.Base_V7_Theme_AppCompat_Light_Dialog;
+			global::LibVLCSharp.Forms.Resource.Style.Base_V7_Widget_AppCompat_AutoCompleteTextView = global::LocalNetwork.Droid.Resource.Style.Base_V7_Widget_AppCompat_AutoCompleteTextView;
+			global::LibVLCSharp.Forms.Resource.Style.Base_V7_Widget_AppCompat_EditText = global::LocalNetwork.Droid.Resource.Style.Base_V7_Widget_AppCompat_EditText;
+			global::LibVLCSharp.Forms.Resource.Style.Base_V7_Widget_AppCompat_Toolbar = global::LocalNetwork.Droid.Resource.Style.Base_V7_Widget_AppCompat_Toolbar;
+			global::LibVLCSharp.Forms.Resource.Style.Base_Widget_AppCompat_ActionBar = global::LocalNetwork.Droid.Resource.Style.Base_Widget_AppCompat_ActionBar;
+			global::LibVLCSharp.Forms.Resource.Style.Base_Widget_AppCompat_ActionBar_Solid = global::LocalNetwork.Droid.Resource.Style.Base_Widget_AppCompat_ActionBar_Solid;
+			global::LibVLCSharp.Forms.Resource.Style.Base_Widget_AppCompat_ActionBar_TabBar = global::LocalNetwork.Droid.Resource.Style.Base_Widget_AppCompat_ActionBar_TabBar;
+			global::LibVLCSharp.Forms.Resource.Style.Base_Widget_AppCompat_ActionBar_TabText = global::LocalNetwork.Droid.Resource.Style.Base_Widget_AppCompat_ActionBar_TabText;
+			global::LibVLCSharp.Forms.Resource.Style.Base_Widget_AppCompat_ActionBar_TabView = global::LocalNetwork.Droid.Resource.Style.Base_Widget_AppCompat_ActionBar_TabView;
+			global::LibVLCSharp.Forms.Resource.Style.Base_Widget_AppCompat_ActionButton = global::LocalNetwork.Droid.Resource.Style.Base_Widget_AppCompat_ActionButton;
+			global::LibVLCSharp.Forms.Resource.Style.Base_Widget_AppCompat_ActionButton_CloseMode = global::LocalNetwork.Droid.Resource.Style.Base_Widget_AppCompat_ActionButton_CloseMode;
+			global::LibVLCSharp.Forms.Resource.Style.Base_Widget_AppCompat_ActionButton_Overflow = global::LocalNetwork.Droid.Resource.Style.Base_Widget_AppCompat_ActionButton_Overflow;
+			global::LibVLCSharp.Forms.Resource.Style.Base_Widget_AppCompat_ActionMode = global::LocalNetwork.Droid.Resource.Style.Base_Widget_AppCompat_ActionMode;
+			global::LibVLCSharp.Forms.Resource.Style.Base_Widget_AppCompat_ActivityChooserView = global::LocalNetwork.Droid.Resource.Style.Base_Widget_AppCompat_ActivityChooserView;
+			global::LibVLCSharp.Forms.Resource.Style.Base_Widget_AppCompat_AutoCompleteTextView = global::LocalNetwork.Droid.Resource.Style.Base_Widget_AppCompat_AutoCompleteTextView;
+			global::LibVLCSharp.Forms.Resource.Style.Base_Widget_AppCompat_Button = global::LocalNetwork.Droid.Resource.Style.Base_Widget_AppCompat_Button;
+			global::LibVLCSharp.Forms.Resource.Style.Base_Widget_AppCompat_ButtonBar = global::LocalNetwork.Droid.Resource.Style.Base_Widget_AppCompat_ButtonBar;
+			global::LibVLCSharp.Forms.Resource.Style.Base_Widget_AppCompat_ButtonBar_AlertDialog = global::LocalNetwork.Droid.Resource.Style.Base_Widget_AppCompat_ButtonBar_AlertDialog;
+			global::LibVLCSharp.Forms.Resource.Style.Base_Widget_AppCompat_Button_Borderless = global::LocalNetwork.Droid.Resource.Style.Base_Widget_AppCompat_Button_Borderless;
+			global::LibVLCSharp.Forms.Resource.Style.Base_Widget_AppCompat_Button_Borderless_Colored = global::LocalNetwork.Droid.Resource.Style.Base_Widget_AppCompat_Button_Borderless_Colored;
+			global::LibVLCSharp.Forms.Resource.Style.Base_Widget_AppCompat_Button_ButtonBar_AlertDialog = global::LocalNetwork.Droid.Resource.Style.Base_Widget_AppCompat_Button_ButtonBar_AlertDialog;
+			global::LibVLCSharp.Forms.Resource.Style.Base_Widget_AppCompat_Button_Colored = global::LocalNetwork.Droid.Resource.Style.Base_Widget_AppCompat_Button_Colored;
+			global::LibVLCSharp.Forms.Resource.Style.Base_Widget_AppCompat_Button_Small = global::LocalNetwork.Droid.Resource.Style.Base_Widget_AppCompat_Button_Small;
+			global::LibVLCSharp.Forms.Resource.Style.Base_Widget_AppCompat_CompoundButton_CheckBox = global::LocalNetwork.Droid.Resource.Style.Base_Widget_AppCompat_CompoundButton_CheckBox;
+			global::LibVLCSharp.Forms.Resource.Style.Base_Widget_AppCompat_CompoundButton_RadioButton = global::LocalNetwork.Droid.Resource.Style.Base_Widget_AppCompat_CompoundButton_RadioButton;
+			global::LibVLCSharp.Forms.Resource.Style.Base_Widget_AppCompat_CompoundButton_Switch = global::LocalNetwork.Droid.Resource.Style.Base_Widget_AppCompat_CompoundButton_Switch;
+			global::LibVLCSharp.Forms.Resource.Style.Base_Widget_AppCompat_DrawerArrowToggle = global::LocalNetwork.Droid.Resource.Style.Base_Widget_AppCompat_DrawerArrowToggle;
+			global::LibVLCSharp.Forms.Resource.Style.Base_Widget_AppCompat_DrawerArrowToggle_Common = global::LocalNetwork.Droid.Resource.Style.Base_Widget_AppCompat_DrawerArrowToggle_Common;
+			global::LibVLCSharp.Forms.Resource.Style.Base_Widget_AppCompat_DropDownItem_Spinner = global::LocalNetwork.Droid.Resource.Style.Base_Widget_AppCompat_DropDownItem_Spinner;
+			global::LibVLCSharp.Forms.Resource.Style.Base_Widget_AppCompat_EditText = global::LocalNetwork.Droid.Resource.Style.Base_Widget_AppCompat_EditText;
+			global::LibVLCSharp.Forms.Resource.Style.Base_Widget_AppCompat_ImageButton = global::LocalNetwork.Droid.Resource.Style.Base_Widget_AppCompat_ImageButton;
+			global::LibVLCSharp.Forms.Resource.Style.Base_Widget_AppCompat_Light_ActionBar = global::LocalNetwork.Droid.Resource.Style.Base_Widget_AppCompat_Light_ActionBar;
+			global::LibVLCSharp.Forms.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_Solid = global::LocalNetwork.Droid.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_Solid;
+			global::LibVLCSharp.Forms.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabBar = global::LocalNetwork.Droid.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabBar;
+			global::LibVLCSharp.Forms.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabText = global::LocalNetwork.Droid.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabText;
+			global::LibVLCSharp.Forms.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabText_Inverse = global::LocalNetwork.Droid.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabText_Inverse;
+			global::LibVLCSharp.Forms.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabView = global::LocalNetwork.Droid.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabView;
+			global::LibVLCSharp.Forms.Resource.Style.Base_Widget_AppCompat_Light_PopupMenu = global::LocalNetwork.Droid.Resource.Style.Base_Widget_AppCompat_Light_PopupMenu;
+			global::LibVLCSharp.Forms.Resource.Style.Base_Widget_AppCompat_Light_PopupMenu_Overflow = global::LocalNetwork.Droid.Resource.Style.Base_Widget_AppCompat_Light_PopupMenu_Overflow;
+			global::LibVLCSharp.Forms.Resource.Style.Base_Widget_AppCompat_ListMenuView = global::LocalNetwork.Droid.Resource.Style.Base_Widget_AppCompat_ListMenuView;
+			global::LibVLCSharp.Forms.Resource.Style.Base_Widget_AppCompat_ListPopupWindow = global::LocalNetwork.Droid.Resource.Style.Base_Widget_AppCompat_ListPopupWindow;
+			global::LibVLCSharp.Forms.Resource.Style.Base_Widget_AppCompat_ListView = global::LocalNetwork.Droid.Resource.Style.Base_Widget_AppCompat_ListView;
+			global::LibVLCSharp.Forms.Resource.Style.Base_Widget_AppCompat_ListView_DropDown = global::LocalNetwork.Droid.Resource.Style.Base_Widget_AppCompat_ListView_DropDown;
+			global::LibVLCSharp.Forms.Resource.Style.Base_Widget_AppCompat_ListView_Menu = global::LocalNetwork.Droid.Resource.Style.Base_Widget_AppCompat_ListView_Menu;
+			global::LibVLCSharp.Forms.Resource.Style.Base_Widget_AppCompat_PopupMenu = global::LocalNetwork.Droid.Resource.Style.Base_Widget_AppCompat_PopupMenu;
+			global::LibVLCSharp.Forms.Resource.Style.Base_Widget_AppCompat_PopupMenu_Overflow = global::LocalNetwork.Droid.Resource.Style.Base_Widget_AppCompat_PopupMenu_Overflow;
+			global::LibVLCSharp.Forms.Resource.Style.Base_Widget_AppCompat_PopupWindow = global::LocalNetwork.Droid.Resource.Style.Base_Widget_AppCompat_PopupWindow;
+			global::LibVLCSharp.Forms.Resource.Style.Base_Widget_AppCompat_ProgressBar = global::LocalNetwork.Droid.Resource.Style.Base_Widget_AppCompat_ProgressBar;
+			global::LibVLCSharp.Forms.Resource.Style.Base_Widget_AppCompat_ProgressBar_Horizontal = global::LocalNetwork.Droid.Resource.Style.Base_Widget_AppCompat_ProgressBar_Horizontal;
+			global::LibVLCSharp.Forms.Resource.Style.Base_Widget_AppCompat_RatingBar = global::LocalNetwork.Droid.Resource.Style.Base_Widget_AppCompat_RatingBar;
+			global::LibVLCSharp.Forms.Resource.Style.Base_Widget_AppCompat_RatingBar_Indicator = global::LocalNetwork.Droid.Resource.Style.Base_Widget_AppCompat_RatingBar_Indicator;
+			global::LibVLCSharp.Forms.Resource.Style.Base_Widget_AppCompat_RatingBar_Small = global::LocalNetwork.Droid.Resource.Style.Base_Widget_AppCompat_RatingBar_Small;
+			global::LibVLCSharp.Forms.Resource.Style.Base_Widget_AppCompat_SearchView = global::LocalNetwork.Droid.Resource.Style.Base_Widget_AppCompat_SearchView;
+			global::LibVLCSharp.Forms.Resource.Style.Base_Widget_AppCompat_SearchView_ActionBar = global::LocalNetwork.Droid.Resource.Style.Base_Widget_AppCompat_SearchView_ActionBar;
+			global::LibVLCSharp.Forms.Resource.Style.Base_Widget_AppCompat_SeekBar = global::LocalNetwork.Droid.Resource.Style.Base_Widget_AppCompat_SeekBar;
+			global::LibVLCSharp.Forms.Resource.Style.Base_Widget_AppCompat_SeekBar_Discrete = global::LocalNetwork.Droid.Resource.Style.Base_Widget_AppCompat_SeekBar_Discrete;
+			global::LibVLCSharp.Forms.Resource.Style.Base_Widget_AppCompat_Spinner = global::LocalNetwork.Droid.Resource.Style.Base_Widget_AppCompat_Spinner;
+			global::LibVLCSharp.Forms.Resource.Style.Base_Widget_AppCompat_Spinner_Underlined = global::LocalNetwork.Droid.Resource.Style.Base_Widget_AppCompat_Spinner_Underlined;
+			global::LibVLCSharp.Forms.Resource.Style.Base_Widget_AppCompat_TextView_SpinnerItem = global::LocalNetwork.Droid.Resource.Style.Base_Widget_AppCompat_TextView_SpinnerItem;
+			global::LibVLCSharp.Forms.Resource.Style.Base_Widget_AppCompat_Toolbar = global::LocalNetwork.Droid.Resource.Style.Base_Widget_AppCompat_Toolbar;
+			global::LibVLCSharp.Forms.Resource.Style.Base_Widget_AppCompat_Toolbar_Button_Navigation = global::LocalNetwork.Droid.Resource.Style.Base_Widget_AppCompat_Toolbar_Button_Navigation;
+			global::LibVLCSharp.Forms.Resource.Style.Base_Widget_Design_AppBarLayout = global::LocalNetwork.Droid.Resource.Style.Base_Widget_Design_AppBarLayout;
+			global::LibVLCSharp.Forms.Resource.Style.Base_Widget_Design_TabLayout = global::LocalNetwork.Droid.Resource.Style.Base_Widget_Design_TabLayout;
+			global::LibVLCSharp.Forms.Resource.Style.CardView = global::LocalNetwork.Droid.Resource.Style.CardView;
+			global::LibVLCSharp.Forms.Resource.Style.CardView_Dark = global::LocalNetwork.Droid.Resource.Style.CardView_Dark;
+			global::LibVLCSharp.Forms.Resource.Style.CardView_Light = global::LocalNetwork.Droid.Resource.Style.CardView_Light;
+			global::LibVLCSharp.Forms.Resource.Style.Platform_AppCompat = global::LocalNetwork.Droid.Resource.Style.Platform_AppCompat;
+			global::LibVLCSharp.Forms.Resource.Style.Platform_AppCompat_Light = global::LocalNetwork.Droid.Resource.Style.Platform_AppCompat_Light;
+			global::LibVLCSharp.Forms.Resource.Style.Platform_ThemeOverlay_AppCompat = global::LocalNetwork.Droid.Resource.Style.Platform_ThemeOverlay_AppCompat;
+			global::LibVLCSharp.Forms.Resource.Style.Platform_ThemeOverlay_AppCompat_Dark = global::LocalNetwork.Droid.Resource.Style.Platform_ThemeOverlay_AppCompat_Dark;
+			global::LibVLCSharp.Forms.Resource.Style.Platform_ThemeOverlay_AppCompat_Light = global::LocalNetwork.Droid.Resource.Style.Platform_ThemeOverlay_AppCompat_Light;
+			global::LibVLCSharp.Forms.Resource.Style.Platform_V11_AppCompat = global::LocalNetwork.Droid.Resource.Style.Platform_V11_AppCompat;
+			global::LibVLCSharp.Forms.Resource.Style.Platform_V11_AppCompat_Light = global::LocalNetwork.Droid.Resource.Style.Platform_V11_AppCompat_Light;
+			global::LibVLCSharp.Forms.Resource.Style.Platform_V14_AppCompat = global::LocalNetwork.Droid.Resource.Style.Platform_V14_AppCompat;
+			global::LibVLCSharp.Forms.Resource.Style.Platform_V14_AppCompat_Light = global::LocalNetwork.Droid.Resource.Style.Platform_V14_AppCompat_Light;
+			global::LibVLCSharp.Forms.Resource.Style.Platform_V21_AppCompat = global::LocalNetwork.Droid.Resource.Style.Platform_V21_AppCompat;
+			global::LibVLCSharp.Forms.Resource.Style.Platform_V21_AppCompat_Light = global::LocalNetwork.Droid.Resource.Style.Platform_V21_AppCompat_Light;
+			global::LibVLCSharp.Forms.Resource.Style.Platform_V25_AppCompat = global::LocalNetwork.Droid.Resource.Style.Platform_V25_AppCompat;
+			global::LibVLCSharp.Forms.Resource.Style.Platform_V25_AppCompat_Light = global::LocalNetwork.Droid.Resource.Style.Platform_V25_AppCompat_Light;
+			global::LibVLCSharp.Forms.Resource.Style.Platform_Widget_AppCompat_Spinner = global::LocalNetwork.Droid.Resource.Style.Platform_Widget_AppCompat_Spinner;
+			global::LibVLCSharp.Forms.Resource.Style.RtlOverlay_DialogWindowTitle_AppCompat = global::LocalNetwork.Droid.Resource.Style.RtlOverlay_DialogWindowTitle_AppCompat;
+			global::LibVLCSharp.Forms.Resource.Style.RtlOverlay_Widget_AppCompat_ActionBar_TitleItem = global::LocalNetwork.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_ActionBar_TitleItem;
+			global::LibVLCSharp.Forms.Resource.Style.RtlOverlay_Widget_AppCompat_DialogTitle_Icon = global::LocalNetwork.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_DialogTitle_Icon;
+			global::LibVLCSharp.Forms.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem = global::LocalNetwork.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem;
+			global::LibVLCSharp.Forms.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem_InternalGroup = global::LocalNetwork.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem_InternalGroup;
+			global::LibVLCSharp.Forms.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem_Text = global::LocalNetwork.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem_Text;
+			global::LibVLCSharp.Forms.Resource.Style.RtlOverlay_Widget_AppCompat_SearchView_MagIcon = global::LocalNetwork.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_SearchView_MagIcon;
+			global::LibVLCSharp.Forms.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown = global::LocalNetwork.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown;
+			global::LibVLCSharp.Forms.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Icon1 = global::LocalNetwork.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Icon1;
+			global::LibVLCSharp.Forms.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Icon2 = global::LocalNetwork.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Icon2;
+			global::LibVLCSharp.Forms.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Query = global::LocalNetwork.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Query;
+			global::LibVLCSharp.Forms.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Text = global::LocalNetwork.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Text;
+			global::LibVLCSharp.Forms.Resource.Style.RtlUnderlay_Widget_AppCompat_ActionButton = global::LocalNetwork.Droid.Resource.Style.RtlUnderlay_Widget_AppCompat_ActionButton;
+			global::LibVLCSharp.Forms.Resource.Style.RtlUnderlay_Widget_AppCompat_ActionButton_Overflow = global::LocalNetwork.Droid.Resource.Style.RtlUnderlay_Widget_AppCompat_ActionButton_Overflow;
+			global::LibVLCSharp.Forms.Resource.Style.TextAppearance_AppCompat = global::LocalNetwork.Droid.Resource.Style.TextAppearance_AppCompat;
+			global::LibVLCSharp.Forms.Resource.Style.TextAppearance_AppCompat_Body1 = global::LocalNetwork.Droid.Resource.Style.TextAppearance_AppCompat_Body1;
+			global::LibVLCSharp.Forms.Resource.Style.TextAppearance_AppCompat_Body2 = global::LocalNetwork.Droid.Resource.Style.TextAppearance_AppCompat_Body2;
+			global::LibVLCSharp.Forms.Resource.Style.TextAppearance_AppCompat_Button = global::LocalNetwork.Droid.Resource.Style.TextAppearance_AppCompat_Button;
+			global::LibVLCSharp.Forms.Resource.Style.TextAppearance_AppCompat_Caption = global::LocalNetwork.Droid.Resource.Style.TextAppearance_AppCompat_Caption;
+			global::LibVLCSharp.Forms.Resource.Style.TextAppearance_AppCompat_Display1 = global::LocalNetwork.Droid.Resource.Style.TextAppearance_AppCompat_Display1;
+			global::LibVLCSharp.Forms.Resource.Style.TextAppearance_AppCompat_Display2 = global::LocalNetwork.Droid.Resource.Style.TextAppearance_AppCompat_Display2;
+			global::LibVLCSharp.Forms.Resource.Style.TextAppearance_AppCompat_Display3 = global::LocalNetwork.Droid.Resource.Style.TextAppearance_AppCompat_Display3;
+			global::LibVLCSharp.Forms.Resource.Style.TextAppearance_AppCompat_Display4 = global::LocalNetwork.Droid.Resource.Style.TextAppearance_AppCompat_Display4;
+			global::LibVLCSharp.Forms.Resource.Style.TextAppearance_AppCompat_Headline = global::LocalNetwork.Droid.Resource.Style.TextAppearance_AppCompat_Headline;
+			global::LibVLCSharp.Forms.Resource.Style.TextAppearance_AppCompat_Inverse = global::LocalNetwork.Droid.Resource.Style.TextAppearance_AppCompat_Inverse;
+			global::LibVLCSharp.Forms.Resource.Style.TextAppearance_AppCompat_Large = global::LocalNetwork.Droid.Resource.Style.TextAppearance_AppCompat_Large;
+			global::LibVLCSharp.Forms.Resource.Style.TextAppearance_AppCompat_Large_Inverse = global::LocalNetwork.Droid.Resource.Style.TextAppearance_AppCompat_Large_Inverse;
+			global::LibVLCSharp.Forms.Resource.Style.TextAppearance_AppCompat_Light_SearchResult_Subtitle = global::LocalNetwork.Droid.Resource.Style.TextAppearance_AppCompat_Light_SearchResult_Subtitle;
+			global::LibVLCSharp.Forms.Resource.Style.TextAppearance_AppCompat_Light_SearchResult_Title = global::LocalNetwork.Droid.Resource.Style.TextAppearance_AppCompat_Light_SearchResult_Title;
+			global::LibVLCSharp.Forms.Resource.Style.TextAppearance_AppCompat_Light_Widget_PopupMenu_Large = global::LocalNetwork.Droid.Resource.Style.TextAppearance_AppCompat_Light_Widget_PopupMenu_Large;
+			global::LibVLCSharp.Forms.Resource.Style.TextAppearance_AppCompat_Light_Widget_PopupMenu_Small = global::LocalNetwork.Droid.Resource.Style.TextAppearance_AppCompat_Light_Widget_PopupMenu_Small;
+			global::LibVLCSharp.Forms.Resource.Style.TextAppearance_AppCompat_Medium = global::LocalNetwork.Droid.Resource.Style.TextAppearance_AppCompat_Medium;
+			global::LibVLCSharp.Forms.Resource.Style.TextAppearance_AppCompat_Medium_Inverse = global::LocalNetwork.Droid.Resource.Style.TextAppearance_AppCompat_Medium_Inverse;
+			global::LibVLCSharp.Forms.Resource.Style.TextAppearance_AppCompat_Menu = global::LocalNetwork.Droid.Resource.Style.TextAppearance_AppCompat_Menu;
+			global::LibVLCSharp.Forms.Resource.Style.TextAppearance_AppCompat_SearchResult_Subtitle = global::LocalNetwork.Droid.Resource.Style.TextAppearance_AppCompat_SearchResult_Subtitle;
+			global::LibVLCSharp.Forms.Resource.Style.TextAppearance_AppCompat_SearchResult_Title = global::LocalNetwork.Droid.Resource.Style.TextAppearance_AppCompat_SearchResult_Title;
+			global::LibVLCSharp.Forms.Resource.Style.TextAppearance_AppCompat_Small = global::LocalNetwork.Droid.Resource.Style.TextAppearance_AppCompat_Small;
+			global::LibVLCSharp.Forms.Resource.Style.TextAppearance_AppCompat_Small_Inverse = global::LocalNetwork.Droid.Resource.Style.TextAppearance_AppCompat_Small_Inverse;
+			global::LibVLCSharp.Forms.Resource.Style.TextAppearance_AppCompat_Subhead = global::LocalNetwork.Droid.Resource.Style.TextAppearance_AppCompat_Subhead;
+			global::LibVLCSharp.Forms.Resource.Style.TextAppearance_AppCompat_Subhead_Inverse = global::LocalNetwork.Droid.Resource.Style.TextAppearance_AppCompat_Subhead_Inverse;
+			global::LibVLCSharp.Forms.Resource.Style.TextAppearance_AppCompat_Title = global::LocalNetwork.Droid.Resource.Style.TextAppearance_AppCompat_Title;
+			global::LibVLCSharp.Forms.Resource.Style.TextAppearance_AppCompat_Title_Inverse = global::LocalNetwork.Droid.Resource.Style.TextAppearance_AppCompat_Title_Inverse;
+			global::LibVLCSharp.Forms.Resource.Style.TextAppearance_AppCompat_Tooltip = global::LocalNetwork.Droid.Resource.Style.TextAppearance_AppCompat_Tooltip;
+			global::LibVLCSharp.Forms.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Menu = global::LocalNetwork.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Menu;
+			global::LibVLCSharp.Forms.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Subtitle = global::LocalNetwork.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Subtitle;
+			global::LibVLCSharp.Forms.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Subtitle_Inverse = global::LocalNetwork.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Subtitle_Inverse;
+			global::LibVLCSharp.Forms.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Title = global::LocalNetwork.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Title;
+			global::LibVLCSharp.Forms.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Title_Inverse = global::LocalNetwork.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Title_Inverse;
+			global::LibVLCSharp.Forms.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Subtitle = global::LocalNetwork.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Subtitle;
+			global::LibVLCSharp.Forms.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Subtitle_Inverse = global::LocalNetwork.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Subtitle_Inverse;
+			global::LibVLCSharp.Forms.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Title = global::LocalNetwork.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Title;
+			global::LibVLCSharp.Forms.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Title_Inverse = global::LocalNetwork.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Title_Inverse;
+			global::LibVLCSharp.Forms.Resource.Style.TextAppearance_AppCompat_Widget_Button = global::LocalNetwork.Droid.Resource.Style.TextAppearance_AppCompat_Widget_Button;
+			global::LibVLCSharp.Forms.Resource.Style.TextAppearance_AppCompat_Widget_Button_Borderless_Colored = global::LocalNetwork.Droid.Resource.Style.TextAppearance_AppCompat_Widget_Button_Borderless_Colored;
+			global::LibVLCSharp.Forms.Resource.Style.TextAppearance_AppCompat_Widget_Button_Colored = global::LocalNetwork.Droid.Resource.Style.TextAppearance_AppCompat_Widget_Button_Colored;
+			global::LibVLCSharp.Forms.Resource.Style.TextAppearance_AppCompat_Widget_Button_Inverse = global::LocalNetwork.Droid.Resource.Style.TextAppearance_AppCompat_Widget_Button_Inverse;
+			global::LibVLCSharp.Forms.Resource.Style.TextAppearance_AppCompat_Widget_DropDownItem = global::LocalNetwork.Droid.Resource.Style.TextAppearance_AppCompat_Widget_DropDownItem;
+			global::LibVLCSharp.Forms.Resource.Style.TextAppearance_AppCompat_Widget_PopupMenu_Header = global::LocalNetwork.Droid.Resource.Style.TextAppearance_AppCompat_Widget_PopupMenu_Header;
+			global::LibVLCSharp.Forms.Resource.Style.TextAppearance_AppCompat_Widget_PopupMenu_Large = global::LocalNetwork.Droid.Resource.Style.TextAppearance_AppCompat_Widget_PopupMenu_Large;
+			global::LibVLCSharp.Forms.Resource.Style.TextAppearance_AppCompat_Widget_PopupMenu_Small = global::LocalNetwork.Droid.Resource.Style.TextAppearance_AppCompat_Widget_PopupMenu_Small;
+			global::LibVLCSharp.Forms.Resource.Style.TextAppearance_AppCompat_Widget_Switch = global::LocalNetwork.Droid.Resource.Style.TextAppearance_AppCompat_Widget_Switch;
+			global::LibVLCSharp.Forms.Resource.Style.TextAppearance_AppCompat_Widget_TextView_SpinnerItem = global::LocalNetwork.Droid.Resource.Style.TextAppearance_AppCompat_Widget_TextView_SpinnerItem;
+			global::LibVLCSharp.Forms.Resource.Style.TextAppearance_Compat_Notification = global::LocalNetwork.Droid.Resource.Style.TextAppearance_Compat_Notification;
+			global::LibVLCSharp.Forms.Resource.Style.TextAppearance_Compat_Notification_Info = global::LocalNetwork.Droid.Resource.Style.TextAppearance_Compat_Notification_Info;
+			global::LibVLCSharp.Forms.Resource.Style.TextAppearance_Compat_Notification_Info_Media = global::LocalNetwork.Droid.Resource.Style.TextAppearance_Compat_Notification_Info_Media;
+			global::LibVLCSharp.Forms.Resource.Style.TextAppearance_Compat_Notification_Line2 = global::LocalNetwork.Droid.Resource.Style.TextAppearance_Compat_Notification_Line2;
+			global::LibVLCSharp.Forms.Resource.Style.TextAppearance_Compat_Notification_Line2_Media = global::LocalNetwork.Droid.Resource.Style.TextAppearance_Compat_Notification_Line2_Media;
+			global::LibVLCSharp.Forms.Resource.Style.TextAppearance_Compat_Notification_Media = global::LocalNetwork.Droid.Resource.Style.TextAppearance_Compat_Notification_Media;
+			global::LibVLCSharp.Forms.Resource.Style.TextAppearance_Compat_Notification_Time = global::LocalNetwork.Droid.Resource.Style.TextAppearance_Compat_Notification_Time;
+			global::LibVLCSharp.Forms.Resource.Style.TextAppearance_Compat_Notification_Time_Media = global::LocalNetwork.Droid.Resource.Style.TextAppearance_Compat_Notification_Time_Media;
+			global::LibVLCSharp.Forms.Resource.Style.TextAppearance_Compat_Notification_Title = global::LocalNetwork.Droid.Resource.Style.TextAppearance_Compat_Notification_Title;
+			global::LibVLCSharp.Forms.Resource.Style.TextAppearance_Compat_Notification_Title_Media = global::LocalNetwork.Droid.Resource.Style.TextAppearance_Compat_Notification_Title_Media;
+			global::LibVLCSharp.Forms.Resource.Style.TextAppearance_Design_CollapsingToolbar_Expanded = global::LocalNetwork.Droid.Resource.Style.TextAppearance_Design_CollapsingToolbar_Expanded;
+			global::LibVLCSharp.Forms.Resource.Style.TextAppearance_Design_Counter = global::LocalNetwork.Droid.Resource.Style.TextAppearance_Design_Counter;
+			global::LibVLCSharp.Forms.Resource.Style.TextAppearance_Design_Counter_Overflow = global::LocalNetwork.Droid.Resource.Style.TextAppearance_Design_Counter_Overflow;
+			global::LibVLCSharp.Forms.Resource.Style.TextAppearance_Design_Error = global::LocalNetwork.Droid.Resource.Style.TextAppearance_Design_Error;
+			global::LibVLCSharp.Forms.Resource.Style.TextAppearance_Design_Hint = global::LocalNetwork.Droid.Resource.Style.TextAppearance_Design_Hint;
+			global::LibVLCSharp.Forms.Resource.Style.TextAppearance_Design_Snackbar_Message = global::LocalNetwork.Droid.Resource.Style.TextAppearance_Design_Snackbar_Message;
+			global::LibVLCSharp.Forms.Resource.Style.TextAppearance_Design_Tab = global::LocalNetwork.Droid.Resource.Style.TextAppearance_Design_Tab;
+			global::LibVLCSharp.Forms.Resource.Style.TextAppearance_MediaRouter_PrimaryText = global::LocalNetwork.Droid.Resource.Style.TextAppearance_MediaRouter_PrimaryText;
+			global::LibVLCSharp.Forms.Resource.Style.TextAppearance_MediaRouter_SecondaryText = global::LocalNetwork.Droid.Resource.Style.TextAppearance_MediaRouter_SecondaryText;
+			global::LibVLCSharp.Forms.Resource.Style.TextAppearance_MediaRouter_Title = global::LocalNetwork.Droid.Resource.Style.TextAppearance_MediaRouter_Title;
+			global::LibVLCSharp.Forms.Resource.Style.TextAppearance_Widget_AppCompat_ExpandedMenu_Item = global::LocalNetwork.Droid.Resource.Style.TextAppearance_Widget_AppCompat_ExpandedMenu_Item;
+			global::LibVLCSharp.Forms.Resource.Style.TextAppearance_Widget_AppCompat_Toolbar_Subtitle = global::LocalNetwork.Droid.Resource.Style.TextAppearance_Widget_AppCompat_Toolbar_Subtitle;
+			global::LibVLCSharp.Forms.Resource.Style.TextAppearance_Widget_AppCompat_Toolbar_Title = global::LocalNetwork.Droid.Resource.Style.TextAppearance_Widget_AppCompat_Toolbar_Title;
+			global::LibVLCSharp.Forms.Resource.Style.ThemeOverlay_AppCompat = global::LocalNetwork.Droid.Resource.Style.ThemeOverlay_AppCompat;
+			global::LibVLCSharp.Forms.Resource.Style.ThemeOverlay_AppCompat_ActionBar = global::LocalNetwork.Droid.Resource.Style.ThemeOverlay_AppCompat_ActionBar;
+			global::LibVLCSharp.Forms.Resource.Style.ThemeOverlay_AppCompat_Dark = global::LocalNetwork.Droid.Resource.Style.ThemeOverlay_AppCompat_Dark;
+			global::LibVLCSharp.Forms.Resource.Style.ThemeOverlay_AppCompat_Dark_ActionBar = global::LocalNetwork.Droid.Resource.Style.ThemeOverlay_AppCompat_Dark_ActionBar;
+			global::LibVLCSharp.Forms.Resource.Style.ThemeOverlay_AppCompat_Dialog = global::LocalNetwork.Droid.Resource.Style.ThemeOverlay_AppCompat_Dialog;
+			global::LibVLCSharp.Forms.Resource.Style.ThemeOverlay_AppCompat_Dialog_Alert = global::LocalNetwork.Droid.Resource.Style.ThemeOverlay_AppCompat_Dialog_Alert;
+			global::LibVLCSharp.Forms.Resource.Style.ThemeOverlay_AppCompat_Light = global::LocalNetwork.Droid.Resource.Style.ThemeOverlay_AppCompat_Light;
+			global::LibVLCSharp.Forms.Resource.Style.ThemeOverlay_MediaRouter_Dark = global::LocalNetwork.Droid.Resource.Style.ThemeOverlay_MediaRouter_Dark;
+			global::LibVLCSharp.Forms.Resource.Style.ThemeOverlay_MediaRouter_Light = global::LocalNetwork.Droid.Resource.Style.ThemeOverlay_MediaRouter_Light;
+			global::LibVLCSharp.Forms.Resource.Style.Theme_AppCompat = global::LocalNetwork.Droid.Resource.Style.Theme_AppCompat;
+			global::LibVLCSharp.Forms.Resource.Style.Theme_AppCompat_CompactMenu = global::LocalNetwork.Droid.Resource.Style.Theme_AppCompat_CompactMenu;
+			global::LibVLCSharp.Forms.Resource.Style.Theme_AppCompat_DayNight = global::LocalNetwork.Droid.Resource.Style.Theme_AppCompat_DayNight;
+			global::LibVLCSharp.Forms.Resource.Style.Theme_AppCompat_DayNight_DarkActionBar = global::LocalNetwork.Droid.Resource.Style.Theme_AppCompat_DayNight_DarkActionBar;
+			global::LibVLCSharp.Forms.Resource.Style.Theme_AppCompat_DayNight_Dialog = global::LocalNetwork.Droid.Resource.Style.Theme_AppCompat_DayNight_Dialog;
+			global::LibVLCSharp.Forms.Resource.Style.Theme_AppCompat_DayNight_DialogWhenLarge = global::LocalNetwork.Droid.Resource.Style.Theme_AppCompat_DayNight_DialogWhenLarge;
+			global::LibVLCSharp.Forms.Resource.Style.Theme_AppCompat_DayNight_Dialog_Alert = global::LocalNetwork.Droid.Resource.Style.Theme_AppCompat_DayNight_Dialog_Alert;
+			global::LibVLCSharp.Forms.Resource.Style.Theme_AppCompat_DayNight_Dialog_MinWidth = global::LocalNetwork.Droid.Resource.Style.Theme_AppCompat_DayNight_Dialog_MinWidth;
+			global::LibVLCSharp.Forms.Resource.Style.Theme_AppCompat_DayNight_NoActionBar = global::LocalNetwork.Droid.Resource.Style.Theme_AppCompat_DayNight_NoActionBar;
+			global::LibVLCSharp.Forms.Resource.Style.Theme_AppCompat_Dialog = global::LocalNetwork.Droid.Resource.Style.Theme_AppCompat_Dialog;
+			global::LibVLCSharp.Forms.Resource.Style.Theme_AppCompat_DialogWhenLarge = global::LocalNetwork.Droid.Resource.Style.Theme_AppCompat_DialogWhenLarge;
+			global::LibVLCSharp.Forms.Resource.Style.Theme_AppCompat_Dialog_Alert = global::LocalNetwork.Droid.Resource.Style.Theme_AppCompat_Dialog_Alert;
+			global::LibVLCSharp.Forms.Resource.Style.Theme_AppCompat_Dialog_MinWidth = global::LocalNetwork.Droid.Resource.Style.Theme_AppCompat_Dialog_MinWidth;
+			global::LibVLCSharp.Forms.Resource.Style.Theme_AppCompat_Light = global::LocalNetwork.Droid.Resource.Style.Theme_AppCompat_Light;
+			global::LibVLCSharp.Forms.Resource.Style.Theme_AppCompat_Light_DarkActionBar = global::LocalNetwork.Droid.Resource.Style.Theme_AppCompat_Light_DarkActionBar;
+			global::LibVLCSharp.Forms.Resource.Style.Theme_AppCompat_Light_Dialog = global::LocalNetwork.Droid.Resource.Style.Theme_AppCompat_Light_Dialog;
+			global::LibVLCSharp.Forms.Resource.Style.Theme_AppCompat_Light_DialogWhenLarge = global::LocalNetwork.Droid.Resource.Style.Theme_AppCompat_Light_DialogWhenLarge;
+			global::LibVLCSharp.Forms.Resource.Style.Theme_AppCompat_Light_Dialog_Alert = global::LocalNetwork.Droid.Resource.Style.Theme_AppCompat_Light_Dialog_Alert;
+			global::LibVLCSharp.Forms.Resource.Style.Theme_AppCompat_Light_Dialog_MinWidth = global::LocalNetwork.Droid.Resource.Style.Theme_AppCompat_Light_Dialog_MinWidth;
+			global::LibVLCSharp.Forms.Resource.Style.Theme_AppCompat_Light_NoActionBar = global::LocalNetwork.Droid.Resource.Style.Theme_AppCompat_Light_NoActionBar;
+			global::LibVLCSharp.Forms.Resource.Style.Theme_AppCompat_NoActionBar = global::LocalNetwork.Droid.Resource.Style.Theme_AppCompat_NoActionBar;
+			global::LibVLCSharp.Forms.Resource.Style.Theme_Design = global::LocalNetwork.Droid.Resource.Style.Theme_Design;
+			global::LibVLCSharp.Forms.Resource.Style.Theme_Design_BottomSheetDialog = global::LocalNetwork.Droid.Resource.Style.Theme_Design_BottomSheetDialog;
+			global::LibVLCSharp.Forms.Resource.Style.Theme_Design_Light = global::LocalNetwork.Droid.Resource.Style.Theme_Design_Light;
+			global::LibVLCSharp.Forms.Resource.Style.Theme_Design_Light_BottomSheetDialog = global::LocalNetwork.Droid.Resource.Style.Theme_Design_Light_BottomSheetDialog;
+			global::LibVLCSharp.Forms.Resource.Style.Theme_Design_Light_NoActionBar = global::LocalNetwork.Droid.Resource.Style.Theme_Design_Light_NoActionBar;
+			global::LibVLCSharp.Forms.Resource.Style.Theme_Design_NoActionBar = global::LocalNetwork.Droid.Resource.Style.Theme_Design_NoActionBar;
+			global::LibVLCSharp.Forms.Resource.Style.Theme_MediaRouter = global::LocalNetwork.Droid.Resource.Style.Theme_MediaRouter;
+			global::LibVLCSharp.Forms.Resource.Style.Theme_MediaRouter_Light = global::LocalNetwork.Droid.Resource.Style.Theme_MediaRouter_Light;
+			global::LibVLCSharp.Forms.Resource.Style.Theme_MediaRouter_LightControlPanel = global::LocalNetwork.Droid.Resource.Style.Theme_MediaRouter_LightControlPanel;
+			global::LibVLCSharp.Forms.Resource.Style.Theme_MediaRouter_Light_DarkControlPanel = global::LocalNetwork.Droid.Resource.Style.Theme_MediaRouter_Light_DarkControlPanel;
+			global::LibVLCSharp.Forms.Resource.Style.Widget_AppCompat_ActionBar = global::LocalNetwork.Droid.Resource.Style.Widget_AppCompat_ActionBar;
+			global::LibVLCSharp.Forms.Resource.Style.Widget_AppCompat_ActionBar_Solid = global::LocalNetwork.Droid.Resource.Style.Widget_AppCompat_ActionBar_Solid;
+			global::LibVLCSharp.Forms.Resource.Style.Widget_AppCompat_ActionBar_TabBar = global::LocalNetwork.Droid.Resource.Style.Widget_AppCompat_ActionBar_TabBar;
+			global::LibVLCSharp.Forms.Resource.Style.Widget_AppCompat_ActionBar_TabText = global::LocalNetwork.Droid.Resource.Style.Widget_AppCompat_ActionBar_TabText;
+			global::LibVLCSharp.Forms.Resource.Style.Widget_AppCompat_ActionBar_TabView = global::LocalNetwork.Droid.Resource.Style.Widget_AppCompat_ActionBar_TabView;
+			global::LibVLCSharp.Forms.Resource.Style.Widget_AppCompat_ActionButton = global::LocalNetwork.Droid.Resource.Style.Widget_AppCompat_ActionButton;
+			global::LibVLCSharp.Forms.Resource.Style.Widget_AppCompat_ActionButton_CloseMode = global::LocalNetwork.Droid.Resource.Style.Widget_AppCompat_ActionButton_CloseMode;
+			global::LibVLCSharp.Forms.Resource.Style.Widget_AppCompat_ActionButton_Overflow = global::LocalNetwork.Droid.Resource.Style.Widget_AppCompat_ActionButton_Overflow;
+			global::LibVLCSharp.Forms.Resource.Style.Widget_AppCompat_ActionMode = global::LocalNetwork.Droid.Resource.Style.Widget_AppCompat_ActionMode;
+			global::LibVLCSharp.Forms.Resource.Style.Widget_AppCompat_ActivityChooserView = global::LocalNetwork.Droid.Resource.Style.Widget_AppCompat_ActivityChooserView;
+			global::LibVLCSharp.Forms.Resource.Style.Widget_AppCompat_AutoCompleteTextView = global::LocalNetwork.Droid.Resource.Style.Widget_AppCompat_AutoCompleteTextView;
+			global::LibVLCSharp.Forms.Resource.Style.Widget_AppCompat_Button = global::LocalNetwork.Droid.Resource.Style.Widget_AppCompat_Button;
+			global::LibVLCSharp.Forms.Resource.Style.Widget_AppCompat_ButtonBar = global::LocalNetwork.Droid.Resource.Style.Widget_AppCompat_ButtonBar;
+			global::LibVLCSharp.Forms.Resource.Style.Widget_AppCompat_ButtonBar_AlertDialog = global::LocalNetwork.Droid.Resource.Style.Widget_AppCompat_ButtonBar_AlertDialog;
+			global::LibVLCSharp.Forms.Resource.Style.Widget_AppCompat_Button_Borderless = global::LocalNetwork.Droid.Resource.Style.Widget_AppCompat_Button_Borderless;
+			global::LibVLCSharp.Forms.Resource.Style.Widget_AppCompat_Button_Borderless_Colored = global::LocalNetwork.Droid.Resource.Style.Widget_AppCompat_Button_Borderless_Colored;
+			global::LibVLCSharp.Forms.Resource.Style.Widget_AppCompat_Button_ButtonBar_AlertDialog = global::LocalNetwork.Droid.Resource.Style.Widget_AppCompat_Button_ButtonBar_AlertDialog;
+			global::LibVLCSharp.Forms.Resource.Style.Widget_AppCompat_Button_Colored = global::LocalNetwork.Droid.Resource.Style.Widget_AppCompat_Button_Colored;
+			global::LibVLCSharp.Forms.Resource.Style.Widget_AppCompat_Button_Small = global::LocalNetwork.Droid.Resource.Style.Widget_AppCompat_Button_Small;
+			global::LibVLCSharp.Forms.Resource.Style.Widget_AppCompat_CompoundButton_CheckBox = global::LocalNetwork.Droid.Resource.Style.Widget_AppCompat_CompoundButton_CheckBox;
+			global::LibVLCSharp.Forms.Resource.Style.Widget_AppCompat_CompoundButton_RadioButton = global::LocalNetwork.Droid.Resource.Style.Widget_AppCompat_CompoundButton_RadioButton;
+			global::LibVLCSharp.Forms.Resource.Style.Widget_AppCompat_CompoundButton_Switch = global::LocalNetwork.Droid.Resource.Style.Widget_AppCompat_CompoundButton_Switch;
+			global::LibVLCSharp.Forms.Resource.Style.Widget_AppCompat_DrawerArrowToggle = global::LocalNetwork.Droid.Resource.Style.Widget_AppCompat_DrawerArrowToggle;
+			global::LibVLCSharp.Forms.Resource.Style.Widget_AppCompat_DropDownItem_Spinner = global::LocalNetwork.Droid.Resource.Style.Widget_AppCompat_DropDownItem_Spinner;
+			global::LibVLCSharp.Forms.Resource.Style.Widget_AppCompat_EditText = global::LocalNetwork.Droid.Resource.Style.Widget_AppCompat_EditText;
+			global::LibVLCSharp.Forms.Resource.Style.Widget_AppCompat_ImageButton = global::LocalNetwork.Droid.Resource.Style.Widget_AppCompat_ImageButton;
+			global::LibVLCSharp.Forms.Resource.Style.Widget_AppCompat_Light_ActionBar = global::LocalNetwork.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar;
+			global::LibVLCSharp.Forms.Resource.Style.Widget_AppCompat_Light_ActionBar_Solid = global::LocalNetwork.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_Solid;
+			global::LibVLCSharp.Forms.Resource.Style.Widget_AppCompat_Light_ActionBar_Solid_Inverse = global::LocalNetwork.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_Solid_Inverse;
+			global::LibVLCSharp.Forms.Resource.Style.Widget_AppCompat_Light_ActionBar_TabBar = global::LocalNetwork.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_TabBar;
+			global::LibVLCSharp.Forms.Resource.Style.Widget_AppCompat_Light_ActionBar_TabBar_Inverse = global::LocalNetwork.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_TabBar_Inverse;
+			global::LibVLCSharp.Forms.Resource.Style.Widget_AppCompat_Light_ActionBar_TabText = global::LocalNetwork.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_TabText;
+			global::LibVLCSharp.Forms.Resource.Style.Widget_AppCompat_Light_ActionBar_TabText_Inverse = global::LocalNetwork.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_TabText_Inverse;
+			global::LibVLCSharp.Forms.Resource.Style.Widget_AppCompat_Light_ActionBar_TabView = global::LocalNetwork.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_TabView;
+			global::LibVLCSharp.Forms.Resource.Style.Widget_AppCompat_Light_ActionBar_TabView_Inverse = global::LocalNetwork.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_TabView_Inverse;
+			global::LibVLCSharp.Forms.Resource.Style.Widget_AppCompat_Light_ActionButton = global::LocalNetwork.Droid.Resource.Style.Widget_AppCompat_Light_ActionButton;
+			global::LibVLCSharp.Forms.Resource.Style.Widget_AppCompat_Light_ActionButton_CloseMode = global::LocalNetwork.Droid.Resource.Style.Widget_AppCompat_Light_ActionButton_CloseMode;
+			global::LibVLCSharp.Forms.Resource.Style.Widget_AppCompat_Light_ActionButton_Overflow = global::LocalNetwork.Droid.Resource.Style.Widget_AppCompat_Light_ActionButton_Overflow;
+			global::LibVLCSharp.Forms.Resource.Style.Widget_AppCompat_Light_ActionMode_Inverse = global::LocalNetwork.Droid.Resource.Style.Widget_AppCompat_Light_ActionMode_Inverse;
+			global::LibVLCSharp.Forms.Resource.Style.Widget_AppCompat_Light_ActivityChooserView = global::LocalNetwork.Droid.Resource.Style.Widget_AppCompat_Light_ActivityChooserView;
+			global::LibVLCSharp.Forms.Resource.Style.Widget_AppCompat_Light_AutoCompleteTextView = global::LocalNetwork.Droid.Resource.Style.Widget_AppCompat_Light_AutoCompleteTextView;
+			global::LibVLCSharp.Forms.Resource.Style.Widget_AppCompat_Light_DropDownItem_Spinner = global::LocalNetwork.Droid.Resource.Style.Widget_AppCompat_Light_DropDownItem_Spinner;
+			global::LibVLCSharp.Forms.Resource.Style.Widget_AppCompat_Light_ListPopupWindow = global::LocalNetwork.Droid.Resource.Style.Widget_AppCompat_Light_ListPopupWindow;
+			global::LibVLCSharp.Forms.Resource.Style.Widget_AppCompat_Light_ListView_DropDown = global::LocalNetwork.Droid.Resource.Style.Widget_AppCompat_Light_ListView_DropDown;
+			global::LibVLCSharp.Forms.Resource.Style.Widget_AppCompat_Light_PopupMenu = global::LocalNetwork.Droid.Resource.Style.Widget_AppCompat_Light_PopupMenu;
+			global::LibVLCSharp.Forms.Resource.Style.Widget_AppCompat_Light_PopupMenu_Overflow = global::LocalNetwork.Droid.Resource.Style.Widget_AppCompat_Light_PopupMenu_Overflow;
+			global::LibVLCSharp.Forms.Resource.Style.Widget_AppCompat_Light_SearchView = global::LocalNetwork.Droid.Resource.Style.Widget_AppCompat_Light_SearchView;
+			global::LibVLCSharp.Forms.Resource.Style.Widget_AppCompat_Light_Spinner_DropDown_ActionBar = global::LocalNetwork.Droid.Resource.Style.Widget_AppCompat_Light_Spinner_DropDown_ActionBar;
+			global::LibVLCSharp.Forms.Resource.Style.Widget_AppCompat_ListMenuView = global::LocalNetwork.Droid.Resource.Style.Widget_AppCompat_ListMenuView;
+			global::LibVLCSharp.Forms.Resource.Style.Widget_AppCompat_ListPopupWindow = global::LocalNetwork.Droid.Resource.Style.Widget_AppCompat_ListPopupWindow;
+			global::LibVLCSharp.Forms.Resource.Style.Widget_AppCompat_ListView = global::LocalNetwork.Droid.Resource.Style.Widget_AppCompat_ListView;
+			global::LibVLCSharp.Forms.Resource.Style.Widget_AppCompat_ListView_DropDown = global::LocalNetwork.Droid.Resource.Style.Widget_AppCompat_ListView_DropDown;
+			global::LibVLCSharp.Forms.Resource.Style.Widget_AppCompat_ListView_Menu = global::LocalNetwork.Droid.Resource.Style.Widget_AppCompat_ListView_Menu;
+			global::LibVLCSharp.Forms.Resource.Style.Widget_AppCompat_PopupMenu = global::LocalNetwork.Droid.Resource.Style.Widget_AppCompat_PopupMenu;
+			global::LibVLCSharp.Forms.Resource.Style.Widget_AppCompat_PopupMenu_Overflow = global::LocalNetwork.Droid.Resource.Style.Widget_AppCompat_PopupMenu_Overflow;
+			global::LibVLCSharp.Forms.Resource.Style.Widget_AppCompat_PopupWindow = global::LocalNetwork.Droid.Resource.Style.Widget_AppCompat_PopupWindow;
+			global::LibVLCSharp.Forms.Resource.Style.Widget_AppCompat_ProgressBar = global::LocalNetwork.Droid.Resource.Style.Widget_AppCompat_ProgressBar;
+			global::LibVLCSharp.Forms.Resource.Style.Widget_AppCompat_ProgressBar_Horizontal = global::LocalNetwork.Droid.Resource.Style.Widget_AppCompat_ProgressBar_Horizontal;
+			global::LibVLCSharp.Forms.Resource.Style.Widget_AppCompat_RatingBar = global::LocalNetwork.Droid.Resource.Style.Widget_AppCompat_RatingBar;
+			global::LibVLCSharp.Forms.Resource.Style.Widget_AppCompat_RatingBar_Indicator = global::LocalNetwork.Droid.Resource.Style.Widget_AppCompat_RatingBar_Indicator;
+			global::LibVLCSharp.Forms.Resource.Style.Widget_AppCompat_RatingBar_Small = global::LocalNetwork.Droid.Resource.Style.Widget_AppCompat_RatingBar_Small;
+			global::LibVLCSharp.Forms.Resource.Style.Widget_AppCompat_SearchView = global::LocalNetwork.Droid.Resource.Style.Widget_AppCompat_SearchView;
+			global::LibVLCSharp.Forms.Resource.Style.Widget_AppCompat_SearchView_ActionBar = global::LocalNetwork.Droid.Resource.Style.Widget_AppCompat_SearchView_ActionBar;
+			global::LibVLCSharp.Forms.Resource.Style.Widget_AppCompat_SeekBar = global::LocalNetwork.Droid.Resource.Style.Widget_AppCompat_SeekBar;
+			global::LibVLCSharp.Forms.Resource.Style.Widget_AppCompat_SeekBar_Discrete = global::LocalNetwork.Droid.Resource.Style.Widget_AppCompat_SeekBar_Discrete;
+			global::LibVLCSharp.Forms.Resource.Style.Widget_AppCompat_Spinner = global::LocalNetwork.Droid.Resource.Style.Widget_AppCompat_Spinner;
+			global::LibVLCSharp.Forms.Resource.Style.Widget_AppCompat_Spinner_DropDown = global::LocalNetwork.Droid.Resource.Style.Widget_AppCompat_Spinner_DropDown;
+			global::LibVLCSharp.Forms.Resource.Style.Widget_AppCompat_Spinner_DropDown_ActionBar = global::LocalNetwork.Droid.Resource.Style.Widget_AppCompat_Spinner_DropDown_ActionBar;
+			global::LibVLCSharp.Forms.Resource.Style.Widget_AppCompat_Spinner_Underlined = global::LocalNetwork.Droid.Resource.Style.Widget_AppCompat_Spinner_Underlined;
+			global::LibVLCSharp.Forms.Resource.Style.Widget_AppCompat_TextView_SpinnerItem = global::LocalNetwork.Droid.Resource.Style.Widget_AppCompat_TextView_SpinnerItem;
+			global::LibVLCSharp.Forms.Resource.Style.Widget_AppCompat_Toolbar = global::LocalNetwork.Droid.Resource.Style.Widget_AppCompat_Toolbar;
+			global::LibVLCSharp.Forms.Resource.Style.Widget_AppCompat_Toolbar_Button_Navigation = global::LocalNetwork.Droid.Resource.Style.Widget_AppCompat_Toolbar_Button_Navigation;
+			global::LibVLCSharp.Forms.Resource.Style.Widget_Compat_NotificationActionContainer = global::LocalNetwork.Droid.Resource.Style.Widget_Compat_NotificationActionContainer;
+			global::LibVLCSharp.Forms.Resource.Style.Widget_Compat_NotificationActionText = global::LocalNetwork.Droid.Resource.Style.Widget_Compat_NotificationActionText;
+			global::LibVLCSharp.Forms.Resource.Style.Widget_Design_AppBarLayout = global::LocalNetwork.Droid.Resource.Style.Widget_Design_AppBarLayout;
+			global::LibVLCSharp.Forms.Resource.Style.Widget_Design_BottomNavigationView = global::LocalNetwork.Droid.Resource.Style.Widget_Design_BottomNavigationView;
+			global::LibVLCSharp.Forms.Resource.Style.Widget_Design_BottomSheet_Modal = global::LocalNetwork.Droid.Resource.Style.Widget_Design_BottomSheet_Modal;
+			global::LibVLCSharp.Forms.Resource.Style.Widget_Design_CollapsingToolbar = global::LocalNetwork.Droid.Resource.Style.Widget_Design_CollapsingToolbar;
+			global::LibVLCSharp.Forms.Resource.Style.Widget_Design_CoordinatorLayout = global::LocalNetwork.Droid.Resource.Style.Widget_Design_CoordinatorLayout;
+			global::LibVLCSharp.Forms.Resource.Style.Widget_Design_FloatingActionButton = global::LocalNetwork.Droid.Resource.Style.Widget_Design_FloatingActionButton;
+			global::LibVLCSharp.Forms.Resource.Style.Widget_Design_NavigationView = global::LocalNetwork.Droid.Resource.Style.Widget_Design_NavigationView;
+			global::LibVLCSharp.Forms.Resource.Style.Widget_Design_ScrimInsetsFrameLayout = global::LocalNetwork.Droid.Resource.Style.Widget_Design_ScrimInsetsFrameLayout;
+			global::LibVLCSharp.Forms.Resource.Style.Widget_Design_Snackbar = global::LocalNetwork.Droid.Resource.Style.Widget_Design_Snackbar;
+			global::LibVLCSharp.Forms.Resource.Style.Widget_Design_TabLayout = global::LocalNetwork.Droid.Resource.Style.Widget_Design_TabLayout;
+			global::LibVLCSharp.Forms.Resource.Style.Widget_Design_TextInputLayout = global::LocalNetwork.Droid.Resource.Style.Widget_Design_TextInputLayout;
+			global::LibVLCSharp.Forms.Resource.Style.Widget_MediaRouter_Light_MediaRouteButton = global::LocalNetwork.Droid.Resource.Style.Widget_MediaRouter_Light_MediaRouteButton;
+			global::LibVLCSharp.Forms.Resource.Style.Widget_MediaRouter_MediaRouteButton = global::LocalNetwork.Droid.Resource.Style.Widget_MediaRouter_MediaRouteButton;
+			global::LibVLCSharp.Forms.Resource.Styleable.ActionBar = global::LocalNetwork.Droid.Resource.Styleable.ActionBar;
+			global::LibVLCSharp.Forms.Resource.Styleable.ActionBarLayout = global::LocalNetwork.Droid.Resource.Styleable.ActionBarLayout;
+			global::LibVLCSharp.Forms.Resource.Styleable.ActionBarLayout_android_layout_gravity = global::LocalNetwork.Droid.Resource.Styleable.ActionBarLayout_android_layout_gravity;
+			global::LibVLCSharp.Forms.Resource.Styleable.ActionBar_background = global::LocalNetwork.Droid.Resource.Styleable.ActionBar_background;
+			global::LibVLCSharp.Forms.Resource.Styleable.ActionBar_backgroundSplit = global::LocalNetwork.Droid.Resource.Styleable.ActionBar_backgroundSplit;
+			global::LibVLCSharp.Forms.Resource.Styleable.ActionBar_backgroundStacked = global::LocalNetwork.Droid.Resource.Styleable.ActionBar_backgroundStacked;
+			global::LibVLCSharp.Forms.Resource.Styleable.ActionBar_contentInsetEnd = global::LocalNetwork.Droid.Resource.Styleable.ActionBar_contentInsetEnd;
+			global::LibVLCSharp.Forms.Resource.Styleable.ActionBar_contentInsetEndWithActions = global::LocalNetwork.Droid.Resource.Styleable.ActionBar_contentInsetEndWithActions;
+			global::LibVLCSharp.Forms.Resource.Styleable.ActionBar_contentInsetLeft = global::LocalNetwork.Droid.Resource.Styleable.ActionBar_contentInsetLeft;
+			global::LibVLCSharp.Forms.Resource.Styleable.ActionBar_contentInsetRight = global::LocalNetwork.Droid.Resource.Styleable.ActionBar_contentInsetRight;
+			global::LibVLCSharp.Forms.Resource.Styleable.ActionBar_contentInsetStart = global::LocalNetwork.Droid.Resource.Styleable.ActionBar_contentInsetStart;
+			global::LibVLCSharp.Forms.Resource.Styleable.ActionBar_contentInsetStartWithNavigation = global::LocalNetwork.Droid.Resource.Styleable.ActionBar_contentInsetStartWithNavigation;
+			global::LibVLCSharp.Forms.Resource.Styleable.ActionBar_customNavigationLayout = global::LocalNetwork.Droid.Resource.Styleable.ActionBar_customNavigationLayout;
+			global::LibVLCSharp.Forms.Resource.Styleable.ActionBar_displayOptions = global::LocalNetwork.Droid.Resource.Styleable.ActionBar_displayOptions;
+			global::LibVLCSharp.Forms.Resource.Styleable.ActionBar_divider = global::LocalNetwork.Droid.Resource.Styleable.ActionBar_divider;
+			global::LibVLCSharp.Forms.Resource.Styleable.ActionBar_elevation = global::LocalNetwork.Droid.Resource.Styleable.ActionBar_elevation;
+			global::LibVLCSharp.Forms.Resource.Styleable.ActionBar_height = global::LocalNetwork.Droid.Resource.Styleable.ActionBar_height;
+			global::LibVLCSharp.Forms.Resource.Styleable.ActionBar_hideOnContentScroll = global::LocalNetwork.Droid.Resource.Styleable.ActionBar_hideOnContentScroll;
+			global::LibVLCSharp.Forms.Resource.Styleable.ActionBar_homeAsUpIndicator = global::LocalNetwork.Droid.Resource.Styleable.ActionBar_homeAsUpIndicator;
+			global::LibVLCSharp.Forms.Resource.Styleable.ActionBar_homeLayout = global::LocalNetwork.Droid.Resource.Styleable.ActionBar_homeLayout;
+			global::LibVLCSharp.Forms.Resource.Styleable.ActionBar_icon = global::LocalNetwork.Droid.Resource.Styleable.ActionBar_icon;
+			global::LibVLCSharp.Forms.Resource.Styleable.ActionBar_indeterminateProgressStyle = global::LocalNetwork.Droid.Resource.Styleable.ActionBar_indeterminateProgressStyle;
+			global::LibVLCSharp.Forms.Resource.Styleable.ActionBar_itemPadding = global::LocalNetwork.Droid.Resource.Styleable.ActionBar_itemPadding;
+			global::LibVLCSharp.Forms.Resource.Styleable.ActionBar_logo = global::LocalNetwork.Droid.Resource.Styleable.ActionBar_logo;
+			global::LibVLCSharp.Forms.Resource.Styleable.ActionBar_navigationMode = global::LocalNetwork.Droid.Resource.Styleable.ActionBar_navigationMode;
+			global::LibVLCSharp.Forms.Resource.Styleable.ActionBar_popupTheme = global::LocalNetwork.Droid.Resource.Styleable.ActionBar_popupTheme;
+			global::LibVLCSharp.Forms.Resource.Styleable.ActionBar_progressBarPadding = global::LocalNetwork.Droid.Resource.Styleable.ActionBar_progressBarPadding;
+			global::LibVLCSharp.Forms.Resource.Styleable.ActionBar_progressBarStyle = global::LocalNetwork.Droid.Resource.Styleable.ActionBar_progressBarStyle;
+			global::LibVLCSharp.Forms.Resource.Styleable.ActionBar_subtitle = global::LocalNetwork.Droid.Resource.Styleable.ActionBar_subtitle;
+			global::LibVLCSharp.Forms.Resource.Styleable.ActionBar_subtitleTextStyle = global::LocalNetwork.Droid.Resource.Styleable.ActionBar_subtitleTextStyle;
+			global::LibVLCSharp.Forms.Resource.Styleable.ActionBar_title = global::LocalNetwork.Droid.Resource.Styleable.ActionBar_title;
+			global::LibVLCSharp.Forms.Resource.Styleable.ActionBar_titleTextStyle = global::LocalNetwork.Droid.Resource.Styleable.ActionBar_titleTextStyle;
+			global::LibVLCSharp.Forms.Resource.Styleable.ActionMenuItemView = global::LocalNetwork.Droid.Resource.Styleable.ActionMenuItemView;
+			global::LibVLCSharp.Forms.Resource.Styleable.ActionMenuItemView_android_minWidth = global::LocalNetwork.Droid.Resource.Styleable.ActionMenuItemView_android_minWidth;
+			global::LibVLCSharp.Forms.Resource.Styleable.ActionMenuView = global::LocalNetwork.Droid.Resource.Styleable.ActionMenuView;
+			global::LibVLCSharp.Forms.Resource.Styleable.ActionMode = global::LocalNetwork.Droid.Resource.Styleable.ActionMode;
+			global::LibVLCSharp.Forms.Resource.Styleable.ActionMode_background = global::LocalNetwork.Droid.Resource.Styleable.ActionMode_background;
+			global::LibVLCSharp.Forms.Resource.Styleable.ActionMode_backgroundSplit = global::LocalNetwork.Droid.Resource.Styleable.ActionMode_backgroundSplit;
+			global::LibVLCSharp.Forms.Resource.Styleable.ActionMode_closeItemLayout = global::LocalNetwork.Droid.Resource.Styleable.ActionMode_closeItemLayout;
+			global::LibVLCSharp.Forms.Resource.Styleable.ActionMode_height = global::LocalNetwork.Droid.Resource.Styleable.ActionMode_height;
+			global::LibVLCSharp.Forms.Resource.Styleable.ActionMode_subtitleTextStyle = global::LocalNetwork.Droid.Resource.Styleable.ActionMode_subtitleTextStyle;
+			global::LibVLCSharp.Forms.Resource.Styleable.ActionMode_titleTextStyle = global::LocalNetwork.Droid.Resource.Styleable.ActionMode_titleTextStyle;
+			global::LibVLCSharp.Forms.Resource.Styleable.ActivityChooserView = global::LocalNetwork.Droid.Resource.Styleable.ActivityChooserView;
+			global::LibVLCSharp.Forms.Resource.Styleable.ActivityChooserView_expandActivityOverflowButtonDrawable = global::LocalNetwork.Droid.Resource.Styleable.ActivityChooserView_expandActivityOverflowButtonDrawable;
+			global::LibVLCSharp.Forms.Resource.Styleable.ActivityChooserView_initialActivityCount = global::LocalNetwork.Droid.Resource.Styleable.ActivityChooserView_initialActivityCount;
+			global::LibVLCSharp.Forms.Resource.Styleable.AlertDialog = global::LocalNetwork.Droid.Resource.Styleable.AlertDialog;
+			global::LibVLCSharp.Forms.Resource.Styleable.AlertDialog_android_layout = global::LocalNetwork.Droid.Resource.Styleable.AlertDialog_android_layout;
+			global::LibVLCSharp.Forms.Resource.Styleable.AlertDialog_buttonPanelSideLayout = global::LocalNetwork.Droid.Resource.Styleable.AlertDialog_buttonPanelSideLayout;
+			global::LibVLCSharp.Forms.Resource.Styleable.AlertDialog_listItemLayout = global::LocalNetwork.Droid.Resource.Styleable.AlertDialog_listItemLayout;
+			global::LibVLCSharp.Forms.Resource.Styleable.AlertDialog_listLayout = global::LocalNetwork.Droid.Resource.Styleable.AlertDialog_listLayout;
+			global::LibVLCSharp.Forms.Resource.Styleable.AlertDialog_multiChoiceItemLayout = global::LocalNetwork.Droid.Resource.Styleable.AlertDialog_multiChoiceItemLayout;
+			global::LibVLCSharp.Forms.Resource.Styleable.AlertDialog_showTitle = global::LocalNetwork.Droid.Resource.Styleable.AlertDialog_showTitle;
+			global::LibVLCSharp.Forms.Resource.Styleable.AlertDialog_singleChoiceItemLayout = global::LocalNetwork.Droid.Resource.Styleable.AlertDialog_singleChoiceItemLayout;
+			global::LibVLCSharp.Forms.Resource.Styleable.AppBarLayout = global::LocalNetwork.Droid.Resource.Styleable.AppBarLayout;
+			global::LibVLCSharp.Forms.Resource.Styleable.AppBarLayoutStates = global::LocalNetwork.Droid.Resource.Styleable.AppBarLayoutStates;
+			global::LibVLCSharp.Forms.Resource.Styleable.AppBarLayoutStates_state_collapsed = global::LocalNetwork.Droid.Resource.Styleable.AppBarLayoutStates_state_collapsed;
+			global::LibVLCSharp.Forms.Resource.Styleable.AppBarLayoutStates_state_collapsible = global::LocalNetwork.Droid.Resource.Styleable.AppBarLayoutStates_state_collapsible;
+			global::LibVLCSharp.Forms.Resource.Styleable.AppBarLayout_android_background = global::LocalNetwork.Droid.Resource.Styleable.AppBarLayout_android_background;
+			global::LibVLCSharp.Forms.Resource.Styleable.AppBarLayout_android_keyboardNavigationCluster = global::LocalNetwork.Droid.Resource.Styleable.AppBarLayout_android_keyboardNavigationCluster;
+			global::LibVLCSharp.Forms.Resource.Styleable.AppBarLayout_android_touchscreenBlocksFocus = global::LocalNetwork.Droid.Resource.Styleable.AppBarLayout_android_touchscreenBlocksFocus;
+			global::LibVLCSharp.Forms.Resource.Styleable.AppBarLayout_elevation = global::LocalNetwork.Droid.Resource.Styleable.AppBarLayout_elevation;
+			global::LibVLCSharp.Forms.Resource.Styleable.AppBarLayout_expanded = global::LocalNetwork.Droid.Resource.Styleable.AppBarLayout_expanded;
+			global::LibVLCSharp.Forms.Resource.Styleable.AppBarLayout_Layout = global::LocalNetwork.Droid.Resource.Styleable.AppBarLayout_Layout;
+			global::LibVLCSharp.Forms.Resource.Styleable.AppBarLayout_Layout_layout_scrollFlags = global::LocalNetwork.Droid.Resource.Styleable.AppBarLayout_Layout_layout_scrollFlags;
+			global::LibVLCSharp.Forms.Resource.Styleable.AppBarLayout_Layout_layout_scrollInterpolator = global::LocalNetwork.Droid.Resource.Styleable.AppBarLayout_Layout_layout_scrollInterpolator;
+			global::LibVLCSharp.Forms.Resource.Styleable.AppCompatImageView = global::LocalNetwork.Droid.Resource.Styleable.AppCompatImageView;
+			global::LibVLCSharp.Forms.Resource.Styleable.AppCompatImageView_android_src = global::LocalNetwork.Droid.Resource.Styleable.AppCompatImageView_android_src;
+			global::LibVLCSharp.Forms.Resource.Styleable.AppCompatImageView_srcCompat = global::LocalNetwork.Droid.Resource.Styleable.AppCompatImageView_srcCompat;
+			global::LibVLCSharp.Forms.Resource.Styleable.AppCompatImageView_tint = global::LocalNetwork.Droid.Resource.Styleable.AppCompatImageView_tint;
+			global::LibVLCSharp.Forms.Resource.Styleable.AppCompatImageView_tintMode = global::LocalNetwork.Droid.Resource.Styleable.AppCompatImageView_tintMode;
+			global::LibVLCSharp.Forms.Resource.Styleable.AppCompatSeekBar = global::LocalNetwork.Droid.Resource.Styleable.AppCompatSeekBar;
+			global::LibVLCSharp.Forms.Resource.Styleable.AppCompatSeekBar_android_thumb = global::LocalNetwork.Droid.Resource.Styleable.AppCompatSeekBar_android_thumb;
+			global::LibVLCSharp.Forms.Resource.Styleable.AppCompatSeekBar_tickMark = global::LocalNetwork.Droid.Resource.Styleable.AppCompatSeekBar_tickMark;
+			global::LibVLCSharp.Forms.Resource.Styleable.AppCompatSeekBar_tickMarkTint = global::LocalNetwork.Droid.Resource.Styleable.AppCompatSeekBar_tickMarkTint;
+			global::LibVLCSharp.Forms.Resource.Styleable.AppCompatSeekBar_tickMarkTintMode = global::LocalNetwork.Droid.Resource.Styleable.AppCompatSeekBar_tickMarkTintMode;
+			global::LibVLCSharp.Forms.Resource.Styleable.AppCompatTextHelper = global::LocalNetwork.Droid.Resource.Styleable.AppCompatTextHelper;
+			global::LibVLCSharp.Forms.Resource.Styleable.AppCompatTextHelper_android_drawableBottom = global::LocalNetwork.Droid.Resource.Styleable.AppCompatTextHelper_android_drawableBottom;
+			global::LibVLCSharp.Forms.Resource.Styleable.AppCompatTextHelper_android_drawableEnd = global::LocalNetwork.Droid.Resource.Styleable.AppCompatTextHelper_android_drawableEnd;
+			global::LibVLCSharp.Forms.Resource.Styleable.AppCompatTextHelper_android_drawableLeft = global::LocalNetwork.Droid.Resource.Styleable.AppCompatTextHelper_android_drawableLeft;
+			global::LibVLCSharp.Forms.Resource.Styleable.AppCompatTextHelper_android_drawableRight = global::LocalNetwork.Droid.Resource.Styleable.AppCompatTextHelper_android_drawableRight;
+			global::LibVLCSharp.Forms.Resource.Styleable.AppCompatTextHelper_android_drawableStart = global::LocalNetwork.Droid.Resource.Styleable.AppCompatTextHelper_android_drawableStart;
+			global::LibVLCSharp.Forms.Resource.Styleable.AppCompatTextHelper_android_drawableTop = global::LocalNetwork.Droid.Resource.Styleable.AppCompatTextHelper_android_drawableTop;
+			global::LibVLCSharp.Forms.Resource.Styleable.AppCompatTextHelper_android_textAppearance = global::LocalNetwork.Droid.Resource.Styleable.AppCompatTextHelper_android_textAppearance;
+			global::LibVLCSharp.Forms.Resource.Styleable.AppCompatTextView = global::LocalNetwork.Droid.Resource.Styleable.AppCompatTextView;
+			global::LibVLCSharp.Forms.Resource.Styleable.AppCompatTextView_android_textAppearance = global::LocalNetwork.Droid.Resource.Styleable.AppCompatTextView_android_textAppearance;
+			global::LibVLCSharp.Forms.Resource.Styleable.AppCompatTextView_autoSizeMaxTextSize = global::LocalNetwork.Droid.Resource.Styleable.AppCompatTextView_autoSizeMaxTextSize;
+			global::LibVLCSharp.Forms.Resource.Styleable.AppCompatTextView_autoSizeMinTextSize = global::LocalNetwork.Droid.Resource.Styleable.AppCompatTextView_autoSizeMinTextSize;
+			global::LibVLCSharp.Forms.Resource.Styleable.AppCompatTextView_autoSizePresetSizes = global::LocalNetwork.Droid.Resource.Styleable.AppCompatTextView_autoSizePresetSizes;
+			global::LibVLCSharp.Forms.Resource.Styleable.AppCompatTextView_autoSizeStepGranularity = global::LocalNetwork.Droid.Resource.Styleable.AppCompatTextView_autoSizeStepGranularity;
+			global::LibVLCSharp.Forms.Resource.Styleable.AppCompatTextView_autoSizeTextType = global::LocalNetwork.Droid.Resource.Styleable.AppCompatTextView_autoSizeTextType;
+			global::LibVLCSharp.Forms.Resource.Styleable.AppCompatTextView_fontFamily = global::LocalNetwork.Droid.Resource.Styleable.AppCompatTextView_fontFamily;
+			global::LibVLCSharp.Forms.Resource.Styleable.AppCompatTextView_textAllCaps = global::LocalNetwork.Droid.Resource.Styleable.AppCompatTextView_textAllCaps;
+			global::LibVLCSharp.Forms.Resource.Styleable.AppCompatTheme = global::LocalNetwork.Droid.Resource.Styleable.AppCompatTheme;
+			global::LibVLCSharp.Forms.Resource.Styleable.AppCompatTheme_actionBarDivider = global::LocalNetwork.Droid.Resource.Styleable.AppCompatTheme_actionBarDivider;
+			global::LibVLCSharp.Forms.Resource.Styleable.AppCompatTheme_actionBarItemBackground = global::LocalNetwork.Droid.Resource.Styleable.AppCompatTheme_actionBarItemBackground;
+			global::LibVLCSharp.Forms.Resource.Styleable.AppCompatTheme_actionBarPopupTheme = global::LocalNetwork.Droid.Resource.Styleable.AppCompatTheme_actionBarPopupTheme;
+			global::LibVLCSharp.Forms.Resource.Styleable.AppCompatTheme_actionBarSize = global::LocalNetwork.Droid.Resource.Styleable.AppCompatTheme_actionBarSize;
+			global::LibVLCSharp.Forms.Resource.Styleable.AppCompatTheme_actionBarSplitStyle = global::LocalNetwork.Droid.Resource.Styleable.AppCompatTheme_actionBarSplitStyle;
+			global::LibVLCSharp.Forms.Resource.Styleable.AppCompatTheme_actionBarStyle = global::LocalNetwork.Droid.Resource.Styleable.AppCompatTheme_actionBarStyle;
+			global::LibVLCSharp.Forms.Resource.Styleable.AppCompatTheme_actionBarTabBarStyle = global::LocalNetwork.Droid.Resource.Styleable.AppCompatTheme_actionBarTabBarStyle;
+			global::LibVLCSharp.Forms.Resource.Styleable.AppCompatTheme_actionBarTabStyle = global::LocalNetwork.Droid.Resource.Styleable.AppCompatTheme_actionBarTabStyle;
+			global::LibVLCSharp.Forms.Resource.Styleable.AppCompatTheme_actionBarTabTextStyle = global::LocalNetwork.Droid.Resource.Styleable.AppCompatTheme_actionBarTabTextStyle;
+			global::LibVLCSharp.Forms.Resource.Styleable.AppCompatTheme_actionBarTheme = global::LocalNetwork.Droid.Resource.Styleable.AppCompatTheme_actionBarTheme;
+			global::LibVLCSharp.Forms.Resource.Styleable.AppCompatTheme_actionBarWidgetTheme = global::LocalNetwork.Droid.Resource.Styleable.AppCompatTheme_actionBarWidgetTheme;
+			global::LibVLCSharp.Forms.Resource.Styleable.AppCompatTheme_actionButtonStyle = global::LocalNetwork.Droid.Resource.Styleable.AppCompatTheme_actionButtonStyle;
+			global::LibVLCSharp.Forms.Resource.Styleable.AppCompatTheme_actionDropDownStyle = global::LocalNetwork.Droid.Resource.Styleable.AppCompatTheme_actionDropDownStyle;
+			global::LibVLCSharp.Forms.Resource.Styleable.AppCompatTheme_actionMenuTextAppearance = global::LocalNetwork.Droid.Resource.Styleable.AppCompatTheme_actionMenuTextAppearance;
+			global::LibVLCSharp.Forms.Resource.Styleable.AppCompatTheme_actionMenuTextColor = global::LocalNetwork.Droid.Resource.Styleable.AppCompatTheme_actionMenuTextColor;
+			global::LibVLCSharp.Forms.Resource.Styleable.AppCompatTheme_actionModeBackground = global::LocalNetwork.Droid.Resource.Styleable.AppCompatTheme_actionModeBackground;
+			global::LibVLCSharp.Forms.Resource.Styleable.AppCompatTheme_actionModeCloseButtonStyle = global::LocalNetwork.Droid.Resource.Styleable.AppCompatTheme_actionModeCloseButtonStyle;
+			global::LibVLCSharp.Forms.Resource.Styleable.AppCompatTheme_actionModeCloseDrawable = global::LocalNetwork.Droid.Resource.Styleable.AppCompatTheme_actionModeCloseDrawable;
+			global::LibVLCSharp.Forms.Resource.Styleable.AppCompatTheme_actionModeCopyDrawable = global::LocalNetwork.Droid.Resource.Styleable.AppCompatTheme_actionModeCopyDrawable;
+			global::LibVLCSharp.Forms.Resource.Styleable.AppCompatTheme_actionModeCutDrawable = global::LocalNetwork.Droid.Resource.Styleable.AppCompatTheme_actionModeCutDrawable;
+			global::LibVLCSharp.Forms.Resource.Styleable.AppCompatTheme_actionModeFindDrawable = global::LocalNetwork.Droid.Resource.Styleable.AppCompatTheme_actionModeFindDrawable;
+			global::LibVLCSharp.Forms.Resource.Styleable.AppCompatTheme_actionModePasteDrawable = global::LocalNetwork.Droid.Resource.Styleable.AppCompatTheme_actionModePasteDrawable;
+			global::LibVLCSharp.Forms.Resource.Styleable.AppCompatTheme_actionModePopupWindowStyle = global::LocalNetwork.Droid.Resource.Styleable.AppCompatTheme_actionModePopupWindowStyle;
+			global::LibVLCSharp.Forms.Resource.Styleable.AppCompatTheme_actionModeSelectAllDrawable = global::LocalNetwork.Droid.Resource.Styleable.AppCompatTheme_actionModeSelectAllDrawable;
+			global::LibVLCSharp.Forms.Resource.Styleable.AppCompatTheme_actionModeShareDrawable = global::LocalNetwork.Droid.Resource.Styleable.AppCompatTheme_actionModeShareDrawable;
+			global::LibVLCSharp.Forms.Resource.Styleable.AppCompatTheme_actionModeSplitBackground = global::LocalNetwork.Droid.Resource.Styleable.AppCompatTheme_actionModeSplitBackground;
+			global::LibVLCSharp.Forms.Resource.Styleable.AppCompatTheme_actionModeStyle = global::LocalNetwork.Droid.Resource.Styleable.AppCompatTheme_actionModeStyle;
+			global::LibVLCSharp.Forms.Resource.Styleable.AppCompatTheme_actionModeWebSearchDrawable = global::LocalNetwork.Droid.Resource.Styleable.AppCompatTheme_actionModeWebSearchDrawable;
+			global::LibVLCSharp.Forms.Resource.Styleable.AppCompatTheme_actionOverflowButtonStyle = global::LocalNetwork.Droid.Resource.Styleable.AppCompatTheme_actionOverflowButtonStyle;
+			global::LibVLCSharp.Forms.Resource.Styleable.AppCompatTheme_actionOverflowMenuStyle = global::LocalNetwork.Droid.Resource.Styleable.AppCompatTheme_actionOverflowMenuStyle;
+			global::LibVLCSharp.Forms.Resource.Styleable.AppCompatTheme_activityChooserViewStyle = global::LocalNetwork.Droid.Resource.Styleable.AppCompatTheme_activityChooserViewStyle;
+			global::LibVLCSharp.Forms.Resource.Styleable.AppCompatTheme_alertDialogButtonGroupStyle = global::LocalNetwork.Droid.Resource.Styleable.AppCompatTheme_alertDialogButtonGroupStyle;
+			global::LibVLCSharp.Forms.Resource.Styleable.AppCompatTheme_alertDialogCenterButtons = global::LocalNetwork.Droid.Resource.Styleable.AppCompatTheme_alertDialogCenterButtons;
+			global::LibVLCSharp.Forms.Resource.Styleable.AppCompatTheme_alertDialogStyle = global::LocalNetwork.Droid.Resource.Styleable.AppCompatTheme_alertDialogStyle;
+			global::LibVLCSharp.Forms.Resource.Styleable.AppCompatTheme_alertDialogTheme = global::LocalNetwork.Droid.Resource.Styleable.AppCompatTheme_alertDialogTheme;
+			global::LibVLCSharp.Forms.Resource.Styleable.AppCompatTheme_android_windowAnimationStyle = global::LocalNetwork.Droid.Resource.Styleable.AppCompatTheme_android_windowAnimationStyle;
+			global::LibVLCSharp.Forms.Resource.Styleable.AppCompatTheme_android_windowIsFloating = global::LocalNetwork.Droid.Resource.Styleable.AppCompatTheme_android_windowIsFloating;
+			global::LibVLCSharp.Forms.Resource.Styleable.AppCompatTheme_autoCompleteTextViewStyle = global::LocalNetwork.Droid.Resource.Styleable.AppCompatTheme_autoCompleteTextViewStyle;
+			global::LibVLCSharp.Forms.Resource.Styleable.AppCompatTheme_borderlessButtonStyle = global::LocalNetwork.Droid.Resource.Styleable.AppCompatTheme_borderlessButtonStyle;
+			global::LibVLCSharp.Forms.Resource.Styleable.AppCompatTheme_buttonBarButtonStyle = global::LocalNetwork.Droid.Resource.Styleable.AppCompatTheme_buttonBarButtonStyle;
+			global::LibVLCSharp.Forms.Resource.Styleable.AppCompatTheme_buttonBarNegativeButtonStyle = global::LocalNetwork.Droid.Resource.Styleable.AppCompatTheme_buttonBarNegativeButtonStyle;
+			global::LibVLCSharp.Forms.Resource.Styleable.AppCompatTheme_buttonBarNeutralButtonStyle = global::LocalNetwork.Droid.Resource.Styleable.AppCompatTheme_buttonBarNeutralButtonStyle;
+			global::LibVLCSharp.Forms.Resource.Styleable.AppCompatTheme_buttonBarPositiveButtonStyle = global::LocalNetwork.Droid.Resource.Styleable.AppCompatTheme_buttonBarPositiveButtonStyle;
+			global::LibVLCSharp.Forms.Resource.Styleable.AppCompatTheme_buttonBarStyle = global::LocalNetwork.Droid.Resource.Styleable.AppCompatTheme_buttonBarStyle;
+			global::LibVLCSharp.Forms.Resource.Styleable.AppCompatTheme_buttonStyle = global::LocalNetwork.Droid.Resource.Styleable.AppCompatTheme_buttonStyle;
+			global::LibVLCSharp.Forms.Resource.Styleable.AppCompatTheme_buttonStyleSmall = global::LocalNetwork.Droid.Resource.Styleable.AppCompatTheme_buttonStyleSmall;
+			global::LibVLCSharp.Forms.Resource.Styleable.AppCompatTheme_checkboxStyle = global::LocalNetwork.Droid.Resource.Styleable.AppCompatTheme_checkboxStyle;
+			global::LibVLCSharp.Forms.Resource.Styleable.AppCompatTheme_checkedTextViewStyle = global::LocalNetwork.Droid.Resource.Styleable.AppCompatTheme_checkedTextViewStyle;
+			global::LibVLCSharp.Forms.Resource.Styleable.AppCompatTheme_colorAccent = global::LocalNetwork.Droid.Resource.Styleable.AppCompatTheme_colorAccent;
+			global::LibVLCSharp.Forms.Resource.Styleable.AppCompatTheme_colorBackgroundFloating = global::LocalNetwork.Droid.Resource.Styleable.AppCompatTheme_colorBackgroundFloating;
+			global::LibVLCSharp.Forms.Resource.Styleable.AppCompatTheme_colorButtonNormal = global::LocalNetwork.Droid.Resource.Styleable.AppCompatTheme_colorButtonNormal;
+			global::LibVLCSharp.Forms.Resource.Styleable.AppCompatTheme_colorControlActivated = global::LocalNetwork.Droid.Resource.Styleable.AppCompatTheme_colorControlActivated;
+			global::LibVLCSharp.Forms.Resource.Styleable.AppCompatTheme_colorControlHighlight = global::LocalNetwork.Droid.Resource.Styleable.AppCompatTheme_colorControlHighlight;
+			global::LibVLCSharp.Forms.Resource.Styleable.AppCompatTheme_colorControlNormal = global::LocalNetwork.Droid.Resource.Styleable.AppCompatTheme_colorControlNormal;
+			global::LibVLCSharp.Forms.Resource.Styleable.AppCompatTheme_colorError = global::LocalNetwork.Droid.Resource.Styleable.AppCompatTheme_colorError;
+			global::LibVLCSharp.Forms.Resource.Styleable.AppCompatTheme_colorPrimary = global::LocalNetwork.Droid.Resource.Styleable.AppCompatTheme_colorPrimary;
+			global::LibVLCSharp.Forms.Resource.Styleable.AppCompatTheme_colorPrimaryDark = global::LocalNetwork.Droid.Resource.Styleable.AppCompatTheme_colorPrimaryDark;
+			global::LibVLCSharp.Forms.Resource.Styleable.AppCompatTheme_colorSwitchThumbNormal = global::LocalNetwork.Droid.Resource.Styleable.AppCompatTheme_colorSwitchThumbNormal;
+			global::LibVLCSharp.Forms.Resource.Styleable.AppCompatTheme_controlBackground = global::LocalNetwork.Droid.Resource.Styleable.AppCompatTheme_controlBackground;
+			global::LibVLCSharp.Forms.Resource.Styleable.AppCompatTheme_dialogPreferredPadding = global::LocalNetwork.Droid.Resource.Styleable.AppCompatTheme_dialogPreferredPadding;
+			global::LibVLCSharp.Forms.Resource.Styleable.AppCompatTheme_dialogTheme = global::LocalNetwork.Droid.Resource.Styleable.AppCompatTheme_dialogTheme;
+			global::LibVLCSharp.Forms.Resource.Styleable.AppCompatTheme_dividerHorizontal = global::LocalNetwork.Droid.Resource.Styleable.AppCompatTheme_dividerHorizontal;
+			global::LibVLCSharp.Forms.Resource.Styleable.AppCompatTheme_dividerVertical = global::LocalNetwork.Droid.Resource.Styleable.AppCompatTheme_dividerVertical;
+			global::LibVLCSharp.Forms.Resource.Styleable.AppCompatTheme_dropdownListPreferredItemHeight = global::LocalNetwork.Droid.Resource.Styleable.AppCompatTheme_dropdownListPreferredItemHeight;
+			global::LibVLCSharp.Forms.Resource.Styleable.AppCompatTheme_dropDownListViewStyle = global::LocalNetwork.Droid.Resource.Styleable.AppCompatTheme_dropDownListViewStyle;
+			global::LibVLCSharp.Forms.Resource.Styleable.AppCompatTheme_editTextBackground = global::LocalNetwork.Droid.Resource.Styleable.AppCompatTheme_editTextBackground;
+			global::LibVLCSharp.Forms.Resource.Styleable.AppCompatTheme_editTextColor = global::LocalNetwork.Droid.Resource.Styleable.AppCompatTheme_editTextColor;
+			global::LibVLCSharp.Forms.Resource.Styleable.AppCompatTheme_editTextStyle = global::LocalNetwork.Droid.Resource.Styleable.AppCompatTheme_editTextStyle;
+			global::LibVLCSharp.Forms.Resource.Styleable.AppCompatTheme_homeAsUpIndicator = global::LocalNetwork.Droid.Resource.Styleable.AppCompatTheme_homeAsUpIndicator;
+			global::LibVLCSharp.Forms.Resource.Styleable.AppCompatTheme_imageButtonStyle = global::LocalNetwork.Droid.Resource.Styleable.AppCompatTheme_imageButtonStyle;
+			global::LibVLCSharp.Forms.Resource.Styleable.AppCompatTheme_listChoiceBackgroundIndicator = global::LocalNetwork.Droid.Resource.Styleable.AppCompatTheme_listChoiceBackgroundIndicator;
+			global::LibVLCSharp.Forms.Resource.Styleable.AppCompatTheme_listDividerAlertDialog = global::LocalNetwork.Droid.Resource.Styleable.AppCompatTheme_listDividerAlertDialog;
+			global::LibVLCSharp.Forms.Resource.Styleable.AppCompatTheme_listMenuViewStyle = global::LocalNetwork.Droid.Resource.Styleable.AppCompatTheme_listMenuViewStyle;
+			global::LibVLCSharp.Forms.Resource.Styleable.AppCompatTheme_listPopupWindowStyle = global::LocalNetwork.Droid.Resource.Styleable.AppCompatTheme_listPopupWindowStyle;
+			global::LibVLCSharp.Forms.Resource.Styleable.AppCompatTheme_listPreferredItemHeight = global::LocalNetwork.Droid.Resource.Styleable.AppCompatTheme_listPreferredItemHeight;
+			global::LibVLCSharp.Forms.Resource.Styleable.AppCompatTheme_listPreferredItemHeightLarge = global::LocalNetwork.Droid.Resource.Styleable.AppCompatTheme_listPreferredItemHeightLarge;
+			global::LibVLCSharp.Forms.Resource.Styleable.AppCompatTheme_listPreferredItemHeightSmall = global::LocalNetwork.Droid.Resource.Styleable.AppCompatTheme_listPreferredItemHeightSmall;
+			global::LibVLCSharp.Forms.Resource.Styleable.AppCompatTheme_listPreferredItemPaddingLeft = global::LocalNetwork.Droid.Resource.Styleable.AppCompatTheme_listPreferredItemPaddingLeft;
+			global::LibVLCSharp.Forms.Resource.Styleable.AppCompatTheme_listPreferredItemPaddingRight = global::LocalNetwork.Droid.Resource.Styleable.AppCompatTheme_listPreferredItemPaddingRight;
+			global::LibVLCSharp.Forms.Resource.Styleable.AppCompatTheme_panelBackground = global::LocalNetwork.Droid.Resource.Styleable.AppCompatTheme_panelBackground;
+			global::LibVLCSharp.Forms.Resource.Styleable.AppCompatTheme_panelMenuListTheme = global::LocalNetwork.Droid.Resource.Styleable.AppCompatTheme_panelMenuListTheme;
+			global::LibVLCSharp.Forms.Resource.Styleable.AppCompatTheme_panelMenuListWidth = global::LocalNetwork.Droid.Resource.Styleable.AppCompatTheme_panelMenuListWidth;
+			global::LibVLCSharp.Forms.Resource.Styleable.AppCompatTheme_popupMenuStyle = global::LocalNetwork.Droid.Resource.Styleable.AppCompatTheme_popupMenuStyle;
+			global::LibVLCSharp.Forms.Resource.Styleable.AppCompatTheme_popupWindowStyle = global::LocalNetwork.Droid.Resource.Styleable.AppCompatTheme_popupWindowStyle;
+			global::LibVLCSharp.Forms.Resource.Styleable.AppCompatTheme_radioButtonStyle = global::LocalNetwork.Droid.Resource.Styleable.AppCompatTheme_radioButtonStyle;
+			global::LibVLCSharp.Forms.Resource.Styleable.AppCompatTheme_ratingBarStyle = global::LocalNetwork.Droid.Resource.Styleable.AppCompatTheme_ratingBarStyle;
+			global::LibVLCSharp.Forms.Resource.Styleable.AppCompatTheme_ratingBarStyleIndicator = global::LocalNetwork.Droid.Resource.Styleable.AppCompatTheme_ratingBarStyleIndicator;
+			global::LibVLCSharp.Forms.Resource.Styleable.AppCompatTheme_ratingBarStyleSmall = global::LocalNetwork.Droid.Resource.Styleable.AppCompatTheme_ratingBarStyleSmall;
+			global::LibVLCSharp.Forms.Resource.Styleable.AppCompatTheme_searchViewStyle = global::LocalNetwork.Droid.Resource.Styleable.AppCompatTheme_searchViewStyle;
+			global::LibVLCSharp.Forms.Resource.Styleable.AppCompatTheme_seekBarStyle = global::LocalNetwork.Droid.Resource.Styleable.AppCompatTheme_seekBarStyle;
+			global::LibVLCSharp.Forms.Resource.Styleable.AppCompatTheme_selectableItemBackground = global::LocalNetwork.Droid.Resource.Styleable.AppCompatTheme_selectableItemBackground;
+			global::LibVLCSharp.Forms.Resource.Styleable.AppCompatTheme_selectableItemBackgroundBorderless = global::LocalNetwork.Droid.Resource.Styleable.AppCompatTheme_selectableItemBackgroundBorderless;
+			global::LibVLCSharp.Forms.Resource.Styleable.AppCompatTheme_spinnerDropDownItemStyle = global::LocalNetwork.Droid.Resource.Styleable.AppCompatTheme_spinnerDropDownItemStyle;
+			global::LibVLCSharp.Forms.Resource.Styleable.AppCompatTheme_spinnerStyle = global::LocalNetwork.Droid.Resource.Styleable.AppCompatTheme_spinnerStyle;
+			global::LibVLCSharp.Forms.Resource.Styleable.AppCompatTheme_switchStyle = global::LocalNetwork.Droid.Resource.Styleable.AppCompatTheme_switchStyle;
+			global::LibVLCSharp.Forms.Resource.Styleable.AppCompatTheme_textAppearanceLargePopupMenu = global::LocalNetwork.Droid.Resource.Styleable.AppCompatTheme_textAppearanceLargePopupMenu;
+			global::LibVLCSharp.Forms.Resource.Styleable.AppCompatTheme_textAppearanceListItem = global::LocalNetwork.Droid.Resource.Styleable.AppCompatTheme_textAppearanceListItem;
+			global::LibVLCSharp.Forms.Resource.Styleable.AppCompatTheme_textAppearanceListItemSecondary = global::LocalNetwork.Droid.Resource.Styleable.AppCompatTheme_textAppearanceListItemSecondary;
+			global::LibVLCSharp.Forms.Resource.Styleable.AppCompatTheme_textAppearanceListItemSmall = global::LocalNetwork.Droid.Resource.Styleable.AppCompatTheme_textAppearanceListItemSmall;
+			global::LibVLCSharp.Forms.Resource.Styleable.AppCompatTheme_textAppearancePopupMenuHeader = global::LocalNetwork.Droid.Resource.Styleable.AppCompatTheme_textAppearancePopupMenuHeader;
+			global::LibVLCSharp.Forms.Resource.Styleable.AppCompatTheme_textAppearanceSearchResultSubtitle = global::LocalNetwork.Droid.Resource.Styleable.AppCompatTheme_textAppearanceSearchResultSubtitle;
+			global::LibVLCSharp.Forms.Resource.Styleable.AppCompatTheme_textAppearanceSearchResultTitle = global::LocalNetwork.Droid.Resource.Styleable.AppCompatTheme_textAppearanceSearchResultTitle;
+			global::LibVLCSharp.Forms.Resource.Styleable.AppCompatTheme_textAppearanceSmallPopupMenu = global::LocalNetwork.Droid.Resource.Styleable.AppCompatTheme_textAppearanceSmallPopupMenu;
+			global::LibVLCSharp.Forms.Resource.Styleable.AppCompatTheme_textColorAlertDialogListItem = global::LocalNetwork.Droid.Resource.Styleable.AppCompatTheme_textColorAlertDialogListItem;
+			global::LibVLCSharp.Forms.Resource.Styleable.AppCompatTheme_textColorSearchUrl = global::LocalNetwork.Droid.Resource.Styleable.AppCompatTheme_textColorSearchUrl;
+			global::LibVLCSharp.Forms.Resource.Styleable.AppCompatTheme_toolbarNavigationButtonStyle = global::LocalNetwork.Droid.Resource.Styleable.AppCompatTheme_toolbarNavigationButtonStyle;
+			global::LibVLCSharp.Forms.Resource.Styleable.AppCompatTheme_toolbarStyle = global::LocalNetwork.Droid.Resource.Styleable.AppCompatTheme_toolbarStyle;
+			global::LibVLCSharp.Forms.Resource.Styleable.AppCompatTheme_tooltipForegroundColor = global::LocalNetwork.Droid.Resource.Styleable.AppCompatTheme_tooltipForegroundColor;
+			global::LibVLCSharp.Forms.Resource.Styleable.AppCompatTheme_tooltipFrameBackground = global::LocalNetwork.Droid.Resource.Styleable.AppCompatTheme_tooltipFrameBackground;
+			global::LibVLCSharp.Forms.Resource.Styleable.AppCompatTheme_windowActionBar = global::LocalNetwork.Droid.Resource.Styleable.AppCompatTheme_windowActionBar;
+			global::LibVLCSharp.Forms.Resource.Styleable.AppCompatTheme_windowActionBarOverlay = global::LocalNetwork.Droid.Resource.Styleable.AppCompatTheme_windowActionBarOverlay;
+			global::LibVLCSharp.Forms.Resource.Styleable.AppCompatTheme_windowActionModeOverlay = global::LocalNetwork.Droid.Resource.Styleable.AppCompatTheme_windowActionModeOverlay;
+			global::LibVLCSharp.Forms.Resource.Styleable.AppCompatTheme_windowFixedHeightMajor = global::LocalNetwork.Droid.Resource.Styleable.AppCompatTheme_windowFixedHeightMajor;
+			global::LibVLCSharp.Forms.Resource.Styleable.AppCompatTheme_windowFixedHeightMinor = global::LocalNetwork.Droid.Resource.Styleable.AppCompatTheme_windowFixedHeightMinor;
+			global::LibVLCSharp.Forms.Resource.Styleable.AppCompatTheme_windowFixedWidthMajor = global::LocalNetwork.Droid.Resource.Styleable.AppCompatTheme_windowFixedWidthMajor;
+			global::LibVLCSharp.Forms.Resource.Styleable.AppCompatTheme_windowFixedWidthMinor = global::LocalNetwork.Droid.Resource.Styleable.AppCompatTheme_windowFixedWidthMinor;
+			global::LibVLCSharp.Forms.Resource.Styleable.AppCompatTheme_windowMinWidthMajor = global::LocalNetwork.Droid.Resource.Styleable.AppCompatTheme_windowMinWidthMajor;
+			global::LibVLCSharp.Forms.Resource.Styleable.AppCompatTheme_windowMinWidthMinor = global::LocalNetwork.Droid.Resource.Styleable.AppCompatTheme_windowMinWidthMinor;
+			global::LibVLCSharp.Forms.Resource.Styleable.AppCompatTheme_windowNoTitle = global::LocalNetwork.Droid.Resource.Styleable.AppCompatTheme_windowNoTitle;
+			global::LibVLCSharp.Forms.Resource.Styleable.BottomNavigationView = global::LocalNetwork.Droid.Resource.Styleable.BottomNavigationView;
+			global::LibVLCSharp.Forms.Resource.Styleable.BottomNavigationView_elevation = global::LocalNetwork.Droid.Resource.Styleable.BottomNavigationView_elevation;
+			global::LibVLCSharp.Forms.Resource.Styleable.BottomNavigationView_itemBackground = global::LocalNetwork.Droid.Resource.Styleable.BottomNavigationView_itemBackground;
+			global::LibVLCSharp.Forms.Resource.Styleable.BottomNavigationView_itemIconTint = global::LocalNetwork.Droid.Resource.Styleable.BottomNavigationView_itemIconTint;
+			global::LibVLCSharp.Forms.Resource.Styleable.BottomNavigationView_itemTextColor = global::LocalNetwork.Droid.Resource.Styleable.BottomNavigationView_itemTextColor;
+			global::LibVLCSharp.Forms.Resource.Styleable.BottomNavigationView_menu = global::LocalNetwork.Droid.Resource.Styleable.BottomNavigationView_menu;
+			global::LibVLCSharp.Forms.Resource.Styleable.BottomSheetBehavior_Layout = global::LocalNetwork.Droid.Resource.Styleable.BottomSheetBehavior_Layout;
+			global::LibVLCSharp.Forms.Resource.Styleable.BottomSheetBehavior_Layout_behavior_hideable = global::LocalNetwork.Droid.Resource.Styleable.BottomSheetBehavior_Layout_behavior_hideable;
+			global::LibVLCSharp.Forms.Resource.Styleable.BottomSheetBehavior_Layout_behavior_peekHeight = global::LocalNetwork.Droid.Resource.Styleable.BottomSheetBehavior_Layout_behavior_peekHeight;
+			global::LibVLCSharp.Forms.Resource.Styleable.BottomSheetBehavior_Layout_behavior_skipCollapsed = global::LocalNetwork.Droid.Resource.Styleable.BottomSheetBehavior_Layout_behavior_skipCollapsed;
+			global::LibVLCSharp.Forms.Resource.Styleable.ButtonBarLayout = global::LocalNetwork.Droid.Resource.Styleable.ButtonBarLayout;
+			global::LibVLCSharp.Forms.Resource.Styleable.ButtonBarLayout_allowStacking = global::LocalNetwork.Droid.Resource.Styleable.ButtonBarLayout_allowStacking;
+			global::LibVLCSharp.Forms.Resource.Styleable.CardView = global::LocalNetwork.Droid.Resource.Styleable.CardView;
+			global::LibVLCSharp.Forms.Resource.Styleable.CardView_android_minHeight = global::LocalNetwork.Droid.Resource.Styleable.CardView_android_minHeight;
+			global::LibVLCSharp.Forms.Resource.Styleable.CardView_android_minWidth = global::LocalNetwork.Droid.Resource.Styleable.CardView_android_minWidth;
+			global::LibVLCSharp.Forms.Resource.Styleable.CardView_cardBackgroundColor = global::LocalNetwork.Droid.Resource.Styleable.CardView_cardBackgroundColor;
+			global::LibVLCSharp.Forms.Resource.Styleable.CardView_cardCornerRadius = global::LocalNetwork.Droid.Resource.Styleable.CardView_cardCornerRadius;
+			global::LibVLCSharp.Forms.Resource.Styleable.CardView_cardElevation = global::LocalNetwork.Droid.Resource.Styleable.CardView_cardElevation;
+			global::LibVLCSharp.Forms.Resource.Styleable.CardView_cardMaxElevation = global::LocalNetwork.Droid.Resource.Styleable.CardView_cardMaxElevation;
+			global::LibVLCSharp.Forms.Resource.Styleable.CardView_cardPreventCornerOverlap = global::LocalNetwork.Droid.Resource.Styleable.CardView_cardPreventCornerOverlap;
+			global::LibVLCSharp.Forms.Resource.Styleable.CardView_cardUseCompatPadding = global::LocalNetwork.Droid.Resource.Styleable.CardView_cardUseCompatPadding;
+			global::LibVLCSharp.Forms.Resource.Styleable.CardView_contentPadding = global::LocalNetwork.Droid.Resource.Styleable.CardView_contentPadding;
+			global::LibVLCSharp.Forms.Resource.Styleable.CardView_contentPaddingBottom = global::LocalNetwork.Droid.Resource.Styleable.CardView_contentPaddingBottom;
+			global::LibVLCSharp.Forms.Resource.Styleable.CardView_contentPaddingLeft = global::LocalNetwork.Droid.Resource.Styleable.CardView_contentPaddingLeft;
+			global::LibVLCSharp.Forms.Resource.Styleable.CardView_contentPaddingRight = global::LocalNetwork.Droid.Resource.Styleable.CardView_contentPaddingRight;
+			global::LibVLCSharp.Forms.Resource.Styleable.CardView_contentPaddingTop = global::LocalNetwork.Droid.Resource.Styleable.CardView_contentPaddingTop;
+			global::LibVLCSharp.Forms.Resource.Styleable.CollapsingToolbarLayout = global::LocalNetwork.Droid.Resource.Styleable.CollapsingToolbarLayout;
+			global::LibVLCSharp.Forms.Resource.Styleable.CollapsingToolbarLayout_collapsedTitleGravity = global::LocalNetwork.Droid.Resource.Styleable.CollapsingToolbarLayout_collapsedTitleGravity;
+			global::LibVLCSharp.Forms.Resource.Styleable.CollapsingToolbarLayout_collapsedTitleTextAppearance = global::LocalNetwork.Droid.Resource.Styleable.CollapsingToolbarLayout_collapsedTitleTextAppearance;
+			global::LibVLCSharp.Forms.Resource.Styleable.CollapsingToolbarLayout_contentScrim = global::LocalNetwork.Droid.Resource.Styleable.CollapsingToolbarLayout_contentScrim;
+			global::LibVLCSharp.Forms.Resource.Styleable.CollapsingToolbarLayout_expandedTitleGravity = global::LocalNetwork.Droid.Resource.Styleable.CollapsingToolbarLayout_expandedTitleGravity;
+			global::LibVLCSharp.Forms.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMargin = global::LocalNetwork.Droid.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMargin;
+			global::LibVLCSharp.Forms.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMarginBottom = global::LocalNetwork.Droid.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMarginBottom;
+			global::LibVLCSharp.Forms.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMarginEnd = global::LocalNetwork.Droid.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMarginEnd;
+			global::LibVLCSharp.Forms.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMarginStart = global::LocalNetwork.Droid.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMarginStart;
+			global::LibVLCSharp.Forms.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMarginTop = global::LocalNetwork.Droid.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMarginTop;
+			global::LibVLCSharp.Forms.Resource.Styleable.CollapsingToolbarLayout_expandedTitleTextAppearance = global::LocalNetwork.Droid.Resource.Styleable.CollapsingToolbarLayout_expandedTitleTextAppearance;
+			global::LibVLCSharp.Forms.Resource.Styleable.CollapsingToolbarLayout_Layout = global::LocalNetwork.Droid.Resource.Styleable.CollapsingToolbarLayout_Layout;
+			global::LibVLCSharp.Forms.Resource.Styleable.CollapsingToolbarLayout_Layout_layout_collapseMode = global::LocalNetwork.Droid.Resource.Styleable.CollapsingToolbarLayout_Layout_layout_collapseMode;
+			global::LibVLCSharp.Forms.Resource.Styleable.CollapsingToolbarLayout_Layout_layout_collapseParallaxMultiplier = global::LocalNetwork.Droid.Resource.Styleable.CollapsingToolbarLayout_Layout_layout_collapseParallaxMultiplier;
+			global::LibVLCSharp.Forms.Resource.Styleable.CollapsingToolbarLayout_scrimAnimationDuration = global::LocalNetwork.Droid.Resource.Styleable.CollapsingToolbarLayout_scrimAnimationDuration;
+			global::LibVLCSharp.Forms.Resource.Styleable.CollapsingToolbarLayout_scrimVisibleHeightTrigger = global::LocalNetwork.Droid.Resource.Styleable.CollapsingToolbarLayout_scrimVisibleHeightTrigger;
+			global::LibVLCSharp.Forms.Resource.Styleable.CollapsingToolbarLayout_statusBarScrim = global::LocalNetwork.Droid.Resource.Styleable.CollapsingToolbarLayout_statusBarScrim;
+			global::LibVLCSharp.Forms.Resource.Styleable.CollapsingToolbarLayout_title = global::LocalNetwork.Droid.Resource.Styleable.CollapsingToolbarLayout_title;
+			global::LibVLCSharp.Forms.Resource.Styleable.CollapsingToolbarLayout_titleEnabled = global::LocalNetwork.Droid.Resource.Styleable.CollapsingToolbarLayout_titleEnabled;
+			global::LibVLCSharp.Forms.Resource.Styleable.CollapsingToolbarLayout_toolbarId = global::LocalNetwork.Droid.Resource.Styleable.CollapsingToolbarLayout_toolbarId;
+			global::LibVLCSharp.Forms.Resource.Styleable.ColorStateListItem = global::LocalNetwork.Droid.Resource.Styleable.ColorStateListItem;
+			global::LibVLCSharp.Forms.Resource.Styleable.ColorStateListItem_alpha = global::LocalNetwork.Droid.Resource.Styleable.ColorStateListItem_alpha;
+			global::LibVLCSharp.Forms.Resource.Styleable.ColorStateListItem_android_alpha = global::LocalNetwork.Droid.Resource.Styleable.ColorStateListItem_android_alpha;
+			global::LibVLCSharp.Forms.Resource.Styleable.ColorStateListItem_android_color = global::LocalNetwork.Droid.Resource.Styleable.ColorStateListItem_android_color;
+			global::LibVLCSharp.Forms.Resource.Styleable.CompoundButton = global::LocalNetwork.Droid.Resource.Styleable.CompoundButton;
+			global::LibVLCSharp.Forms.Resource.Styleable.CompoundButton_android_button = global::LocalNetwork.Droid.Resource.Styleable.CompoundButton_android_button;
+			global::LibVLCSharp.Forms.Resource.Styleable.CompoundButton_buttonTint = global::LocalNetwork.Droid.Resource.Styleable.CompoundButton_buttonTint;
+			global::LibVLCSharp.Forms.Resource.Styleable.CompoundButton_buttonTintMode = global::LocalNetwork.Droid.Resource.Styleable.CompoundButton_buttonTintMode;
+			global::LibVLCSharp.Forms.Resource.Styleable.CoordinatorLayout = global::LocalNetwork.Droid.Resource.Styleable.CoordinatorLayout;
+			global::LibVLCSharp.Forms.Resource.Styleable.CoordinatorLayout_keylines = global::LocalNetwork.Droid.Resource.Styleable.CoordinatorLayout_keylines;
+			global::LibVLCSharp.Forms.Resource.Styleable.CoordinatorLayout_Layout = global::LocalNetwork.Droid.Resource.Styleable.CoordinatorLayout_Layout;
+			global::LibVLCSharp.Forms.Resource.Styleable.CoordinatorLayout_Layout_android_layout_gravity = global::LocalNetwork.Droid.Resource.Styleable.CoordinatorLayout_Layout_android_layout_gravity;
+			global::LibVLCSharp.Forms.Resource.Styleable.CoordinatorLayout_Layout_layout_anchor = global::LocalNetwork.Droid.Resource.Styleable.CoordinatorLayout_Layout_layout_anchor;
+			global::LibVLCSharp.Forms.Resource.Styleable.CoordinatorLayout_Layout_layout_anchorGravity = global::LocalNetwork.Droid.Resource.Styleable.CoordinatorLayout_Layout_layout_anchorGravity;
+			global::LibVLCSharp.Forms.Resource.Styleable.CoordinatorLayout_Layout_layout_behavior = global::LocalNetwork.Droid.Resource.Styleable.CoordinatorLayout_Layout_layout_behavior;
+			global::LibVLCSharp.Forms.Resource.Styleable.CoordinatorLayout_Layout_layout_dodgeInsetEdges = global::LocalNetwork.Droid.Resource.Styleable.CoordinatorLayout_Layout_layout_dodgeInsetEdges;
+			global::LibVLCSharp.Forms.Resource.Styleable.CoordinatorLayout_Layout_layout_insetEdge = global::LocalNetwork.Droid.Resource.Styleable.CoordinatorLayout_Layout_layout_insetEdge;
+			global::LibVLCSharp.Forms.Resource.Styleable.CoordinatorLayout_Layout_layout_keyline = global::LocalNetwork.Droid.Resource.Styleable.CoordinatorLayout_Layout_layout_keyline;
+			global::LibVLCSharp.Forms.Resource.Styleable.CoordinatorLayout_statusBarBackground = global::LocalNetwork.Droid.Resource.Styleable.CoordinatorLayout_statusBarBackground;
+			global::LibVLCSharp.Forms.Resource.Styleable.DesignTheme = global::LocalNetwork.Droid.Resource.Styleable.DesignTheme;
+			global::LibVLCSharp.Forms.Resource.Styleable.DesignTheme_bottomSheetDialogTheme = global::LocalNetwork.Droid.Resource.Styleable.DesignTheme_bottomSheetDialogTheme;
+			global::LibVLCSharp.Forms.Resource.Styleable.DesignTheme_bottomSheetStyle = global::LocalNetwork.Droid.Resource.Styleable.DesignTheme_bottomSheetStyle;
+			global::LibVLCSharp.Forms.Resource.Styleable.DesignTheme_textColorError = global::LocalNetwork.Droid.Resource.Styleable.DesignTheme_textColorError;
+			global::LibVLCSharp.Forms.Resource.Styleable.DrawerArrowToggle = global::LocalNetwork.Droid.Resource.Styleable.DrawerArrowToggle;
+			global::LibVLCSharp.Forms.Resource.Styleable.DrawerArrowToggle_arrowHeadLength = global::LocalNetwork.Droid.Resource.Styleable.DrawerArrowToggle_arrowHeadLength;
+			global::LibVLCSharp.Forms.Resource.Styleable.DrawerArrowToggle_arrowShaftLength = global::LocalNetwork.Droid.Resource.Styleable.DrawerArrowToggle_arrowShaftLength;
+			global::LibVLCSharp.Forms.Resource.Styleable.DrawerArrowToggle_barLength = global::LocalNetwork.Droid.Resource.Styleable.DrawerArrowToggle_barLength;
+			global::LibVLCSharp.Forms.Resource.Styleable.DrawerArrowToggle_color = global::LocalNetwork.Droid.Resource.Styleable.DrawerArrowToggle_color;
+			global::LibVLCSharp.Forms.Resource.Styleable.DrawerArrowToggle_drawableSize = global::LocalNetwork.Droid.Resource.Styleable.DrawerArrowToggle_drawableSize;
+			global::LibVLCSharp.Forms.Resource.Styleable.DrawerArrowToggle_gapBetweenBars = global::LocalNetwork.Droid.Resource.Styleable.DrawerArrowToggle_gapBetweenBars;
+			global::LibVLCSharp.Forms.Resource.Styleable.DrawerArrowToggle_spinBars = global::LocalNetwork.Droid.Resource.Styleable.DrawerArrowToggle_spinBars;
+			global::LibVLCSharp.Forms.Resource.Styleable.DrawerArrowToggle_thickness = global::LocalNetwork.Droid.Resource.Styleable.DrawerArrowToggle_thickness;
+			global::LibVLCSharp.Forms.Resource.Styleable.FloatingActionButton = global::LocalNetwork.Droid.Resource.Styleable.FloatingActionButton;
+			global::LibVLCSharp.Forms.Resource.Styleable.FloatingActionButton_backgroundTint = global::LocalNetwork.Droid.Resource.Styleable.FloatingActionButton_backgroundTint;
+			global::LibVLCSharp.Forms.Resource.Styleable.FloatingActionButton_backgroundTintMode = global::LocalNetwork.Droid.Resource.Styleable.FloatingActionButton_backgroundTintMode;
+			global::LibVLCSharp.Forms.Resource.Styleable.FloatingActionButton_Behavior_Layout = global::LocalNetwork.Droid.Resource.Styleable.FloatingActionButton_Behavior_Layout;
+			global::LibVLCSharp.Forms.Resource.Styleable.FloatingActionButton_Behavior_Layout_behavior_autoHide = global::LocalNetwork.Droid.Resource.Styleable.FloatingActionButton_Behavior_Layout_behavior_autoHide;
+			global::LibVLCSharp.Forms.Resource.Styleable.FloatingActionButton_borderWidth = global::LocalNetwork.Droid.Resource.Styleable.FloatingActionButton_borderWidth;
+			global::LibVLCSharp.Forms.Resource.Styleable.FloatingActionButton_elevation = global::LocalNetwork.Droid.Resource.Styleable.FloatingActionButton_elevation;
+			global::LibVLCSharp.Forms.Resource.Styleable.FloatingActionButton_fabSize = global::LocalNetwork.Droid.Resource.Styleable.FloatingActionButton_fabSize;
+			global::LibVLCSharp.Forms.Resource.Styleable.FloatingActionButton_pressedTranslationZ = global::LocalNetwork.Droid.Resource.Styleable.FloatingActionButton_pressedTranslationZ;
+			global::LibVLCSharp.Forms.Resource.Styleable.FloatingActionButton_rippleColor = global::LocalNetwork.Droid.Resource.Styleable.FloatingActionButton_rippleColor;
+			global::LibVLCSharp.Forms.Resource.Styleable.FloatingActionButton_useCompatPadding = global::LocalNetwork.Droid.Resource.Styleable.FloatingActionButton_useCompatPadding;
+			global::LibVLCSharp.Forms.Resource.Styleable.FontFamily = global::LocalNetwork.Droid.Resource.Styleable.FontFamily;
+			global::LibVLCSharp.Forms.Resource.Styleable.FontFamilyFont = global::LocalNetwork.Droid.Resource.Styleable.FontFamilyFont;
+			global::LibVLCSharp.Forms.Resource.Styleable.FontFamilyFont_android_font = global::LocalNetwork.Droid.Resource.Styleable.FontFamilyFont_android_font;
+			global::LibVLCSharp.Forms.Resource.Styleable.FontFamilyFont_android_fontStyle = global::LocalNetwork.Droid.Resource.Styleable.FontFamilyFont_android_fontStyle;
+			global::LibVLCSharp.Forms.Resource.Styleable.FontFamilyFont_android_fontWeight = global::LocalNetwork.Droid.Resource.Styleable.FontFamilyFont_android_fontWeight;
+			global::LibVLCSharp.Forms.Resource.Styleable.FontFamilyFont_font = global::LocalNetwork.Droid.Resource.Styleable.FontFamilyFont_font;
+			global::LibVLCSharp.Forms.Resource.Styleable.FontFamilyFont_fontStyle = global::LocalNetwork.Droid.Resource.Styleable.FontFamilyFont_fontStyle;
+			global::LibVLCSharp.Forms.Resource.Styleable.FontFamilyFont_fontWeight = global::LocalNetwork.Droid.Resource.Styleable.FontFamilyFont_fontWeight;
+			global::LibVLCSharp.Forms.Resource.Styleable.FontFamily_fontProviderAuthority = global::LocalNetwork.Droid.Resource.Styleable.FontFamily_fontProviderAuthority;
+			global::LibVLCSharp.Forms.Resource.Styleable.FontFamily_fontProviderCerts = global::LocalNetwork.Droid.Resource.Styleable.FontFamily_fontProviderCerts;
+			global::LibVLCSharp.Forms.Resource.Styleable.FontFamily_fontProviderFetchStrategy = global::LocalNetwork.Droid.Resource.Styleable.FontFamily_fontProviderFetchStrategy;
+			global::LibVLCSharp.Forms.Resource.Styleable.FontFamily_fontProviderFetchTimeout = global::LocalNetwork.Droid.Resource.Styleable.FontFamily_fontProviderFetchTimeout;
+			global::LibVLCSharp.Forms.Resource.Styleable.FontFamily_fontProviderPackage = global::LocalNetwork.Droid.Resource.Styleable.FontFamily_fontProviderPackage;
+			global::LibVLCSharp.Forms.Resource.Styleable.FontFamily_fontProviderQuery = global::LocalNetwork.Droid.Resource.Styleable.FontFamily_fontProviderQuery;
+			global::LibVLCSharp.Forms.Resource.Styleable.ForegroundLinearLayout = global::LocalNetwork.Droid.Resource.Styleable.ForegroundLinearLayout;
+			global::LibVLCSharp.Forms.Resource.Styleable.ForegroundLinearLayout_android_foreground = global::LocalNetwork.Droid.Resource.Styleable.ForegroundLinearLayout_android_foreground;
+			global::LibVLCSharp.Forms.Resource.Styleable.ForegroundLinearLayout_android_foregroundGravity = global::LocalNetwork.Droid.Resource.Styleable.ForegroundLinearLayout_android_foregroundGravity;
+			global::LibVLCSharp.Forms.Resource.Styleable.ForegroundLinearLayout_foregroundInsidePadding = global::LocalNetwork.Droid.Resource.Styleable.ForegroundLinearLayout_foregroundInsidePadding;
+			global::LibVLCSharp.Forms.Resource.Styleable.LinearLayoutCompat = global::LocalNetwork.Droid.Resource.Styleable.LinearLayoutCompat;
+			global::LibVLCSharp.Forms.Resource.Styleable.LinearLayoutCompat_android_baselineAligned = global::LocalNetwork.Droid.Resource.Styleable.LinearLayoutCompat_android_baselineAligned;
+			global::LibVLCSharp.Forms.Resource.Styleable.LinearLayoutCompat_android_baselineAlignedChildIndex = global::LocalNetwork.Droid.Resource.Styleable.LinearLayoutCompat_android_baselineAlignedChildIndex;
+			global::LibVLCSharp.Forms.Resource.Styleable.LinearLayoutCompat_android_gravity = global::LocalNetwork.Droid.Resource.Styleable.LinearLayoutCompat_android_gravity;
+			global::LibVLCSharp.Forms.Resource.Styleable.LinearLayoutCompat_android_orientation = global::LocalNetwork.Droid.Resource.Styleable.LinearLayoutCompat_android_orientation;
+			global::LibVLCSharp.Forms.Resource.Styleable.LinearLayoutCompat_android_weightSum = global::LocalNetwork.Droid.Resource.Styleable.LinearLayoutCompat_android_weightSum;
+			global::LibVLCSharp.Forms.Resource.Styleable.LinearLayoutCompat_divider = global::LocalNetwork.Droid.Resource.Styleable.LinearLayoutCompat_divider;
+			global::LibVLCSharp.Forms.Resource.Styleable.LinearLayoutCompat_dividerPadding = global::LocalNetwork.Droid.Resource.Styleable.LinearLayoutCompat_dividerPadding;
+			global::LibVLCSharp.Forms.Resource.Styleable.LinearLayoutCompat_Layout = global::LocalNetwork.Droid.Resource.Styleable.LinearLayoutCompat_Layout;
+			global::LibVLCSharp.Forms.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_gravity = global::LocalNetwork.Droid.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_gravity;
+			global::LibVLCSharp.Forms.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_height = global::LocalNetwork.Droid.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_height;
+			global::LibVLCSharp.Forms.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_weight = global::LocalNetwork.Droid.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_weight;
+			global::LibVLCSharp.Forms.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_width = global::LocalNetwork.Droid.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_width;
+			global::LibVLCSharp.Forms.Resource.Styleable.LinearLayoutCompat_measureWithLargestChild = global::LocalNetwork.Droid.Resource.Styleable.LinearLayoutCompat_measureWithLargestChild;
+			global::LibVLCSharp.Forms.Resource.Styleable.LinearLayoutCompat_showDividers = global::LocalNetwork.Droid.Resource.Styleable.LinearLayoutCompat_showDividers;
+			global::LibVLCSharp.Forms.Resource.Styleable.ListPopupWindow = global::LocalNetwork.Droid.Resource.Styleable.ListPopupWindow;
+			global::LibVLCSharp.Forms.Resource.Styleable.ListPopupWindow_android_dropDownHorizontalOffset = global::LocalNetwork.Droid.Resource.Styleable.ListPopupWindow_android_dropDownHorizontalOffset;
+			global::LibVLCSharp.Forms.Resource.Styleable.ListPopupWindow_android_dropDownVerticalOffset = global::LocalNetwork.Droid.Resource.Styleable.ListPopupWindow_android_dropDownVerticalOffset;
+			global::LibVLCSharp.Forms.Resource.Styleable.MediaRouteButton = global::LocalNetwork.Droid.Resource.Styleable.MediaRouteButton;
+			global::LibVLCSharp.Forms.Resource.Styleable.MediaRouteButton_android_minHeight = global::LocalNetwork.Droid.Resource.Styleable.MediaRouteButton_android_minHeight;
+			global::LibVLCSharp.Forms.Resource.Styleable.MediaRouteButton_android_minWidth = global::LocalNetwork.Droid.Resource.Styleable.MediaRouteButton_android_minWidth;
+			global::LibVLCSharp.Forms.Resource.Styleable.MediaRouteButton_externalRouteEnabledDrawable = global::LocalNetwork.Droid.Resource.Styleable.MediaRouteButton_externalRouteEnabledDrawable;
+			global::LibVLCSharp.Forms.Resource.Styleable.MediaRouteButton_mediaRouteButtonTint = global::LocalNetwork.Droid.Resource.Styleable.MediaRouteButton_mediaRouteButtonTint;
+			global::LibVLCSharp.Forms.Resource.Styleable.MenuGroup = global::LocalNetwork.Droid.Resource.Styleable.MenuGroup;
+			global::LibVLCSharp.Forms.Resource.Styleable.MenuGroup_android_checkableBehavior = global::LocalNetwork.Droid.Resource.Styleable.MenuGroup_android_checkableBehavior;
+			global::LibVLCSharp.Forms.Resource.Styleable.MenuGroup_android_enabled = global::LocalNetwork.Droid.Resource.Styleable.MenuGroup_android_enabled;
+			global::LibVLCSharp.Forms.Resource.Styleable.MenuGroup_android_id = global::LocalNetwork.Droid.Resource.Styleable.MenuGroup_android_id;
+			global::LibVLCSharp.Forms.Resource.Styleable.MenuGroup_android_menuCategory = global::LocalNetwork.Droid.Resource.Styleable.MenuGroup_android_menuCategory;
+			global::LibVLCSharp.Forms.Resource.Styleable.MenuGroup_android_orderInCategory = global::LocalNetwork.Droid.Resource.Styleable.MenuGroup_android_orderInCategory;
+			global::LibVLCSharp.Forms.Resource.Styleable.MenuGroup_android_visible = global::LocalNetwork.Droid.Resource.Styleable.MenuGroup_android_visible;
+			global::LibVLCSharp.Forms.Resource.Styleable.MenuItem = global::LocalNetwork.Droid.Resource.Styleable.MenuItem;
+			global::LibVLCSharp.Forms.Resource.Styleable.MenuItem_actionLayout = global::LocalNetwork.Droid.Resource.Styleable.MenuItem_actionLayout;
+			global::LibVLCSharp.Forms.Resource.Styleable.MenuItem_actionProviderClass = global::LocalNetwork.Droid.Resource.Styleable.MenuItem_actionProviderClass;
+			global::LibVLCSharp.Forms.Resource.Styleable.MenuItem_actionViewClass = global::LocalNetwork.Droid.Resource.Styleable.MenuItem_actionViewClass;
+			global::LibVLCSharp.Forms.Resource.Styleable.MenuItem_alphabeticModifiers = global::LocalNetwork.Droid.Resource.Styleable.MenuItem_alphabeticModifiers;
+			global::LibVLCSharp.Forms.Resource.Styleable.MenuItem_android_alphabeticShortcut = global::LocalNetwork.Droid.Resource.Styleable.MenuItem_android_alphabeticShortcut;
+			global::LibVLCSharp.Forms.Resource.Styleable.MenuItem_android_checkable = global::LocalNetwork.Droid.Resource.Styleable.MenuItem_android_checkable;
+			global::LibVLCSharp.Forms.Resource.Styleable.MenuItem_android_checked = global::LocalNetwork.Droid.Resource.Styleable.MenuItem_android_checked;
+			global::LibVLCSharp.Forms.Resource.Styleable.MenuItem_android_enabled = global::LocalNetwork.Droid.Resource.Styleable.MenuItem_android_enabled;
+			global::LibVLCSharp.Forms.Resource.Styleable.MenuItem_android_icon = global::LocalNetwork.Droid.Resource.Styleable.MenuItem_android_icon;
+			global::LibVLCSharp.Forms.Resource.Styleable.MenuItem_android_id = global::LocalNetwork.Droid.Resource.Styleable.MenuItem_android_id;
+			global::LibVLCSharp.Forms.Resource.Styleable.MenuItem_android_menuCategory = global::LocalNetwork.Droid.Resource.Styleable.MenuItem_android_menuCategory;
+			global::LibVLCSharp.Forms.Resource.Styleable.MenuItem_android_numericShortcut = global::LocalNetwork.Droid.Resource.Styleable.MenuItem_android_numericShortcut;
+			global::LibVLCSharp.Forms.Resource.Styleable.MenuItem_android_onClick = global::LocalNetwork.Droid.Resource.Styleable.MenuItem_android_onClick;
+			global::LibVLCSharp.Forms.Resource.Styleable.MenuItem_android_orderInCategory = global::LocalNetwork.Droid.Resource.Styleable.MenuItem_android_orderInCategory;
+			global::LibVLCSharp.Forms.Resource.Styleable.MenuItem_android_title = global::LocalNetwork.Droid.Resource.Styleable.MenuItem_android_title;
+			global::LibVLCSharp.Forms.Resource.Styleable.MenuItem_android_titleCondensed = global::LocalNetwork.Droid.Resource.Styleable.MenuItem_android_titleCondensed;
+			global::LibVLCSharp.Forms.Resource.Styleable.MenuItem_android_visible = global::LocalNetwork.Droid.Resource.Styleable.MenuItem_android_visible;
+			global::LibVLCSharp.Forms.Resource.Styleable.MenuItem_contentDescription = global::LocalNetwork.Droid.Resource.Styleable.MenuItem_contentDescription;
+			global::LibVLCSharp.Forms.Resource.Styleable.MenuItem_iconTint = global::LocalNetwork.Droid.Resource.Styleable.MenuItem_iconTint;
+			global::LibVLCSharp.Forms.Resource.Styleable.MenuItem_iconTintMode = global::LocalNetwork.Droid.Resource.Styleable.MenuItem_iconTintMode;
+			global::LibVLCSharp.Forms.Resource.Styleable.MenuItem_numericModifiers = global::LocalNetwork.Droid.Resource.Styleable.MenuItem_numericModifiers;
+			global::LibVLCSharp.Forms.Resource.Styleable.MenuItem_showAsAction = global::LocalNetwork.Droid.Resource.Styleable.MenuItem_showAsAction;
+			global::LibVLCSharp.Forms.Resource.Styleable.MenuItem_tooltipText = global::LocalNetwork.Droid.Resource.Styleable.MenuItem_tooltipText;
+			global::LibVLCSharp.Forms.Resource.Styleable.MenuView = global::LocalNetwork.Droid.Resource.Styleable.MenuView;
+			global::LibVLCSharp.Forms.Resource.Styleable.MenuView_android_headerBackground = global::LocalNetwork.Droid.Resource.Styleable.MenuView_android_headerBackground;
+			global::LibVLCSharp.Forms.Resource.Styleable.MenuView_android_horizontalDivider = global::LocalNetwork.Droid.Resource.Styleable.MenuView_android_horizontalDivider;
+			global::LibVLCSharp.Forms.Resource.Styleable.MenuView_android_itemBackground = global::LocalNetwork.Droid.Resource.Styleable.MenuView_android_itemBackground;
+			global::LibVLCSharp.Forms.Resource.Styleable.MenuView_android_itemIconDisabledAlpha = global::LocalNetwork.Droid.Resource.Styleable.MenuView_android_itemIconDisabledAlpha;
+			global::LibVLCSharp.Forms.Resource.Styleable.MenuView_android_itemTextAppearance = global::LocalNetwork.Droid.Resource.Styleable.MenuView_android_itemTextAppearance;
+			global::LibVLCSharp.Forms.Resource.Styleable.MenuView_android_verticalDivider = global::LocalNetwork.Droid.Resource.Styleable.MenuView_android_verticalDivider;
+			global::LibVLCSharp.Forms.Resource.Styleable.MenuView_android_windowAnimationStyle = global::LocalNetwork.Droid.Resource.Styleable.MenuView_android_windowAnimationStyle;
+			global::LibVLCSharp.Forms.Resource.Styleable.MenuView_preserveIconSpacing = global::LocalNetwork.Droid.Resource.Styleable.MenuView_preserveIconSpacing;
+			global::LibVLCSharp.Forms.Resource.Styleable.MenuView_subMenuArrow = global::LocalNetwork.Droid.Resource.Styleable.MenuView_subMenuArrow;
+			global::LibVLCSharp.Forms.Resource.Styleable.NavigationView = global::LocalNetwork.Droid.Resource.Styleable.NavigationView;
+			global::LibVLCSharp.Forms.Resource.Styleable.NavigationView_android_background = global::LocalNetwork.Droid.Resource.Styleable.NavigationView_android_background;
+			global::LibVLCSharp.Forms.Resource.Styleable.NavigationView_android_fitsSystemWindows = global::LocalNetwork.Droid.Resource.Styleable.NavigationView_android_fitsSystemWindows;
+			global::LibVLCSharp.Forms.Resource.Styleable.NavigationView_android_maxWidth = global::LocalNetwork.Droid.Resource.Styleable.NavigationView_android_maxWidth;
+			global::LibVLCSharp.Forms.Resource.Styleable.NavigationView_elevation = global::LocalNetwork.Droid.Resource.Styleable.NavigationView_elevation;
+			global::LibVLCSharp.Forms.Resource.Styleable.NavigationView_headerLayout = global::LocalNetwork.Droid.Resource.Styleable.NavigationView_headerLayout;
+			global::LibVLCSharp.Forms.Resource.Styleable.NavigationView_itemBackground = global::LocalNetwork.Droid.Resource.Styleable.NavigationView_itemBackground;
+			global::LibVLCSharp.Forms.Resource.Styleable.NavigationView_itemIconTint = global::LocalNetwork.Droid.Resource.Styleable.NavigationView_itemIconTint;
+			global::LibVLCSharp.Forms.Resource.Styleable.NavigationView_itemTextAppearance = global::LocalNetwork.Droid.Resource.Styleable.NavigationView_itemTextAppearance;
+			global::LibVLCSharp.Forms.Resource.Styleable.NavigationView_itemTextColor = global::LocalNetwork.Droid.Resource.Styleable.NavigationView_itemTextColor;
+			global::LibVLCSharp.Forms.Resource.Styleable.NavigationView_menu = global::LocalNetwork.Droid.Resource.Styleable.NavigationView_menu;
+			global::LibVLCSharp.Forms.Resource.Styleable.PopupWindow = global::LocalNetwork.Droid.Resource.Styleable.PopupWindow;
+			global::LibVLCSharp.Forms.Resource.Styleable.PopupWindowBackgroundState = global::LocalNetwork.Droid.Resource.Styleable.PopupWindowBackgroundState;
+			global::LibVLCSharp.Forms.Resource.Styleable.PopupWindowBackgroundState_state_above_anchor = global::LocalNetwork.Droid.Resource.Styleable.PopupWindowBackgroundState_state_above_anchor;
+			global::LibVLCSharp.Forms.Resource.Styleable.PopupWindow_android_popupAnimationStyle = global::LocalNetwork.Droid.Resource.Styleable.PopupWindow_android_popupAnimationStyle;
+			global::LibVLCSharp.Forms.Resource.Styleable.PopupWindow_android_popupBackground = global::LocalNetwork.Droid.Resource.Styleable.PopupWindow_android_popupBackground;
+			global::LibVLCSharp.Forms.Resource.Styleable.PopupWindow_overlapAnchor = global::LocalNetwork.Droid.Resource.Styleable.PopupWindow_overlapAnchor;
+			global::LibVLCSharp.Forms.Resource.Styleable.RecycleListView = global::LocalNetwork.Droid.Resource.Styleable.RecycleListView;
+			global::LibVLCSharp.Forms.Resource.Styleable.RecycleListView_paddingBottomNoButtons = global::LocalNetwork.Droid.Resource.Styleable.RecycleListView_paddingBottomNoButtons;
+			global::LibVLCSharp.Forms.Resource.Styleable.RecycleListView_paddingTopNoTitle = global::LocalNetwork.Droid.Resource.Styleable.RecycleListView_paddingTopNoTitle;
+			global::LibVLCSharp.Forms.Resource.Styleable.RecyclerView = global::LocalNetwork.Droid.Resource.Styleable.RecyclerView;
+			global::LibVLCSharp.Forms.Resource.Styleable.RecyclerView_android_descendantFocusability = global::LocalNetwork.Droid.Resource.Styleable.RecyclerView_android_descendantFocusability;
+			global::LibVLCSharp.Forms.Resource.Styleable.RecyclerView_android_orientation = global::LocalNetwork.Droid.Resource.Styleable.RecyclerView_android_orientation;
+			global::LibVLCSharp.Forms.Resource.Styleable.RecyclerView_fastScrollEnabled = global::LocalNetwork.Droid.Resource.Styleable.RecyclerView_fastScrollEnabled;
+			global::LibVLCSharp.Forms.Resource.Styleable.RecyclerView_fastScrollHorizontalThumbDrawable = global::LocalNetwork.Droid.Resource.Styleable.RecyclerView_fastScrollHorizontalThumbDrawable;
+			global::LibVLCSharp.Forms.Resource.Styleable.RecyclerView_fastScrollHorizontalTrackDrawable = global::LocalNetwork.Droid.Resource.Styleable.RecyclerView_fastScrollHorizontalTrackDrawable;
+			global::LibVLCSharp.Forms.Resource.Styleable.RecyclerView_fastScrollVerticalThumbDrawable = global::LocalNetwork.Droid.Resource.Styleable.RecyclerView_fastScrollVerticalThumbDrawable;
+			global::LibVLCSharp.Forms.Resource.Styleable.RecyclerView_fastScrollVerticalTrackDrawable = global::LocalNetwork.Droid.Resource.Styleable.RecyclerView_fastScrollVerticalTrackDrawable;
+			global::LibVLCSharp.Forms.Resource.Styleable.RecyclerView_layoutManager = global::LocalNetwork.Droid.Resource.Styleable.RecyclerView_layoutManager;
+			global::LibVLCSharp.Forms.Resource.Styleable.RecyclerView_reverseLayout = global::LocalNetwork.Droid.Resource.Styleable.RecyclerView_reverseLayout;
+			global::LibVLCSharp.Forms.Resource.Styleable.RecyclerView_spanCount = global::LocalNetwork.Droid.Resource.Styleable.RecyclerView_spanCount;
+			global::LibVLCSharp.Forms.Resource.Styleable.RecyclerView_stackFromEnd = global::LocalNetwork.Droid.Resource.Styleable.RecyclerView_stackFromEnd;
+			global::LibVLCSharp.Forms.Resource.Styleable.ScrimInsetsFrameLayout = global::LocalNetwork.Droid.Resource.Styleable.ScrimInsetsFrameLayout;
+			global::LibVLCSharp.Forms.Resource.Styleable.ScrimInsetsFrameLayout_insetForeground = global::LocalNetwork.Droid.Resource.Styleable.ScrimInsetsFrameLayout_insetForeground;
+			global::LibVLCSharp.Forms.Resource.Styleable.ScrollingViewBehavior_Layout = global::LocalNetwork.Droid.Resource.Styleable.ScrollingViewBehavior_Layout;
+			global::LibVLCSharp.Forms.Resource.Styleable.ScrollingViewBehavior_Layout_behavior_overlapTop = global::LocalNetwork.Droid.Resource.Styleable.ScrollingViewBehavior_Layout_behavior_overlapTop;
+			global::LibVLCSharp.Forms.Resource.Styleable.SearchView = global::LocalNetwork.Droid.Resource.Styleable.SearchView;
+			global::LibVLCSharp.Forms.Resource.Styleable.SearchView_android_focusable = global::LocalNetwork.Droid.Resource.Styleable.SearchView_android_focusable;
+			global::LibVLCSharp.Forms.Resource.Styleable.SearchView_android_imeOptions = global::LocalNetwork.Droid.Resource.Styleable.SearchView_android_imeOptions;
+			global::LibVLCSharp.Forms.Resource.Styleable.SearchView_android_inputType = global::LocalNetwork.Droid.Resource.Styleable.SearchView_android_inputType;
+			global::LibVLCSharp.Forms.Resource.Styleable.SearchView_android_maxWidth = global::LocalNetwork.Droid.Resource.Styleable.SearchView_android_maxWidth;
+			global::LibVLCSharp.Forms.Resource.Styleable.SearchView_closeIcon = global::LocalNetwork.Droid.Resource.Styleable.SearchView_closeIcon;
+			global::LibVLCSharp.Forms.Resource.Styleable.SearchView_commitIcon = global::LocalNetwork.Droid.Resource.Styleable.SearchView_commitIcon;
+			global::LibVLCSharp.Forms.Resource.Styleable.SearchView_defaultQueryHint = global::LocalNetwork.Droid.Resource.Styleable.SearchView_defaultQueryHint;
+			global::LibVLCSharp.Forms.Resource.Styleable.SearchView_goIcon = global::LocalNetwork.Droid.Resource.Styleable.SearchView_goIcon;
+			global::LibVLCSharp.Forms.Resource.Styleable.SearchView_iconifiedByDefault = global::LocalNetwork.Droid.Resource.Styleable.SearchView_iconifiedByDefault;
+			global::LibVLCSharp.Forms.Resource.Styleable.SearchView_layout = global::LocalNetwork.Droid.Resource.Styleable.SearchView_layout;
+			global::LibVLCSharp.Forms.Resource.Styleable.SearchView_queryBackground = global::LocalNetwork.Droid.Resource.Styleable.SearchView_queryBackground;
+			global::LibVLCSharp.Forms.Resource.Styleable.SearchView_queryHint = global::LocalNetwork.Droid.Resource.Styleable.SearchView_queryHint;
+			global::LibVLCSharp.Forms.Resource.Styleable.SearchView_searchHintIcon = global::LocalNetwork.Droid.Resource.Styleable.SearchView_searchHintIcon;
+			global::LibVLCSharp.Forms.Resource.Styleable.SearchView_searchIcon = global::LocalNetwork.Droid.Resource.Styleable.SearchView_searchIcon;
+			global::LibVLCSharp.Forms.Resource.Styleable.SearchView_submitBackground = global::LocalNetwork.Droid.Resource.Styleable.SearchView_submitBackground;
+			global::LibVLCSharp.Forms.Resource.Styleable.SearchView_suggestionRowLayout = global::LocalNetwork.Droid.Resource.Styleable.SearchView_suggestionRowLayout;
+			global::LibVLCSharp.Forms.Resource.Styleable.SearchView_voiceIcon = global::LocalNetwork.Droid.Resource.Styleable.SearchView_voiceIcon;
+			global::LibVLCSharp.Forms.Resource.Styleable.SnackbarLayout = global::LocalNetwork.Droid.Resource.Styleable.SnackbarLayout;
+			global::LibVLCSharp.Forms.Resource.Styleable.SnackbarLayout_android_maxWidth = global::LocalNetwork.Droid.Resource.Styleable.SnackbarLayout_android_maxWidth;
+			global::LibVLCSharp.Forms.Resource.Styleable.SnackbarLayout_elevation = global::LocalNetwork.Droid.Resource.Styleable.SnackbarLayout_elevation;
+			global::LibVLCSharp.Forms.Resource.Styleable.SnackbarLayout_maxActionInlineWidth = global::LocalNetwork.Droid.Resource.Styleable.SnackbarLayout_maxActionInlineWidth;
+			global::LibVLCSharp.Forms.Resource.Styleable.Spinner = global::LocalNetwork.Droid.Resource.Styleable.Spinner;
+			global::LibVLCSharp.Forms.Resource.Styleable.Spinner_android_dropDownWidth = global::LocalNetwork.Droid.Resource.Styleable.Spinner_android_dropDownWidth;
+			global::LibVLCSharp.Forms.Resource.Styleable.Spinner_android_entries = global::LocalNetwork.Droid.Resource.Styleable.Spinner_android_entries;
+			global::LibVLCSharp.Forms.Resource.Styleable.Spinner_android_popupBackground = global::LocalNetwork.Droid.Resource.Styleable.Spinner_android_popupBackground;
+			global::LibVLCSharp.Forms.Resource.Styleable.Spinner_android_prompt = global::LocalNetwork.Droid.Resource.Styleable.Spinner_android_prompt;
+			global::LibVLCSharp.Forms.Resource.Styleable.Spinner_popupTheme = global::LocalNetwork.Droid.Resource.Styleable.Spinner_popupTheme;
+			global::LibVLCSharp.Forms.Resource.Styleable.SwitchCompat = global::LocalNetwork.Droid.Resource.Styleable.SwitchCompat;
+			global::LibVLCSharp.Forms.Resource.Styleable.SwitchCompat_android_textOff = global::LocalNetwork.Droid.Resource.Styleable.SwitchCompat_android_textOff;
+			global::LibVLCSharp.Forms.Resource.Styleable.SwitchCompat_android_textOn = global::LocalNetwork.Droid.Resource.Styleable.SwitchCompat_android_textOn;
+			global::LibVLCSharp.Forms.Resource.Styleable.SwitchCompat_android_thumb = global::LocalNetwork.Droid.Resource.Styleable.SwitchCompat_android_thumb;
+			global::LibVLCSharp.Forms.Resource.Styleable.SwitchCompat_showText = global::LocalNetwork.Droid.Resource.Styleable.SwitchCompat_showText;
+			global::LibVLCSharp.Forms.Resource.Styleable.SwitchCompat_splitTrack = global::LocalNetwork.Droid.Resource.Styleable.SwitchCompat_splitTrack;
+			global::LibVLCSharp.Forms.Resource.Styleable.SwitchCompat_switchMinWidth = global::LocalNetwork.Droid.Resource.Styleable.SwitchCompat_switchMinWidth;
+			global::LibVLCSharp.Forms.Resource.Styleable.SwitchCompat_switchPadding = global::LocalNetwork.Droid.Resource.Styleable.SwitchCompat_switchPadding;
+			global::LibVLCSharp.Forms.Resource.Styleable.SwitchCompat_switchTextAppearance = global::LocalNetwork.Droid.Resource.Styleable.SwitchCompat_switchTextAppearance;
+			global::LibVLCSharp.Forms.Resource.Styleable.SwitchCompat_thumbTextPadding = global::LocalNetwork.Droid.Resource.Styleable.SwitchCompat_thumbTextPadding;
+			global::LibVLCSharp.Forms.Resource.Styleable.SwitchCompat_thumbTint = global::LocalNetwork.Droid.Resource.Styleable.SwitchCompat_thumbTint;
+			global::LibVLCSharp.Forms.Resource.Styleable.SwitchCompat_thumbTintMode = global::LocalNetwork.Droid.Resource.Styleable.SwitchCompat_thumbTintMode;
+			global::LibVLCSharp.Forms.Resource.Styleable.SwitchCompat_track = global::LocalNetwork.Droid.Resource.Styleable.SwitchCompat_track;
+			global::LibVLCSharp.Forms.Resource.Styleable.SwitchCompat_trackTint = global::LocalNetwork.Droid.Resource.Styleable.SwitchCompat_trackTint;
+			global::LibVLCSharp.Forms.Resource.Styleable.SwitchCompat_trackTintMode = global::LocalNetwork.Droid.Resource.Styleable.SwitchCompat_trackTintMode;
+			global::LibVLCSharp.Forms.Resource.Styleable.TabItem = global::LocalNetwork.Droid.Resource.Styleable.TabItem;
+			global::LibVLCSharp.Forms.Resource.Styleable.TabItem_android_icon = global::LocalNetwork.Droid.Resource.Styleable.TabItem_android_icon;
+			global::LibVLCSharp.Forms.Resource.Styleable.TabItem_android_layout = global::LocalNetwork.Droid.Resource.Styleable.TabItem_android_layout;
+			global::LibVLCSharp.Forms.Resource.Styleable.TabItem_android_text = global::LocalNetwork.Droid.Resource.Styleable.TabItem_android_text;
+			global::LibVLCSharp.Forms.Resource.Styleable.TabLayout = global::LocalNetwork.Droid.Resource.Styleable.TabLayout;
+			global::LibVLCSharp.Forms.Resource.Styleable.TabLayout_tabBackground = global::LocalNetwork.Droid.Resource.Styleable.TabLayout_tabBackground;
+			global::LibVLCSharp.Forms.Resource.Styleable.TabLayout_tabContentStart = global::LocalNetwork.Droid.Resource.Styleable.TabLayout_tabContentStart;
+			global::LibVLCSharp.Forms.Resource.Styleable.TabLayout_tabGravity = global::LocalNetwork.Droid.Resource.Styleable.TabLayout_tabGravity;
+			global::LibVLCSharp.Forms.Resource.Styleable.TabLayout_tabIndicatorColor = global::LocalNetwork.Droid.Resource.Styleable.TabLayout_tabIndicatorColor;
+			global::LibVLCSharp.Forms.Resource.Styleable.TabLayout_tabIndicatorHeight = global::LocalNetwork.Droid.Resource.Styleable.TabLayout_tabIndicatorHeight;
+			global::LibVLCSharp.Forms.Resource.Styleable.TabLayout_tabMaxWidth = global::LocalNetwork.Droid.Resource.Styleable.TabLayout_tabMaxWidth;
+			global::LibVLCSharp.Forms.Resource.Styleable.TabLayout_tabMinWidth = global::LocalNetwork.Droid.Resource.Styleable.TabLayout_tabMinWidth;
+			global::LibVLCSharp.Forms.Resource.Styleable.TabLayout_tabMode = global::LocalNetwork.Droid.Resource.Styleable.TabLayout_tabMode;
+			global::LibVLCSharp.Forms.Resource.Styleable.TabLayout_tabPadding = global::LocalNetwork.Droid.Resource.Styleable.TabLayout_tabPadding;
+			global::LibVLCSharp.Forms.Resource.Styleable.TabLayout_tabPaddingBottom = global::LocalNetwork.Droid.Resource.Styleable.TabLayout_tabPaddingBottom;
+			global::LibVLCSharp.Forms.Resource.Styleable.TabLayout_tabPaddingEnd = global::LocalNetwork.Droid.Resource.Styleable.TabLayout_tabPaddingEnd;
+			global::LibVLCSharp.Forms.Resource.Styleable.TabLayout_tabPaddingStart = global::LocalNetwork.Droid.Resource.Styleable.TabLayout_tabPaddingStart;
+			global::LibVLCSharp.Forms.Resource.Styleable.TabLayout_tabPaddingTop = global::LocalNetwork.Droid.Resource.Styleable.TabLayout_tabPaddingTop;
+			global::LibVLCSharp.Forms.Resource.Styleable.TabLayout_tabSelectedTextColor = global::LocalNetwork.Droid.Resource.Styleable.TabLayout_tabSelectedTextColor;
+			global::LibVLCSharp.Forms.Resource.Styleable.TabLayout_tabTextAppearance = global::LocalNetwork.Droid.Resource.Styleable.TabLayout_tabTextAppearance;
+			global::LibVLCSharp.Forms.Resource.Styleable.TabLayout_tabTextColor = global::LocalNetwork.Droid.Resource.Styleable.TabLayout_tabTextColor;
+			global::LibVLCSharp.Forms.Resource.Styleable.TextAppearance = global::LocalNetwork.Droid.Resource.Styleable.TextAppearance;
+			global::LibVLCSharp.Forms.Resource.Styleable.TextAppearance_android_fontFamily = global::LocalNetwork.Droid.Resource.Styleable.TextAppearance_android_fontFamily;
+			global::LibVLCSharp.Forms.Resource.Styleable.TextAppearance_android_shadowColor = global::LocalNetwork.Droid.Resource.Styleable.TextAppearance_android_shadowColor;
+			global::LibVLCSharp.Forms.Resource.Styleable.TextAppearance_android_shadowDx = global::LocalNetwork.Droid.Resource.Styleable.TextAppearance_android_shadowDx;
+			global::LibVLCSharp.Forms.Resource.Styleable.TextAppearance_android_shadowDy = global::LocalNetwork.Droid.Resource.Styleable.TextAppearance_android_shadowDy;
+			global::LibVLCSharp.Forms.Resource.Styleable.TextAppearance_android_shadowRadius = global::LocalNetwork.Droid.Resource.Styleable.TextAppearance_android_shadowRadius;
+			global::LibVLCSharp.Forms.Resource.Styleable.TextAppearance_android_textColor = global::LocalNetwork.Droid.Resource.Styleable.TextAppearance_android_textColor;
+			global::LibVLCSharp.Forms.Resource.Styleable.TextAppearance_android_textColorHint = global::LocalNetwork.Droid.Resource.Styleable.TextAppearance_android_textColorHint;
+			global::LibVLCSharp.Forms.Resource.Styleable.TextAppearance_android_textColorLink = global::LocalNetwork.Droid.Resource.Styleable.TextAppearance_android_textColorLink;
+			global::LibVLCSharp.Forms.Resource.Styleable.TextAppearance_android_textSize = global::LocalNetwork.Droid.Resource.Styleable.TextAppearance_android_textSize;
+			global::LibVLCSharp.Forms.Resource.Styleable.TextAppearance_android_textStyle = global::LocalNetwork.Droid.Resource.Styleable.TextAppearance_android_textStyle;
+			global::LibVLCSharp.Forms.Resource.Styleable.TextAppearance_android_typeface = global::LocalNetwork.Droid.Resource.Styleable.TextAppearance_android_typeface;
+			global::LibVLCSharp.Forms.Resource.Styleable.TextAppearance_fontFamily = global::LocalNetwork.Droid.Resource.Styleable.TextAppearance_fontFamily;
+			global::LibVLCSharp.Forms.Resource.Styleable.TextAppearance_textAllCaps = global::LocalNetwork.Droid.Resource.Styleable.TextAppearance_textAllCaps;
+			global::LibVLCSharp.Forms.Resource.Styleable.TextInputLayout = global::LocalNetwork.Droid.Resource.Styleable.TextInputLayout;
+			global::LibVLCSharp.Forms.Resource.Styleable.TextInputLayout_android_hint = global::LocalNetwork.Droid.Resource.Styleable.TextInputLayout_android_hint;
+			global::LibVLCSharp.Forms.Resource.Styleable.TextInputLayout_android_textColorHint = global::LocalNetwork.Droid.Resource.Styleable.TextInputLayout_android_textColorHint;
+			global::LibVLCSharp.Forms.Resource.Styleable.TextInputLayout_counterEnabled = global::LocalNetwork.Droid.Resource.Styleable.TextInputLayout_counterEnabled;
+			global::LibVLCSharp.Forms.Resource.Styleable.TextInputLayout_counterMaxLength = global::LocalNetwork.Droid.Resource.Styleable.TextInputLayout_counterMaxLength;
+			global::LibVLCSharp.Forms.Resource.Styleable.TextInputLayout_counterOverflowTextAppearance = global::LocalNetwork.Droid.Resource.Styleable.TextInputLayout_counterOverflowTextAppearance;
+			global::LibVLCSharp.Forms.Resource.Styleable.TextInputLayout_counterTextAppearance = global::LocalNetwork.Droid.Resource.Styleable.TextInputLayout_counterTextAppearance;
+			global::LibVLCSharp.Forms.Resource.Styleable.TextInputLayout_errorEnabled = global::LocalNetwork.Droid.Resource.Styleable.TextInputLayout_errorEnabled;
+			global::LibVLCSharp.Forms.Resource.Styleable.TextInputLayout_errorTextAppearance = global::LocalNetwork.Droid.Resource.Styleable.TextInputLayout_errorTextAppearance;
+			global::LibVLCSharp.Forms.Resource.Styleable.TextInputLayout_hintAnimationEnabled = global::LocalNetwork.Droid.Resource.Styleable.TextInputLayout_hintAnimationEnabled;
+			global::LibVLCSharp.Forms.Resource.Styleable.TextInputLayout_hintEnabled = global::LocalNetwork.Droid.Resource.Styleable.TextInputLayout_hintEnabled;
+			global::LibVLCSharp.Forms.Resource.Styleable.TextInputLayout_hintTextAppearance = global::LocalNetwork.Droid.Resource.Styleable.TextInputLayout_hintTextAppearance;
+			global::LibVLCSharp.Forms.Resource.Styleable.TextInputLayout_passwordToggleContentDescription = global::LocalNetwork.Droid.Resource.Styleable.TextInputLayout_passwordToggleContentDescription;
+			global::LibVLCSharp.Forms.Resource.Styleable.TextInputLayout_passwordToggleDrawable = global::LocalNetwork.Droid.Resource.Styleable.TextInputLayout_passwordToggleDrawable;
+			global::LibVLCSharp.Forms.Resource.Styleable.TextInputLayout_passwordToggleEnabled = global::LocalNetwork.Droid.Resource.Styleable.TextInputLayout_passwordToggleEnabled;
+			global::LibVLCSharp.Forms.Resource.Styleable.TextInputLayout_passwordToggleTint = global::LocalNetwork.Droid.Resource.Styleable.TextInputLayout_passwordToggleTint;
+			global::LibVLCSharp.Forms.Resource.Styleable.TextInputLayout_passwordToggleTintMode = global::LocalNetwork.Droid.Resource.Styleable.TextInputLayout_passwordToggleTintMode;
+			global::LibVLCSharp.Forms.Resource.Styleable.Toolbar = global::LocalNetwork.Droid.Resource.Styleable.Toolbar;
+			global::LibVLCSharp.Forms.Resource.Styleable.Toolbar_android_gravity = global::LocalNetwork.Droid.Resource.Styleable.Toolbar_android_gravity;
+			global::LibVLCSharp.Forms.Resource.Styleable.Toolbar_android_minHeight = global::LocalNetwork.Droid.Resource.Styleable.Toolbar_android_minHeight;
+			global::LibVLCSharp.Forms.Resource.Styleable.Toolbar_buttonGravity = global::LocalNetwork.Droid.Resource.Styleable.Toolbar_buttonGravity;
+			global::LibVLCSharp.Forms.Resource.Styleable.Toolbar_collapseContentDescription = global::LocalNetwork.Droid.Resource.Styleable.Toolbar_collapseContentDescription;
+			global::LibVLCSharp.Forms.Resource.Styleable.Toolbar_collapseIcon = global::LocalNetwork.Droid.Resource.Styleable.Toolbar_collapseIcon;
+			global::LibVLCSharp.Forms.Resource.Styleable.Toolbar_contentInsetEnd = global::LocalNetwork.Droid.Resource.Styleable.Toolbar_contentInsetEnd;
+			global::LibVLCSharp.Forms.Resource.Styleable.Toolbar_contentInsetEndWithActions = global::LocalNetwork.Droid.Resource.Styleable.Toolbar_contentInsetEndWithActions;
+			global::LibVLCSharp.Forms.Resource.Styleable.Toolbar_contentInsetLeft = global::LocalNetwork.Droid.Resource.Styleable.Toolbar_contentInsetLeft;
+			global::LibVLCSharp.Forms.Resource.Styleable.Toolbar_contentInsetRight = global::LocalNetwork.Droid.Resource.Styleable.Toolbar_contentInsetRight;
+			global::LibVLCSharp.Forms.Resource.Styleable.Toolbar_contentInsetStart = global::LocalNetwork.Droid.Resource.Styleable.Toolbar_contentInsetStart;
+			global::LibVLCSharp.Forms.Resource.Styleable.Toolbar_contentInsetStartWithNavigation = global::LocalNetwork.Droid.Resource.Styleable.Toolbar_contentInsetStartWithNavigation;
+			global::LibVLCSharp.Forms.Resource.Styleable.Toolbar_logo = global::LocalNetwork.Droid.Resource.Styleable.Toolbar_logo;
+			global::LibVLCSharp.Forms.Resource.Styleable.Toolbar_logoDescription = global::LocalNetwork.Droid.Resource.Styleable.Toolbar_logoDescription;
+			global::LibVLCSharp.Forms.Resource.Styleable.Toolbar_maxButtonHeight = global::LocalNetwork.Droid.Resource.Styleable.Toolbar_maxButtonHeight;
+			global::LibVLCSharp.Forms.Resource.Styleable.Toolbar_navigationContentDescription = global::LocalNetwork.Droid.Resource.Styleable.Toolbar_navigationContentDescription;
+			global::LibVLCSharp.Forms.Resource.Styleable.Toolbar_navigationIcon = global::LocalNetwork.Droid.Resource.Styleable.Toolbar_navigationIcon;
+			global::LibVLCSharp.Forms.Resource.Styleable.Toolbar_popupTheme = global::LocalNetwork.Droid.Resource.Styleable.Toolbar_popupTheme;
+			global::LibVLCSharp.Forms.Resource.Styleable.Toolbar_subtitle = global::LocalNetwork.Droid.Resource.Styleable.Toolbar_subtitle;
+			global::LibVLCSharp.Forms.Resource.Styleable.Toolbar_subtitleTextAppearance = global::LocalNetwork.Droid.Resource.Styleable.Toolbar_subtitleTextAppearance;
+			global::LibVLCSharp.Forms.Resource.Styleable.Toolbar_subtitleTextColor = global::LocalNetwork.Droid.Resource.Styleable.Toolbar_subtitleTextColor;
+			global::LibVLCSharp.Forms.Resource.Styleable.Toolbar_title = global::LocalNetwork.Droid.Resource.Styleable.Toolbar_title;
+			global::LibVLCSharp.Forms.Resource.Styleable.Toolbar_titleMargin = global::LocalNetwork.Droid.Resource.Styleable.Toolbar_titleMargin;
+			global::LibVLCSharp.Forms.Resource.Styleable.Toolbar_titleMarginBottom = global::LocalNetwork.Droid.Resource.Styleable.Toolbar_titleMarginBottom;
+			global::LibVLCSharp.Forms.Resource.Styleable.Toolbar_titleMarginEnd = global::LocalNetwork.Droid.Resource.Styleable.Toolbar_titleMarginEnd;
+			global::LibVLCSharp.Forms.Resource.Styleable.Toolbar_titleMargins = global::LocalNetwork.Droid.Resource.Styleable.Toolbar_titleMargins;
+			global::LibVLCSharp.Forms.Resource.Styleable.Toolbar_titleMarginStart = global::LocalNetwork.Droid.Resource.Styleable.Toolbar_titleMarginStart;
+			global::LibVLCSharp.Forms.Resource.Styleable.Toolbar_titleMarginTop = global::LocalNetwork.Droid.Resource.Styleable.Toolbar_titleMarginTop;
+			global::LibVLCSharp.Forms.Resource.Styleable.Toolbar_titleTextAppearance = global::LocalNetwork.Droid.Resource.Styleable.Toolbar_titleTextAppearance;
+			global::LibVLCSharp.Forms.Resource.Styleable.Toolbar_titleTextColor = global::LocalNetwork.Droid.Resource.Styleable.Toolbar_titleTextColor;
+			global::LibVLCSharp.Forms.Resource.Styleable.View = global::LocalNetwork.Droid.Resource.Styleable.View;
+			global::LibVLCSharp.Forms.Resource.Styleable.ViewBackgroundHelper = global::LocalNetwork.Droid.Resource.Styleable.ViewBackgroundHelper;
+			global::LibVLCSharp.Forms.Resource.Styleable.ViewBackgroundHelper_android_background = global::LocalNetwork.Droid.Resource.Styleable.ViewBackgroundHelper_android_background;
+			global::LibVLCSharp.Forms.Resource.Styleable.ViewBackgroundHelper_backgroundTint = global::LocalNetwork.Droid.Resource.Styleable.ViewBackgroundHelper_backgroundTint;
+			global::LibVLCSharp.Forms.Resource.Styleable.ViewBackgroundHelper_backgroundTintMode = global::LocalNetwork.Droid.Resource.Styleable.ViewBackgroundHelper_backgroundTintMode;
+			global::LibVLCSharp.Forms.Resource.Styleable.ViewStubCompat = global::LocalNetwork.Droid.Resource.Styleable.ViewStubCompat;
+			global::LibVLCSharp.Forms.Resource.Styleable.ViewStubCompat_android_id = global::LocalNetwork.Droid.Resource.Styleable.ViewStubCompat_android_id;
+			global::LibVLCSharp.Forms.Resource.Styleable.ViewStubCompat_android_inflatedId = global::LocalNetwork.Droid.Resource.Styleable.ViewStubCompat_android_inflatedId;
+			global::LibVLCSharp.Forms.Resource.Styleable.ViewStubCompat_android_layout = global::LocalNetwork.Droid.Resource.Styleable.ViewStubCompat_android_layout;
+			global::LibVLCSharp.Forms.Resource.Styleable.View_android_focusable = global::LocalNetwork.Droid.Resource.Styleable.View_android_focusable;
+			global::LibVLCSharp.Forms.Resource.Styleable.View_android_theme = global::LocalNetwork.Droid.Resource.Styleable.View_android_theme;
+			global::LibVLCSharp.Forms.Resource.Styleable.View_paddingEnd = global::LocalNetwork.Droid.Resource.Styleable.View_paddingEnd;
+			global::LibVLCSharp.Forms.Resource.Styleable.View_paddingStart = global::LocalNetwork.Droid.Resource.Styleable.View_paddingStart;
+			global::LibVLCSharp.Forms.Resource.Styleable.View_theme = global::LocalNetwork.Droid.Resource.Styleable.View_theme;
 			global::Xamarin.Forms.Platform.Android.Resource.Animation.abc_fade_in = global::LocalNetwork.Droid.Resource.Animation.abc_fade_in;
 			global::Xamarin.Forms.Platform.Android.Resource.Animation.abc_fade_out = global::LocalNetwork.Droid.Resource.Animation.abc_fade_out;
 			global::Xamarin.Forms.Platform.Android.Resource.Animation.abc_grow_fade_in_from_bottom = global::LocalNetwork.Droid.Resource.Animation.abc_grow_fade_in_from_bottom;
@@ -1249,6 +3509,7 @@ namespace LocalNetwork.Droid
 			global::Xamarin.Forms.Platform.Android.Resource.Style.CardView = global::LocalNetwork.Droid.Resource.Style.CardView;
 			global::Xamarin.Forms.Platform.Android.Resource.Style.CardView_Dark = global::LocalNetwork.Droid.Resource.Style.CardView_Dark;
 			global::Xamarin.Forms.Platform.Android.Resource.Style.CardView_Light = global::LocalNetwork.Droid.Resource.Style.CardView_Light;
+			global::Xamarin.Forms.Platform.Android.Resource.Style.NestedScrollBarStyle = global::LocalNetwork.Droid.Resource.Style.NestedScrollBarStyle;
 			global::Xamarin.Forms.Platform.Android.Resource.Style.Platform_AppCompat = global::LocalNetwork.Droid.Resource.Style.Platform_AppCompat;
 			global::Xamarin.Forms.Platform.Android.Resource.Style.Platform_AppCompat_Light = global::LocalNetwork.Droid.Resource.Style.Platform_AppCompat_Light;
 			global::Xamarin.Forms.Platform.Android.Resource.Style.Platform_ThemeOverlay_AppCompat = global::LocalNetwork.Droid.Resource.Style.Platform_ThemeOverlay_AppCompat;
@@ -6206,1211 +8467,1214 @@ namespace LocalNetwork.Droid
 		public partial class Style
 		{
 			
-			// aapt resource value: 0x7f0800a5
-			public const int AlertDialog_AppCompat = 2131230885;
-			
 			// aapt resource value: 0x7f0800a6
-			public const int AlertDialog_AppCompat_Light = 2131230886;
+			public const int AlertDialog_AppCompat = 2131230886;
 			
 			// aapt resource value: 0x7f0800a7
-			public const int Animation_AppCompat_Dialog = 2131230887;
+			public const int AlertDialog_AppCompat_Light = 2131230887;
 			
 			// aapt resource value: 0x7f0800a8
-			public const int Animation_AppCompat_DropDownUp = 2131230888;
+			public const int Animation_AppCompat_Dialog = 2131230888;
 			
 			// aapt resource value: 0x7f0800a9
-			public const int Animation_AppCompat_Tooltip = 2131230889;
-			
-			// aapt resource value: 0x7f08016f
-			public const int Animation_Design_BottomSheetDialog = 2131231087;
-			
-			// aapt resource value: 0x7f080192
-			public const int AppCompatDialogStyle = 2131231122;
+			public const int Animation_AppCompat_DropDownUp = 2131230889;
 			
 			// aapt resource value: 0x7f0800aa
-			public const int Base_AlertDialog_AppCompat = 2131230890;
-			
-			// aapt resource value: 0x7f0800ab
-			public const int Base_AlertDialog_AppCompat_Light = 2131230891;
-			
-			// aapt resource value: 0x7f0800ac
-			public const int Base_Animation_AppCompat_Dialog = 2131230892;
-			
-			// aapt resource value: 0x7f0800ad
-			public const int Base_Animation_AppCompat_DropDownUp = 2131230893;
-			
-			// aapt resource value: 0x7f0800ae
-			public const int Base_Animation_AppCompat_Tooltip = 2131230894;
-			
-			// aapt resource value: 0x7f08000d
-			public const int Base_CardView = 2131230733;
-			
-			// aapt resource value: 0x7f0800af
-			public const int Base_DialogWindowTitle_AppCompat = 2131230895;
-			
-			// aapt resource value: 0x7f0800b0
-			public const int Base_DialogWindowTitleBackground_AppCompat = 2131230896;
-			
-			// aapt resource value: 0x7f080049
-			public const int Base_TextAppearance_AppCompat = 2131230793;
-			
-			// aapt resource value: 0x7f08004a
-			public const int Base_TextAppearance_AppCompat_Body1 = 2131230794;
-			
-			// aapt resource value: 0x7f08004b
-			public const int Base_TextAppearance_AppCompat_Body2 = 2131230795;
-			
-			// aapt resource value: 0x7f080037
-			public const int Base_TextAppearance_AppCompat_Button = 2131230775;
-			
-			// aapt resource value: 0x7f08004c
-			public const int Base_TextAppearance_AppCompat_Caption = 2131230796;
-			
-			// aapt resource value: 0x7f08004d
-			public const int Base_TextAppearance_AppCompat_Display1 = 2131230797;
-			
-			// aapt resource value: 0x7f08004e
-			public const int Base_TextAppearance_AppCompat_Display2 = 2131230798;
-			
-			// aapt resource value: 0x7f08004f
-			public const int Base_TextAppearance_AppCompat_Display3 = 2131230799;
-			
-			// aapt resource value: 0x7f080050
-			public const int Base_TextAppearance_AppCompat_Display4 = 2131230800;
-			
-			// aapt resource value: 0x7f080051
-			public const int Base_TextAppearance_AppCompat_Headline = 2131230801;
-			
-			// aapt resource value: 0x7f08001b
-			public const int Base_TextAppearance_AppCompat_Inverse = 2131230747;
-			
-			// aapt resource value: 0x7f080052
-			public const int Base_TextAppearance_AppCompat_Large = 2131230802;
-			
-			// aapt resource value: 0x7f08001c
-			public const int Base_TextAppearance_AppCompat_Large_Inverse = 2131230748;
-			
-			// aapt resource value: 0x7f080053
-			public const int Base_TextAppearance_AppCompat_Light_Widget_PopupMenu_Large = 2131230803;
-			
-			// aapt resource value: 0x7f080054
-			public const int Base_TextAppearance_AppCompat_Light_Widget_PopupMenu_Small = 2131230804;
-			
-			// aapt resource value: 0x7f080055
-			public const int Base_TextAppearance_AppCompat_Medium = 2131230805;
-			
-			// aapt resource value: 0x7f08001d
-			public const int Base_TextAppearance_AppCompat_Medium_Inverse = 2131230749;
-			
-			// aapt resource value: 0x7f080056
-			public const int Base_TextAppearance_AppCompat_Menu = 2131230806;
-			
-			// aapt resource value: 0x7f0800b1
-			public const int Base_TextAppearance_AppCompat_SearchResult = 2131230897;
-			
-			// aapt resource value: 0x7f080057
-			public const int Base_TextAppearance_AppCompat_SearchResult_Subtitle = 2131230807;
-			
-			// aapt resource value: 0x7f080058
-			public const int Base_TextAppearance_AppCompat_SearchResult_Title = 2131230808;
-			
-			// aapt resource value: 0x7f080059
-			public const int Base_TextAppearance_AppCompat_Small = 2131230809;
-			
-			// aapt resource value: 0x7f08001e
-			public const int Base_TextAppearance_AppCompat_Small_Inverse = 2131230750;
-			
-			// aapt resource value: 0x7f08005a
-			public const int Base_TextAppearance_AppCompat_Subhead = 2131230810;
-			
-			// aapt resource value: 0x7f08001f
-			public const int Base_TextAppearance_AppCompat_Subhead_Inverse = 2131230751;
-			
-			// aapt resource value: 0x7f08005b
-			public const int Base_TextAppearance_AppCompat_Title = 2131230811;
-			
-			// aapt resource value: 0x7f080020
-			public const int Base_TextAppearance_AppCompat_Title_Inverse = 2131230752;
-			
-			// aapt resource value: 0x7f0800b2
-			public const int Base_TextAppearance_AppCompat_Tooltip = 2131230898;
-			
-			// aapt resource value: 0x7f080096
-			public const int Base_TextAppearance_AppCompat_Widget_ActionBar_Menu = 2131230870;
-			
-			// aapt resource value: 0x7f08005c
-			public const int Base_TextAppearance_AppCompat_Widget_ActionBar_Subtitle = 2131230812;
-			
-			// aapt resource value: 0x7f08005d
-			public const int Base_TextAppearance_AppCompat_Widget_ActionBar_Subtitle_Inverse = 2131230813;
-			
-			// aapt resource value: 0x7f08005e
-			public const int Base_TextAppearance_AppCompat_Widget_ActionBar_Title = 2131230814;
-			
-			// aapt resource value: 0x7f08005f
-			public const int Base_TextAppearance_AppCompat_Widget_ActionBar_Title_Inverse = 2131230815;
-			
-			// aapt resource value: 0x7f080060
-			public const int Base_TextAppearance_AppCompat_Widget_ActionMode_Subtitle = 2131230816;
-			
-			// aapt resource value: 0x7f080061
-			public const int Base_TextAppearance_AppCompat_Widget_ActionMode_Title = 2131230817;
-			
-			// aapt resource value: 0x7f080062
-			public const int Base_TextAppearance_AppCompat_Widget_Button = 2131230818;
-			
-			// aapt resource value: 0x7f08009d
-			public const int Base_TextAppearance_AppCompat_Widget_Button_Borderless_Colored = 2131230877;
-			
-			// aapt resource value: 0x7f08009e
-			public const int Base_TextAppearance_AppCompat_Widget_Button_Colored = 2131230878;
-			
-			// aapt resource value: 0x7f080097
-			public const int Base_TextAppearance_AppCompat_Widget_Button_Inverse = 2131230871;
-			
-			// aapt resource value: 0x7f0800b3
-			public const int Base_TextAppearance_AppCompat_Widget_DropDownItem = 2131230899;
-			
-			// aapt resource value: 0x7f080063
-			public const int Base_TextAppearance_AppCompat_Widget_PopupMenu_Header = 2131230819;
-			
-			// aapt resource value: 0x7f080064
-			public const int Base_TextAppearance_AppCompat_Widget_PopupMenu_Large = 2131230820;
-			
-			// aapt resource value: 0x7f080065
-			public const int Base_TextAppearance_AppCompat_Widget_PopupMenu_Small = 2131230821;
-			
-			// aapt resource value: 0x7f080066
-			public const int Base_TextAppearance_AppCompat_Widget_Switch = 2131230822;
-			
-			// aapt resource value: 0x7f080067
-			public const int Base_TextAppearance_AppCompat_Widget_TextView_SpinnerItem = 2131230823;
-			
-			// aapt resource value: 0x7f0800b4
-			public const int Base_TextAppearance_Widget_AppCompat_ExpandedMenu_Item = 2131230900;
-			
-			// aapt resource value: 0x7f080068
-			public const int Base_TextAppearance_Widget_AppCompat_Toolbar_Subtitle = 2131230824;
-			
-			// aapt resource value: 0x7f080069
-			public const int Base_TextAppearance_Widget_AppCompat_Toolbar_Title = 2131230825;
-			
-			// aapt resource value: 0x7f08006a
-			public const int Base_Theme_AppCompat = 2131230826;
-			
-			// aapt resource value: 0x7f0800b5
-			public const int Base_Theme_AppCompat_CompactMenu = 2131230901;
-			
-			// aapt resource value: 0x7f080021
-			public const int Base_Theme_AppCompat_Dialog = 2131230753;
-			
-			// aapt resource value: 0x7f080022
-			public const int Base_Theme_AppCompat_Dialog_Alert = 2131230754;
-			
-			// aapt resource value: 0x7f0800b6
-			public const int Base_Theme_AppCompat_Dialog_FixedSize = 2131230902;
-			
-			// aapt resource value: 0x7f080023
-			public const int Base_Theme_AppCompat_Dialog_MinWidth = 2131230755;
-			
-			// aapt resource value: 0x7f080011
-			public const int Base_Theme_AppCompat_DialogWhenLarge = 2131230737;
-			
-			// aapt resource value: 0x7f08006b
-			public const int Base_Theme_AppCompat_Light = 2131230827;
-			
-			// aapt resource value: 0x7f0800b7
-			public const int Base_Theme_AppCompat_Light_DarkActionBar = 2131230903;
-			
-			// aapt resource value: 0x7f080024
-			public const int Base_Theme_AppCompat_Light_Dialog = 2131230756;
-			
-			// aapt resource value: 0x7f080025
-			public const int Base_Theme_AppCompat_Light_Dialog_Alert = 2131230757;
-			
-			// aapt resource value: 0x7f0800b8
-			public const int Base_Theme_AppCompat_Light_Dialog_FixedSize = 2131230904;
-			
-			// aapt resource value: 0x7f080026
-			public const int Base_Theme_AppCompat_Light_Dialog_MinWidth = 2131230758;
-			
-			// aapt resource value: 0x7f080012
-			public const int Base_Theme_AppCompat_Light_DialogWhenLarge = 2131230738;
-			
-			// aapt resource value: 0x7f0800b9
-			public const int Base_ThemeOverlay_AppCompat = 2131230905;
-			
-			// aapt resource value: 0x7f0800ba
-			public const int Base_ThemeOverlay_AppCompat_ActionBar = 2131230906;
-			
-			// aapt resource value: 0x7f0800bb
-			public const int Base_ThemeOverlay_AppCompat_Dark = 2131230907;
-			
-			// aapt resource value: 0x7f0800bc
-			public const int Base_ThemeOverlay_AppCompat_Dark_ActionBar = 2131230908;
-			
-			// aapt resource value: 0x7f080027
-			public const int Base_ThemeOverlay_AppCompat_Dialog = 2131230759;
-			
-			// aapt resource value: 0x7f080028
-			public const int Base_ThemeOverlay_AppCompat_Dialog_Alert = 2131230760;
-			
-			// aapt resource value: 0x7f0800bd
-			public const int Base_ThemeOverlay_AppCompat_Light = 2131230909;
-			
-			// aapt resource value: 0x7f080029
-			public const int Base_V11_Theme_AppCompat_Dialog = 2131230761;
-			
-			// aapt resource value: 0x7f08002a
-			public const int Base_V11_Theme_AppCompat_Light_Dialog = 2131230762;
-			
-			// aapt resource value: 0x7f08002b
-			public const int Base_V11_ThemeOverlay_AppCompat_Dialog = 2131230763;
-			
-			// aapt resource value: 0x7f080033
-			public const int Base_V12_Widget_AppCompat_AutoCompleteTextView = 2131230771;
-			
-			// aapt resource value: 0x7f080034
-			public const int Base_V12_Widget_AppCompat_EditText = 2131230772;
+			public const int Animation_AppCompat_Tooltip = 2131230890;
 			
 			// aapt resource value: 0x7f080170
-			public const int Base_V14_Widget_Design_AppBarLayout = 2131231088;
+			public const int Animation_Design_BottomSheetDialog = 2131231088;
 			
-			// aapt resource value: 0x7f08006c
-			public const int Base_V21_Theme_AppCompat = 2131230828;
+			// aapt resource value: 0x7f080193
+			public const int AppCompatDialogStyle = 2131231123;
 			
-			// aapt resource value: 0x7f08006d
-			public const int Base_V21_Theme_AppCompat_Dialog = 2131230829;
+			// aapt resource value: 0x7f0800ab
+			public const int Base_AlertDialog_AppCompat = 2131230891;
 			
-			// aapt resource value: 0x7f08006e
-			public const int Base_V21_Theme_AppCompat_Light = 2131230830;
+			// aapt resource value: 0x7f0800ac
+			public const int Base_AlertDialog_AppCompat_Light = 2131230892;
 			
-			// aapt resource value: 0x7f08006f
-			public const int Base_V21_Theme_AppCompat_Light_Dialog = 2131230831;
+			// aapt resource value: 0x7f0800ad
+			public const int Base_Animation_AppCompat_Dialog = 2131230893;
 			
-			// aapt resource value: 0x7f080070
-			public const int Base_V21_ThemeOverlay_AppCompat_Dialog = 2131230832;
+			// aapt resource value: 0x7f0800ae
+			public const int Base_Animation_AppCompat_DropDownUp = 2131230894;
 			
-			// aapt resource value: 0x7f08016c
-			public const int Base_V21_Widget_Design_AppBarLayout = 2131231084;
-			
-			// aapt resource value: 0x7f080094
-			public const int Base_V22_Theme_AppCompat = 2131230868;
-			
-			// aapt resource value: 0x7f080095
-			public const int Base_V22_Theme_AppCompat_Light = 2131230869;
-			
-			// aapt resource value: 0x7f080098
-			public const int Base_V23_Theme_AppCompat = 2131230872;
-			
-			// aapt resource value: 0x7f080099
-			public const int Base_V23_Theme_AppCompat_Light = 2131230873;
-			
-			// aapt resource value: 0x7f0800a1
-			public const int Base_V26_Theme_AppCompat = 2131230881;
-			
-			// aapt resource value: 0x7f0800a2
-			public const int Base_V26_Theme_AppCompat_Light = 2131230882;
-			
-			// aapt resource value: 0x7f0800a3
-			public const int Base_V26_Widget_AppCompat_Toolbar = 2131230883;
-			
-			// aapt resource value: 0x7f08016e
-			public const int Base_V26_Widget_Design_AppBarLayout = 2131231086;
-			
-			// aapt resource value: 0x7f0800be
-			public const int Base_V7_Theme_AppCompat = 2131230910;
-			
-			// aapt resource value: 0x7f0800bf
-			public const int Base_V7_Theme_AppCompat_Dialog = 2131230911;
-			
-			// aapt resource value: 0x7f0800c0
-			public const int Base_V7_Theme_AppCompat_Light = 2131230912;
-			
-			// aapt resource value: 0x7f0800c1
-			public const int Base_V7_Theme_AppCompat_Light_Dialog = 2131230913;
-			
-			// aapt resource value: 0x7f0800c2
-			public const int Base_V7_ThemeOverlay_AppCompat_Dialog = 2131230914;
-			
-			// aapt resource value: 0x7f0800c3
-			public const int Base_V7_Widget_AppCompat_AutoCompleteTextView = 2131230915;
-			
-			// aapt resource value: 0x7f0800c4
-			public const int Base_V7_Widget_AppCompat_EditText = 2131230916;
-			
-			// aapt resource value: 0x7f0800c5
-			public const int Base_V7_Widget_AppCompat_Toolbar = 2131230917;
-			
-			// aapt resource value: 0x7f0800c6
-			public const int Base_Widget_AppCompat_ActionBar = 2131230918;
-			
-			// aapt resource value: 0x7f0800c7
-			public const int Base_Widget_AppCompat_ActionBar_Solid = 2131230919;
-			
-			// aapt resource value: 0x7f0800c8
-			public const int Base_Widget_AppCompat_ActionBar_TabBar = 2131230920;
-			
-			// aapt resource value: 0x7f080071
-			public const int Base_Widget_AppCompat_ActionBar_TabText = 2131230833;
-			
-			// aapt resource value: 0x7f080072
-			public const int Base_Widget_AppCompat_ActionBar_TabView = 2131230834;
-			
-			// aapt resource value: 0x7f080073
-			public const int Base_Widget_AppCompat_ActionButton = 2131230835;
-			
-			// aapt resource value: 0x7f080074
-			public const int Base_Widget_AppCompat_ActionButton_CloseMode = 2131230836;
-			
-			// aapt resource value: 0x7f080075
-			public const int Base_Widget_AppCompat_ActionButton_Overflow = 2131230837;
-			
-			// aapt resource value: 0x7f0800c9
-			public const int Base_Widget_AppCompat_ActionMode = 2131230921;
-			
-			// aapt resource value: 0x7f0800ca
-			public const int Base_Widget_AppCompat_ActivityChooserView = 2131230922;
-			
-			// aapt resource value: 0x7f080035
-			public const int Base_Widget_AppCompat_AutoCompleteTextView = 2131230773;
-			
-			// aapt resource value: 0x7f080076
-			public const int Base_Widget_AppCompat_Button = 2131230838;
-			
-			// aapt resource value: 0x7f080077
-			public const int Base_Widget_AppCompat_Button_Borderless = 2131230839;
-			
-			// aapt resource value: 0x7f080078
-			public const int Base_Widget_AppCompat_Button_Borderless_Colored = 2131230840;
-			
-			// aapt resource value: 0x7f0800cb
-			public const int Base_Widget_AppCompat_Button_ButtonBar_AlertDialog = 2131230923;
-			
-			// aapt resource value: 0x7f08009a
-			public const int Base_Widget_AppCompat_Button_Colored = 2131230874;
-			
-			// aapt resource value: 0x7f080079
-			public const int Base_Widget_AppCompat_Button_Small = 2131230841;
-			
-			// aapt resource value: 0x7f08007a
-			public const int Base_Widget_AppCompat_ButtonBar = 2131230842;
-			
-			// aapt resource value: 0x7f0800cc
-			public const int Base_Widget_AppCompat_ButtonBar_AlertDialog = 2131230924;
-			
-			// aapt resource value: 0x7f08007b
-			public const int Base_Widget_AppCompat_CompoundButton_CheckBox = 2131230843;
-			
-			// aapt resource value: 0x7f08007c
-			public const int Base_Widget_AppCompat_CompoundButton_RadioButton = 2131230844;
-			
-			// aapt resource value: 0x7f0800cd
-			public const int Base_Widget_AppCompat_CompoundButton_Switch = 2131230925;
-			
-			// aapt resource value: 0x7f080010
-			public const int Base_Widget_AppCompat_DrawerArrowToggle = 2131230736;
-			
-			// aapt resource value: 0x7f0800ce
-			public const int Base_Widget_AppCompat_DrawerArrowToggle_Common = 2131230926;
-			
-			// aapt resource value: 0x7f08007d
-			public const int Base_Widget_AppCompat_DropDownItem_Spinner = 2131230845;
-			
-			// aapt resource value: 0x7f080036
-			public const int Base_Widget_AppCompat_EditText = 2131230774;
-			
-			// aapt resource value: 0x7f08007e
-			public const int Base_Widget_AppCompat_ImageButton = 2131230846;
-			
-			// aapt resource value: 0x7f0800cf
-			public const int Base_Widget_AppCompat_Light_ActionBar = 2131230927;
-			
-			// aapt resource value: 0x7f0800d0
-			public const int Base_Widget_AppCompat_Light_ActionBar_Solid = 2131230928;
-			
-			// aapt resource value: 0x7f0800d1
-			public const int Base_Widget_AppCompat_Light_ActionBar_TabBar = 2131230929;
-			
-			// aapt resource value: 0x7f08007f
-			public const int Base_Widget_AppCompat_Light_ActionBar_TabText = 2131230847;
-			
-			// aapt resource value: 0x7f080080
-			public const int Base_Widget_AppCompat_Light_ActionBar_TabText_Inverse = 2131230848;
-			
-			// aapt resource value: 0x7f080081
-			public const int Base_Widget_AppCompat_Light_ActionBar_TabView = 2131230849;
-			
-			// aapt resource value: 0x7f080082
-			public const int Base_Widget_AppCompat_Light_PopupMenu = 2131230850;
-			
-			// aapt resource value: 0x7f080083
-			public const int Base_Widget_AppCompat_Light_PopupMenu_Overflow = 2131230851;
-			
-			// aapt resource value: 0x7f0800d2
-			public const int Base_Widget_AppCompat_ListMenuView = 2131230930;
-			
-			// aapt resource value: 0x7f080084
-			public const int Base_Widget_AppCompat_ListPopupWindow = 2131230852;
-			
-			// aapt resource value: 0x7f080085
-			public const int Base_Widget_AppCompat_ListView = 2131230853;
-			
-			// aapt resource value: 0x7f080086
-			public const int Base_Widget_AppCompat_ListView_DropDown = 2131230854;
-			
-			// aapt resource value: 0x7f080087
-			public const int Base_Widget_AppCompat_ListView_Menu = 2131230855;
-			
-			// aapt resource value: 0x7f080088
-			public const int Base_Widget_AppCompat_PopupMenu = 2131230856;
-			
-			// aapt resource value: 0x7f080089
-			public const int Base_Widget_AppCompat_PopupMenu_Overflow = 2131230857;
-			
-			// aapt resource value: 0x7f0800d3
-			public const int Base_Widget_AppCompat_PopupWindow = 2131230931;
-			
-			// aapt resource value: 0x7f08002c
-			public const int Base_Widget_AppCompat_ProgressBar = 2131230764;
-			
-			// aapt resource value: 0x7f08002d
-			public const int Base_Widget_AppCompat_ProgressBar_Horizontal = 2131230765;
-			
-			// aapt resource value: 0x7f08008a
-			public const int Base_Widget_AppCompat_RatingBar = 2131230858;
-			
-			// aapt resource value: 0x7f08009b
-			public const int Base_Widget_AppCompat_RatingBar_Indicator = 2131230875;
-			
-			// aapt resource value: 0x7f08009c
-			public const int Base_Widget_AppCompat_RatingBar_Small = 2131230876;
-			
-			// aapt resource value: 0x7f0800d4
-			public const int Base_Widget_AppCompat_SearchView = 2131230932;
-			
-			// aapt resource value: 0x7f0800d5
-			public const int Base_Widget_AppCompat_SearchView_ActionBar = 2131230933;
-			
-			// aapt resource value: 0x7f08008b
-			public const int Base_Widget_AppCompat_SeekBar = 2131230859;
-			
-			// aapt resource value: 0x7f0800d6
-			public const int Base_Widget_AppCompat_SeekBar_Discrete = 2131230934;
-			
-			// aapt resource value: 0x7f08008c
-			public const int Base_Widget_AppCompat_Spinner = 2131230860;
-			
-			// aapt resource value: 0x7f080013
-			public const int Base_Widget_AppCompat_Spinner_Underlined = 2131230739;
-			
-			// aapt resource value: 0x7f08008d
-			public const int Base_Widget_AppCompat_TextView_SpinnerItem = 2131230861;
-			
-			// aapt resource value: 0x7f0800a4
-			public const int Base_Widget_AppCompat_Toolbar = 2131230884;
-			
-			// aapt resource value: 0x7f08008e
-			public const int Base_Widget_AppCompat_Toolbar_Button_Navigation = 2131230862;
-			
-			// aapt resource value: 0x7f08016d
-			public const int Base_Widget_Design_AppBarLayout = 2131231085;
-			
-			// aapt resource value: 0x7f080171
-			public const int Base_Widget_Design_TabLayout = 2131231089;
-			
-			// aapt resource value: 0x7f08000c
-			public const int CardView = 2131230732;
+			// aapt resource value: 0x7f0800af
+			public const int Base_Animation_AppCompat_Tooltip = 2131230895;
 			
 			// aapt resource value: 0x7f08000e
-			public const int CardView_Dark = 2131230734;
+			public const int Base_CardView = 2131230734;
 			
-			// aapt resource value: 0x7f08000f
-			public const int CardView_Light = 2131230735;
+			// aapt resource value: 0x7f0800b0
+			public const int Base_DialogWindowTitle_AppCompat = 2131230896;
 			
-			// aapt resource value: 0x7f080190
-			public const int MainTheme = 2131231120;
+			// aapt resource value: 0x7f0800b1
+			public const int Base_DialogWindowTitleBackground_AppCompat = 2131230897;
 			
-			// aapt resource value: 0x7f080191
-			public const int MainTheme_Base = 2131231121;
+			// aapt resource value: 0x7f08004a
+			public const int Base_TextAppearance_AppCompat = 2131230794;
 			
-			// aapt resource value: 0x7f08002e
-			public const int Platform_AppCompat = 2131230766;
+			// aapt resource value: 0x7f08004b
+			public const int Base_TextAppearance_AppCompat_Body1 = 2131230795;
 			
-			// aapt resource value: 0x7f08002f
-			public const int Platform_AppCompat_Light = 2131230767;
-			
-			// aapt resource value: 0x7f08008f
-			public const int Platform_ThemeOverlay_AppCompat = 2131230863;
-			
-			// aapt resource value: 0x7f080090
-			public const int Platform_ThemeOverlay_AppCompat_Dark = 2131230864;
-			
-			// aapt resource value: 0x7f080091
-			public const int Platform_ThemeOverlay_AppCompat_Light = 2131230865;
-			
-			// aapt resource value: 0x7f080030
-			public const int Platform_V11_AppCompat = 2131230768;
-			
-			// aapt resource value: 0x7f080031
-			public const int Platform_V11_AppCompat_Light = 2131230769;
+			// aapt resource value: 0x7f08004c
+			public const int Base_TextAppearance_AppCompat_Body2 = 2131230796;
 			
 			// aapt resource value: 0x7f080038
-			public const int Platform_V14_AppCompat = 2131230776;
+			public const int Base_TextAppearance_AppCompat_Button = 2131230776;
 			
-			// aapt resource value: 0x7f080039
-			public const int Platform_V14_AppCompat_Light = 2131230777;
+			// aapt resource value: 0x7f08004d
+			public const int Base_TextAppearance_AppCompat_Caption = 2131230797;
 			
-			// aapt resource value: 0x7f080092
-			public const int Platform_V21_AppCompat = 2131230866;
+			// aapt resource value: 0x7f08004e
+			public const int Base_TextAppearance_AppCompat_Display1 = 2131230798;
 			
-			// aapt resource value: 0x7f080093
-			public const int Platform_V21_AppCompat_Light = 2131230867;
+			// aapt resource value: 0x7f08004f
+			public const int Base_TextAppearance_AppCompat_Display2 = 2131230799;
+			
+			// aapt resource value: 0x7f080050
+			public const int Base_TextAppearance_AppCompat_Display3 = 2131230800;
+			
+			// aapt resource value: 0x7f080051
+			public const int Base_TextAppearance_AppCompat_Display4 = 2131230801;
+			
+			// aapt resource value: 0x7f080052
+			public const int Base_TextAppearance_AppCompat_Headline = 2131230802;
+			
+			// aapt resource value: 0x7f08001c
+			public const int Base_TextAppearance_AppCompat_Inverse = 2131230748;
+			
+			// aapt resource value: 0x7f080053
+			public const int Base_TextAppearance_AppCompat_Large = 2131230803;
+			
+			// aapt resource value: 0x7f08001d
+			public const int Base_TextAppearance_AppCompat_Large_Inverse = 2131230749;
+			
+			// aapt resource value: 0x7f080054
+			public const int Base_TextAppearance_AppCompat_Light_Widget_PopupMenu_Large = 2131230804;
+			
+			// aapt resource value: 0x7f080055
+			public const int Base_TextAppearance_AppCompat_Light_Widget_PopupMenu_Small = 2131230805;
+			
+			// aapt resource value: 0x7f080056
+			public const int Base_TextAppearance_AppCompat_Medium = 2131230806;
+			
+			// aapt resource value: 0x7f08001e
+			public const int Base_TextAppearance_AppCompat_Medium_Inverse = 2131230750;
+			
+			// aapt resource value: 0x7f080057
+			public const int Base_TextAppearance_AppCompat_Menu = 2131230807;
+			
+			// aapt resource value: 0x7f0800b2
+			public const int Base_TextAppearance_AppCompat_SearchResult = 2131230898;
+			
+			// aapt resource value: 0x7f080058
+			public const int Base_TextAppearance_AppCompat_SearchResult_Subtitle = 2131230808;
+			
+			// aapt resource value: 0x7f080059
+			public const int Base_TextAppearance_AppCompat_SearchResult_Title = 2131230809;
+			
+			// aapt resource value: 0x7f08005a
+			public const int Base_TextAppearance_AppCompat_Small = 2131230810;
+			
+			// aapt resource value: 0x7f08001f
+			public const int Base_TextAppearance_AppCompat_Small_Inverse = 2131230751;
+			
+			// aapt resource value: 0x7f08005b
+			public const int Base_TextAppearance_AppCompat_Subhead = 2131230811;
+			
+			// aapt resource value: 0x7f080020
+			public const int Base_TextAppearance_AppCompat_Subhead_Inverse = 2131230752;
+			
+			// aapt resource value: 0x7f08005c
+			public const int Base_TextAppearance_AppCompat_Title = 2131230812;
+			
+			// aapt resource value: 0x7f080021
+			public const int Base_TextAppearance_AppCompat_Title_Inverse = 2131230753;
+			
+			// aapt resource value: 0x7f0800b3
+			public const int Base_TextAppearance_AppCompat_Tooltip = 2131230899;
+			
+			// aapt resource value: 0x7f080097
+			public const int Base_TextAppearance_AppCompat_Widget_ActionBar_Menu = 2131230871;
+			
+			// aapt resource value: 0x7f08005d
+			public const int Base_TextAppearance_AppCompat_Widget_ActionBar_Subtitle = 2131230813;
+			
+			// aapt resource value: 0x7f08005e
+			public const int Base_TextAppearance_AppCompat_Widget_ActionBar_Subtitle_Inverse = 2131230814;
+			
+			// aapt resource value: 0x7f08005f
+			public const int Base_TextAppearance_AppCompat_Widget_ActionBar_Title = 2131230815;
+			
+			// aapt resource value: 0x7f080060
+			public const int Base_TextAppearance_AppCompat_Widget_ActionBar_Title_Inverse = 2131230816;
+			
+			// aapt resource value: 0x7f080061
+			public const int Base_TextAppearance_AppCompat_Widget_ActionMode_Subtitle = 2131230817;
+			
+			// aapt resource value: 0x7f080062
+			public const int Base_TextAppearance_AppCompat_Widget_ActionMode_Title = 2131230818;
+			
+			// aapt resource value: 0x7f080063
+			public const int Base_TextAppearance_AppCompat_Widget_Button = 2131230819;
+			
+			// aapt resource value: 0x7f08009e
+			public const int Base_TextAppearance_AppCompat_Widget_Button_Borderless_Colored = 2131230878;
 			
 			// aapt resource value: 0x7f08009f
-			public const int Platform_V25_AppCompat = 2131230879;
+			public const int Base_TextAppearance_AppCompat_Widget_Button_Colored = 2131230879;
 			
-			// aapt resource value: 0x7f0800a0
-			public const int Platform_V25_AppCompat_Light = 2131230880;
+			// aapt resource value: 0x7f080098
+			public const int Base_TextAppearance_AppCompat_Widget_Button_Inverse = 2131230872;
 			
-			// aapt resource value: 0x7f080032
-			public const int Platform_Widget_AppCompat_Spinner = 2131230770;
+			// aapt resource value: 0x7f0800b4
+			public const int Base_TextAppearance_AppCompat_Widget_DropDownItem = 2131230900;
 			
-			// aapt resource value: 0x7f08003b
-			public const int RtlOverlay_DialogWindowTitle_AppCompat = 2131230779;
+			// aapt resource value: 0x7f080064
+			public const int Base_TextAppearance_AppCompat_Widget_PopupMenu_Header = 2131230820;
 			
-			// aapt resource value: 0x7f08003c
-			public const int RtlOverlay_Widget_AppCompat_ActionBar_TitleItem = 2131230780;
+			// aapt resource value: 0x7f080065
+			public const int Base_TextAppearance_AppCompat_Widget_PopupMenu_Large = 2131230821;
 			
-			// aapt resource value: 0x7f08003d
-			public const int RtlOverlay_Widget_AppCompat_DialogTitle_Icon = 2131230781;
+			// aapt resource value: 0x7f080066
+			public const int Base_TextAppearance_AppCompat_Widget_PopupMenu_Small = 2131230822;
 			
-			// aapt resource value: 0x7f08003e
-			public const int RtlOverlay_Widget_AppCompat_PopupMenuItem = 2131230782;
+			// aapt resource value: 0x7f080067
+			public const int Base_TextAppearance_AppCompat_Widget_Switch = 2131230823;
 			
-			// aapt resource value: 0x7f08003f
-			public const int RtlOverlay_Widget_AppCompat_PopupMenuItem_InternalGroup = 2131230783;
+			// aapt resource value: 0x7f080068
+			public const int Base_TextAppearance_AppCompat_Widget_TextView_SpinnerItem = 2131230824;
 			
-			// aapt resource value: 0x7f080040
-			public const int RtlOverlay_Widget_AppCompat_PopupMenuItem_Text = 2131230784;
+			// aapt resource value: 0x7f0800b5
+			public const int Base_TextAppearance_Widget_AppCompat_ExpandedMenu_Item = 2131230901;
 			
-			// aapt resource value: 0x7f080041
-			public const int RtlOverlay_Widget_AppCompat_Search_DropDown = 2131230785;
+			// aapt resource value: 0x7f080069
+			public const int Base_TextAppearance_Widget_AppCompat_Toolbar_Subtitle = 2131230825;
 			
-			// aapt resource value: 0x7f080042
-			public const int RtlOverlay_Widget_AppCompat_Search_DropDown_Icon1 = 2131230786;
+			// aapt resource value: 0x7f08006a
+			public const int Base_TextAppearance_Widget_AppCompat_Toolbar_Title = 2131230826;
 			
-			// aapt resource value: 0x7f080043
-			public const int RtlOverlay_Widget_AppCompat_Search_DropDown_Icon2 = 2131230787;
+			// aapt resource value: 0x7f08006b
+			public const int Base_Theme_AppCompat = 2131230827;
 			
-			// aapt resource value: 0x7f080044
-			public const int RtlOverlay_Widget_AppCompat_Search_DropDown_Query = 2131230788;
+			// aapt resource value: 0x7f0800b6
+			public const int Base_Theme_AppCompat_CompactMenu = 2131230902;
 			
-			// aapt resource value: 0x7f080045
-			public const int RtlOverlay_Widget_AppCompat_Search_DropDown_Text = 2131230789;
+			// aapt resource value: 0x7f080022
+			public const int Base_Theme_AppCompat_Dialog = 2131230754;
 			
-			// aapt resource value: 0x7f080046
-			public const int RtlOverlay_Widget_AppCompat_SearchView_MagIcon = 2131230790;
+			// aapt resource value: 0x7f080023
+			public const int Base_Theme_AppCompat_Dialog_Alert = 2131230755;
 			
-			// aapt resource value: 0x7f080047
-			public const int RtlUnderlay_Widget_AppCompat_ActionButton = 2131230791;
+			// aapt resource value: 0x7f0800b7
+			public const int Base_Theme_AppCompat_Dialog_FixedSize = 2131230903;
 			
-			// aapt resource value: 0x7f080048
-			public const int RtlUnderlay_Widget_AppCompat_ActionButton_Overflow = 2131230792;
+			// aapt resource value: 0x7f080024
+			public const int Base_Theme_AppCompat_Dialog_MinWidth = 2131230756;
+			
+			// aapt resource value: 0x7f080012
+			public const int Base_Theme_AppCompat_DialogWhenLarge = 2131230738;
+			
+			// aapt resource value: 0x7f08006c
+			public const int Base_Theme_AppCompat_Light = 2131230828;
+			
+			// aapt resource value: 0x7f0800b8
+			public const int Base_Theme_AppCompat_Light_DarkActionBar = 2131230904;
+			
+			// aapt resource value: 0x7f080025
+			public const int Base_Theme_AppCompat_Light_Dialog = 2131230757;
+			
+			// aapt resource value: 0x7f080026
+			public const int Base_Theme_AppCompat_Light_Dialog_Alert = 2131230758;
+			
+			// aapt resource value: 0x7f0800b9
+			public const int Base_Theme_AppCompat_Light_Dialog_FixedSize = 2131230905;
+			
+			// aapt resource value: 0x7f080027
+			public const int Base_Theme_AppCompat_Light_Dialog_MinWidth = 2131230759;
+			
+			// aapt resource value: 0x7f080013
+			public const int Base_Theme_AppCompat_Light_DialogWhenLarge = 2131230739;
+			
+			// aapt resource value: 0x7f0800ba
+			public const int Base_ThemeOverlay_AppCompat = 2131230906;
+			
+			// aapt resource value: 0x7f0800bb
+			public const int Base_ThemeOverlay_AppCompat_ActionBar = 2131230907;
+			
+			// aapt resource value: 0x7f0800bc
+			public const int Base_ThemeOverlay_AppCompat_Dark = 2131230908;
+			
+			// aapt resource value: 0x7f0800bd
+			public const int Base_ThemeOverlay_AppCompat_Dark_ActionBar = 2131230909;
+			
+			// aapt resource value: 0x7f080028
+			public const int Base_ThemeOverlay_AppCompat_Dialog = 2131230760;
+			
+			// aapt resource value: 0x7f080029
+			public const int Base_ThemeOverlay_AppCompat_Dialog_Alert = 2131230761;
+			
+			// aapt resource value: 0x7f0800be
+			public const int Base_ThemeOverlay_AppCompat_Light = 2131230910;
+			
+			// aapt resource value: 0x7f08002a
+			public const int Base_V11_Theme_AppCompat_Dialog = 2131230762;
+			
+			// aapt resource value: 0x7f08002b
+			public const int Base_V11_Theme_AppCompat_Light_Dialog = 2131230763;
+			
+			// aapt resource value: 0x7f08002c
+			public const int Base_V11_ThemeOverlay_AppCompat_Dialog = 2131230764;
+			
+			// aapt resource value: 0x7f080034
+			public const int Base_V12_Widget_AppCompat_AutoCompleteTextView = 2131230772;
+			
+			// aapt resource value: 0x7f080035
+			public const int Base_V12_Widget_AppCompat_EditText = 2131230773;
+			
+			// aapt resource value: 0x7f080171
+			public const int Base_V14_Widget_Design_AppBarLayout = 2131231089;
+			
+			// aapt resource value: 0x7f08006d
+			public const int Base_V21_Theme_AppCompat = 2131230829;
+			
+			// aapt resource value: 0x7f08006e
+			public const int Base_V21_Theme_AppCompat_Dialog = 2131230830;
+			
+			// aapt resource value: 0x7f08006f
+			public const int Base_V21_Theme_AppCompat_Light = 2131230831;
+			
+			// aapt resource value: 0x7f080070
+			public const int Base_V21_Theme_AppCompat_Light_Dialog = 2131230832;
+			
+			// aapt resource value: 0x7f080071
+			public const int Base_V21_ThemeOverlay_AppCompat_Dialog = 2131230833;
+			
+			// aapt resource value: 0x7f08016d
+			public const int Base_V21_Widget_Design_AppBarLayout = 2131231085;
+			
+			// aapt resource value: 0x7f080095
+			public const int Base_V22_Theme_AppCompat = 2131230869;
+			
+			// aapt resource value: 0x7f080096
+			public const int Base_V22_Theme_AppCompat_Light = 2131230870;
+			
+			// aapt resource value: 0x7f080099
+			public const int Base_V23_Theme_AppCompat = 2131230873;
+			
+			// aapt resource value: 0x7f08009a
+			public const int Base_V23_Theme_AppCompat_Light = 2131230874;
+			
+			// aapt resource value: 0x7f0800a2
+			public const int Base_V26_Theme_AppCompat = 2131230882;
+			
+			// aapt resource value: 0x7f0800a3
+			public const int Base_V26_Theme_AppCompat_Light = 2131230883;
+			
+			// aapt resource value: 0x7f0800a4
+			public const int Base_V26_Widget_AppCompat_Toolbar = 2131230884;
+			
+			// aapt resource value: 0x7f08016f
+			public const int Base_V26_Widget_Design_AppBarLayout = 2131231087;
+			
+			// aapt resource value: 0x7f0800bf
+			public const int Base_V7_Theme_AppCompat = 2131230911;
+			
+			// aapt resource value: 0x7f0800c0
+			public const int Base_V7_Theme_AppCompat_Dialog = 2131230912;
+			
+			// aapt resource value: 0x7f0800c1
+			public const int Base_V7_Theme_AppCompat_Light = 2131230913;
+			
+			// aapt resource value: 0x7f0800c2
+			public const int Base_V7_Theme_AppCompat_Light_Dialog = 2131230914;
+			
+			// aapt resource value: 0x7f0800c3
+			public const int Base_V7_ThemeOverlay_AppCompat_Dialog = 2131230915;
+			
+			// aapt resource value: 0x7f0800c4
+			public const int Base_V7_Widget_AppCompat_AutoCompleteTextView = 2131230916;
+			
+			// aapt resource value: 0x7f0800c5
+			public const int Base_V7_Widget_AppCompat_EditText = 2131230917;
+			
+			// aapt resource value: 0x7f0800c6
+			public const int Base_V7_Widget_AppCompat_Toolbar = 2131230918;
+			
+			// aapt resource value: 0x7f0800c7
+			public const int Base_Widget_AppCompat_ActionBar = 2131230919;
+			
+			// aapt resource value: 0x7f0800c8
+			public const int Base_Widget_AppCompat_ActionBar_Solid = 2131230920;
+			
+			// aapt resource value: 0x7f0800c9
+			public const int Base_Widget_AppCompat_ActionBar_TabBar = 2131230921;
+			
+			// aapt resource value: 0x7f080072
+			public const int Base_Widget_AppCompat_ActionBar_TabText = 2131230834;
+			
+			// aapt resource value: 0x7f080073
+			public const int Base_Widget_AppCompat_ActionBar_TabView = 2131230835;
+			
+			// aapt resource value: 0x7f080074
+			public const int Base_Widget_AppCompat_ActionButton = 2131230836;
+			
+			// aapt resource value: 0x7f080075
+			public const int Base_Widget_AppCompat_ActionButton_CloseMode = 2131230837;
+			
+			// aapt resource value: 0x7f080076
+			public const int Base_Widget_AppCompat_ActionButton_Overflow = 2131230838;
+			
+			// aapt resource value: 0x7f0800ca
+			public const int Base_Widget_AppCompat_ActionMode = 2131230922;
+			
+			// aapt resource value: 0x7f0800cb
+			public const int Base_Widget_AppCompat_ActivityChooserView = 2131230923;
+			
+			// aapt resource value: 0x7f080036
+			public const int Base_Widget_AppCompat_AutoCompleteTextView = 2131230774;
+			
+			// aapt resource value: 0x7f080077
+			public const int Base_Widget_AppCompat_Button = 2131230839;
+			
+			// aapt resource value: 0x7f080078
+			public const int Base_Widget_AppCompat_Button_Borderless = 2131230840;
+			
+			// aapt resource value: 0x7f080079
+			public const int Base_Widget_AppCompat_Button_Borderless_Colored = 2131230841;
+			
+			// aapt resource value: 0x7f0800cc
+			public const int Base_Widget_AppCompat_Button_ButtonBar_AlertDialog = 2131230924;
+			
+			// aapt resource value: 0x7f08009b
+			public const int Base_Widget_AppCompat_Button_Colored = 2131230875;
+			
+			// aapt resource value: 0x7f08007a
+			public const int Base_Widget_AppCompat_Button_Small = 2131230842;
+			
+			// aapt resource value: 0x7f08007b
+			public const int Base_Widget_AppCompat_ButtonBar = 2131230843;
+			
+			// aapt resource value: 0x7f0800cd
+			public const int Base_Widget_AppCompat_ButtonBar_AlertDialog = 2131230925;
+			
+			// aapt resource value: 0x7f08007c
+			public const int Base_Widget_AppCompat_CompoundButton_CheckBox = 2131230844;
+			
+			// aapt resource value: 0x7f08007d
+			public const int Base_Widget_AppCompat_CompoundButton_RadioButton = 2131230845;
+			
+			// aapt resource value: 0x7f0800ce
+			public const int Base_Widget_AppCompat_CompoundButton_Switch = 2131230926;
+			
+			// aapt resource value: 0x7f080011
+			public const int Base_Widget_AppCompat_DrawerArrowToggle = 2131230737;
+			
+			// aapt resource value: 0x7f0800cf
+			public const int Base_Widget_AppCompat_DrawerArrowToggle_Common = 2131230927;
+			
+			// aapt resource value: 0x7f08007e
+			public const int Base_Widget_AppCompat_DropDownItem_Spinner = 2131230846;
+			
+			// aapt resource value: 0x7f080037
+			public const int Base_Widget_AppCompat_EditText = 2131230775;
+			
+			// aapt resource value: 0x7f08007f
+			public const int Base_Widget_AppCompat_ImageButton = 2131230847;
+			
+			// aapt resource value: 0x7f0800d0
+			public const int Base_Widget_AppCompat_Light_ActionBar = 2131230928;
+			
+			// aapt resource value: 0x7f0800d1
+			public const int Base_Widget_AppCompat_Light_ActionBar_Solid = 2131230929;
+			
+			// aapt resource value: 0x7f0800d2
+			public const int Base_Widget_AppCompat_Light_ActionBar_TabBar = 2131230930;
+			
+			// aapt resource value: 0x7f080080
+			public const int Base_Widget_AppCompat_Light_ActionBar_TabText = 2131230848;
+			
+			// aapt resource value: 0x7f080081
+			public const int Base_Widget_AppCompat_Light_ActionBar_TabText_Inverse = 2131230849;
+			
+			// aapt resource value: 0x7f080082
+			public const int Base_Widget_AppCompat_Light_ActionBar_TabView = 2131230850;
+			
+			// aapt resource value: 0x7f080083
+			public const int Base_Widget_AppCompat_Light_PopupMenu = 2131230851;
+			
+			// aapt resource value: 0x7f080084
+			public const int Base_Widget_AppCompat_Light_PopupMenu_Overflow = 2131230852;
+			
+			// aapt resource value: 0x7f0800d3
+			public const int Base_Widget_AppCompat_ListMenuView = 2131230931;
+			
+			// aapt resource value: 0x7f080085
+			public const int Base_Widget_AppCompat_ListPopupWindow = 2131230853;
+			
+			// aapt resource value: 0x7f080086
+			public const int Base_Widget_AppCompat_ListView = 2131230854;
+			
+			// aapt resource value: 0x7f080087
+			public const int Base_Widget_AppCompat_ListView_DropDown = 2131230855;
+			
+			// aapt resource value: 0x7f080088
+			public const int Base_Widget_AppCompat_ListView_Menu = 2131230856;
+			
+			// aapt resource value: 0x7f080089
+			public const int Base_Widget_AppCompat_PopupMenu = 2131230857;
+			
+			// aapt resource value: 0x7f08008a
+			public const int Base_Widget_AppCompat_PopupMenu_Overflow = 2131230858;
+			
+			// aapt resource value: 0x7f0800d4
+			public const int Base_Widget_AppCompat_PopupWindow = 2131230932;
+			
+			// aapt resource value: 0x7f08002d
+			public const int Base_Widget_AppCompat_ProgressBar = 2131230765;
+			
+			// aapt resource value: 0x7f08002e
+			public const int Base_Widget_AppCompat_ProgressBar_Horizontal = 2131230766;
+			
+			// aapt resource value: 0x7f08008b
+			public const int Base_Widget_AppCompat_RatingBar = 2131230859;
+			
+			// aapt resource value: 0x7f08009c
+			public const int Base_Widget_AppCompat_RatingBar_Indicator = 2131230876;
+			
+			// aapt resource value: 0x7f08009d
+			public const int Base_Widget_AppCompat_RatingBar_Small = 2131230877;
+			
+			// aapt resource value: 0x7f0800d5
+			public const int Base_Widget_AppCompat_SearchView = 2131230933;
+			
+			// aapt resource value: 0x7f0800d6
+			public const int Base_Widget_AppCompat_SearchView_ActionBar = 2131230934;
+			
+			// aapt resource value: 0x7f08008c
+			public const int Base_Widget_AppCompat_SeekBar = 2131230860;
 			
 			// aapt resource value: 0x7f0800d7
-			public const int TextAppearance_AppCompat = 2131230935;
+			public const int Base_Widget_AppCompat_SeekBar_Discrete = 2131230935;
 			
-			// aapt resource value: 0x7f0800d8
-			public const int TextAppearance_AppCompat_Body1 = 2131230936;
-			
-			// aapt resource value: 0x7f0800d9
-			public const int TextAppearance_AppCompat_Body2 = 2131230937;
-			
-			// aapt resource value: 0x7f0800da
-			public const int TextAppearance_AppCompat_Button = 2131230938;
-			
-			// aapt resource value: 0x7f0800db
-			public const int TextAppearance_AppCompat_Caption = 2131230939;
-			
-			// aapt resource value: 0x7f0800dc
-			public const int TextAppearance_AppCompat_Display1 = 2131230940;
-			
-			// aapt resource value: 0x7f0800dd
-			public const int TextAppearance_AppCompat_Display2 = 2131230941;
-			
-			// aapt resource value: 0x7f0800de
-			public const int TextAppearance_AppCompat_Display3 = 2131230942;
-			
-			// aapt resource value: 0x7f0800df
-			public const int TextAppearance_AppCompat_Display4 = 2131230943;
-			
-			// aapt resource value: 0x7f0800e0
-			public const int TextAppearance_AppCompat_Headline = 2131230944;
-			
-			// aapt resource value: 0x7f0800e1
-			public const int TextAppearance_AppCompat_Inverse = 2131230945;
-			
-			// aapt resource value: 0x7f0800e2
-			public const int TextAppearance_AppCompat_Large = 2131230946;
-			
-			// aapt resource value: 0x7f0800e3
-			public const int TextAppearance_AppCompat_Large_Inverse = 2131230947;
-			
-			// aapt resource value: 0x7f0800e4
-			public const int TextAppearance_AppCompat_Light_SearchResult_Subtitle = 2131230948;
-			
-			// aapt resource value: 0x7f0800e5
-			public const int TextAppearance_AppCompat_Light_SearchResult_Title = 2131230949;
-			
-			// aapt resource value: 0x7f0800e6
-			public const int TextAppearance_AppCompat_Light_Widget_PopupMenu_Large = 2131230950;
-			
-			// aapt resource value: 0x7f0800e7
-			public const int TextAppearance_AppCompat_Light_Widget_PopupMenu_Small = 2131230951;
-			
-			// aapt resource value: 0x7f0800e8
-			public const int TextAppearance_AppCompat_Medium = 2131230952;
-			
-			// aapt resource value: 0x7f0800e9
-			public const int TextAppearance_AppCompat_Medium_Inverse = 2131230953;
-			
-			// aapt resource value: 0x7f0800ea
-			public const int TextAppearance_AppCompat_Menu = 2131230954;
-			
-			// aapt resource value: 0x7f0800eb
-			public const int TextAppearance_AppCompat_SearchResult_Subtitle = 2131230955;
-			
-			// aapt resource value: 0x7f0800ec
-			public const int TextAppearance_AppCompat_SearchResult_Title = 2131230956;
-			
-			// aapt resource value: 0x7f0800ed
-			public const int TextAppearance_AppCompat_Small = 2131230957;
-			
-			// aapt resource value: 0x7f0800ee
-			public const int TextAppearance_AppCompat_Small_Inverse = 2131230958;
-			
-			// aapt resource value: 0x7f0800ef
-			public const int TextAppearance_AppCompat_Subhead = 2131230959;
-			
-			// aapt resource value: 0x7f0800f0
-			public const int TextAppearance_AppCompat_Subhead_Inverse = 2131230960;
-			
-			// aapt resource value: 0x7f0800f1
-			public const int TextAppearance_AppCompat_Title = 2131230961;
-			
-			// aapt resource value: 0x7f0800f2
-			public const int TextAppearance_AppCompat_Title_Inverse = 2131230962;
-			
-			// aapt resource value: 0x7f08003a
-			public const int TextAppearance_AppCompat_Tooltip = 2131230778;
-			
-			// aapt resource value: 0x7f0800f3
-			public const int TextAppearance_AppCompat_Widget_ActionBar_Menu = 2131230963;
-			
-			// aapt resource value: 0x7f0800f4
-			public const int TextAppearance_AppCompat_Widget_ActionBar_Subtitle = 2131230964;
-			
-			// aapt resource value: 0x7f0800f5
-			public const int TextAppearance_AppCompat_Widget_ActionBar_Subtitle_Inverse = 2131230965;
-			
-			// aapt resource value: 0x7f0800f6
-			public const int TextAppearance_AppCompat_Widget_ActionBar_Title = 2131230966;
-			
-			// aapt resource value: 0x7f0800f7
-			public const int TextAppearance_AppCompat_Widget_ActionBar_Title_Inverse = 2131230967;
-			
-			// aapt resource value: 0x7f0800f8
-			public const int TextAppearance_AppCompat_Widget_ActionMode_Subtitle = 2131230968;
-			
-			// aapt resource value: 0x7f0800f9
-			public const int TextAppearance_AppCompat_Widget_ActionMode_Subtitle_Inverse = 2131230969;
-			
-			// aapt resource value: 0x7f0800fa
-			public const int TextAppearance_AppCompat_Widget_ActionMode_Title = 2131230970;
-			
-			// aapt resource value: 0x7f0800fb
-			public const int TextAppearance_AppCompat_Widget_ActionMode_Title_Inverse = 2131230971;
-			
-			// aapt resource value: 0x7f0800fc
-			public const int TextAppearance_AppCompat_Widget_Button = 2131230972;
-			
-			// aapt resource value: 0x7f0800fd
-			public const int TextAppearance_AppCompat_Widget_Button_Borderless_Colored = 2131230973;
-			
-			// aapt resource value: 0x7f0800fe
-			public const int TextAppearance_AppCompat_Widget_Button_Colored = 2131230974;
-			
-			// aapt resource value: 0x7f0800ff
-			public const int TextAppearance_AppCompat_Widget_Button_Inverse = 2131230975;
-			
-			// aapt resource value: 0x7f080100
-			public const int TextAppearance_AppCompat_Widget_DropDownItem = 2131230976;
-			
-			// aapt resource value: 0x7f080101
-			public const int TextAppearance_AppCompat_Widget_PopupMenu_Header = 2131230977;
-			
-			// aapt resource value: 0x7f080102
-			public const int TextAppearance_AppCompat_Widget_PopupMenu_Large = 2131230978;
-			
-			// aapt resource value: 0x7f080103
-			public const int TextAppearance_AppCompat_Widget_PopupMenu_Small = 2131230979;
-			
-			// aapt resource value: 0x7f080104
-			public const int TextAppearance_AppCompat_Widget_Switch = 2131230980;
-			
-			// aapt resource value: 0x7f080105
-			public const int TextAppearance_AppCompat_Widget_TextView_SpinnerItem = 2131230981;
-			
-			// aapt resource value: 0x7f080189
-			public const int TextAppearance_Compat_Notification = 2131231113;
-			
-			// aapt resource value: 0x7f08018a
-			public const int TextAppearance_Compat_Notification_Info = 2131231114;
-			
-			// aapt resource value: 0x7f080166
-			public const int TextAppearance_Compat_Notification_Info_Media = 2131231078;
-			
-			// aapt resource value: 0x7f08018f
-			public const int TextAppearance_Compat_Notification_Line2 = 2131231119;
-			
-			// aapt resource value: 0x7f08016a
-			public const int TextAppearance_Compat_Notification_Line2_Media = 2131231082;
-			
-			// aapt resource value: 0x7f080167
-			public const int TextAppearance_Compat_Notification_Media = 2131231079;
-			
-			// aapt resource value: 0x7f08018b
-			public const int TextAppearance_Compat_Notification_Time = 2131231115;
-			
-			// aapt resource value: 0x7f080168
-			public const int TextAppearance_Compat_Notification_Time_Media = 2131231080;
-			
-			// aapt resource value: 0x7f08018c
-			public const int TextAppearance_Compat_Notification_Title = 2131231116;
-			
-			// aapt resource value: 0x7f080169
-			public const int TextAppearance_Compat_Notification_Title_Media = 2131231081;
-			
-			// aapt resource value: 0x7f080172
-			public const int TextAppearance_Design_CollapsingToolbar_Expanded = 2131231090;
-			
-			// aapt resource value: 0x7f080173
-			public const int TextAppearance_Design_Counter = 2131231091;
-			
-			// aapt resource value: 0x7f080174
-			public const int TextAppearance_Design_Counter_Overflow = 2131231092;
-			
-			// aapt resource value: 0x7f080175
-			public const int TextAppearance_Design_Error = 2131231093;
-			
-			// aapt resource value: 0x7f080176
-			public const int TextAppearance_Design_Hint = 2131231094;
-			
-			// aapt resource value: 0x7f080177
-			public const int TextAppearance_Design_Snackbar_Message = 2131231095;
-			
-			// aapt resource value: 0x7f080178
-			public const int TextAppearance_Design_Tab = 2131231096;
-			
-			// aapt resource value: 0x7f080001
-			public const int TextAppearance_MediaRouter_PrimaryText = 2131230721;
-			
-			// aapt resource value: 0x7f080002
-			public const int TextAppearance_MediaRouter_SecondaryText = 2131230722;
-			
-			// aapt resource value: 0x7f080003
-			public const int TextAppearance_MediaRouter_Title = 2131230723;
-			
-			// aapt resource value: 0x7f080106
-			public const int TextAppearance_Widget_AppCompat_ExpandedMenu_Item = 2131230982;
-			
-			// aapt resource value: 0x7f080107
-			public const int TextAppearance_Widget_AppCompat_Toolbar_Subtitle = 2131230983;
-			
-			// aapt resource value: 0x7f080108
-			public const int TextAppearance_Widget_AppCompat_Toolbar_Title = 2131230984;
-			
-			// aapt resource value: 0x7f080109
-			public const int Theme_AppCompat = 2131230985;
-			
-			// aapt resource value: 0x7f08010a
-			public const int Theme_AppCompat_CompactMenu = 2131230986;
+			// aapt resource value: 0x7f08008d
+			public const int Base_Widget_AppCompat_Spinner = 2131230861;
 			
 			// aapt resource value: 0x7f080014
-			public const int Theme_AppCompat_DayNight = 2131230740;
+			public const int Base_Widget_AppCompat_Spinner_Underlined = 2131230740;
 			
-			// aapt resource value: 0x7f080015
-			public const int Theme_AppCompat_DayNight_DarkActionBar = 2131230741;
+			// aapt resource value: 0x7f08008e
+			public const int Base_Widget_AppCompat_TextView_SpinnerItem = 2131230862;
 			
-			// aapt resource value: 0x7f080016
-			public const int Theme_AppCompat_DayNight_Dialog = 2131230742;
+			// aapt resource value: 0x7f0800a5
+			public const int Base_Widget_AppCompat_Toolbar = 2131230885;
 			
-			// aapt resource value: 0x7f080017
-			public const int Theme_AppCompat_DayNight_Dialog_Alert = 2131230743;
+			// aapt resource value: 0x7f08008f
+			public const int Base_Widget_AppCompat_Toolbar_Button_Navigation = 2131230863;
 			
-			// aapt resource value: 0x7f080018
-			public const int Theme_AppCompat_DayNight_Dialog_MinWidth = 2131230744;
+			// aapt resource value: 0x7f08016e
+			public const int Base_Widget_Design_AppBarLayout = 2131231086;
 			
-			// aapt resource value: 0x7f080019
-			public const int Theme_AppCompat_DayNight_DialogWhenLarge = 2131230745;
+			// aapt resource value: 0x7f080172
+			public const int Base_Widget_Design_TabLayout = 2131231090;
 			
-			// aapt resource value: 0x7f08001a
-			public const int Theme_AppCompat_DayNight_NoActionBar = 2131230746;
+			// aapt resource value: 0x7f08000d
+			public const int CardView = 2131230733;
 			
-			// aapt resource value: 0x7f08010b
-			public const int Theme_AppCompat_Dialog = 2131230987;
+			// aapt resource value: 0x7f08000f
+			public const int CardView_Dark = 2131230735;
 			
-			// aapt resource value: 0x7f08010c
-			public const int Theme_AppCompat_Dialog_Alert = 2131230988;
+			// aapt resource value: 0x7f080010
+			public const int CardView_Light = 2131230736;
 			
-			// aapt resource value: 0x7f08010d
-			public const int Theme_AppCompat_Dialog_MinWidth = 2131230989;
+			// aapt resource value: 0x7f080191
+			public const int MainTheme = 2131231121;
 			
-			// aapt resource value: 0x7f08010e
-			public const int Theme_AppCompat_DialogWhenLarge = 2131230990;
+			// aapt resource value: 0x7f080192
+			public const int MainTheme_Base = 2131231122;
 			
-			// aapt resource value: 0x7f08010f
-			public const int Theme_AppCompat_Light = 2131230991;
+			// aapt resource value: 0x7f080001
+			public const int NestedScrollBarStyle = 2131230721;
 			
-			// aapt resource value: 0x7f080110
-			public const int Theme_AppCompat_Light_DarkActionBar = 2131230992;
+			// aapt resource value: 0x7f08002f
+			public const int Platform_AppCompat = 2131230767;
 			
-			// aapt resource value: 0x7f080111
-			public const int Theme_AppCompat_Light_Dialog = 2131230993;
+			// aapt resource value: 0x7f080030
+			public const int Platform_AppCompat_Light = 2131230768;
 			
-			// aapt resource value: 0x7f080112
-			public const int Theme_AppCompat_Light_Dialog_Alert = 2131230994;
+			// aapt resource value: 0x7f080090
+			public const int Platform_ThemeOverlay_AppCompat = 2131230864;
 			
-			// aapt resource value: 0x7f080113
-			public const int Theme_AppCompat_Light_Dialog_MinWidth = 2131230995;
+			// aapt resource value: 0x7f080091
+			public const int Platform_ThemeOverlay_AppCompat_Dark = 2131230865;
 			
-			// aapt resource value: 0x7f080114
-			public const int Theme_AppCompat_Light_DialogWhenLarge = 2131230996;
+			// aapt resource value: 0x7f080092
+			public const int Platform_ThemeOverlay_AppCompat_Light = 2131230866;
 			
-			// aapt resource value: 0x7f080115
-			public const int Theme_AppCompat_Light_NoActionBar = 2131230997;
+			// aapt resource value: 0x7f080031
+			public const int Platform_V11_AppCompat = 2131230769;
 			
-			// aapt resource value: 0x7f080116
-			public const int Theme_AppCompat_NoActionBar = 2131230998;
+			// aapt resource value: 0x7f080032
+			public const int Platform_V11_AppCompat_Light = 2131230770;
 			
-			// aapt resource value: 0x7f080179
-			public const int Theme_Design = 2131231097;
+			// aapt resource value: 0x7f080039
+			public const int Platform_V14_AppCompat = 2131230777;
 			
-			// aapt resource value: 0x7f08017a
-			public const int Theme_Design_BottomSheetDialog = 2131231098;
+			// aapt resource value: 0x7f08003a
+			public const int Platform_V14_AppCompat_Light = 2131230778;
 			
-			// aapt resource value: 0x7f08017b
-			public const int Theme_Design_Light = 2131231099;
+			// aapt resource value: 0x7f080093
+			public const int Platform_V21_AppCompat = 2131230867;
 			
-			// aapt resource value: 0x7f08017c
-			public const int Theme_Design_Light_BottomSheetDialog = 2131231100;
+			// aapt resource value: 0x7f080094
+			public const int Platform_V21_AppCompat_Light = 2131230868;
 			
-			// aapt resource value: 0x7f08017d
-			public const int Theme_Design_Light_NoActionBar = 2131231101;
+			// aapt resource value: 0x7f0800a0
+			public const int Platform_V25_AppCompat = 2131230880;
 			
-			// aapt resource value: 0x7f08017e
-			public const int Theme_Design_NoActionBar = 2131231102;
+			// aapt resource value: 0x7f0800a1
+			public const int Platform_V25_AppCompat_Light = 2131230881;
 			
-			// aapt resource value: 0x7f080004
-			public const int Theme_MediaRouter = 2131230724;
+			// aapt resource value: 0x7f080033
+			public const int Platform_Widget_AppCompat_Spinner = 2131230771;
 			
-			// aapt resource value: 0x7f080005
-			public const int Theme_MediaRouter_Light = 2131230725;
+			// aapt resource value: 0x7f08003c
+			public const int RtlOverlay_DialogWindowTitle_AppCompat = 2131230780;
 			
-			// aapt resource value: 0x7f080006
-			public const int Theme_MediaRouter_Light_DarkControlPanel = 2131230726;
+			// aapt resource value: 0x7f08003d
+			public const int RtlOverlay_Widget_AppCompat_ActionBar_TitleItem = 2131230781;
 			
-			// aapt resource value: 0x7f080007
-			public const int Theme_MediaRouter_LightControlPanel = 2131230727;
+			// aapt resource value: 0x7f08003e
+			public const int RtlOverlay_Widget_AppCompat_DialogTitle_Icon = 2131230782;
 			
-			// aapt resource value: 0x7f080117
-			public const int ThemeOverlay_AppCompat = 2131230999;
+			// aapt resource value: 0x7f08003f
+			public const int RtlOverlay_Widget_AppCompat_PopupMenuItem = 2131230783;
 			
-			// aapt resource value: 0x7f080118
-			public const int ThemeOverlay_AppCompat_ActionBar = 2131231000;
+			// aapt resource value: 0x7f080040
+			public const int RtlOverlay_Widget_AppCompat_PopupMenuItem_InternalGroup = 2131230784;
 			
-			// aapt resource value: 0x7f080119
-			public const int ThemeOverlay_AppCompat_Dark = 2131231001;
+			// aapt resource value: 0x7f080041
+			public const int RtlOverlay_Widget_AppCompat_PopupMenuItem_Text = 2131230785;
 			
-			// aapt resource value: 0x7f08011a
-			public const int ThemeOverlay_AppCompat_Dark_ActionBar = 2131231002;
+			// aapt resource value: 0x7f080042
+			public const int RtlOverlay_Widget_AppCompat_Search_DropDown = 2131230786;
 			
-			// aapt resource value: 0x7f08011b
-			public const int ThemeOverlay_AppCompat_Dialog = 2131231003;
+			// aapt resource value: 0x7f080043
+			public const int RtlOverlay_Widget_AppCompat_Search_DropDown_Icon1 = 2131230787;
 			
-			// aapt resource value: 0x7f08011c
-			public const int ThemeOverlay_AppCompat_Dialog_Alert = 2131231004;
+			// aapt resource value: 0x7f080044
+			public const int RtlOverlay_Widget_AppCompat_Search_DropDown_Icon2 = 2131230788;
 			
-			// aapt resource value: 0x7f08011d
-			public const int ThemeOverlay_AppCompat_Light = 2131231005;
+			// aapt resource value: 0x7f080045
+			public const int RtlOverlay_Widget_AppCompat_Search_DropDown_Query = 2131230789;
 			
-			// aapt resource value: 0x7f080008
-			public const int ThemeOverlay_MediaRouter_Dark = 2131230728;
+			// aapt resource value: 0x7f080046
+			public const int RtlOverlay_Widget_AppCompat_Search_DropDown_Text = 2131230790;
 			
-			// aapt resource value: 0x7f080009
-			public const int ThemeOverlay_MediaRouter_Light = 2131230729;
+			// aapt resource value: 0x7f080047
+			public const int RtlOverlay_Widget_AppCompat_SearchView_MagIcon = 2131230791;
 			
-			// aapt resource value: 0x7f08011e
-			public const int Widget_AppCompat_ActionBar = 2131231006;
+			// aapt resource value: 0x7f080048
+			public const int RtlUnderlay_Widget_AppCompat_ActionButton = 2131230792;
 			
-			// aapt resource value: 0x7f08011f
-			public const int Widget_AppCompat_ActionBar_Solid = 2131231007;
+			// aapt resource value: 0x7f080049
+			public const int RtlUnderlay_Widget_AppCompat_ActionButton_Overflow = 2131230793;
 			
-			// aapt resource value: 0x7f080120
-			public const int Widget_AppCompat_ActionBar_TabBar = 2131231008;
+			// aapt resource value: 0x7f0800d8
+			public const int TextAppearance_AppCompat = 2131230936;
 			
-			// aapt resource value: 0x7f080121
-			public const int Widget_AppCompat_ActionBar_TabText = 2131231009;
+			// aapt resource value: 0x7f0800d9
+			public const int TextAppearance_AppCompat_Body1 = 2131230937;
 			
-			// aapt resource value: 0x7f080122
-			public const int Widget_AppCompat_ActionBar_TabView = 2131231010;
+			// aapt resource value: 0x7f0800da
+			public const int TextAppearance_AppCompat_Body2 = 2131230938;
 			
-			// aapt resource value: 0x7f080123
-			public const int Widget_AppCompat_ActionButton = 2131231011;
+			// aapt resource value: 0x7f0800db
+			public const int TextAppearance_AppCompat_Button = 2131230939;
 			
-			// aapt resource value: 0x7f080124
-			public const int Widget_AppCompat_ActionButton_CloseMode = 2131231012;
+			// aapt resource value: 0x7f0800dc
+			public const int TextAppearance_AppCompat_Caption = 2131230940;
 			
-			// aapt resource value: 0x7f080125
-			public const int Widget_AppCompat_ActionButton_Overflow = 2131231013;
+			// aapt resource value: 0x7f0800dd
+			public const int TextAppearance_AppCompat_Display1 = 2131230941;
 			
-			// aapt resource value: 0x7f080126
-			public const int Widget_AppCompat_ActionMode = 2131231014;
+			// aapt resource value: 0x7f0800de
+			public const int TextAppearance_AppCompat_Display2 = 2131230942;
 			
-			// aapt resource value: 0x7f080127
-			public const int Widget_AppCompat_ActivityChooserView = 2131231015;
+			// aapt resource value: 0x7f0800df
+			public const int TextAppearance_AppCompat_Display3 = 2131230943;
 			
-			// aapt resource value: 0x7f080128
-			public const int Widget_AppCompat_AutoCompleteTextView = 2131231016;
+			// aapt resource value: 0x7f0800e0
+			public const int TextAppearance_AppCompat_Display4 = 2131230944;
 			
-			// aapt resource value: 0x7f080129
-			public const int Widget_AppCompat_Button = 2131231017;
+			// aapt resource value: 0x7f0800e1
+			public const int TextAppearance_AppCompat_Headline = 2131230945;
 			
-			// aapt resource value: 0x7f08012a
-			public const int Widget_AppCompat_Button_Borderless = 2131231018;
+			// aapt resource value: 0x7f0800e2
+			public const int TextAppearance_AppCompat_Inverse = 2131230946;
 			
-			// aapt resource value: 0x7f08012b
-			public const int Widget_AppCompat_Button_Borderless_Colored = 2131231019;
+			// aapt resource value: 0x7f0800e3
+			public const int TextAppearance_AppCompat_Large = 2131230947;
 			
-			// aapt resource value: 0x7f08012c
-			public const int Widget_AppCompat_Button_ButtonBar_AlertDialog = 2131231020;
+			// aapt resource value: 0x7f0800e4
+			public const int TextAppearance_AppCompat_Large_Inverse = 2131230948;
 			
-			// aapt resource value: 0x7f08012d
-			public const int Widget_AppCompat_Button_Colored = 2131231021;
+			// aapt resource value: 0x7f0800e5
+			public const int TextAppearance_AppCompat_Light_SearchResult_Subtitle = 2131230949;
 			
-			// aapt resource value: 0x7f08012e
-			public const int Widget_AppCompat_Button_Small = 2131231022;
+			// aapt resource value: 0x7f0800e6
+			public const int TextAppearance_AppCompat_Light_SearchResult_Title = 2131230950;
 			
-			// aapt resource value: 0x7f08012f
-			public const int Widget_AppCompat_ButtonBar = 2131231023;
+			// aapt resource value: 0x7f0800e7
+			public const int TextAppearance_AppCompat_Light_Widget_PopupMenu_Large = 2131230951;
 			
-			// aapt resource value: 0x7f080130
-			public const int Widget_AppCompat_ButtonBar_AlertDialog = 2131231024;
+			// aapt resource value: 0x7f0800e8
+			public const int TextAppearance_AppCompat_Light_Widget_PopupMenu_Small = 2131230952;
 			
-			// aapt resource value: 0x7f080131
-			public const int Widget_AppCompat_CompoundButton_CheckBox = 2131231025;
+			// aapt resource value: 0x7f0800e9
+			public const int TextAppearance_AppCompat_Medium = 2131230953;
 			
-			// aapt resource value: 0x7f080132
-			public const int Widget_AppCompat_CompoundButton_RadioButton = 2131231026;
+			// aapt resource value: 0x7f0800ea
+			public const int TextAppearance_AppCompat_Medium_Inverse = 2131230954;
 			
-			// aapt resource value: 0x7f080133
-			public const int Widget_AppCompat_CompoundButton_Switch = 2131231027;
+			// aapt resource value: 0x7f0800eb
+			public const int TextAppearance_AppCompat_Menu = 2131230955;
 			
-			// aapt resource value: 0x7f080134
-			public const int Widget_AppCompat_DrawerArrowToggle = 2131231028;
+			// aapt resource value: 0x7f0800ec
+			public const int TextAppearance_AppCompat_SearchResult_Subtitle = 2131230956;
 			
-			// aapt resource value: 0x7f080135
-			public const int Widget_AppCompat_DropDownItem_Spinner = 2131231029;
+			// aapt resource value: 0x7f0800ed
+			public const int TextAppearance_AppCompat_SearchResult_Title = 2131230957;
 			
-			// aapt resource value: 0x7f080136
-			public const int Widget_AppCompat_EditText = 2131231030;
+			// aapt resource value: 0x7f0800ee
+			public const int TextAppearance_AppCompat_Small = 2131230958;
 			
-			// aapt resource value: 0x7f080137
-			public const int Widget_AppCompat_ImageButton = 2131231031;
+			// aapt resource value: 0x7f0800ef
+			public const int TextAppearance_AppCompat_Small_Inverse = 2131230959;
 			
-			// aapt resource value: 0x7f080138
-			public const int Widget_AppCompat_Light_ActionBar = 2131231032;
+			// aapt resource value: 0x7f0800f0
+			public const int TextAppearance_AppCompat_Subhead = 2131230960;
 			
-			// aapt resource value: 0x7f080139
-			public const int Widget_AppCompat_Light_ActionBar_Solid = 2131231033;
+			// aapt resource value: 0x7f0800f1
+			public const int TextAppearance_AppCompat_Subhead_Inverse = 2131230961;
 			
-			// aapt resource value: 0x7f08013a
-			public const int Widget_AppCompat_Light_ActionBar_Solid_Inverse = 2131231034;
+			// aapt resource value: 0x7f0800f2
+			public const int TextAppearance_AppCompat_Title = 2131230962;
 			
-			// aapt resource value: 0x7f08013b
-			public const int Widget_AppCompat_Light_ActionBar_TabBar = 2131231035;
+			// aapt resource value: 0x7f0800f3
+			public const int TextAppearance_AppCompat_Title_Inverse = 2131230963;
 			
-			// aapt resource value: 0x7f08013c
-			public const int Widget_AppCompat_Light_ActionBar_TabBar_Inverse = 2131231036;
+			// aapt resource value: 0x7f08003b
+			public const int TextAppearance_AppCompat_Tooltip = 2131230779;
 			
-			// aapt resource value: 0x7f08013d
-			public const int Widget_AppCompat_Light_ActionBar_TabText = 2131231037;
+			// aapt resource value: 0x7f0800f4
+			public const int TextAppearance_AppCompat_Widget_ActionBar_Menu = 2131230964;
 			
-			// aapt resource value: 0x7f08013e
-			public const int Widget_AppCompat_Light_ActionBar_TabText_Inverse = 2131231038;
+			// aapt resource value: 0x7f0800f5
+			public const int TextAppearance_AppCompat_Widget_ActionBar_Subtitle = 2131230965;
 			
-			// aapt resource value: 0x7f08013f
-			public const int Widget_AppCompat_Light_ActionBar_TabView = 2131231039;
+			// aapt resource value: 0x7f0800f6
+			public const int TextAppearance_AppCompat_Widget_ActionBar_Subtitle_Inverse = 2131230966;
 			
-			// aapt resource value: 0x7f080140
-			public const int Widget_AppCompat_Light_ActionBar_TabView_Inverse = 2131231040;
+			// aapt resource value: 0x7f0800f7
+			public const int TextAppearance_AppCompat_Widget_ActionBar_Title = 2131230967;
 			
-			// aapt resource value: 0x7f080141
-			public const int Widget_AppCompat_Light_ActionButton = 2131231041;
+			// aapt resource value: 0x7f0800f8
+			public const int TextAppearance_AppCompat_Widget_ActionBar_Title_Inverse = 2131230968;
 			
-			// aapt resource value: 0x7f080142
-			public const int Widget_AppCompat_Light_ActionButton_CloseMode = 2131231042;
+			// aapt resource value: 0x7f0800f9
+			public const int TextAppearance_AppCompat_Widget_ActionMode_Subtitle = 2131230969;
 			
-			// aapt resource value: 0x7f080143
-			public const int Widget_AppCompat_Light_ActionButton_Overflow = 2131231043;
+			// aapt resource value: 0x7f0800fa
+			public const int TextAppearance_AppCompat_Widget_ActionMode_Subtitle_Inverse = 2131230970;
 			
-			// aapt resource value: 0x7f080144
-			public const int Widget_AppCompat_Light_ActionMode_Inverse = 2131231044;
+			// aapt resource value: 0x7f0800fb
+			public const int TextAppearance_AppCompat_Widget_ActionMode_Title = 2131230971;
 			
-			// aapt resource value: 0x7f080145
-			public const int Widget_AppCompat_Light_ActivityChooserView = 2131231045;
+			// aapt resource value: 0x7f0800fc
+			public const int TextAppearance_AppCompat_Widget_ActionMode_Title_Inverse = 2131230972;
 			
-			// aapt resource value: 0x7f080146
-			public const int Widget_AppCompat_Light_AutoCompleteTextView = 2131231046;
+			// aapt resource value: 0x7f0800fd
+			public const int TextAppearance_AppCompat_Widget_Button = 2131230973;
 			
-			// aapt resource value: 0x7f080147
-			public const int Widget_AppCompat_Light_DropDownItem_Spinner = 2131231047;
+			// aapt resource value: 0x7f0800fe
+			public const int TextAppearance_AppCompat_Widget_Button_Borderless_Colored = 2131230974;
 			
-			// aapt resource value: 0x7f080148
-			public const int Widget_AppCompat_Light_ListPopupWindow = 2131231048;
+			// aapt resource value: 0x7f0800ff
+			public const int TextAppearance_AppCompat_Widget_Button_Colored = 2131230975;
 			
-			// aapt resource value: 0x7f080149
-			public const int Widget_AppCompat_Light_ListView_DropDown = 2131231049;
+			// aapt resource value: 0x7f080100
+			public const int TextAppearance_AppCompat_Widget_Button_Inverse = 2131230976;
 			
-			// aapt resource value: 0x7f08014a
-			public const int Widget_AppCompat_Light_PopupMenu = 2131231050;
+			// aapt resource value: 0x7f080101
+			public const int TextAppearance_AppCompat_Widget_DropDownItem = 2131230977;
 			
-			// aapt resource value: 0x7f08014b
-			public const int Widget_AppCompat_Light_PopupMenu_Overflow = 2131231051;
+			// aapt resource value: 0x7f080102
+			public const int TextAppearance_AppCompat_Widget_PopupMenu_Header = 2131230978;
 			
-			// aapt resource value: 0x7f08014c
-			public const int Widget_AppCompat_Light_SearchView = 2131231052;
+			// aapt resource value: 0x7f080103
+			public const int TextAppearance_AppCompat_Widget_PopupMenu_Large = 2131230979;
 			
-			// aapt resource value: 0x7f08014d
-			public const int Widget_AppCompat_Light_Spinner_DropDown_ActionBar = 2131231053;
+			// aapt resource value: 0x7f080104
+			public const int TextAppearance_AppCompat_Widget_PopupMenu_Small = 2131230980;
 			
-			// aapt resource value: 0x7f08014e
-			public const int Widget_AppCompat_ListMenuView = 2131231054;
+			// aapt resource value: 0x7f080105
+			public const int TextAppearance_AppCompat_Widget_Switch = 2131230981;
 			
-			// aapt resource value: 0x7f08014f
-			public const int Widget_AppCompat_ListPopupWindow = 2131231055;
+			// aapt resource value: 0x7f080106
+			public const int TextAppearance_AppCompat_Widget_TextView_SpinnerItem = 2131230982;
 			
-			// aapt resource value: 0x7f080150
-			public const int Widget_AppCompat_ListView = 2131231056;
+			// aapt resource value: 0x7f08018a
+			public const int TextAppearance_Compat_Notification = 2131231114;
 			
-			// aapt resource value: 0x7f080151
-			public const int Widget_AppCompat_ListView_DropDown = 2131231057;
+			// aapt resource value: 0x7f08018b
+			public const int TextAppearance_Compat_Notification_Info = 2131231115;
 			
-			// aapt resource value: 0x7f080152
-			public const int Widget_AppCompat_ListView_Menu = 2131231058;
+			// aapt resource value: 0x7f080167
+			public const int TextAppearance_Compat_Notification_Info_Media = 2131231079;
 			
-			// aapt resource value: 0x7f080153
-			public const int Widget_AppCompat_PopupMenu = 2131231059;
-			
-			// aapt resource value: 0x7f080154
-			public const int Widget_AppCompat_PopupMenu_Overflow = 2131231060;
-			
-			// aapt resource value: 0x7f080155
-			public const int Widget_AppCompat_PopupWindow = 2131231061;
-			
-			// aapt resource value: 0x7f080156
-			public const int Widget_AppCompat_ProgressBar = 2131231062;
-			
-			// aapt resource value: 0x7f080157
-			public const int Widget_AppCompat_ProgressBar_Horizontal = 2131231063;
-			
-			// aapt resource value: 0x7f080158
-			public const int Widget_AppCompat_RatingBar = 2131231064;
-			
-			// aapt resource value: 0x7f080159
-			public const int Widget_AppCompat_RatingBar_Indicator = 2131231065;
-			
-			// aapt resource value: 0x7f08015a
-			public const int Widget_AppCompat_RatingBar_Small = 2131231066;
-			
-			// aapt resource value: 0x7f08015b
-			public const int Widget_AppCompat_SearchView = 2131231067;
-			
-			// aapt resource value: 0x7f08015c
-			public const int Widget_AppCompat_SearchView_ActionBar = 2131231068;
-			
-			// aapt resource value: 0x7f08015d
-			public const int Widget_AppCompat_SeekBar = 2131231069;
-			
-			// aapt resource value: 0x7f08015e
-			public const int Widget_AppCompat_SeekBar_Discrete = 2131231070;
-			
-			// aapt resource value: 0x7f08015f
-			public const int Widget_AppCompat_Spinner = 2131231071;
-			
-			// aapt resource value: 0x7f080160
-			public const int Widget_AppCompat_Spinner_DropDown = 2131231072;
-			
-			// aapt resource value: 0x7f080161
-			public const int Widget_AppCompat_Spinner_DropDown_ActionBar = 2131231073;
-			
-			// aapt resource value: 0x7f080162
-			public const int Widget_AppCompat_Spinner_Underlined = 2131231074;
-			
-			// aapt resource value: 0x7f080163
-			public const int Widget_AppCompat_TextView_SpinnerItem = 2131231075;
-			
-			// aapt resource value: 0x7f080164
-			public const int Widget_AppCompat_Toolbar = 2131231076;
-			
-			// aapt resource value: 0x7f080165
-			public const int Widget_AppCompat_Toolbar_Button_Navigation = 2131231077;
-			
-			// aapt resource value: 0x7f08018d
-			public const int Widget_Compat_NotificationActionContainer = 2131231117;
-			
-			// aapt resource value: 0x7f08018e
-			public const int Widget_Compat_NotificationActionText = 2131231118;
-			
-			// aapt resource value: 0x7f08017f
-			public const int Widget_Design_AppBarLayout = 2131231103;
-			
-			// aapt resource value: 0x7f080180
-			public const int Widget_Design_BottomNavigationView = 2131231104;
-			
-			// aapt resource value: 0x7f080181
-			public const int Widget_Design_BottomSheet_Modal = 2131231105;
-			
-			// aapt resource value: 0x7f080182
-			public const int Widget_Design_CollapsingToolbar = 2131231106;
-			
-			// aapt resource value: 0x7f080183
-			public const int Widget_Design_CoordinatorLayout = 2131231107;
-			
-			// aapt resource value: 0x7f080184
-			public const int Widget_Design_FloatingActionButton = 2131231108;
-			
-			// aapt resource value: 0x7f080185
-			public const int Widget_Design_NavigationView = 2131231109;
-			
-			// aapt resource value: 0x7f080186
-			public const int Widget_Design_ScrimInsetsFrameLayout = 2131231110;
-			
-			// aapt resource value: 0x7f080187
-			public const int Widget_Design_Snackbar = 2131231111;
+			// aapt resource value: 0x7f080190
+			public const int TextAppearance_Compat_Notification_Line2 = 2131231120;
 			
 			// aapt resource value: 0x7f08016b
-			public const int Widget_Design_TabLayout = 2131231083;
+			public const int TextAppearance_Compat_Notification_Line2_Media = 2131231083;
 			
-			// aapt resource value: 0x7f080188
-			public const int Widget_Design_TextInputLayout = 2131231112;
+			// aapt resource value: 0x7f080168
+			public const int TextAppearance_Compat_Notification_Media = 2131231080;
+			
+			// aapt resource value: 0x7f08018c
+			public const int TextAppearance_Compat_Notification_Time = 2131231116;
+			
+			// aapt resource value: 0x7f080169
+			public const int TextAppearance_Compat_Notification_Time_Media = 2131231081;
+			
+			// aapt resource value: 0x7f08018d
+			public const int TextAppearance_Compat_Notification_Title = 2131231117;
+			
+			// aapt resource value: 0x7f08016a
+			public const int TextAppearance_Compat_Notification_Title_Media = 2131231082;
+			
+			// aapt resource value: 0x7f080173
+			public const int TextAppearance_Design_CollapsingToolbar_Expanded = 2131231091;
+			
+			// aapt resource value: 0x7f080174
+			public const int TextAppearance_Design_Counter = 2131231092;
+			
+			// aapt resource value: 0x7f080175
+			public const int TextAppearance_Design_Counter_Overflow = 2131231093;
+			
+			// aapt resource value: 0x7f080176
+			public const int TextAppearance_Design_Error = 2131231094;
+			
+			// aapt resource value: 0x7f080177
+			public const int TextAppearance_Design_Hint = 2131231095;
+			
+			// aapt resource value: 0x7f080178
+			public const int TextAppearance_Design_Snackbar_Message = 2131231096;
+			
+			// aapt resource value: 0x7f080179
+			public const int TextAppearance_Design_Tab = 2131231097;
+			
+			// aapt resource value: 0x7f080002
+			public const int TextAppearance_MediaRouter_PrimaryText = 2131230722;
+			
+			// aapt resource value: 0x7f080003
+			public const int TextAppearance_MediaRouter_SecondaryText = 2131230723;
+			
+			// aapt resource value: 0x7f080004
+			public const int TextAppearance_MediaRouter_Title = 2131230724;
+			
+			// aapt resource value: 0x7f080107
+			public const int TextAppearance_Widget_AppCompat_ExpandedMenu_Item = 2131230983;
+			
+			// aapt resource value: 0x7f080108
+			public const int TextAppearance_Widget_AppCompat_Toolbar_Subtitle = 2131230984;
+			
+			// aapt resource value: 0x7f080109
+			public const int TextAppearance_Widget_AppCompat_Toolbar_Title = 2131230985;
+			
+			// aapt resource value: 0x7f08010a
+			public const int Theme_AppCompat = 2131230986;
+			
+			// aapt resource value: 0x7f08010b
+			public const int Theme_AppCompat_CompactMenu = 2131230987;
+			
+			// aapt resource value: 0x7f080015
+			public const int Theme_AppCompat_DayNight = 2131230741;
+			
+			// aapt resource value: 0x7f080016
+			public const int Theme_AppCompat_DayNight_DarkActionBar = 2131230742;
+			
+			// aapt resource value: 0x7f080017
+			public const int Theme_AppCompat_DayNight_Dialog = 2131230743;
+			
+			// aapt resource value: 0x7f080018
+			public const int Theme_AppCompat_DayNight_Dialog_Alert = 2131230744;
+			
+			// aapt resource value: 0x7f080019
+			public const int Theme_AppCompat_DayNight_Dialog_MinWidth = 2131230745;
+			
+			// aapt resource value: 0x7f08001a
+			public const int Theme_AppCompat_DayNight_DialogWhenLarge = 2131230746;
+			
+			// aapt resource value: 0x7f08001b
+			public const int Theme_AppCompat_DayNight_NoActionBar = 2131230747;
+			
+			// aapt resource value: 0x7f08010c
+			public const int Theme_AppCompat_Dialog = 2131230988;
+			
+			// aapt resource value: 0x7f08010d
+			public const int Theme_AppCompat_Dialog_Alert = 2131230989;
+			
+			// aapt resource value: 0x7f08010e
+			public const int Theme_AppCompat_Dialog_MinWidth = 2131230990;
+			
+			// aapt resource value: 0x7f08010f
+			public const int Theme_AppCompat_DialogWhenLarge = 2131230991;
+			
+			// aapt resource value: 0x7f080110
+			public const int Theme_AppCompat_Light = 2131230992;
+			
+			// aapt resource value: 0x7f080111
+			public const int Theme_AppCompat_Light_DarkActionBar = 2131230993;
+			
+			// aapt resource value: 0x7f080112
+			public const int Theme_AppCompat_Light_Dialog = 2131230994;
+			
+			// aapt resource value: 0x7f080113
+			public const int Theme_AppCompat_Light_Dialog_Alert = 2131230995;
+			
+			// aapt resource value: 0x7f080114
+			public const int Theme_AppCompat_Light_Dialog_MinWidth = 2131230996;
+			
+			// aapt resource value: 0x7f080115
+			public const int Theme_AppCompat_Light_DialogWhenLarge = 2131230997;
+			
+			// aapt resource value: 0x7f080116
+			public const int Theme_AppCompat_Light_NoActionBar = 2131230998;
+			
+			// aapt resource value: 0x7f080117
+			public const int Theme_AppCompat_NoActionBar = 2131230999;
+			
+			// aapt resource value: 0x7f08017a
+			public const int Theme_Design = 2131231098;
+			
+			// aapt resource value: 0x7f08017b
+			public const int Theme_Design_BottomSheetDialog = 2131231099;
+			
+			// aapt resource value: 0x7f08017c
+			public const int Theme_Design_Light = 2131231100;
+			
+			// aapt resource value: 0x7f08017d
+			public const int Theme_Design_Light_BottomSheetDialog = 2131231101;
+			
+			// aapt resource value: 0x7f08017e
+			public const int Theme_Design_Light_NoActionBar = 2131231102;
+			
+			// aapt resource value: 0x7f08017f
+			public const int Theme_Design_NoActionBar = 2131231103;
+			
+			// aapt resource value: 0x7f080005
+			public const int Theme_MediaRouter = 2131230725;
+			
+			// aapt resource value: 0x7f080006
+			public const int Theme_MediaRouter_Light = 2131230726;
+			
+			// aapt resource value: 0x7f080007
+			public const int Theme_MediaRouter_Light_DarkControlPanel = 2131230727;
+			
+			// aapt resource value: 0x7f080008
+			public const int Theme_MediaRouter_LightControlPanel = 2131230728;
+			
+			// aapt resource value: 0x7f080118
+			public const int ThemeOverlay_AppCompat = 2131231000;
+			
+			// aapt resource value: 0x7f080119
+			public const int ThemeOverlay_AppCompat_ActionBar = 2131231001;
+			
+			// aapt resource value: 0x7f08011a
+			public const int ThemeOverlay_AppCompat_Dark = 2131231002;
+			
+			// aapt resource value: 0x7f08011b
+			public const int ThemeOverlay_AppCompat_Dark_ActionBar = 2131231003;
+			
+			// aapt resource value: 0x7f08011c
+			public const int ThemeOverlay_AppCompat_Dialog = 2131231004;
+			
+			// aapt resource value: 0x7f08011d
+			public const int ThemeOverlay_AppCompat_Dialog_Alert = 2131231005;
+			
+			// aapt resource value: 0x7f08011e
+			public const int ThemeOverlay_AppCompat_Light = 2131231006;
+			
+			// aapt resource value: 0x7f080009
+			public const int ThemeOverlay_MediaRouter_Dark = 2131230729;
 			
 			// aapt resource value: 0x7f08000a
-			public const int Widget_MediaRouter_Light_MediaRouteButton = 2131230730;
+			public const int ThemeOverlay_MediaRouter_Light = 2131230730;
+			
+			// aapt resource value: 0x7f08011f
+			public const int Widget_AppCompat_ActionBar = 2131231007;
+			
+			// aapt resource value: 0x7f080120
+			public const int Widget_AppCompat_ActionBar_Solid = 2131231008;
+			
+			// aapt resource value: 0x7f080121
+			public const int Widget_AppCompat_ActionBar_TabBar = 2131231009;
+			
+			// aapt resource value: 0x7f080122
+			public const int Widget_AppCompat_ActionBar_TabText = 2131231010;
+			
+			// aapt resource value: 0x7f080123
+			public const int Widget_AppCompat_ActionBar_TabView = 2131231011;
+			
+			// aapt resource value: 0x7f080124
+			public const int Widget_AppCompat_ActionButton = 2131231012;
+			
+			// aapt resource value: 0x7f080125
+			public const int Widget_AppCompat_ActionButton_CloseMode = 2131231013;
+			
+			// aapt resource value: 0x7f080126
+			public const int Widget_AppCompat_ActionButton_Overflow = 2131231014;
+			
+			// aapt resource value: 0x7f080127
+			public const int Widget_AppCompat_ActionMode = 2131231015;
+			
+			// aapt resource value: 0x7f080128
+			public const int Widget_AppCompat_ActivityChooserView = 2131231016;
+			
+			// aapt resource value: 0x7f080129
+			public const int Widget_AppCompat_AutoCompleteTextView = 2131231017;
+			
+			// aapt resource value: 0x7f08012a
+			public const int Widget_AppCompat_Button = 2131231018;
+			
+			// aapt resource value: 0x7f08012b
+			public const int Widget_AppCompat_Button_Borderless = 2131231019;
+			
+			// aapt resource value: 0x7f08012c
+			public const int Widget_AppCompat_Button_Borderless_Colored = 2131231020;
+			
+			// aapt resource value: 0x7f08012d
+			public const int Widget_AppCompat_Button_ButtonBar_AlertDialog = 2131231021;
+			
+			// aapt resource value: 0x7f08012e
+			public const int Widget_AppCompat_Button_Colored = 2131231022;
+			
+			// aapt resource value: 0x7f08012f
+			public const int Widget_AppCompat_Button_Small = 2131231023;
+			
+			// aapt resource value: 0x7f080130
+			public const int Widget_AppCompat_ButtonBar = 2131231024;
+			
+			// aapt resource value: 0x7f080131
+			public const int Widget_AppCompat_ButtonBar_AlertDialog = 2131231025;
+			
+			// aapt resource value: 0x7f080132
+			public const int Widget_AppCompat_CompoundButton_CheckBox = 2131231026;
+			
+			// aapt resource value: 0x7f080133
+			public const int Widget_AppCompat_CompoundButton_RadioButton = 2131231027;
+			
+			// aapt resource value: 0x7f080134
+			public const int Widget_AppCompat_CompoundButton_Switch = 2131231028;
+			
+			// aapt resource value: 0x7f080135
+			public const int Widget_AppCompat_DrawerArrowToggle = 2131231029;
+			
+			// aapt resource value: 0x7f080136
+			public const int Widget_AppCompat_DropDownItem_Spinner = 2131231030;
+			
+			// aapt resource value: 0x7f080137
+			public const int Widget_AppCompat_EditText = 2131231031;
+			
+			// aapt resource value: 0x7f080138
+			public const int Widget_AppCompat_ImageButton = 2131231032;
+			
+			// aapt resource value: 0x7f080139
+			public const int Widget_AppCompat_Light_ActionBar = 2131231033;
+			
+			// aapt resource value: 0x7f08013a
+			public const int Widget_AppCompat_Light_ActionBar_Solid = 2131231034;
+			
+			// aapt resource value: 0x7f08013b
+			public const int Widget_AppCompat_Light_ActionBar_Solid_Inverse = 2131231035;
+			
+			// aapt resource value: 0x7f08013c
+			public const int Widget_AppCompat_Light_ActionBar_TabBar = 2131231036;
+			
+			// aapt resource value: 0x7f08013d
+			public const int Widget_AppCompat_Light_ActionBar_TabBar_Inverse = 2131231037;
+			
+			// aapt resource value: 0x7f08013e
+			public const int Widget_AppCompat_Light_ActionBar_TabText = 2131231038;
+			
+			// aapt resource value: 0x7f08013f
+			public const int Widget_AppCompat_Light_ActionBar_TabText_Inverse = 2131231039;
+			
+			// aapt resource value: 0x7f080140
+			public const int Widget_AppCompat_Light_ActionBar_TabView = 2131231040;
+			
+			// aapt resource value: 0x7f080141
+			public const int Widget_AppCompat_Light_ActionBar_TabView_Inverse = 2131231041;
+			
+			// aapt resource value: 0x7f080142
+			public const int Widget_AppCompat_Light_ActionButton = 2131231042;
+			
+			// aapt resource value: 0x7f080143
+			public const int Widget_AppCompat_Light_ActionButton_CloseMode = 2131231043;
+			
+			// aapt resource value: 0x7f080144
+			public const int Widget_AppCompat_Light_ActionButton_Overflow = 2131231044;
+			
+			// aapt resource value: 0x7f080145
+			public const int Widget_AppCompat_Light_ActionMode_Inverse = 2131231045;
+			
+			// aapt resource value: 0x7f080146
+			public const int Widget_AppCompat_Light_ActivityChooserView = 2131231046;
+			
+			// aapt resource value: 0x7f080147
+			public const int Widget_AppCompat_Light_AutoCompleteTextView = 2131231047;
+			
+			// aapt resource value: 0x7f080148
+			public const int Widget_AppCompat_Light_DropDownItem_Spinner = 2131231048;
+			
+			// aapt resource value: 0x7f080149
+			public const int Widget_AppCompat_Light_ListPopupWindow = 2131231049;
+			
+			// aapt resource value: 0x7f08014a
+			public const int Widget_AppCompat_Light_ListView_DropDown = 2131231050;
+			
+			// aapt resource value: 0x7f08014b
+			public const int Widget_AppCompat_Light_PopupMenu = 2131231051;
+			
+			// aapt resource value: 0x7f08014c
+			public const int Widget_AppCompat_Light_PopupMenu_Overflow = 2131231052;
+			
+			// aapt resource value: 0x7f08014d
+			public const int Widget_AppCompat_Light_SearchView = 2131231053;
+			
+			// aapt resource value: 0x7f08014e
+			public const int Widget_AppCompat_Light_Spinner_DropDown_ActionBar = 2131231054;
+			
+			// aapt resource value: 0x7f08014f
+			public const int Widget_AppCompat_ListMenuView = 2131231055;
+			
+			// aapt resource value: 0x7f080150
+			public const int Widget_AppCompat_ListPopupWindow = 2131231056;
+			
+			// aapt resource value: 0x7f080151
+			public const int Widget_AppCompat_ListView = 2131231057;
+			
+			// aapt resource value: 0x7f080152
+			public const int Widget_AppCompat_ListView_DropDown = 2131231058;
+			
+			// aapt resource value: 0x7f080153
+			public const int Widget_AppCompat_ListView_Menu = 2131231059;
+			
+			// aapt resource value: 0x7f080154
+			public const int Widget_AppCompat_PopupMenu = 2131231060;
+			
+			// aapt resource value: 0x7f080155
+			public const int Widget_AppCompat_PopupMenu_Overflow = 2131231061;
+			
+			// aapt resource value: 0x7f080156
+			public const int Widget_AppCompat_PopupWindow = 2131231062;
+			
+			// aapt resource value: 0x7f080157
+			public const int Widget_AppCompat_ProgressBar = 2131231063;
+			
+			// aapt resource value: 0x7f080158
+			public const int Widget_AppCompat_ProgressBar_Horizontal = 2131231064;
+			
+			// aapt resource value: 0x7f080159
+			public const int Widget_AppCompat_RatingBar = 2131231065;
+			
+			// aapt resource value: 0x7f08015a
+			public const int Widget_AppCompat_RatingBar_Indicator = 2131231066;
+			
+			// aapt resource value: 0x7f08015b
+			public const int Widget_AppCompat_RatingBar_Small = 2131231067;
+			
+			// aapt resource value: 0x7f08015c
+			public const int Widget_AppCompat_SearchView = 2131231068;
+			
+			// aapt resource value: 0x7f08015d
+			public const int Widget_AppCompat_SearchView_ActionBar = 2131231069;
+			
+			// aapt resource value: 0x7f08015e
+			public const int Widget_AppCompat_SeekBar = 2131231070;
+			
+			// aapt resource value: 0x7f08015f
+			public const int Widget_AppCompat_SeekBar_Discrete = 2131231071;
+			
+			// aapt resource value: 0x7f080160
+			public const int Widget_AppCompat_Spinner = 2131231072;
+			
+			// aapt resource value: 0x7f080161
+			public const int Widget_AppCompat_Spinner_DropDown = 2131231073;
+			
+			// aapt resource value: 0x7f080162
+			public const int Widget_AppCompat_Spinner_DropDown_ActionBar = 2131231074;
+			
+			// aapt resource value: 0x7f080163
+			public const int Widget_AppCompat_Spinner_Underlined = 2131231075;
+			
+			// aapt resource value: 0x7f080164
+			public const int Widget_AppCompat_TextView_SpinnerItem = 2131231076;
+			
+			// aapt resource value: 0x7f080165
+			public const int Widget_AppCompat_Toolbar = 2131231077;
+			
+			// aapt resource value: 0x7f080166
+			public const int Widget_AppCompat_Toolbar_Button_Navigation = 2131231078;
+			
+			// aapt resource value: 0x7f08018e
+			public const int Widget_Compat_NotificationActionContainer = 2131231118;
+			
+			// aapt resource value: 0x7f08018f
+			public const int Widget_Compat_NotificationActionText = 2131231119;
+			
+			// aapt resource value: 0x7f080180
+			public const int Widget_Design_AppBarLayout = 2131231104;
+			
+			// aapt resource value: 0x7f080181
+			public const int Widget_Design_BottomNavigationView = 2131231105;
+			
+			// aapt resource value: 0x7f080182
+			public const int Widget_Design_BottomSheet_Modal = 2131231106;
+			
+			// aapt resource value: 0x7f080183
+			public const int Widget_Design_CollapsingToolbar = 2131231107;
+			
+			// aapt resource value: 0x7f080184
+			public const int Widget_Design_CoordinatorLayout = 2131231108;
+			
+			// aapt resource value: 0x7f080185
+			public const int Widget_Design_FloatingActionButton = 2131231109;
+			
+			// aapt resource value: 0x7f080186
+			public const int Widget_Design_NavigationView = 2131231110;
+			
+			// aapt resource value: 0x7f080187
+			public const int Widget_Design_ScrimInsetsFrameLayout = 2131231111;
+			
+			// aapt resource value: 0x7f080188
+			public const int Widget_Design_Snackbar = 2131231112;
+			
+			// aapt resource value: 0x7f08016c
+			public const int Widget_Design_TabLayout = 2131231084;
+			
+			// aapt resource value: 0x7f080189
+			public const int Widget_Design_TextInputLayout = 2131231113;
 			
 			// aapt resource value: 0x7f08000b
-			public const int Widget_MediaRouter_MediaRouteButton = 2131230731;
+			public const int Widget_MediaRouter_Light_MediaRouteButton = 2131230731;
+			
+			// aapt resource value: 0x7f08000c
+			public const int Widget_MediaRouter_MediaRouteButton = 2131230732;
 			
 			// aapt resource value: 0x7f080000
 			public const int collectionViewStyle = 2131230720;
