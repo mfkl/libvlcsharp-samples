@@ -62,3 +62,7 @@ Minimal Xamarin.Forms sample to get up and running quickly with the MediaPlayerE
 <img src="https://pbs.twimg.com/media/EMtC5TVUcAA2VMD?format=jpg&name=medium"/>
 
 .NET Core crossplatform sample showing how to use the LibVLC 3 video callbacks API to extract frames and save them to disk with ImageSharp or Skia.
+
+## [ScreenRecorder](https://code.videolan.org/mfkl/libvlcsharp-samples/tree/master/ScreenRecorder)
+
+.NET Core crossplatform (Windows, macOS, Linux) console app that records your screen for 5 seconds and saves the video as an mp4 on disk.
