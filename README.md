@@ -66,3 +66,7 @@ Minimal Xamarin.Forms sample to get up and running quickly with the MediaPlayerE
 ## [ScreenRecorder](https://code.videolan.org/mfkl/libvlcsharp-samples/tree/master/ScreenRecorder)
 
 .NET Core crossplatform (Windows, macOS, Linux) console app that records your screen for 5 seconds and saves the video as an mp4 on disk.
+
+## [LVST](https://github.com/mfkl/lvst)
+
+.NET Core crossplatform (Windows, macOS, Linux) CLI app that allows you to stream any media torrent for local or remote (chromecast) playback. [Blog post](https://mfkl.github.io/libvlc/2020/03/23/Torrents-and-multimedia-streaming.html)
