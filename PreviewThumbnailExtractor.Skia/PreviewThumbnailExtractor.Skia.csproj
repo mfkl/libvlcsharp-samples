@@ -6,7 +6,7 @@
     <TargetFramework>netcoreapp2.1</TargetFramework>
   </PropertyGroup>
   <ItemGroup>
-    <PackageReference Include="LibVLCSharp" Version="3.4.2" />
+    <PackageReference Include="LibVLCSharp" Version="3.4.4" />
     <PackageReference Include="SkiaSharp" Version="1.68.2.1" />
     <PackageReference Include="VideoLAN.LibVLC.Windows" Version="3.0.8.1" />
   </ItemGroup>
