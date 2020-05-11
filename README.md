@@ -1,6 +1,6 @@
 # Samples for [LibVLCSharp](https://code.videolan.org/videolan/LibVLCSharp)
 
-Various samples on different platforms showcasing [LibVLCSharp](https://code.videolan.org/videolan/LibVLCSharp) features
+Various samples on different platforms showcasing [LibVLCSharp](https://code.videolan.org/videolan/LibVLCSharp) features. Commercial support is [available](https://videolabs.io/#contact).
 
 ## [Chromecast sample](https://code.videolan.org/mfkl/libvlcsharp-samples/tree/master/Chromecast)
 
@@ -37,7 +37,9 @@ A VB.NET (Visual Basic) sample that uses LibVLCSharp.
 
 ## [Gestures](https://code.videolan.org/mfkl/libvlcsharp-samples/tree/master/Gestures/Gestures)
 
-<img src="https://mfkl.github.io/assets/gestures.gif" Width="200"/>
+[![VLC 3.0 playing 8K 48fps 360 video on Android Galaxy S8](https://i.imgur.com/0B34Hjj.png)](https://player.vimeo.com/video/254723180 "VLC 3.0 playing 8K 48fps 360 video on Android Galaxy S8")
+
+[VLC 3.0 playing 8K 48fps 360 video on Android Galaxy S8](https://player.vimeo.com/video/254723180)
 
 2 cross-platform gestures samples showcasing how to use the Xamarin.Forms crossplatform gestures to control the video position, volume level and 360 viewpoint. [Blog post](https://mfkl.github.io/libvlc/360/xamarin/forms/ux/2019/02/12/Fun-with-crossplatform-gestures-and-360-videos.html)
 
