@@ -24,11 +24,11 @@ namespace Gestures
             base.OnAppearing();
 
             _libVLC = new LibVLC();
-            _media = new Media(_libVLC, "https://streams.videolan.org/streams/360/eagle_360.mp4", FromType.FromLocation);
+            _media = new Media(_libVLC, new Uri("https://streams.videolan.org/streams/360/eagle_360.mp4"));
             _mediaPlayer = new MediaPlayer(_media) { EnableHardwareDecoding = true };
 
             videoView.MediaPlayer = _mediaPlayer;
-            videoView.MediaPlayer.Play();            
+            videoView.MediaPlayer.Play();
         }
 
         protected override void OnDisappearing()
@@ -47,7 +47,7 @@ namespace Gestures
         }
 
         MediaPlayer MediaPlayer => videoView.MediaPlayer;
-        
+
         bool Is360Video => _media.Tracks[_mediaPlayer.VideoTrack].Data.Video.Projection == VideoProjection.Equirectangular;
 
         void PanUpdated(object sender, PanUpdatedEventArgs e)

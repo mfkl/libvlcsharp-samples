@@ -33,13 +33,12 @@ namespace Gestures
             if (_init) return;
 
             _init = true;
-            
+
             _libVLC = new LibVLC();
             MediaPlayer = new MediaPlayer(_libVLC)
             {
                 Media = new Media(_libVLC,
-                "http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ElephantsDream.mp4",
-                FromType.FromLocation)
+                    new Uri("http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ElephantsDream.mp4"))
             };
         }
 
@@ -150,6 +149,6 @@ namespace Gestures
             Right,
             Top,
             Bottom
-        }      
+        }
     }
 }

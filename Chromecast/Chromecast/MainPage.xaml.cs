@@ -51,8 +51,7 @@ namespace Chromecast
 
             // create new media
             var media = new Media(_libVLC,
-                "http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ElephantsDream.mp4", 
-                FromType.FromLocation);
+                new Uri("http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ElephantsDream.mp4"));
 
             // create the mediaplayer
             _mediaPlayer = new MediaPlayer(_libVLC);
@@ -72,7 +71,7 @@ namespace Chromecast
 
             // create core libvlc object
             _libVLC = new LibVLC();
-            
+
             // choose the correct service discovery protocol depending on the host platform
             // Apple platforms use the Bonjour protocol
             RendererDescription renderer;
@@ -106,6 +105,6 @@ namespace Chromecast
 
             // add newly found renderer item to local collection
             _rendererItems.Add(e.RendererItem);
-        }    
+        }
     }
 }

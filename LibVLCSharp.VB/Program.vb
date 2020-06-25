@@ -5,8 +5,7 @@ Module Program
     Sub Main(args As String())
         Core.Initialize()
         Using libVLC = New LibVLC()
-            Dim video = New Media(libVLC, "http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ElephantsDream.mp4",
-                                  FromType.FromLocation)
+            Dim video = New Media(libVLC, New Uri("http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ElephantsDream.mp4"))
 
             Using mp = New MediaPlayer(video)
                 video.Dispose()

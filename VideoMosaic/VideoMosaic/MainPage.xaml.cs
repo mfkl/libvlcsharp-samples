@@ -1,5 +1,6 @@
 ﻿using Xamarin.Forms;
 using LibVLCSharp.Shared;
+using System;
 
 namespace VideoMosaic
 {
@@ -12,7 +13,7 @@ namespace VideoMosaic
         {
             InitializeComponent();
 
-            // this will load the native libvlc library (if needed, depending on the platform). 
+            // this will load the native libvlc library (if needed, depending on the platform).
             Core.Initialize();
 
             // instanciate the main libvlc object
@@ -28,16 +29,16 @@ namespace VideoMosaic
             // create media objects and start playback
 
             VideoView0.MediaPlayer = new MediaPlayer(_libvlc);
-            VideoView0.MediaPlayer.Play(new Media(_libvlc, VIDEO_URL, FromType.FromLocation));
+            VideoView0.MediaPlayer.Play(new Media(_libvlc, new Uri(VIDEO_URL)));
 
             VideoView1.MediaPlayer = new MediaPlayer(_libvlc);
-            VideoView1.MediaPlayer.Play(new Media(_libvlc, VIDEO_URL, FromType.FromLocation));
+            VideoView1.MediaPlayer.Play(new Media(_libvlc, new Uri(VIDEO_URL)));
 
             VideoView2.MediaPlayer = new MediaPlayer(_libvlc);
-            VideoView2.MediaPlayer.Play(new Media(_libvlc, VIDEO_URL, FromType.FromLocation));
+            VideoView2.MediaPlayer.Play(new Media(_libvlc, new Uri(VIDEO_URL)));
 
             VideoView3.MediaPlayer = new MediaPlayer(_libvlc);
-            VideoView3.MediaPlayer.Play(new Media(_libvlc, VIDEO_URL, FromType.FromLocation));
+            VideoView3.MediaPlayer.Play(new Media(_libvlc, new Uri(VIDEO_URL)));
         }
     }
 }

@@ -1,5 +1,6 @@
 ﻿using LibVLCSharp.Forms.Shared;
 using LibVLCSharp.Shared;
+using System;
 using System.Diagnostics;
 using Xamarin.Forms;
 
@@ -50,9 +51,7 @@ namespace ForegroundBackground
             _libVLC = new LibVLC();
             _mediaPlayer = new MediaPlayer(_libVLC)
             {
-                Media = new Media(_libVLC,
-                "http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ElephantsDream.mp4",
-                FromType.FromLocation)
+                Media = new Media(_libVLC, new Uri("http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ElephantsDream.mp4"))
             };
 
             VideoView.MediaPlayer = _mediaPlayer;

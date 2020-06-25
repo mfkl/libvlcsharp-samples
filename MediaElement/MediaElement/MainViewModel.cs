@@ -1,4 +1,5 @@
-﻿using System.ComponentModel;
+﻿using System;
+using System.ComponentModel;
 using LibVLCSharp.Shared;
 
 namespace MediaElement
@@ -50,8 +51,7 @@ namespace MediaElement
             LibVLC = new LibVLC();
 
             var media = new Media(LibVLC,
-                "http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ElephantsDream.mp4",
-                FromType.FromLocation);
+                new Uri("http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ElephantsDream.mp4"));
 
             MediaPlayer = new MediaPlayer(media) { EnableHardwareDecoding = true };
             MediaPlayer.Play();

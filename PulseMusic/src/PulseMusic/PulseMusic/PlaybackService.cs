@@ -1,6 +1,7 @@
 ﻿/// Fork from https://github.com/jsuarezruiz/PulseMusic
 
 using LibVLCSharp.Shared;
+using System;
 using System.Diagnostics;
 using Xamarin.Forms;
 
@@ -24,9 +25,9 @@ namespace PulseMusic
         }
 
         public void Init()
-        {   
+        {
             // create a libvlc media
-            _mp.Media = new Media(_libVLC, "https://archive.org/download/ImagineDragons_201410/imagine%20dragons.mp4", FromType.FromLocation);
+            _mp.Media = new Media(_libVLC, new Uri("https://archive.org/download/ImagineDragons_201410/imagine%20dragons.mp4"));
 
             // disable video output, we only need audio
             _mp.Media.AddOption(":no-video");
@@ -75,7 +76,7 @@ namespace PulseMusic
 
         private void EndReached(object sender, System.EventArgs e) =>
             MessagingCenter.Send(MessengerKeys.App, MessengerKeys.EndReached);
-        
+
         private void LengthChanged(object sender, MediaPlayerLengthChangedEventArgs e) =>
             MessagingCenter.Send(MessengerKeys.App, MessengerKeys.Length, e.Length);
 

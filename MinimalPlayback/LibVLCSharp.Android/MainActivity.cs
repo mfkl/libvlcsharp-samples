@@ -2,8 +2,8 @@
 using Android.OS;
 using Android.Views;
 using Android.Widget;
-using LibVLCSharp.Platforms.Android;
 using LibVLCSharp.Shared;
+using System;
 using VideoView = LibVLCSharp.Platforms.Android.VideoView;
 
 namespace LibVLCSharp.Android
@@ -35,7 +35,7 @@ namespace LibVLCSharp.Android
 
             _videoView = new VideoView(this) { MediaPlayer = _mediaPlayer };
             AddContentView(_videoView, new LinearLayout.LayoutParams(ViewGroup.LayoutParams.WrapContent, ViewGroup.LayoutParams.WrapContent));
-            var media = new Media(_libVLC, "http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/BigBuckBunny.mp4", FromType.FromLocation);
+            var media = new Media(_libVLC, new Uri("http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/BigBuckBunny.mp4"));
             _videoView.MediaPlayer.Play(media);
         }
 
