@@ -3,6 +3,7 @@ using SixLabors.ImageSharp;
 using SixLabors.ImageSharp.Advanced;
 using SixLabors.ImageSharp.Processing;
 using System;
+using System.Linq;
 using System.Collections.Concurrent;
 using System.IO;
 using System.IO.MemoryMappedFiles;
@@ -106,7 +107,7 @@ namespace PreviewThumbnailExtractor
                     using (var image = new Image<SixLabors.ImageSharp.PixelFormats.Bgra32>((int)(Pitch / BytePerPixel), (int)Lines))
                     using (var sourceStream = file.file.CreateViewStream())
                     {
-                        sourceStream.Read(MemoryMarshal.AsBytes(image.GetPixelSpan()));
+                        sourceStream.Read(MemoryMarshal.AsBytes(image.GetPixelMemoryGroup().Single().Span));
 
                         Console.WriteLine($"Writing {frameNumber:0000}.jpg");
                         var fileName = Path.Combine(destination, $"{frameNumber:0000}.jpg");
