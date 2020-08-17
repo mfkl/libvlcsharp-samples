@@ -73,6 +73,8 @@ Minimal Xamarin.Forms sample to get up and running quickly with the MediaPlayerE
 
 .NET Core crossplatform (Windows, macOS, Linux) CLI app that allows you to stream any media torrent for local or remote (chromecast) playback. [Blog post](https://mfkl.github.io/libvlc/2020/03/23/Torrents-and-multimedia-streaming.html)
 
+<img src="https://raw.githubusercontent.com/mfkl/lvst/master/lvst.gif"/>
+
 ## [AudioCallbacks](https://code.videolan.org/mfkl/libvlcsharp-samples/tree/master/AudioCallbacks)
 
 This sample shows you how you can use `SetAudioFormatCallback` and `SetAudioCallbacks`. It does two things:
