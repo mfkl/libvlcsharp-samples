@@ -81,3 +81,7 @@ This sample shows you how you can use `SetAudioFormatCallback` and `SetAudioCall
 
 1. Play the sound from the specified video using [NAudio](https://github.com/naudio/NAudio)
 2. Extract the sound into a file using [NAudio](https://github.com/naudio/NAudio)
+
+---
+
+For more samples, check out the [Community Projects](https://code.videolan.org/videolan/LibVLCSharp/-/blob/3.x/docs/made_with_libvlcsharp.md) made with LibVLCSharp.
