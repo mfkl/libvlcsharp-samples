@@ -151,7 +151,7 @@
   </ItemGroup>
   <ItemGroup>
     <PackageReference Include="LibVLCSharp">
-      <Version>3.4.7</Version>
+      <Version>3.4.8</Version>
     </PackageReference>
     <PackageReference Include="VideoLAN.LibVLC.iOS">
       <Version>3.3.10</Version>
