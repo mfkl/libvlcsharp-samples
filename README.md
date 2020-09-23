@@ -1,5 +1,7 @@
 # Samples for [LibVLCSharp](https://code.videolan.org/videolan/LibVLCSharp)
 
+[![Join the chat at https://discord.gg/3h3K3JF](https://img.shields.io/discord/716939396464508958?label=discord)](https://discord.gg/3h3K3JF)
+
 Various samples on different platforms showcasing [LibVLCSharp](https://code.videolan.org/videolan/LibVLCSharp) features. Commercial support is [available](https://videolabs.io/#contact).
 
 ## [Chromecast sample](https://code.videolan.org/mfkl/libvlcsharp-samples/tree/master/Chromecast)
