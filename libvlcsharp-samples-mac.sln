@@ -36,6 +36,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Gestures.iOS", "Gestures\Ge
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Gestures", "Gestures\Gestures\Gestures\Gestures.csproj", "{9F96BA5C-FCD3-4D2D-A057-E75614046F3A}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EncryptedStream", "EncryptedStream\EncryptedStream.csproj", "{38C01E6C-3EDE-41A7-BCC0-443B0D1B583D}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Ad-Hoc|Any CPU = Ad-Hoc|Any CPU
