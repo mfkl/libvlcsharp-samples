@@ -25,19 +25,19 @@ namespace EncryptedStream
         private void Button5_Click(object sender, EventArgs e)
         {
             // read file path from TextBox3.Text
-            var FileStream = new FileStream(path: TextBox3.Text, mode: FileMode.Open, access: FileAccess.Read);
+            var fileStream = new FileStream(path: TextBox3.Text, mode: FileMode.Open, access: FileAccess.Read);
 
 
             var streamWrapper = new SeekableStreamWrapper(() =>
             {
-                FileStream.Seek(0, SeekOrigin.Begin);
+                fileStream.Seek(0, SeekOrigin.Begin);
                 RijndaelManaged AES = new RijndaelManaged();
                 SHA256Cng SHA256 = new SHA256Cng();
 
                 // read key from TextBox4.Text
                 AES.Key = SHA256.ComputeHash(Encoding.ASCII.GetBytes(TextBox4.Text));
                 AES.Mode = CipherMode.ECB;
-                return new CryptoStream(FileStream, AES.CreateDecryptor(), CryptoStreamMode.Read, true);
+                return new CryptoStream(fileStream, AES.CreateDecryptor(), CryptoStreamMode.Read, true);
             });
             videoView1.MediaPlayer= new MediaPlayer(_libVLC)
             {
