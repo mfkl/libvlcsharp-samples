@@ -18,6 +18,11 @@ steps:
   inputs:
     version: 5.0.101
 
+- task: NuGetCommand@2
+  displayName: 'NuGet restore'
+  inputs:
+    restoreSolution: 'libvlcsharp-samples-windows.sln'
+
 - task: VSBuild@1
   displayName: 'Build solution'
   inputs:
