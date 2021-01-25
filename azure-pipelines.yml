@@ -27,4 +27,4 @@ steps:
   displayName: 'Build solution'
   inputs:
     solution: 'libvlcsharp-samples-windows.sln'
-    # configuration: 'Release'
+    configuration: 'Release'
