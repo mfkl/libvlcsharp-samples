@@ -1,0 +1,12 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net5.0</TargetFramework>
+  </PropertyGroup>
+  <ItemGroup>
+    <PackageReference Include="LibVLCSharp" Version="3.4.9" />
+    <PackageReference Include="Unoffical.System.Speech" Version="1.0.0" />
+    <PackageReference Include="VideoLAN.LibVLC.Windows" Version="3.0.12" />
+  </ItemGroup>
+</Project>
