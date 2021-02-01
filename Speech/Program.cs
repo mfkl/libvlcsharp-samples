@@ -74,7 +74,9 @@ namespace Speech
         {
             if (e.Result.Confidence < 0.5) return;
 
-            switch(e.Result.Text)
+            Console.WriteLine($"[Recognized] {e.Result.Text} ({nameof(e.Result.Confidence)}: {e.Result.Confidence:N2 * 100}%)");
+
+            switch (e.Result.Text)
             {
                 case PLAY:
                     _mp.Play();
@@ -87,9 +89,11 @@ namespace Speech
                     break;
                 case INCREASE_VOLUME:
                     _mp.Volume += 10;
+                    Console.WriteLine($"Volume is now {_mp.Volume}");
                     break;
                 case DECREASE_VOLUME:
                     _mp.Volume -= 10;
+                    Console.WriteLine($"Volume is now {_mp.Volume}");
                     break;
                 case MUTE:
                     _mp.Mute = true;
@@ -97,19 +101,16 @@ namespace Speech
                 case UNMUTE:
                     _mp.Mute = false;
                     break;
-                case var seekCommand when seekCommand.StartsWith(SEEK):
-                    var seekWords = seekCommand.Split(' ');
-                    _mp.Time += string.Equals(seekWords[2], SECONDS) ? int.Parse(seekWords[1]) * 1000 : int.Parse(seekWords[1]) * 60000;
-                    break;
-                case var rewindCommand when rewindCommand.StartsWith(REWIND):
-                    var rewindWords = rewindCommand.Split(' ');
-                    _mp.Time -= string.Equals(rewindWords[2], SECONDS) ? int.Parse(rewindWords[1]) * 1000 : int.Parse(rewindWords[1]) * 60000;
+                case var cmd when cmd.StartsWith(SEEK) || cmd.StartsWith(REWIND):
+                    var cmdWords = cmd.Split(' ');
+                    if(string.Equals(cmdWords[0], SEEK))
+                        _mp.Time += string.Equals(cmdWords[2], SECONDS) ? int.Parse(cmdWords[1]) * 1000 : int.Parse(cmdWords[1]) * 60000;
+                    else _mp.Time -= string.Equals(cmdWords[2], SECONDS) ? int.Parse(cmdWords[1]) * 1000 : int.Parse(cmdWords[1]) * 60000;
+                    Console.WriteLine($"Time is now {_mp.Time}");
                     break;
                 default:
                     break;
             }
-
-            Console.WriteLine($"Recognized {e.Result.Text} ({e.Result.Confidence:N2})");
         }
     }
 }
