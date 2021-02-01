@@ -1,6 +1,7 @@
 # Samples for [LibVLCSharp](https://code.videolan.org/videolan/LibVLCSharp)
 
 [![Join the chat at https://discord.gg/3h3K3JF](https://img.shields.io/discord/716939396464508958?label=discord)](https://discord.gg/3h3K3JF)
+[![Build Status](https://videolan.visualstudio.com/libvlcsharp-samples/_apis/build/status/mfkl.libvlcsharp-samples?branchName=master)](https://videolan.visualstudio.com/libvlcsharp-samples/_build/latest?definitionId=45&branchName=master)
 
 Various samples on different platforms showcasing [LibVLCSharp](https://code.videolan.org/videolan/LibVLCSharp) features. Commercial support is [available](https://videolabs.io/#contact).
 
