@@ -48,11 +48,7 @@ A VB.NET (Visual Basic) sample that uses LibVLCSharp.
 
 ## [LocalNetwork](https://code.videolan.org/mfkl/libvlcsharp-samples/tree/master/LocalNetwork)
 
-<p>
-<video width="640" height="360" controls>
-  <source src="/assets/localnetwork-record.mp4" type="video/mp4">
-</video>
-</p>
+![](localnetwork-record.mp4)
 
 Xamarin.Forms sample showcasing local network browsing and playback of network shares (SMB, UPnP) on Android, iOS and WPF from 100% shared code. [Blog post](https://mfkl.github.io/libvlc/crossplatform/xamarin/forms/2019/07/02/Crossplatform-local-network-browsing-and-media-playback.html)
 
@@ -85,6 +81,11 @@ This sample shows you how you can use `SetAudioFormatCallback` and `SetAudioCall
 1. Play the sound from the specified video using [NAudio](https://github.com/naudio/NAudio)
 2. Extract the sound into a file using [NAudio](https://github.com/naudio/NAudio)
 
+## [Speech](https://code.videolan.org/mfkl/libvlcsharp-samples/tree/master/Speech)
+
+Speak to your video player by integrating [System.Speech](https://docs.microsoft.com/en-us/dotnet/api/system.speech.recognition) with LibVLC in ~ 100 lines of code.
+
+![](libvlc-speech.mp4)
 ---
 
 For more samples, check out the [Community Projects](https://code.videolan.org/videolan/LibVLCSharp/-/blob/3.x/docs/made_with_libvlcsharp.md) made with LibVLCSharp.
