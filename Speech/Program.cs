@@ -58,7 +58,7 @@ namespace Speech
 
             Core.Initialize();
 
-            _libvlc = new LibVLC();
+            _libvlc = new LibVLC("--quiet");
 
             using var media = new Media(_libvlc, new Uri("http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ElephantsDream.mp4"));
 
@@ -74,7 +74,7 @@ namespace Speech
         {
             if (e.Result.Confidence < 0.5) return;
 
-            Console.WriteLine($"[Recognized] {e.Result.Text} ({nameof(e.Result.Confidence)}: {e.Result.Confidence:N2 * 100}%)");
+            Console.WriteLine($"[Recognized] {e.Result.Text} ({nameof(e.Result.Confidence)}: {e.Result.Confidence:P})");
 
             switch (e.Result.Text)
             {
