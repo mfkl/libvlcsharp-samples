@@ -49,15 +49,17 @@ namespace ForegroundBackground
             Core.Initialize();
 
             _libVLC = new LibVLC();
+            using var media = new Media(_libVLC, new Uri("http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ElephantsDream.mp4"));
+
             _mediaPlayer = new MediaPlayer(_libVLC)
             {
-                Media = new Media(_libVLC, new Uri("http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ElephantsDream.mp4"))
+                Media = media
             };
 
             VideoView.MediaPlayer = _mediaPlayer;
         }
 
-        private void MediaPlayerChanged(object sender, System.EventArgs e)
+        private void MediaPlayerChanged(object sender, EventArgs e)
         {
             _mediaPlayer.Play();
         }

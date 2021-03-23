@@ -50,7 +50,7 @@ namespace Chromecast
             }
 
             // create new media
-            var media = new Media(_libVLC,
+            using var media = new Media(_libVLC,
                 new Uri("http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ElephantsDream.mp4"));
 
             // create the mediaplayer
