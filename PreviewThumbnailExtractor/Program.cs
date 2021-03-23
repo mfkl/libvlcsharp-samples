@@ -74,7 +74,7 @@ namespace PreviewThumbnailExtractor
                 mediaPlayer.Stopped += (s, e) => processingCancellationTokenSource.CancelAfter(1);
 
                 // Create new media
-                var media = new Media(libvlc, new Uri("http://www.caminandes.com/download/03_caminandes_llamigos_1080p.mp4"));
+                using var media = new Media(libvlc, new Uri("http://www.caminandes.com/download/03_caminandes_llamigos_1080p.mp4"));
 
                 media.AddOption(":no-audio");
                 // Set the size and format of the video here.

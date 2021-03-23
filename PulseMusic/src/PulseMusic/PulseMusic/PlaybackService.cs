@@ -27,10 +27,9 @@ namespace PulseMusic
         public void Init()
         {
             // create a libvlc media
-            _mp.Media = new Media(_libVLC, new Uri("https://archive.org/download/ImagineDragons_201410/imagine%20dragons.mp4"));
-
             // disable video output, we only need audio
-            _mp.Media.AddOption(":no-video");
+            using (var media = new Media(_libVLC, new Uri("https://archive.org/download/ImagineDragons_201410/imagine%20dragons.mp4"), ":no-video"))
+                _mp.Media = media;
 
             // subscribe to libvlc playback events
             _mp.TimeChanged += TimeChanged;

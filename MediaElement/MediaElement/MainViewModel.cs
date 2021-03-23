@@ -54,6 +54,8 @@ namespace MediaElement
                 new Uri("http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ElephantsDream.mp4"));
 
             MediaPlayer = new MediaPlayer(media) { EnableHardwareDecoding = true };
+            media.Dispose();
+
             MediaPlayer.Play();
         }
 

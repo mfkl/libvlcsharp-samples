@@ -35,11 +35,8 @@ namespace Gestures
             _init = true;
 
             _libVLC = new LibVLC();
-            MediaPlayer = new MediaPlayer(_libVLC)
-            {
-                Media = new Media(_libVLC,
-                    new Uri("http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ElephantsDream.mp4"))
-            };
+            using (var media = new Media(_libVLC, new Uri("http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ElephantsDream.mp4")))
+                MediaPlayer = new MediaPlayer(_libVLC) { Media = media };
         }
 
         public void Stop()
