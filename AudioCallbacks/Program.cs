@@ -15,7 +15,7 @@ namespace AudioCallbacksSample
         {
             Core.Initialize();
 
-            using var libVLC = new LibVLC("--verbose=2");
+            using var libVLC = new LibVLC(enableDebugLogs: true);
             using var media = new Media(libVLC,
                 new Uri("http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ElephantsDream.mp4"),
                 ":no-video");
