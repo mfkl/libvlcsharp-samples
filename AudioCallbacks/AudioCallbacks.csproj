@@ -9,6 +9,6 @@
   <ItemGroup>
     <PackageReference Include="NAudio" Version="2.0.0" />
     <PackageReference Include="VideoLAN.LibVLC.Windows" Version="3.0.14" />
-    <PackageReference Include="LibVLCSharp" Version="3.4.9" />
+    <PackageReference Include="LibVLCSharp" Version="3.5.0" />
   </ItemGroup>
 </Project>
