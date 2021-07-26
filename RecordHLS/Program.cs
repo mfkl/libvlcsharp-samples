@@ -21,6 +21,11 @@ namespace RecordHLS
             {
                 // Redirect log output to the console
                 libvlc.Log += (sender, e) => Console.WriteLine($"[{e.Level}] {e.Module}:{e.Message}");
+                mediaPlayer.EndReached += (sender, e) =>
+                {
+                    Console.WriteLine("Recorded file is located at " + destination);
+                    Environment.Exit(0);
+                };
 
                 // Create new media with HLS link
                 using (var media = new Media(libvlc, new Uri("http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ElephantsDream.mp4"),
