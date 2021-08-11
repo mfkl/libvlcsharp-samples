@@ -104,7 +104,7 @@
       <Name>Chromecast</Name>
     </ProjectReference>
     <PackageReference Include="Xamarin.AndroidX.MediaRouter" Version="1.2.0" />
-    <PackageReference Include="Xamarin.AndroidX.Palette" Version="1.0.0.5" />
+    <PackageReference Include="Xamarin.AndroidX.Palette" Version="1.0.0.8" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\Android\Xamarin.Android.CSharp.targets" />
   <Import Project="..\..\packages\VideoLAN.LibVLC.Android.3.0.0\build\VideoLAN.LibVLC.Android.targets" Condition="Exists('..\..\packages\VideoLAN.LibVLC.Android.3.0.0\build\VideoLAN.LibVLC.Android.targets')" />
