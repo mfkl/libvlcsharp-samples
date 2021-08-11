@@ -103,7 +103,7 @@
       <Project>{0C8A7CD4-4A06-453F-AAC4-69F417556336}</Project>
       <Name>Chromecast</Name>
     </ProjectReference>
-    <PackageReference Include="Xamarin.AndroidX.MediaRouter" Version="1.2.0" />
+    <PackageReference Include="Xamarin.AndroidX.MediaRouter" Version="1.2.4.1" />
     <PackageReference Include="Xamarin.AndroidX.Palette" Version="1.0.0.5" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\Android\Xamarin.Android.CSharp.targets" />
