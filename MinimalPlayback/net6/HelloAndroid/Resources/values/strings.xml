@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">Hello LibVLC on .NET 6</string>
+    <string name="app_text">Hello, .NET 6!</string>
+</resources>
