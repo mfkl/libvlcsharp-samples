@@ -159,7 +159,7 @@
       <Version>2.80.3</Version>
     </PackageReference>
     <PackageReference Include="VideoLAN.LibVLC.iOS">
-      <Version>3.3.10</Version>
+      <Version>3.3.17</Version>
     </PackageReference>
     <PackageReference Include="Xamarin.FFImageLoading.Forms">
       <Version>2.4.11.982</Version>
