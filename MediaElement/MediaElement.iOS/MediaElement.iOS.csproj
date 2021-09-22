@@ -154,7 +154,7 @@
   </ItemGroup>
   <ItemGroup>
     <PackageReference Include="VideoLAN.LibVLC.iOS">
-      <Version>3.3.10</Version>
+      <Version>3.3.17</Version>
     </PackageReference>
     <PackageReference Include="Xamarin.Forms" Version="5.0.0.2012" />
   </ItemGroup>
