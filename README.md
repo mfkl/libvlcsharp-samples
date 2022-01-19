@@ -3,7 +3,9 @@
 [![Join the chat at https://discord.gg/3h3K3JF](https://img.shields.io/discord/716939396464508958?label=discord)](https://discord.gg/3h3K3JF)
 [![Build Status](https://videolan.visualstudio.com/libvlcsharp-samples/_apis/build/status/mfkl.libvlcsharp-samples?branchName=master)](https://videolan.visualstudio.com/libvlcsharp-samples/_build/latest?definitionId=45&branchName=master)
 
-Various samples on different platforms showcasing [LibVLCSharp](https://code.videolan.org/videolan/LibVLCSharp) features. Commercial support is [available](https://videolabs.io/#contact).
+Various samples on different platforms showcasing [LibVLCSharp](https://code.videolan.org/videolan/LibVLCSharp) features. 
+
+:wave: If you need custom LibVLCSharp integration or advanced samples, feel free to [contact us](mailto:dotnet@videolabs.io). Commercial support is also [available](https://videolabs.io/#contact).
 
 ## [Chromecast sample](https://code.videolan.org/mfkl/libvlcsharp-samples/tree/master/Chromecast)
 
