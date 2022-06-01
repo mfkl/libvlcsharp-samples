@@ -107,7 +107,7 @@ namespace PreviewThumbnailExtractor
                     using (var image = new Image<SixLabors.ImageSharp.PixelFormats.Bgra32>((int)(Pitch / BytePerPixel), (int)Lines))
                     using (var sourceStream = file.file.CreateViewStream())
                     {
-                        IMemoryGroup<SixLabors.ImageSharp.PixelFormats.Bgra32> mg = image.GetPixelMemoryGroup();
+                        var mg = image.GetPixelMemoryGroup();
                         for(int i = 0; i < mg.Count; i++)
                         {
                             sourceStream.Read(MemoryMarshal.AsBytes(mg[i].Span));
