@@ -8,7 +8,7 @@
   <ItemGroup>
     <PackageReference Include="SIPSorcery" Version="5.2.3" />
     <PackageReference Include="SIPSorcery.WebSocketSharp" Version="0.0.1" />
-    <PackageReference Include="LibVLCSharp" Version="3.5.1" />
+    <PackageReference Include="LibVLCSharp" Version="3.6.6" />
     <PackageReference Include="VideoLAN.LibVLC.Windows" Version="3.0.16" />
     <PackageReference Include="Newtonsoft.Json" Version="13.0.1" />
     <PackageReference Include="Serilog.Extensions.Logging" Version="3.0.1" />
