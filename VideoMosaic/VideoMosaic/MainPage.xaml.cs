@@ -6,7 +6,7 @@ namespace VideoMosaic
 {
     public partial class MainPage : ContentPage
     {
-        const string VIDEO_URL = "rtsp://184.72.239.149/vod/mp4:BigBuckBunny_175k.mov";
+        const string VIDEO_URL = "rtsp://wowzaec2demo.streamlock.net/vod/mp4:BigBuckBunny_115k.mp4";
         readonly LibVLC _libvlc;
 
         public MainPage()
