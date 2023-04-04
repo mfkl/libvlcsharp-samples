@@ -1,4 +1,4 @@
-﻿<Project Sdk="Microsoft.NET.Sdk">  
+<Project Sdk="Microsoft.NET.Sdk">  
   <PropertyGroup>
     <OutputType>Exe</OutputType>
     <TargetFramework>net6.0-windows</TargetFramework>
@@ -6,7 +6,7 @@
     <CopyLocalLockFileAssemblies>true</CopyLocalLockFileAssemblies>
   </PropertyGroup>  
   <ItemGroup>
-    <PackageReference Include="LibVLCSharp" Version="3.5.0" />
+    <PackageReference Include="LibVLCSharp" Version="3.7.0" />
     <PackageReference Include="VideoLAN.LibVLC.Windows" Version="3.0.16" />
    </ItemGroup>
 </Project>

@@ -1,4 +1,4 @@
-﻿<Project Sdk="Microsoft.NET.Sdk">
+<Project Sdk="Microsoft.NET.Sdk">
   <PropertyGroup>
     <OutputType>Exe</OutputType>
     <RootNamespace>LibVLCSharp.VB</RootNamespace>
@@ -7,6 +7,6 @@
   </PropertyGroup>
   <ItemGroup>
     <PackageReference Include="VideoLAN.LibVLC.Windows" Version="3.0.16" />
-    <PackageReference Include="LibVLCSharp" Version="3.5.0" />
+    <PackageReference Include="LibVLCSharp" Version="3.7.0" />
   </ItemGroup>
 </Project>
