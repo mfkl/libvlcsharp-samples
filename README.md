@@ -88,6 +88,11 @@ This sample shows you how you can use `SetAudioFormatCallback` and `SetAudioCall
 Speak to your video player by integrating [System.Speech](https://docs.microsoft.com/en-us/dotnet/api/system.speech.recognition) with LibVLC in ~ 100 lines of code.
 
 ![](libvlc-speech.mp4)
+
+## [LibVLCNugetCpp](https://github.com/mfkl/LibVLCNugetCpp)
+
+A tiny demo to show how to download and use LibVLC from NuGet with C++ in Visual Studio.
+
 ---
 
 For more samples, check out the [Community Projects](https://code.videolan.org/videolan/LibVLCSharp/-/blob/3.x/docs/made_with_libvlcsharp.md) made with LibVLCSharp.
