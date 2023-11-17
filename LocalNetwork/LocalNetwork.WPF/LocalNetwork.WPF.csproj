@@ -48,7 +48,7 @@
     <Reference Include="LibVLCSharp.Forms.Platforms.WPF, Version=3.4.9.0, Culture=neutral, processorArchitecture=MSIL">
       <HintPath>..\..\packages\LibVLCSharp.Forms.WPF.3.4.9\lib\net47\LibVLCSharp.Forms.Platforms.WPF.dll</HintPath>
     </Reference>
-    <Reference Include="LibVLCSharp.WPF, Version=3.4.2.0, Culture=neutral, processorArchitecture=MSIL">
+    <Reference Include="LibVLCSharp.WPF, Version=3.4.9.0, Culture=neutral, processorArchitecture=MSIL">
       <HintPath>..\..\packages\LibVLCSharp.WPF.3.4.9\lib\net461\LibVLCSharp.WPF.dll</HintPath>
       <Private>True</Private>
     </Reference>
