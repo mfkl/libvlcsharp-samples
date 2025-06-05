@@ -81,6 +81,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "YoutubePlayback", "YoutubeP
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WebRTCAndLibVLC", "WebRTCAndLibVLC\WebRTCAndLibVLC.csproj", "{725A903F-11BA-4054-8D12-2CB34A66A359}"
 EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LibVLCFadeAnimation", "LibVLCFadeAnimation\LibVLCFadeAnimation.csproj", "{BC7BC034-79C9-479F-B532-9EB5481799CE}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Ad-Hoc|Any CPU = Ad-Hoc|Any CPU

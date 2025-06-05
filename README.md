@@ -93,6 +93,10 @@ Speak to your video player by integrating [System.Speech](https://docs.microsoft
 
 A tiny demo to show how to download and use LibVLC from NuGet with C++ in Visual Studio.
 
+## [LibVLCFadeAnimation](https://code.videolan.org/mfkl/libvlcsharp-samples/tree/master/LibVLCFadeAnimation)
+
+A demo to show how to apply opacity to a whole window containing a video (see https://code.videolan.org/videolan/LibVLCSharp/-/issues/649).
+
 ---
 
 For more samples, check out the [Community Projects](https://code.videolan.org/videolan/LibVLCSharp/-/blob/3.x/docs/made_with_libvlcsharp.md) made with LibVLCSharp.
